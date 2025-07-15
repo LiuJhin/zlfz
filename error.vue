@@ -12,12 +12,12 @@
 
 <script setup>
 const props = defineProps({
-  error: Object
+  error: Object,
 });
 
 const handleError = () => {
   // 清除错误并返回首页
-  clearError({ redirect: '/' });
+  clearError({ redirect: "/" });
 };
 </script>
 
@@ -29,7 +29,8 @@ const handleError = () => {
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
 }
 
 .error-container {

@@ -26,7 +26,7 @@
 <script setup>
 // 定义此页面使用custom布局
 definePageMeta({
-  layout: 'custom'
+  layout: "custom",
 });
 </script>
 

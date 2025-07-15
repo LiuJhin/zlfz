@@ -17,7 +17,7 @@ import Contact from "@/components/Contact.vue";
 
 // 使用默认布局（可以省略，因为默认就是使用default布局）
 definePageMeta({
-  layout: 'default'
+  layout: "default",
 });
 </script>
 

@@ -1,37 +1,68 @@
 <template>
-  <li :class="['menu-item', { 'dropdown': hasDropdown, 'is-open': isOpen }]">
-    <a :href="link" class="menu-link" @mouseenter="isOpen = true" @mouseleave="closeDropdownDelayed">
+  <li :class="['menu-item', { dropdown: hasDropdown, 'is-open': isOpen }]">
+    <a
+      :href="link"
+      class="menu-link"
+      @mouseenter="isOpen = true"
+      @mouseleave="closeDropdownDelayed"
+    >
       {{ title }}
       <span v-if="hasDropdown" class="dropdown-arrow">
-        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <svg
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 1L5 5L9 1"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       </span>
     </a>
-    <div 
-      v-if="hasDropdown" 
-      class="dropdown-content" 
-      @mouseenter="clearCloseTimeout" 
+    <div
+      v-if="hasDropdown"
+      class="dropdown-content"
+      @mouseenter="clearCloseTimeout"
       @mouseleave="closeDropdown"
     >
       <div class="dropdown-header">
         <span class="dropdown-title">{{ title }}</span>
       </div>
       <div class="dropdown-grid">
-        <a 
-          v-for="item in dropdownItems" 
-          :key="item.title" 
+        <a
+          v-for="item in dropdownItems"
+          :key="item.title"
           :href="item.link"
           class="dropdown-item"
         >
           <div class="dropdown-item-icon" v-if="item.icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path :d="getIconPath(item.icon)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                :d="getIconPath(item.icon)"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </div>
           <div class="dropdown-item-content">
             <span class="dropdown-item-title">{{ item.title }}</span>
-            <span v-if="item.description" class="dropdown-item-description">{{ item.description }}</span>
+            <span v-if="item.description" class="dropdown-item-description">{{
+              item.description
+            }}</span>
           </div>
         </a>
       </div>
@@ -40,22 +71,22 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, ref } from "vue";
 
 // 定义组件属性
 const props = defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   link: {
     type: String,
-    default: '#'
+    default: "#",
   },
   dropdownItems: {
     type: Array,
-    default: () => []
-  }
+    default: () => [],
+  },
 });
 
 // 下拉菜单状态
@@ -91,15 +122,18 @@ const closeDropdown = () => {
 const getIconPath = (icon) => {
   // 预定义的图标路径
   const iconPaths = {
-    'solution': 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
-    'cloud': 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
-    'community': 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z',
-    'case': 'M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
-    'about': 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
-    'default': 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+    solution:
+      "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+    cloud:
+      "M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z",
+    community:
+      "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+    case: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
+    about: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+    default: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
   };
-  
-  return iconPaths[icon] || iconPaths['default'];
+
+  return iconPaths[icon] || iconPaths["default"];
 };
 </script>
 
@@ -162,7 +196,7 @@ const getIconPath = (icon) => {
 
 /* 添加小三角形指示器 */
 .dropdown-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -6px;
   left: 50%;
@@ -226,7 +260,11 @@ const getIconPath = (icon) => {
   width: 36px;
   height: 36px;
   margin-right: 12px;
-  background: linear-gradient(135deg, var(--primary-color-light) 0%, var(--primary-color) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color-light) 0%,
+    var(--primary-color) 100%
+  );
   border-radius: 8px;
   color: white;
   flex-shrink: 0;
@@ -265,23 +303,23 @@ const getIconPath = (icon) => {
     background-color: transparent;
     backdrop-filter: none;
   }
-  
+
   .dropdown-content::before {
     display: none;
   }
-  
+
   .dropdown-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .dropdown-header {
     display: none;
   }
-  
+
   .dropdown-item {
     padding: 8px;
   }
-  
+
   .dropdown-item-icon {
     width: 28px;
     height: 28px;
