@@ -1,0 +1,22 @@
+{
+  "welcome": "Welcome",
+  "hello": "Hello",
+  "about": "About",
+  "contact": "Contact Us",
+  "home": "Home",
+  "language": "Language",
+  "switchLanguage": "Switch Language",
+  "theme": "Theme",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "switchTheme": "Switch Theme",
+  "messages": {
+    "welcome": "Welcome to our website",
+    "description": "This is a multilingual website using Nuxt.js and i18n"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save"
+  }
+}

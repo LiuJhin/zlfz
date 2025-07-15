@@ -1,0 +1,68 @@
+:root {
+  /* 明亮模式（默认）变量 */
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-color: #0066cc;
+  --border-color: #cccccc;
+  --button-bg: #4CAF50;
+  --button-hover-bg: #45a049;
+  --button-text: #ffffff;
+  --header-bg: #f5f5f5;
+  --card-bg: #ffffff;
+  --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme {
+  /* 暗黑模式变量 */
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #64b5f6;
+  --border-color: #444444;
+  --button-bg: #2e7d32;
+  --button-hover-bg: #388e3c;
+  --button-text: #ffffff;
+  --header-bg: #1e1e1e;
+  --card-bg: #1e1e1e;
+  --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 应用主题变量到元素 */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+  transition: color 0.3s ease;
+}
+
+button, select {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.card {
+  background-color: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 主题切换按钮样式 */
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.theme-switch-icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
