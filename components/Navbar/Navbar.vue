@@ -82,7 +82,17 @@
                     :href="dropdownItem.link"
                     class="mobile-dropdown-link"
                   >
-                    {{ dropdownItem.title }}
+                    <div class="mobile-dropdown-item-content">
+                      <div v-if="dropdownItem.icon" class="mobile-dropdown-item-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path :d="getIconPath(dropdownItem.icon)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                      <div class="mobile-dropdown-item-text">
+                        <span class="mobile-dropdown-item-title">{{ dropdownItem.title }}</span>
+                        <span v-if="dropdownItem.description" class="mobile-dropdown-item-description">{{ dropdownItem.description }}</span>
+                      </div>
+                    </div>
                   </a>
                 </div>
               </li>
@@ -115,22 +125,67 @@ const menuItems = reactive([
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "企业解决方案", link: "#" },
-      { title: "开发者工具", link: "#" },
-      { title: "区块链服务", link: "#" },
+      { 
+        title: "企业解决方案", 
+        link: "#", 
+        icon: "solution",
+        description: "为企业提供全方位的区块链解决方案" 
+      },
+      { 
+        title: "开发者工具", 
+        link: "#", 
+        icon: "solution",
+        description: "强大的开发工具集，助力快速构建应用" 
+      },
+      { 
+        title: "区块链服务", 
+        link: "#", 
+        icon: "solution",
+        description: "安全可靠的区块链基础设施服务" 
+      },
     ],
   },
   {
-    title: "云管理服务(MSP)",
+    title: "云管理服务",
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "云战略咨询规划", link: "#" },
-      { title: "云技术专业服务", link: "#" },
-      { title: "云运维管理服务", link: "#" },
-      { title: "云监控管理服务", link: "#" },
-      { title: "云原生开发服务", link: "#" },
-      { title: "等保合规服务", link: "#" },
+      { 
+        title: "云战略咨询规划", 
+        link: "#", 
+        icon: "cloud",
+        description: "专业的云战略规划与咨询服务" 
+      },
+      { 
+        title: "云技术专业服务", 
+        link: "#", 
+        icon: "cloud",
+        description: "全面的云技术支持与专业服务" 
+      },
+      { 
+        title: "云运维管理服务", 
+        link: "#", 
+        icon: "cloud",
+        description: "高效的云平台运维与管理" 
+      },
+      { 
+        title: "云监控管理服务", 
+        link: "#", 
+        icon: "cloud",
+        description: "实时的云资源监控与管理系统" 
+      },
+      { 
+        title: "云原生开发服务", 
+        link: "#", 
+        icon: "cloud",
+        description: "基于云原生技术的应用开发服务" 
+      },
+      { 
+        title: "等保合规服务", 
+        link: "#", 
+        icon: "cloud",
+        description: "满足等级保护要求的合规服务" 
+      },
     ],
   },
   {
@@ -138,21 +193,61 @@ const menuItems = reactive([
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "论坛", link: "#" },
-      { title: "活动", link: "#" },
-      { title: "贡献", link: "#" },
+      { 
+        title: "开发者社区", 
+        link: "#", 
+        icon: "community",
+        description: "加入我们活跃的开发者社区" 
+      },
+      { 
+        title: "技术活动", 
+        link: "#", 
+        icon: "community",
+        description: "参与线上线下技术交流活动" 
+      },
+      { 
+        title: "开源贡献", 
+        link: "#", 
+        icon: "community",
+        description: "为开源项目贡献代码与想法" 
+      },
+      { 
+        title: "技术论坛", 
+        link: "#", 
+        icon: "community",
+        description: "分享经验，解决问题的技术论坛" 
+      },
     ],
   },
   {
-    title: "解决方案",
+    title: "行业方案",
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "云迁移解决方案", link: "#" },
-      { title: "大数据解决方案", link: "#" },
-      { title: "混合云解决方案", link: "#" },
-      { title: "DevOps解决方案", link: "#" },
-      { title: "云资源管理及成本优化", link: "#" },
+      { 
+        title: "金融科技解决方案", 
+        link: "#", 
+        icon: "solution",
+        description: "为金融行业提供创新技术解决方案" 
+      },
+      { 
+        title: "供应链管理方案", 
+        link: "#", 
+        icon: "solution",
+        description: "优化供应链流程的区块链解决方案" 
+      },
+      { 
+        title: "数字身份认证", 
+        link: "#", 
+        icon: "solution",
+        description: "安全可靠的数字身份认证系统" 
+      },
+      { 
+        title: "数据安全与隐私", 
+        link: "#", 
+        icon: "solution",
+        description: "保护数据安全与用户隐私的解决方案" 
+      },
     ],
   },
   {
@@ -160,13 +255,36 @@ const menuItems = reactive([
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "全部", link: "#" },
-      { title: "游戏行业", link: "#" },
-      { title: "广告行业", link: "#" },
-      { title: "汽车制造", link: "#" },
-      { title: "家居制造", link: "#" },
-      { title: "电商行业", link: "#" },
-      { title: "互联网", link: "#" },
+      { 
+        title: "成功案例集", 
+        link: "#", 
+        icon: "case",
+        description: "浏览我们的成功客户案例" 
+      },
+      { 
+        title: "金融行业", 
+        link: "#", 
+        icon: "case",
+        description: "金融科技领域的创新应用" 
+      },
+      { 
+        title: "供应链行业", 
+        link: "#", 
+        icon: "case",
+        description: "供应链管理的区块链应用" 
+      },
+      { 
+        title: "医疗健康", 
+        link: "#", 
+        icon: "case",
+        description: "医疗数据管理与共享解决方案" 
+      },
+      { 
+        title: "政府服务", 
+        link: "#", 
+        icon: "case",
+        description: "提升政府服务效率的区块链应用" 
+      },
     ],
   },
   {
@@ -174,11 +292,36 @@ const menuItems = reactive([
     link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: "公司介绍", link: "#" },
-      { title: "发展历程", link: "#" },
-      { title: "企业文化", link: "#" },
-      { title: "联系我们", link: "#" },
-      { title: "加入我们", link: "#" },
+      { 
+        title: "公司简介", 
+        link: "#", 
+        icon: "about",
+        description: "了解我们的使命与愿景" 
+      },
+      { 
+        title: "技术团队", 
+        link: "#", 
+        icon: "about",
+        description: "认识我们专业的技术团队" 
+      },
+      { 
+        title: "合作伙伴", 
+        link: "#", 
+        icon: "about",
+        description: "查看我们的合作伙伴网络" 
+      },
+      { 
+        title: "加入我们", 
+        link: "#", 
+        icon: "about",
+        description: "探索激动人心的职业机会" 
+      },
+      { 
+        title: "联系方式", 
+        link: "#", 
+        icon: "about",
+        description: "获取我们的联系方式" 
+      },
     ],
   },
 ]);
@@ -197,6 +340,21 @@ const toggleMobileMenu = () => {
 // 切换下拉菜单
 const toggleDropdown = (item) => {
   item.isOpen = !item.isOpen;
+};
+
+// 获取图标路径
+const getIconPath = (icon) => {
+  // 预定义的图标路径
+  const iconPaths = {
+    'solution': 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
+    'cloud': 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
+    'community': 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z',
+    'case': 'M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
+    'about': 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+    'default': 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+  };
+  
+  return iconPaths[icon] || iconPaths['default'];
 };
 </script>
 
@@ -361,11 +519,50 @@ const toggleDropdown = (item) => {
 
 .mobile-dropdown-link {
   display: block;
-  padding: 10px 0;
+  padding: 12px 0;
   color: var(--navbar-text);
-  opacity: 0.8;
   text-decoration: none;
   font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.mobile-dropdown-link:hover {
+  transform: translateX(4px);
+}
+
+.mobile-dropdown-item-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mobile-dropdown-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  background: linear-gradient(135deg, var(--primary-color-light) 0%, var(--primary-color) 100%);
+  border-radius: 8px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.mobile-dropdown-item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-dropdown-item-title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.mobile-dropdown-item-description {
+  font-size: 0.8rem;
+  color: var(--navbar-text);
+  opacity: 0.7;
+  line-height: 1.3;
 }
 
 .mobile-menu-footer {
