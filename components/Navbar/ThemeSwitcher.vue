@@ -29,9 +29,17 @@ onMounted(() => {
   const savedMode = localStorage.getItem('color-mode');
   if (savedMode) {
     colorMode.value = savedMode;
-  } else if (document.body.classList.contains('dark')) {
+    
+    // 确保DOM上的类与当前模式匹配
+    document.body.classList.remove('dark-mode', 'sepia-mode');
+    if (savedMode === 'dark') {
+      document.body.classList.add('dark-mode');
+    } else if (savedMode === 'sepia') {
+      document.body.classList.add('sepia-mode');
+    }
+  } else if (document.body.classList.contains('dark-mode')) {
     colorMode.value = 'dark';
-  } else if (document.body.classList.contains('sepia')) {
+  } else if (document.body.classList.contains('sepia-mode')) {
     colorMode.value = 'sepia';
   }
 });
@@ -51,9 +59,16 @@ const toggleColorMode = () => {
 // 监听颜色模式变化，更新 DOM
 watch(colorMode, (newMode) => {
   // 移除所有模式类
-  document.body.classList.remove('light', 'dark', 'sepia');
+  document.body.classList.remove('dark-mode', 'sepia-mode');
+  
   // 添加新模式类
-  document.body.classList.add(newMode);
+  if (newMode === 'dark') {
+    document.body.classList.add('dark-mode');
+  } else if (newMode === 'sepia') {
+    document.body.classList.add('sepia-mode');
+  }
+  // light模式不需要添加类，因为它是默认模式
+  
   // 保存到 localStorage
   localStorage.setItem('color-mode', newMode);
 });

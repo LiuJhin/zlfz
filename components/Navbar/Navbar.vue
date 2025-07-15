@@ -9,36 +9,79 @@
 
       <!-- 右侧控制区 -->
       <NavbarControls />
-      
+
       <!-- 移动端菜单按钮 -->
       <button class="mobile-menu-button" @click="toggleMobileMenu">
         <span class="menu-icon"></span>
       </button>
-      
+
       <!-- 移动端菜单 -->
-      <div class="mobile-menu" :class="{ 'active': mobileMenuOpen }">
+      <div class="mobile-menu" :class="{ active: mobileMenuOpen }">
         <div class="mobile-menu-container">
           <div class="mobile-menu-header">
             <NavbarLogo />
             <button class="close-button" @click="toggleMobileMenu">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 6L6 18M6 6L18 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
               </svg>
             </button>
           </div>
           <div class="mobile-menu-content">
             <ul class="mobile-menu-list">
-              <li v-for="item in menuItems" :key="item.title" class="mobile-menu-item">
+              <li
+                v-for="item in menuItems"
+                :key="item.title"
+                class="mobile-menu-item"
+              >
                 <div class="mobile-menu-link-wrapper">
-                  <a :href="item.link" class="mobile-menu-link">{{ item.title }}</a>
-                  <button v-if="item.dropdownItems && item.dropdownItems.length" class="dropdown-toggle" @click="toggleDropdown(item)">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <a :href="item.link" class="mobile-menu-link">{{
+                    item.title
+                  }}</a>
+                  <button
+                    v-if="item.dropdownItems && item.dropdownItems.length"
+                    class="dropdown-toggle"
+                    @click="toggleDropdown(item)"
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 9L12 15L18 9"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
                     </svg>
                   </button>
                 </div>
-                <div v-if="item.dropdownItems && item.dropdownItems.length" class="mobile-dropdown" :class="{ 'active': item.isOpen }">
-                  <a v-for="dropdownItem in item.dropdownItems" :key="dropdownItem.title" :href="dropdownItem.link" class="mobile-dropdown-link">
+                <div
+                  v-if="item.dropdownItems && item.dropdownItems.length"
+                  class="mobile-dropdown"
+                  :class="{ active: item.isOpen }"
+                >
+                  <a
+                    v-for="dropdownItem in item.dropdownItems"
+                    :key="dropdownItem.title"
+                    :href="dropdownItem.link"
+                    class="mobile-dropdown-link"
+                  >
                     {{ dropdownItem.title }}
                   </a>
                 </div>
@@ -56,11 +99,11 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue';
-import NavbarLogo from './NavbarLogo.vue';
-import NavbarMenu from './NavbarMenu.vue';
-import NavbarControls from './NavbarControls.vue';
-import ThemeSwitcher from './ThemeSwitcher.vue';
+import { ref, reactive } from "vue";
+import NavbarLogo from "./NavbarLogo.vue";
+import NavbarMenu from "./NavbarMenu.vue";
+import NavbarControls from "./NavbarControls.vue";
+import ThemeSwitcher from "./ThemeSwitcher.vue";
 
 // 移动端菜单状态
 const mobileMenuOpen = ref(false);
@@ -68,61 +111,76 @@ const mobileMenuOpen = ref(false);
 // 菜单数据
 const menuItems = reactive([
   {
-    title: '解决方案',
-    link: '#',
+    title: "解决方案",
+    link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: '企业解决方案', link: '#' },
-      { title: '开发者工具', link: '#' },
-      { title: '区块链服务', link: '#' }
-    ]
+      { title: "企业解决方案", link: "#" },
+      { title: "开发者工具", link: "#" },
+      { title: "区块链服务", link: "#" },
+    ],
   },
   {
-    title: '开发者',
-    link: '#',
+    title: "云管理服务(MSP)",
+    link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: '文档中心', link: '#' },
-      { title: 'API参考', link: '#' },
-      { title: '教程', link: '#' }
-    ]
+      { title: "云战略咨询规划", link: "#" },
+      { title: "云技术专业服务", link: "#" },
+      { title: "云运维管理服务", link: "#" },
+      { title: "云监控管理服务", link: "#" },
+      { title: "云原生开发服务", link: "#" },
+      { title: "等保合规服务", link: "#" },
+    ],
   },
   {
-    title: '社区',
-    link: '#',
+    title: "社区",
+    link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: '论坛', link: '#' },
-      { title: '活动', link: '#' },
-      { title: '贡献', link: '#' }
-    ]
+      { title: "论坛", link: "#" },
+      { title: "活动", link: "#" },
+      { title: "贡献", link: "#" },
+    ],
   },
   {
-    title: 'ZK资源',
-    link: '#',
+    title: "解决方案",
+    link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: '研究', link: '#' },
-      { title: '白皮书', link: '#' },
-      { title: '案例研究', link: '#' }
-    ]
+      { title: "云迁移解决方案", link: "#" },
+      { title: "大数据解决方案", link: "#" },
+      { title: "混合云解决方案", link: "#" },
+      { title: "DevOps解决方案", link: "#" },
+      { title: "云资源管理及成本优化", link: "#" },
+    ],
   },
   {
-    title: '博客',
-    link: '#',
-    isOpen: false,
-    dropdownItems: []
-  },
-  {
-    title: '公司',
-    link: '#',
+    title: "客户案例",
+    link: "#",
     isOpen: false,
     dropdownItems: [
-      { title: '关于我们', link: '#' },
-      { title: '团队', link: '#' },
-      { title: '招聘', link: '#' }
-    ]
-  }
+      { title: "全部", link: "#" },
+      { title: "游戏行业", link: "#" },
+      { title: "广告行业", link: "#" },
+      { title: "汽车制造", link: "#" },
+      { title: "家居制造", link: "#" },
+      { title: "电商行业", link: "#" },
+      { title: "互联网", link: "#" },
+    ],
+  },
+  {
+    title: "关于我们",
+    link: "#",
+    isOpen: false,
+    dropdownItems: [
+      { title: "公司介绍", link: "#" },
+      { title: "发展历程", link: "#" },
+      { title: "企业文化", link: "#" },
+      { title: "联系我们", link: "#" },
+      { title: "加入我们", link: "#" },
+    ],
+  },
 ]);
 
 // 切换移动端菜单
@@ -130,9 +188,9 @@ const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
   // 禁止/允许背景滚动
   if (mobileMenuOpen.value) {
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   } else {
-    document.body.style.overflow = '';
+    document.body.style.overflow = "";
   }
 };
 
@@ -175,7 +233,9 @@ const toggleDropdown = (item) => {
   z-index: 1001;
 }
 
-.menu-icon, .menu-icon::before, .menu-icon::after {
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
   display: block;
   position: absolute;
   height: 2px;
@@ -190,8 +250,9 @@ const toggleDropdown = (item) => {
   transform: translate(-50%, -50%);
 }
 
-.menu-icon::before, .menu-icon::after {
-  content: '';
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
   left: 0;
 }
 
@@ -332,11 +393,11 @@ const toggleDropdown = (item) => {
   .navbar-container {
     padding: 0 16px;
   }
-  
+
   .mobile-menu-button {
     display: block;
   }
-  
+
   .mobile-menu {
     display: block;
   }
