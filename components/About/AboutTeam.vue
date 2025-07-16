@@ -1,0 +1,317 @@
+<template>
+  <section id="team" class="about-team">
+    <div class="about-team-container">
+      <div class="section-header">
+        <h2 class="section-title">我们的团队</h2>
+        <p class="section-subtitle">由行业专家组成的精英团队</p>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="team-grid">
+        <div v-for="(member, index) in teamMembers" :key="index" class="team-member-card">
+          <div class="member-avatar">
+            <div class="avatar-placeholder" :style="{ backgroundColor: member.avatarColor }">
+              {{ member.initials }}
+            </div>
+          </div>
+          <h3 class="member-name">{{ member.name }}</h3>
+          <p class="member-position">{{ member.position }}</p>
+          <p class="member-description">{{ member.description }}</p>
+          <div class="member-social">
+            <a v-for="social in member.social" :key="social.platform" :href="social.link" class="social-link" target="_blank">
+              <svg v-if="social.platform === 'linkedin'" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg v-if="social.platform === 'twitter'" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 3C22.0424 3.67548 20.9821 4.19211 19.86 4.53C19.2577 3.83751 18.4573 3.34669 17.567 3.12393C16.6767 2.90116 15.7395 2.9572 14.8821 3.28445C14.0247 3.61171 13.2884 4.1944 12.773 4.95372C12.2575 5.71303 11.9877 6.61234 12 7.53V8.53C10.2426 8.57557 8.50127 8.18581 6.93101 7.39545C5.36074 6.60508 4.01032 5.43864 3 4C3 4 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.5C20.9991 7.22145 20.9723 6.94359 20.92 6.67C21.9406 5.66349 22.6608 4.39271 23 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg v-if="social.platform === 'github'" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 19C4.7 20.4 4.7 16.5 3 16M15 21V17.5C15 16.5 15.1 16.1 14.5 15.5C17.3 15.2 20 14.1 20 9.50001C19.9988 8.30498 19.5325 7.15732 18.7 6.30001C19.0905 5.26198 19.0545 4.11164 18.6 3.10001C18.6 3.10001 17.5 2.80001 15.1 4.40001C13.0672 3.8706 10.9328 3.8706 8.9 4.40001C6.5 2.80001 5.4 3.10001 5.4 3.10001C4.94548 4.11164 4.90953 5.26198 5.3 6.30001C4.46745 7.15732 4.00122 8.30498 4 9.50001C4 14.1 6.7 15.2 9.5 15.5C8.9 16.1 8.9 16.7 9 17.5V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="join-team-section">
+        <h3 class="join-team-title">加入我们的团队</h3>
+        <p class="join-team-description">
+          我们始终在寻找优秀的人才加入我们的团队。如果你对区块链技术充满热情，并希望参与到前沿技术的开发和应用中，欢迎加入我们！
+        </p>
+        <a href="/contact" class="join-team-button">查看职位空缺</a>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const teamMembers = ref([
+  {
+    name: '张伟',
+    initials: 'ZW',
+    position: '创始人 & CEO',
+    description: '拥有10年区块链行业经验，曾在多家知名科技公司担任技术领导职位。专注于区块链技术的商业应用和生态系统建设。',
+    avatarColor: '#8247E5',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'twitter', link: '#' }
+    ]
+  },
+  {
+    name: '李明',
+    initials: 'LM',
+    position: '首席技术官',
+    description: '区块链架构专家，拥有丰富的分布式系统和密码学经验。曾主导多个大型区块链项目的技术架构设计和实现。',
+    avatarColor: '#3B82F6',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'github', link: '#' }
+    ]
+  },
+  {
+    name: '王芳',
+    initials: 'WF',
+    position: '产品总监',
+    description: '专注于区块链产品设计和用户体验，擅长将复杂的技术概念转化为易用的产品。拥有多年金融科技产品管理经验。',
+    avatarColor: '#EC4899',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'twitter', link: '#' }
+    ]
+  },
+  {
+    name: '赵强',
+    initials: 'ZQ',
+    position: '研发主管',
+    description: '全栈开发专家，精通智能合约开发和区块链应用架构。曾参与多个知名区块链项目的核心开发工作。',
+    avatarColor: '#10B981',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'github', link: '#' }
+    ]
+  },
+  {
+    name: '陈静',
+    initials: 'CJ',
+    position: '解决方案架构师',
+    description: '专注于企业级区块链解决方案设计，擅长分析业务需求并提供最佳技术方案。拥有丰富的咨询和实施经验。',
+    avatarColor: '#F59E0B',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'github', link: '#' }
+    ]
+  },
+  {
+    name: '刘洋',
+    initials: 'LY',
+    position: '安全专家',
+    description: '区块链安全和密码学专家，专注于智能合约审计和安全漏洞分析。曾参与多个重要项目的安全评估工作。',
+    avatarColor: '#6366F1',
+    social: [
+      { platform: 'linkedin', link: '#' },
+      { platform: 'github', link: '#' }
+    ]
+  }
+]);
+</script>
+
+<style scoped>
+.about-team {
+  padding: 80px 0;
+  background-color: var(--bg-color);
+}
+
+.about-team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-color-light);
+  margin-bottom: 1rem;
+}
+
+.section-divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-light) 100%);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.team-member-card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.team-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.member-avatar {
+  margin-bottom: 20px;
+}
+
+.avatar-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.member-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.member-position {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.member-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color-light);
+  margin-bottom: 20px;
+}
+
+.member-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.join-team-section {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 60px;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+}
+
+.join-team-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.join-team-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-color-light);
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.join-team-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-light) 100%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-team-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(130, 71, 229, 0.4);
+}
+
+@media (max-width: 992px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .join-team-section {
+    padding: 40px 20px;
+  }
+  
+  .join-team-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+  }
+  
+  .member-name {
+    font-size: 1.3rem;
+  }
+}
+</style>

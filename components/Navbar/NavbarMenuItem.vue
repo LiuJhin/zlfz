@@ -1,7 +1,7 @@
 <template>
   <li :class="['menu-item', { dropdown: hasDropdown, 'is-open': isOpen }]">
-    <a
-      :href="link"
+    <NuxtLink
+      :to="link"
       class="menu-link"
       @mouseenter="isOpen = true"
       @mouseleave="closeDropdownDelayed"
@@ -24,7 +24,7 @@
           />
         </svg>
       </span>
-    </a>
+    </NuxtLink>
     <div
       v-if="hasDropdown"
       class="dropdown-content"
@@ -35,10 +35,10 @@
         <span class="dropdown-title">{{ title }}</span>
       </div>
       <div class="dropdown-grid">
-        <a
+        <NuxtLink
           v-for="item in dropdownItems"
           :key="item.title"
-          :href="item.link"
+          :to="item.link"
           class="dropdown-item"
         >
           <div class="dropdown-item-icon" v-if="item.icon">
@@ -64,7 +64,7 @@
               item.description
             }}</span>
           </div>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </li>

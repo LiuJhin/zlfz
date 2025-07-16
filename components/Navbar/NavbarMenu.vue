@@ -192,31 +192,31 @@ const menuItems = reactive([
     dropdownItems: [
       {
         title: "公司简介",
-        link: "#",
+        link: "/about",
         icon: "about",
         description: "了解我们的使命与愿景",
       },
       {
         title: "技术团队",
-        link: "#",
+        link: "/about#team",
         icon: "about",
         description: "认识我们专业的技术团队",
       },
       {
         title: "合作伙伴",
-        link: "#",
+        link: "/about#partners",
         icon: "about",
         description: "查看我们的合作伙伴网络",
       },
       {
         title: "加入我们",
-        link: "#",
+        link: "/about#team",
         icon: "about",
         description: "探索激动人心的职业机会",
       },
       {
         title: "联系方式",
-        link: "#",
+        link: "/contact",
         icon: "about",
         description: "获取我们的联系方式",
       },
