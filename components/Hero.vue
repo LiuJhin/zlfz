@@ -2,7 +2,7 @@
   <section class="hero-section">
     <div class="hero-container">
       <div class="hero-content">
-        <h1 class="hero-title">ZHILING ARK, Cloud computing technology.</h1>
+        <h1 class="hero-title">Polygon, Cloud computing technology.</h1>
         <p class="hero-description">
           Enabling an infinitely scalable web of sovereign blockchains that
           feels like a single chain. Powered by ZK tech.
@@ -21,22 +21,22 @@
             viewBox="0 0 500 500"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            class="polygon-graphic"
+            class="Polygon-graphic"
           >
             <path
-              class="polygon-path"
+              class="Polygon-path"
               d="M250 50L50 200L250 350L450 200L250 50Z"
-              fill="url(#polygon-gradient)"
+              fill="url(#Polygon-gradient)"
             />
             <path
-              class="polygon-path"
+              class="Polygon-path"
               d="M250 350L50 200V350L250 500L450 350V200L250 350Z"
-              fill="url(#polygon-gradient)"
+              fill="url(#Polygon-gradient)"
               opacity="0.7"
             />
             <defs>
               <linearGradient
-                id="polygon-gradient"
+                id="Polygon-gradient"
                 x1="50"
                 y1="50"
                 x2="450"
@@ -173,11 +173,11 @@
   height: 500px;
 }
 
-.polygon-graphic {
+.Polygon-graphic {
   animation: float 6s ease-in-out infinite;
 }
 
-.polygon-path {
+.Polygon-path {
   filter: drop-shadow(0 0 20px rgba(130, 71, 229, 0.4));
 }
 

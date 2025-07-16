@@ -2,62 +2,111 @@
   <section class="projects-section">
     <div class="projects-container">
       <div class="section-header">
-        <h2 class="section-title">Projects built <span class="highlight">#onPolygon</span></h2>
+        <h2 class="section-title">
+          Projects built <span class="highlight">#onPolygon</span>
+        </h2>
       </div>
-      
+
       <div class="projects-showcase">
         <div class="project-card">
           <div class="project-number">01</div>
           <div class="project-content">
             <h3 class="project-title">Unstoppable Domains</h3>
-            <p class="project-description">Own your identity in the digital world with your own Web3 domain</p>
+            <p class="project-description">
+              Own your identity in the digital world with your own Web3 domain
+            </p>
             <a href="#" class="project-link">Learn More</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="var(--primary-color)" />
-                <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="var(--primary-color)" opacity="0.5" />
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L2 7L12 12L22 7L12 2Z"
+                  fill="var(--primary-color)"
+                />
+                <path
+                  d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                  fill="var(--primary-color)"
+                  opacity="0.5"
+                />
               </svg>
             </div>
           </div>
         </div>
-        
+
         <div class="project-card">
           <div class="project-number">02</div>
           <div class="project-content">
             <h3 class="project-title">Aave</h3>
-            <p class="project-description">Open source and non-custodial liquidity protocol for earning interest and borrowing assets</p>
+            <p class="project-description">
+              Open source and non-custodial liquidity protocol for earning
+              interest and borrowing assets
+            </p>
             <a href="#" class="project-link">Learn More</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="var(--primary-color)" />
-                <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="var(--primary-color)" opacity="0.5" />
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L2 7L12 12L22 7L12 2Z"
+                  fill="var(--primary-color)"
+                />
+                <path
+                  d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                  fill="var(--primary-color)"
+                  opacity="0.5"
+                />
               </svg>
             </div>
           </div>
         </div>
-        
+
         <div class="project-card">
           <div class="project-number">03</div>
           <div class="project-content">
             <h3 class="project-title">Uniswap</h3>
-            <p class="project-description">A decentralized protocol for automated liquidity provision on Ethereum</p>
+            <p class="project-description">
+              A decentralized protocol for automated liquidity provision on
+              Ethereum
+            </p>
             <a href="#" class="project-link">Learn More</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="var(--primary-color)" />
-                <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="var(--primary-color)" opacity="0.5" />
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L2 7L12 12L22 7L12 2Z"
+                  fill="var(--primary-color)"
+                />
+                <path
+                  d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                  fill="var(--primary-color)"
+                  opacity="0.5"
+                />
               </svg>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div class="projects-pagination">
         <button class="pagination-dot active"></button>
         <button class="pagination-dot"></button>
@@ -205,7 +254,7 @@
     grid-template-columns: 40px 1fr 200px;
     padding: 30px;
   }
-  
+
   .image-placeholder {
     width: 150px;
     height: 150px;
@@ -216,17 +265,17 @@
   .section-title {
     font-size: 2rem;
   }
-  
+
   .project-card {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
   }
-  
+
   .project-number {
     font-size: 1.5rem;
   }
-  
+
   .image-placeholder {
     width: 100%;
     height: 200px;

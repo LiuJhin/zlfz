@@ -4,15 +4,31 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="var(--primary-color)" />
-              <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="var(--primary-color)" opacity="0.5" />
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2L2 7L12 12L22 7L12 2Z"
+                fill="var(--primary-color)"
+              />
+              <path
+                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                fill="var(--primary-color)"
+                opacity="0.5"
+              />
             </svg>
             <span class="logo-text">Polygon</span>
           </div>
-          <p class="brand-description">Enabling an infinitely scalable web of sovereign blockchains that feels like a single chain.</p>
+          <p class="brand-description">
+            Enabling an infinitely scalable web of sovereign blockchains that
+            feels like a single chain.
+          </p>
         </div>
-        
+
         <div class="footer-links">
           <div class="footer-column">
             <h3 class="column-title">Products</h3>
@@ -23,7 +39,7 @@
               <li><a href="#">Agglayer CDK</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-column">
             <h3 class="column-title">Developers</h3>
             <ul class="link-list">
@@ -33,7 +49,7 @@
               <li><a href="#">SDKs</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-column">
             <h3 class="column-title">Community</h3>
             <ul class="link-list">
@@ -43,7 +59,7 @@
               <li><a href="#">Bug Bounty</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-column">
             <h3 class="column-title">Company</h3>
             <ul class="link-list">
@@ -55,10 +71,11 @@
           </div>
         </div>
       </div>
-      
+
       <div class="footer-bottom">
         <div class="copyright">
-          &copy; {{ new Date().getFullYear() }} Polygon Labs. All rights reserved.
+          &copy; {{ new Date().getFullYear() }} Polygon Labs. All rights
+          reserved.
         </div>
         <div class="legal-links">
           <a href="#">Privacy Policy</a>
@@ -193,7 +210,7 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .footer-links {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -203,7 +220,7 @@
   .footer {
     padding: 60px 0 30px;
   }
-  
+
   .footer-bottom {
     flex-direction: column;
     gap: 20px;

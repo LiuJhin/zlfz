@@ -4,53 +4,106 @@
       <div class="section-header">
         <h2 class="section-title">The most adopted scaling technology</h2>
       </div>
-      
+
       <div class="features-grid">
         <div class="feature-card active">
           <div class="feature-icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
-              <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="currentColor" opacity="0.5" />
+              <path
+                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                fill="currentColor"
+                opacity="0.5"
+              />
             </svg>
           </div>
           <h3 class="feature-title">Polygon PoS</h3>
-          <p class="feature-description">Support the most widely used Ethereum scaling ecosystem that offers EVM compatibility and an ultimate user experience with fast transactions at near-zero gas fees today.</p>
+          <p class="feature-description">
+            Support the most widely used Ethereum scaling ecosystem that offers
+            EVM compatibility and an ultimate user experience with fast
+            transactions at near-zero gas fees today.
+          </p>
           <a href="#" class="feature-link">Learn More</a>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
-              <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="currentColor" opacity="0.5" />
+              <path
+                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                fill="currentColor"
+                opacity="0.5"
+              />
             </svg>
           </div>
           <h3 class="feature-title">Polygon zkEVM</h3>
-          <p class="feature-description">Unlock Ethereum scalability while maintaining security with the first ZK-rollup that offers EVM equivalence with fast transactions at near-zero gas cost today.</p>
+          <p class="feature-description">
+            Unlock Ethereum scalability while maintaining security with the
+            first ZK-rollup that offers EVM equivalence with fast transactions
+            at near-zero gas cost today.
+          </p>
           <a href="#" class="feature-link">Learn More</a>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
-              <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="currentColor" opacity="0.5" />
+              <path
+                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                fill="currentColor"
+                opacity="0.5"
+              />
             </svg>
           </div>
           <h3 class="feature-title">Miden</h3>
-          <p class="feature-description">A decentralized rollup that leverages private data storage and local transaction execution. Because privacy scales better.</p>
+          <p class="feature-description">
+            A decentralized rollup that leverages private data storage and local
+            transaction execution. Because privacy scales better.
+          </p>
           <a href="#" class="feature-link">Learn More</a>
         </div>
-        
+
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
-              <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="currentColor" opacity="0.5" />
+              <path
+                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+                fill="currentColor"
+                opacity="0.5"
+              />
             </svg>
           </div>
           <h3 class="feature-title">Agglayer CDK</h3>
-          <p class="feature-description">Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem.</p>
+          <p class="feature-description">
+            Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem.
+          </p>
           <a href="#" class="feature-link">Learn More</a>
         </div>
       </div>
@@ -104,7 +157,8 @@
   flex-direction: column;
 }
 
-.feature-card:hover, .feature-card.active {
+.feature-card:hover,
+.feature-card.active {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-color: var(--primary-color);
@@ -151,7 +205,7 @@
   .section-title {
     font-size: 2rem;
   }
-  
+
   .features-grid {
     grid-template-columns: 1fr;
   }

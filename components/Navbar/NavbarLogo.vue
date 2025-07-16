@@ -2,15 +2,42 @@
   <div class="navbar-logo">
     <NuxtLink to="/" class="logo-link">
       <div class="logo-icon">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="url(#polygon-gradient-top)" />
-          <path d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z" fill="url(#polygon-gradient-bottom)" opacity="0.7" />
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2L2 7L12 12L22 7L12 2Z"
+            fill="url(#Polygon-gradient-top)"
+          />
+          <path
+            d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
+            fill="url(#Polygon-gradient-bottom)"
+            opacity="0.7"
+          />
           <defs>
-            <linearGradient id="polygon-gradient-top" x1="2" y1="7" x2="22" y2="7" gradientUnits="userSpaceOnUse">
+            <linearGradient
+              id="Polygon-gradient-top"
+              x1="2"
+              y1="7"
+              x2="22"
+              y2="7"
+              gradientUnits="userSpaceOnUse"
+            >
               <stop offset="0%" stop-color="var(--primary-color-light)" />
               <stop offset="100%" stop-color="var(--primary-color-dark)" />
             </linearGradient>
-            <linearGradient id="polygon-gradient-bottom" x1="2" y1="14.5" x2="22" y2="14.5" gradientUnits="userSpaceOnUse">
+            <linearGradient
+              id="Polygon-gradient-bottom"
+              x1="2"
+              y1="14.5"
+              x2="22"
+              y2="14.5"
+              gradientUnits="userSpaceOnUse"
+            >
               <stop offset="0%" stop-color="var(--primary-color-light)" />
               <stop offset="100%" stop-color="var(--primary-color-dark)" />
             </linearGradient>
