@@ -27,13 +27,13 @@
               class="Polygon-path"
               d="M250 50L50 200L250 350L450 200L250 50Z"
               fill="url(#Polygon-gradient)"
-            />
+            ></path>
             <path
               class="Polygon-path"
               d="M250 350L50 200V350L250 500L450 350V200L250 350Z"
               fill="url(#Polygon-gradient)"
               opacity="0.7"
-            />
+            ></path>
             <defs>
               <linearGradient
                 id="Polygon-gradient"
@@ -43,8 +43,8 @@
                 y2="500"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0%" stop-color="#8247E5" />
-                <stop offset="100%" stop-color="#6B38C1" />
+                <stop offset="0%" stop-color="#8247E5"></stop>
+                <stop offset="100%" stop-color="#6B38C1"></stop>
               </linearGradient>
             </defs>
           </svg>

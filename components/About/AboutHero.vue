@@ -1,23 +1,53 @@
 <template>
   <section class="about-hero">
+    <!-- Three.js背景动画 -->
+    <ThreeBackground />
+    
     <div class="about-hero-container">
       <div class="about-hero-content">
-        <h1 class="about-hero-title">关于我们</h1>
-        <p class="about-hero-subtitle">区块链技术的创新者和引领者</p>
-        <p class="about-hero-description">
-          我们致力于通过区块链技术解决现实世界的问题，为企业和组织提供安全、透明、高效的解决方案。
-          作为行业的先驱，我们不断探索区块链技术的新边界，推动技术创新和应用落地。
-        </p>
+        <!-- 使用文字动画组件 -->
+        <AnimatedText 
+          text="关于我们" 
+          type="heading" 
+          animation-type="stagger" 
+          :duration="1.2" 
+          class="about-hero-title"
+        />
+        
+        <AnimatedText 
+          text="区块链技术的创新者和引领者" 
+          type="paragraph" 
+          animation-type="slideUp" 
+          :delay="0.5" 
+          class="about-hero-subtitle"
+        />
+        
+        <ScrollAnimations 
+          animation="fadeIn" 
+          :delay="0.8" 
+          :threshold="0.1"
+        >
+          <p class="about-hero-description">
+            我们致力于通过区块链技术解决现实世界的问题，为企业和组织提供安全、透明、高效的解决方案。
+            作为行业的先驱，我们不断探索区块链技术的新边界，推动技术创新和应用落地。
+          </p>
+        </ScrollAnimations>
       </div>
+      
       <div class="about-hero-image">
-        <div class="about-hero-graphic"></div>
+        <!-- 使用SVG动画替代静态图形 -->
+        <AnimatedSvg class="about-hero-animated-svg" />
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-// AboutHero组件逻辑
+// 导入动画组件
+import ThreeBackground from '@/components/About/ThreeBackground.vue';
+import AnimatedText from '@/components/About/AnimatedText.vue';
+import AnimatedSvg from '@/components/About/AnimatedSvg.vue';
+import ScrollAnimations from '@/components/About/ScrollAnimations.vue';
 </script>
 
 <style scoped>
@@ -26,6 +56,9 @@
   background-color: var(--bg-color);
   position: relative;
   overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .about-hero-container {
@@ -73,12 +106,9 @@
   align-items: center;
 }
 
-.about-hero-graphic {
+.about-hero-animated-svg {
   width: 400px;
   height: 400px;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"><path d="M200 20L380 200L200 380L20 200L200 20Z" fill="none" stroke="%238247e5" stroke-width="2"/><path d="M200 60L340 200L200 340L60 200L200 60Z" fill="none" stroke="%238247e5" stroke-width="2"/><path d="M200 100L300 200L200 300L100 200L200 100Z" fill="none" stroke="%238247e5" stroke-width="2"/><path d="M200 140L260 200L200 260L140 200L200 140Z" fill="none" stroke="%238247e5" stroke-width="2"/><circle cx="200" cy="200" r="20" fill="%238247e5"/></svg>') no-repeat center center;
-  opacity: 0.8;
-  animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {

@@ -197,6 +197,12 @@ const menuItems = reactive([
         description: "了解我们的使命与愿景",
       },
       {
+        title: "企业资质",
+        link: "/about#qualifications",
+        icon: "about",
+        description: "查看我们的专业认证与行业资质",
+      },
+      {
         title: "技术团队",
         link: "/about#team",
         icon: "about",

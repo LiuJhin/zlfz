@@ -2,6 +2,7 @@
   <div class="about-page">
     <AboutHero />
     <AboutMission />
+    <AboutQualifications />
     <AboutTeam />
     <AboutPartners />
     <AboutContact />
@@ -12,6 +13,7 @@
 // 导入关于我们页面的组件
 import AboutHero from '@/components/About/AboutHero.vue';
 import AboutMission from '@/components/About/AboutMission.vue';
+import AboutQualifications from '@/components/About/AboutQualifications.vue';
 import AboutTeam from '@/components/About/AboutTeam.vue';
 import AboutPartners from '@/components/About/AboutPartners.vue';
 import AboutContact from '@/components/About/AboutContact.vue';
