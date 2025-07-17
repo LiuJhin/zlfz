@@ -124,25 +124,25 @@ const menuItems = reactive([
     dropdownItems: [
       {
         title: "金融科技解决方案",
-        link: "#",
+        link: "/industry-solutions/fintech",
         icon: "solution",
         description: "为金融行业提供创新技术解决方案",
       },
       {
         title: "供应链管理方案",
-        link: "#",
+        link: "/industry-solutions/supply-chain",
         icon: "solution",
         description: "优化供应链流程的区块链解决方案",
       },
       {
         title: "数字身份认证",
-        link: "#",
+        link: "/industry-solutions/digital-identity",
         icon: "solution",
         description: "安全可靠的数字身份认证系统",
       },
       {
         title: "数据安全与隐私",
-        link: "#",
+        link: "/industry-solutions/data-security",
         icon: "solution",
         description: "保护数据安全与用户隐私的解决方案",
       },
