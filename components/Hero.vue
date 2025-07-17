@@ -14,40 +14,8 @@
       </div>
       <div class="hero-visual">
         <div class="hero-graphic">
-          <!-- 多边形图形动画 -->
-          <svg
-            width="500"
-            height="500"
-            viewBox="0 0 500 500"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="Polygon-graphic"
-          >
-            <path
-              class="Polygon-path"
-              d="M250 50L50 200L250 350L450 200L250 50Z"
-              fill="url(#Polygon-gradient)"
-            ></path>
-            <path
-              class="Polygon-path"
-              d="M250 350L50 200V350L250 500L450 350V200L250 350Z"
-              fill="url(#Polygon-gradient)"
-              opacity="0.7"
-            ></path>
-            <defs>
-              <linearGradient
-                id="Polygon-gradient"
-                x1="50"
-                y1="50"
-                x2="450"
-                y2="500"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop offset="0%" stop-color="#8247E5"></stop>
-                <stop offset="100%" stop-color="#6B38C1"></stop>
-              </linearGradient>
-            </defs>
-          </svg>
+          <!-- Three.js 立方体动画 -->
+          <HeroCube />
         </div>
       </div>
     </div>
@@ -73,6 +41,7 @@
 </template>
 
 <script setup>
+import HeroCube from './HeroCube.vue';
 // Hero组件逻辑
 </script>
 
@@ -173,12 +142,12 @@
   height: 500px;
 }
 
-.Polygon-graphic {
+/* Three.js容器样式 */
+.hero-graphic {
+  position: relative;
+  width: 500px;
+  height: 500px;
   animation: float 6s ease-in-out infinite;
-}
-
-.Polygon-path {
-  filter: drop-shadow(0 0 20px rgba(130, 71, 229, 0.4));
 }
 
 @keyframes float {

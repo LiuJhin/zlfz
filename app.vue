@@ -4,8 +4,7 @@
   </NuxtLayout>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style>
 /* 全局样式 */
