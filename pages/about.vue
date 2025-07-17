@@ -18,9 +18,9 @@ import AboutTeam from '@/components/About/AboutTeam.vue';
 import AboutPartners from '@/components/About/AboutPartners.vue';
 import AboutContact from '@/components/About/AboutContact.vue';
 
-// 定义此页面使用custom布局
+// 使用默认布局
 definePageMeta({
-  layout: "custom",
+  layout: "default",
 });
 </script>
 

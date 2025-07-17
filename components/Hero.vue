@@ -2,7 +2,7 @@
   <section class="hero-section">
     <div class="hero-container">
       <div class="hero-content">
-        <h1 class="hero-title">Polygon, Cloud computing technology.</h1>
+        <h1 class="hero-title">ZHILING ARK, Cloud computing technology.</h1>
         <p class="hero-description">
           Enabling an infinitely scalable web of sovereign blockchains that
           feels like a single chain. Powered by ZK tech.

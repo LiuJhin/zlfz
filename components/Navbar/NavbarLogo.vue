@@ -44,7 +44,7 @@
           </defs>
         </svg>
       </div>
-      <span class="logo-text">Polygon</span>
+      <span class="logo-text">ZHILING ARK</span>
     </NuxtLink>
   </div>
 </template>

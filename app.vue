@@ -4,6 +4,9 @@
   </NuxtLayout>
 </template>
 
+<script setup>
+</script>
+
 <style>
 /* 全局样式 */
 body {

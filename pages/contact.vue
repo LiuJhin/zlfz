@@ -36,9 +36,9 @@
 </template>
 
 <script setup>
-// 定义此页面使用custom布局
+// 使用默认布局
 definePageMeta({
-  layout: 'custom'
+  layout: 'default'
 });
 </script>
 
