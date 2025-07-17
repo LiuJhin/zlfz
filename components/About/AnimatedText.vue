@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch, nextTick } from 'vue';
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
 import { gsap } from 'gsap';
 
 const props = defineProps({
@@ -61,11 +61,18 @@ const createAnimation = () => {
     animation.kill();
   }
   
+  // 检查元素是否存在
+  const validElements = charElements.value.filter(el => el && el.nodeType === Node.ELEMENT_NODE);
+  if (validElements.length === 0) {
+    console.warn('AnimatedText: 没有找到有效的字符元素');
+    return;
+  }
+  
   // 获取动画类型
   const animType = ['fadeIn', 'slideUp', 'stagger', 'wave'].includes(props.type) ? props.type : props.animationType;
   
   // 重置元素状态
-  gsap.set(charElements.value, { 
+  gsap.set(validElements, { 
     autoAlpha: animType === 'fadeIn' ? 0 : 1,
     y: animType === 'slideUp' ? 20 : 0
   });
@@ -75,7 +82,7 @@ const createAnimation = () => {
   
   switch (animType) {
     case 'fadeIn':
-      animation = tl.to(charElements.value, {
+      animation = tl.to(validElements, {
         autoAlpha: 1,
         duration: props.duration,
         stagger: props.staggerAmount,
@@ -84,7 +91,7 @@ const createAnimation = () => {
       break;
       
     case 'slideUp':
-      animation = tl.to(charElements.value, {
+      animation = tl.to(validElements, {
         y: 0,
         autoAlpha: 1,
         duration: props.duration,
@@ -94,7 +101,7 @@ const createAnimation = () => {
       break;
       
     case 'stagger':
-      animation = tl.fromTo(charElements.value, 
+      animation = tl.fromTo(validElements, 
         { scale: 0, autoAlpha: 0 },
         { scale: 1, autoAlpha: 1, duration: props.duration, stagger: props.staggerAmount, ease: 'elastic.out(1, 0.3)' }
       );
@@ -102,7 +109,7 @@ const createAnimation = () => {
       
     case 'wave':
       // 波浪效果
-      animation = tl.fromTo(charElements.value,
+      animation = tl.fromTo(validElements,
         { y: 0 },
         { 
           y: -15,
@@ -125,11 +132,18 @@ const createAnimation = () => {
 const setupScrollTrigger = () => {
   if (!props.triggerOnScroll) return;
   
+  // 检查元素是否存在
+  const validElements = charElements.value.filter(el => el && el.nodeType === Node.ELEMENT_NODE);
+  if (validElements.length === 0) {
+    console.warn('AnimatedText: 滚动触发器没有找到有效的字符元素');
+    return;
+  }
+  
   // 获取动画类型
   const animType = ['fadeIn', 'slideUp', 'stagger', 'wave'].includes(props.type) ? props.type : props.animationType;
   
   // 初始隐藏所有字符
-  gsap.set(charElements.value, { 
+  gsap.set(validElements, { 
     autoAlpha: animType === 'fadeIn' ? 0 : 1,
     y: animType === 'slideUp' ? 20 : 0
   });
@@ -164,11 +178,17 @@ watch(() => props.text, () => {
 });
 
 onMounted(() => {
-  if (props.triggerOnScroll) {
-    setupScrollTrigger();
-  } else {
-    createAnimation();
-  }
+  // 使用nextTick确保DOM完全渲染
+  nextTick(() => {
+    // 添加小延迟确保ref绑定完成
+    setTimeout(() => {
+      if (props.triggerOnScroll) {
+        setupScrollTrigger();
+      } else {
+        createAnimation();
+      }
+    }, 50);
+  });
 });
 
 // 组件卸载前清理资源
