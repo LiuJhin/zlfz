@@ -4,24 +4,8 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2L2 7L12 12L22 7L12 2Z"
-                fill="var(--primary-color)"
-              />
-              <path
-                d="M12 12L2 7L2 17L12 22L22 17L22 7L12 12Z"
-                fill="var(--primary-color)"
-                opacity="0.5"
-              />
-            </svg>
-            <span class="logo-text">Polygon</span>
+            <img src="../assets/image/Bright-Graphic-logo.png" style="width: 70px;"/>
+            <span class="logo-text">ZHILING ARK</span>
           </div>
           <p class="brand-description">
             Enabling an infinitely scalable web of sovereign blockchains that
