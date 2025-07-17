@@ -155,31 +155,31 @@ const menuItems = reactive([
     dropdownItems: [
       {
         title: "成功案例集",
-        link: "#",
+        link: "/case-studies/success-stories",
         icon: "case",
         description: "浏览我们的成功客户案例",
       },
       {
         title: "金融行业",
-        link: "#",
+        link: "/case-studies/financial",
         icon: "case",
         description: "金融科技领域的创新应用",
       },
       {
         title: "供应链行业",
-        link: "#",
+        link: "/case-studies/supply-chain",
         icon: "case",
         description: "供应链管理的区块链应用",
       },
       {
         title: "医疗健康",
-        link: "#",
+        link: "/case-studies/healthcare",
         icon: "case",
         description: "医疗数据管理与共享解决方案",
       },
       {
         title: "政府服务",
-        link: "#",
+        link: "/case-studies/government",
         icon: "case",
         description: "提升政府服务效率的区块链应用",
       },

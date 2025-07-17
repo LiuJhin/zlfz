@@ -41,7 +41,7 @@
 </template>
 
 <script setup>
-import HeroCube from './HeroCube.vue';
+import HeroCube from "./HeroCube.vue";
 // Hero组件逻辑
 </script>
 
