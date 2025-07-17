@@ -18,8 +18,8 @@
             </div>
             <div class="info-content">
               <h3 class="info-title">公司地址</h3>
-              <p class="info-text">北京市海淀区中关村科技园区8号楼</p>
-              <p class="info-text">上海市浦东新区张江高科技园区18号</p>
+              <p class="info-text">新加坡总部：Singapore Innovation Hub</p>
+              <p class="info-text">亚太区域办公室：多个城市设有分支机构</p>
             </div>
           </div>
           
@@ -31,8 +31,8 @@
             </div>
             <div class="info-content">
               <h3 class="info-title">联系电话</h3>
-              <p class="info-text">400-888-8888</p>
-              <p class="info-text">+86 10 8888 8888</p>
+              <p class="info-text">+65 6xxx xxxx (新加坡总部)</p>
+              <p class="info-text">24/7 全球技术支持热线</p>
             </div>
           </div>
           
@@ -45,8 +45,8 @@
             </div>
             <div class="info-content">
               <h3 class="info-title">电子邮箱</h3>
-              <p class="info-text">info@company.com</p>
-              <p class="info-text">support@company.com</p>
+              <p class="info-text">info@zhilingark.com</p>
+              <p class="info-text">support@zhilingark.com</p>
             </div>
           </div>
           
@@ -93,7 +93,7 @@
         </div>
         
         <div class="contact-map">
-          <a href="https://maps.google.com/?q=北京市海淀区中关村科技园区" target="_blank">
+          <a href="https://maps.google.com/?q=Singapore+Innovation+Hub" target="_blank">
             <div class="map-placeholder">
               <div class="map-overlay">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

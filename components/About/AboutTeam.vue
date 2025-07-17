@@ -102,7 +102,7 @@ const teamMembers = ref([
     name: '张伟',
     initials: 'ZW',
     position: '创始人 & CEO',
-    description: '拥有10年区块链行业经验，曾在多家知名科技公司担任技术领导职位。专注于区块链技术的商业应用和生态系统建设。',
+    description: '拥有10年智能技术行业经验，曾在多家知名科技公司担任技术领导职位。专注于AI聚合平台的商业应用和智能化生态系统建设。',
     avatarColor: '#8247E5',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -113,7 +113,7 @@ const teamMembers = ref([
     name: '李明',
     initials: 'LM',
     position: '首席技术官',
-    description: '区块链架构专家，拥有丰富的分布式系统和密码学经验。曾主导多个大型区块链项目的技术架构设计和实现。',
+    description: '拥有15年云计算和AI技术研发经验，曾在多家知名科技公司担任技术负责人。专注于企业级AI聚合平台和智能中间件解决方案架构设计。',
     avatarColor: '#3B82F6',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -124,7 +124,7 @@ const teamMembers = ref([
     name: '王芳',
     initials: 'WF',
     position: '产品总监',
-    description: '专注于区块链产品设计和用户体验，擅长将复杂的技术概念转化为易用的产品。拥有多年金融科技产品管理经验。',
+    description: '资深产品经理，深度理解企业数字化转型需求和AI应用场景。擅长将复杂的技术概念转化为易用的智能化产品解决方案。',
     avatarColor: '#EC4899',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -135,7 +135,7 @@ const teamMembers = ref([
     name: '赵强',
     initials: 'ZQ',
     position: '研发主管',
-    description: '全栈开发专家，精通智能合约开发和区块链应用架构。曾参与多个知名区块链项目的核心开发工作。',
+    description: '全栈开发专家，精通云原生架构和AI中间件开发。曾参与多个大型企业级智能化平台的核心开发工作。',
     avatarColor: '#10B981',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -146,7 +146,7 @@ const teamMembers = ref([
     name: '陈静',
     initials: 'CJ',
     position: '解决方案架构师',
-    description: '专注于企业级区块链解决方案设计，擅长分析业务需求并提供最佳技术方案。拥有丰富的咨询和实施经验。',
+    description: '专注于企业级智能化解决方案设计，擅长分析业务需求并提供最佳的云计算和AI集成方案。拥有丰富的数字化转型咨询和实施经验。',
     avatarColor: '#F59E0B',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -157,7 +157,7 @@ const teamMembers = ref([
     name: '刘洋',
     initials: 'LY',
     position: '安全专家',
-    description: '区块链安全和密码学专家，专注于智能合约审计和安全漏洞分析。曾参与多个重要项目的安全评估工作。',
+    description: '云安全和数据治理专家，专注于企业级安全架构设计和合规性评估。曾参与多个重要的数字化转型项目的安全评估工作。',
     avatarColor: '#6366F1',
     social: [
       { platform: 'linkedin', link: '#' },

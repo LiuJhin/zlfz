@@ -20,8 +20,8 @@
       <div class="partnership-cta">
         <h3 class="cta-title">成为我们的合作伙伴</h3>
         <p class="cta-description">
-          我们欢迎各行各业的企业和组织与我们合作，共同探索区块链技术的应用场景和商业价值。
-          无论您是寻求技术解决方案，还是希望建立战略合作关系，我们都期待与您沟通交流。
+          我们欢迎各行各业的企业和组织与我们合作，共同探索智能技术在数字化转型中的应用场景和商业价值。
+          无论您是寻求AI聚合平台解决方案，还是希望建立战略合作关系，我们都期待与您沟通交流。
         </p>
         <a href="/contact" class="cta-button">联系我们</a>
       </div>
@@ -34,39 +34,39 @@ import { ref } from 'vue';
 
 const partners = ref([
   {
-    name: '科技创新集团',
-    initial: 'T',
-    description: '全球领先的科技企业，专注于人工智能和区块链技术的研发与应用。我们与其合作开发了多个创新项目。',
+    name: 'AWS',
+    initial: 'A',
+    description: '全球领先的云计算平台，我们基于AWS构建企业级AI聚合平台，为客户提供可扩展的智能化解决方案。',
     bgColor: '#3B82F6'
   },
   {
-    name: '金融科技公司',
-    initial: 'F',
-    description: '专注于金融科技领域的创新企业，我们共同打造了基于区块链的金融解决方案，提升交易效率和安全性。',
+    name: 'Microsoft Azure',
+    initial: 'M',
+    description: '微软云计算平台，我们利用Azure的AI服务和云基础设施，为企业提供智能中间件和自动化解决方案。',
     bgColor: '#10B981'
   },
   {
-    name: '供应链管理平台',
-    initial: 'S',
-    description: '全球知名的供应链管理平台，我们合作开发了区块链溯源系统，提高了供应链的透明度和可追溯性。',
+    name: 'Google Cloud',
+    initial: 'G',
+    description: '谷歌云平台，我们整合其先进的AI和机器学习服务，帮助企业实现智能化运营和数据洞察。',
     bgColor: '#F59E0B'
   },
   {
-    name: '医疗健康集团',
-    initial: 'H',
-    description: '领先的医疗健康服务提供商，我们共同研发了基于区块链的医疗数据管理系统，保障患者数据安全。',
+    name: 'Oracle',
+    initial: 'O',
+    description: '企业级数据库和云服务提供商，我们与Oracle合作为企业提供稳定可靠的数据管理和智能分析解决方案。',
     bgColor: '#EC4899'
   },
   {
-    name: '能源科技公司',
-    initial: 'E',
-    description: '专注于可再生能源领域的创新企业，我们合作开发了区块链能源交易平台，促进清洁能源的高效利用。',
+    name: '新加坡政府机构',
+    initial: 'S',
+    description: '新加坡政府技术部门，我们为政府数字化转型项目提供智能技术解决方案，提升公共服务效率。',
     bgColor: '#8B5CF6'
   },
   {
-    name: '政府机构',
-    initial: 'G',
-    description: '多个政府部门与我们合作，共同探索区块链技术在公共服务、数据共享和政务透明等领域的应用。',
+    name: '跨国企业集团',
+    initial: 'M',
+    description: '多家跨国企业与我们合作，通过我们的AI聚合平台和智能中间件实现全球业务的数字化转型和智能化运营。',
     bgColor: '#6366F1'
   },
   {
