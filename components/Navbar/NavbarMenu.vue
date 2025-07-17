@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 import NavbarMenuItem from "./NavbarMenuItem.vue";
 
 // 菜单数据，实际项目中可能从API获取或存储在store中

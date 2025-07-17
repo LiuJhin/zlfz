@@ -173,16 +173,24 @@ const createCube = () => {
   scene.add(cube);
 
   // 创建环境贴图以增强玻璃效果
-  cubeRenderTarget = new THREE.WebGLCubeRenderTarget(256);
-  cubeCamera = new THREE.CubeCamera(0.1, 1000, cubeRenderTarget);
-  scene.add(cubeCamera);
+  try {
+    cubeRenderTarget = new THREE.WebGLCubeRenderTarget(256);
+    cubeCamera = new THREE.CubeCamera(0.1, 1000, cubeRenderTarget);
+    scene.add(cubeCamera);
+  } catch (error) {
+    console.warn('创建环境贴图时出错:', error);
+    cubeRenderTarget = null;
+    cubeCamera = null;
+  }
 
   // 将环境贴图应用到所有材质
-  cube.traverse((object) => {
-    if (object.isMesh) {
-      object.material.envMap = cubeRenderTarget.texture;
-    }
-  });
+  if (cubeRenderTarget && cubeRenderTarget.texture) {
+    cube.traverse((object) => {
+      if (object.isMesh) {
+        object.material.envMap = cubeRenderTarget.texture;
+      }
+    });
+  }
 
   // 添加环境光
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
@@ -317,16 +325,20 @@ const animate = () => {
 
   // 更新场景中所有光晕效果的时间参数
   if (scene && typeof scene.traverse === 'function') {
-    scene.traverse((object) => {
-      if (
-        object &&
-        object.material &&
-        object.material.uniforms &&
-        object.material.uniforms.time !== undefined
-      ) {
-        object.material.uniforms.time.value = elapsedTime;
-      }
-    });
+    try {
+      scene.traverse((object) => {
+        if (
+          object &&
+          object.material &&
+          object.material.uniforms &&
+          object.material.uniforms.time !== undefined
+        ) {
+          object.material.uniforms.time.value = elapsedTime;
+        }
+      });
+    } catch (error) {
+      console.warn('更新光晕效果时出错:', error);
+    }
   }
 
   // 动画阶段控制
@@ -412,8 +424,12 @@ const animate = () => {
   }
 
   // 更新环境贴图
-  if (cubeCamera && cubeCamera.update && renderer && scene) {
-    cubeCamera.update(renderer, scene);
+  if (cubeCamera && cubeRenderTarget && cubeCamera.update && renderer && scene) {
+    try {
+      cubeCamera.update(renderer, scene);
+    } catch (error) {
+      console.warn('更新环境贴图时出错:', error);
+    }
   }
 
   // 渲染场景
@@ -445,34 +461,46 @@ onBeforeUnmount(() => {
 
   // 清理立方体组及其子对象
   if (cube && typeof cube.traverse === 'function') {
-    // 递归清理所有小立方体及其材质
-    cube.traverse((object) => {
-      if (object && object.isMesh) {
-        if (object.geometry) object.geometry.dispose();
+    try {
+      // 递归清理所有小立方体及其材质
+      cube.traverse((object) => {
+        if (object && object.isMesh) {
+          if (object.geometry) object.geometry.dispose();
 
-        // 处理材质
-        if (object.material) {
-          if (Array.isArray(object.material)) {
-            object.material.forEach((material) => {
-              if (material && material.map) material.map.dispose();
-              if (material) material.dispose();
-            });
-          } else {
-            if (object.material.map) object.material.map.dispose();
-            object.material.dispose();
+          // 处理材质
+          if (object.material) {
+            if (Array.isArray(object.material)) {
+              object.material.forEach((material) => {
+                if (material && material.map) material.map.dispose();
+                if (material) material.dispose();
+              });
+            } else {
+              if (object.material.map) object.material.map.dispose();
+              object.material.dispose();
+            }
           }
         }
-      }
-    });
+      });
+    } catch (error) {
+      console.warn('清理立方体时出错:', error);
+    }
 
-    if (scene) {
-      scene.remove(cube);
+    if (scene && typeof scene.remove === 'function') {
+      try {
+        scene.remove(cube);
+      } catch (error) {
+        console.warn('从场景中移除立方体时出错:', error);
+      }
     }
   }
 
   // 清理环境贴图资源
-  if (cubeRenderTarget) {
-    cubeRenderTarget.dispose();
+  if (cubeRenderTarget && typeof cubeRenderTarget.dispose === 'function') {
+    try {
+      cubeRenderTarget.dispose();
+    } catch (error) {
+      console.warn('清理cubeRenderTarget时出错:', error);
+    }
   }
 
   if (cubeCamera && scene) {
@@ -481,11 +509,15 @@ onBeforeUnmount(() => {
 
   // 清理场景中的所有光源
   if (scene && typeof scene.traverse === 'function') {
-    scene.traverse((object) => {
-      if (object && object.isLight) {
-        scene.remove(object);
-      }
-    });
+    try {
+      scene.traverse((object) => {
+        if (object && object.isLight) {
+          scene.remove(object);
+        }
+      });
+    } catch (error) {
+      console.warn('清理场景光源时出错:', error);
+    }
   }
 
   // 设置所有变量为null

@@ -3,8 +3,8 @@
     <div class="about-team-container">
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="section-header">
-          <AnimatedText tag="h2" class="section-title" type="slideUp" delay="0.1">我们的团队</AnimatedText>
-          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" delay="0.3">由行业专家组成的精英团队</AnimatedText>
+          <AnimatedText tag="h2" class="section-title" type="slideUp" :delay="0.1">我们的团队</AnimatedText>
+          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" :delay="0.3">由行业专家组成的精英团队</AnimatedText>
           <div class="section-divider"></div>
         </div>
       </ScrollAnimations>
@@ -17,8 +17,8 @@
                 {{ member.initials }}
               </div>
             </div>
-            <AnimatedText tag="h3" class="member-name" type="fadeIn" delay="0.1">{{ member.name }}</AnimatedText>
-            <AnimatedText tag="p" class="member-position" type="fadeIn" delay="0.2">{{ member.position }}</AnimatedText>
+            <AnimatedText tag="h3" class="member-name" type="fadeIn" :delay="0.1">{{ member.name }}</AnimatedText>
+            <AnimatedText tag="p" class="member-position" type="fadeIn" :delay="0.2">{{ member.position }}</AnimatedText>
             <p class="member-description">{{ member.description }}</p>
             <div class="member-social">
               <a v-for="social in member.social" :key="social.platform" :href="social.link" class="social-link" target="_blank">
@@ -41,7 +41,7 @@
       
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="join-team-section">
-          <AnimatedText tag="h3" class="join-team-title" type="wave" delay="0.1">加入我们的团队</AnimatedText>
+          <AnimatedText tag="h3" class="join-team-title" type="wave" :delay="0.1">加入我们的团队</AnimatedText>
           <p class="join-team-description">
             我们始终在寻找优秀的人才加入我们的团队。如果你对区块链技术充满热情，并希望参与到前沿技术的开发和应用中，欢迎加入我们！
           </p>

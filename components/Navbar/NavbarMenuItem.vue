@@ -5,6 +5,7 @@
       class="menu-link"
       @mouseenter="isOpen = true"
       @mouseleave="closeDropdownDelayed"
+      @click="handleLinkClick"
     >
       {{ title }}
       <span v-if="hasDropdown" class="dropdown-arrow">
@@ -40,6 +41,7 @@
           :key="item.title"
           :to="item.link"
           class="dropdown-item"
+          @click="handleDropdownItemClick($event, item.link)"
         >
           <div class="dropdown-item-icon" v-if="item.icon">
             <svg
@@ -116,6 +118,89 @@ const clearCloseTimeout = () => {
 // 立即关闭下拉菜单
 const closeDropdown = () => {
   isOpen.value = false;
+};
+
+// 处理链接点击事件，特别是带有锚点的链接
+const handleLinkClick = (event) => {
+  // 关闭下拉菜单
+  closeDropdown();
+
+  try {
+    // 如果链接包含锚点，处理锚点跳转
+    if (props.link && props.link.includes("#") && !props.link.startsWith("#")) {
+      const parts = props.link.split("#");
+      if (parts.length < 2) return; // 确保有路径和锚点
+      
+      const path = parts[0];
+      const hash = parts[1];
+      const currentPath = window.location.pathname;
+
+      // 如果已经在目标页面，手动滚动到锚点位置
+      if (
+        currentPath === path ||
+        (currentPath.endsWith("/") && path === currentPath.slice(0, -1)) ||
+        (path.endsWith("/") && currentPath === path.slice(0, -1)) ||
+        (path === "" || path === "/") // 处理只有锚点的情况
+      ) {
+        event.preventDefault();
+        
+        // 使用setTimeout确保DOM已完全加载
+        setTimeout(() => {
+          const targetElement = document.getElementById(hash);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+          } else {
+            console.warn(`目标元素 #${hash} 不存在`);
+          }
+        }, 100);
+      }
+    }
+  } catch (error) {
+    console.error('导航处理错误:', error);
+  }
+};
+
+// 处理下拉菜单项的点击事件
+const handleDropdownItemClick = (event, link) => {
+  // 关闭下拉菜单
+  closeDropdown();
+
+  try {
+    // 如果链接不存在或为空，直接返回
+    if (!link) return;
+    
+    // 如果链接包含锚点，处理锚点跳转
+    if (link.includes("#") && !link.startsWith("#")) {
+      const parts = link.split("#");
+      if (parts.length < 2) return; // 确保有路径和锚点
+      
+      const path = parts[0];
+      const hash = parts[1];
+      const currentPath = window.location.pathname;
+
+      // 如果已经在目标页面，手动滚动到锚点位置
+      if (
+        currentPath === path ||
+        (currentPath.endsWith("/") && path === currentPath.slice(0, -1)) ||
+        (path.endsWith("/") && currentPath === path.slice(0, -1)) ||
+        (path === "" || path === "/") // 处理只有锚点的情况
+      ) {
+        event.preventDefault();
+        
+        // 使用setTimeout确保DOM已完全加载
+        setTimeout(() => {
+          const targetElement = document.getElementById(hash);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+          } else {
+            console.warn(`目标元素 #${hash} 不存在`);
+          }
+        }, 500); // 增加延迟时间，确保DOM已更新
+      }
+    }
+  } catch (error) {
+    console.error('下拉菜单导航处理错误:', error);
+  }
 };
 
 // 获取图标路径

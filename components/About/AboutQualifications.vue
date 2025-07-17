@@ -3,8 +3,8 @@
     <div class="about-qualifications-container">
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="section-header">
-          <AnimatedText tag="h2" class="section-title" type="slideUp" delay="0.1">企业资质</AnimatedText>
-          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" delay="0.3">我们的专业认证与行业资质</AnimatedText>
+          <AnimatedText tag="h2" class="section-title" type="slideUp" :delay="0.1">企业资质</AnimatedText>
+          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" :delay="0.3">我们的专业认证与行业资质</AnimatedText>
           <div class="section-divider"></div>
         </div>
       </ScrollAnimations>
@@ -19,7 +19,7 @@
               </svg>
             </div>
             <div class="qualification-content">
-              <AnimatedText tag="h3" class="qualification-title" type="fadeIn" delay="0.1">{{ qualification.title }}</AnimatedText>
+              <AnimatedText tag="h3" class="qualification-title" type="fadeIn" :delay="0.1">{{ qualification.title }}</AnimatedText>
               <p class="qualification-description">{{ qualification.description }}</p>
               <div class="qualification-details">
                 <div class="qualification-detail">
@@ -42,7 +42,7 @@
       
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="certifications-section">
-          <AnimatedText tag="h3" class="certifications-title" type="wave" delay="0.1">行业认证</AnimatedText>
+          <AnimatedText tag="h3" class="certifications-title" type="wave" :delay="0.1">行业认证</AnimatedText>
           <ScrollAnimations type="stagger" stagger="0.1" threshold="0.1">
             <div class="certifications-grid">
               <div v-for="(certification, index) in certifications" :key="index" class="certification-item">
@@ -50,7 +50,7 @@
                   <span class="certification-abbr">{{ certification.abbr }}</span>
                 </div>
                 <div class="certification-content">
-                  <AnimatedText tag="h4" class="certification-name" type="fadeIn" delay="0.1">{{ certification.name }}</AnimatedText>
+                  <AnimatedText tag="h4" class="certification-name" type="fadeIn" :delay="0.1">{{ certification.name }}</AnimatedText>
                   <p class="certification-description">{{ certification.description }}</p>
                 </div>
               </div>

@@ -1,31 +1,30 @@
 <template>
   <div class="animated-text-container">
-    <h1 v-if="type === 'heading'" class="animated-heading">
+    <component :is="tag || (type === 'heading' ? 'h1' : (type === 'paragraph' ? 'p' : 'p'))" :class="type === 'heading' ? 'animated-heading' : 'animated-paragraph'">
       <span v-for="(char, index) in characters" :key="index" class="char" :ref="el => charElements[index] = el">
         {{ char === ' ' ? '&nbsp;' : char }}
       </span>
-    </h1>
-    <p v-else-if="type === 'paragraph'" class="animated-paragraph">
-      <span v-for="(char, index) in characters" :key="index" class="char" :ref="el => charElements[index] = el">
-        {{ char === ' ' ? '&nbsp;' : char }}
-      </span>
-    </p>
+    </component>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, watch, nextTick } from 'vue';
 import { gsap } from 'gsap';
 
 const props = defineProps({
   text: {
     type: String,
-    required: true
+    default: ''
+  },
+  tag: {
+    type: String,
+    default: ''
   },
   type: {
     type: String,
     default: 'heading',
-    validator: (value) => ['heading', 'paragraph'].includes(value)
+    validator: (value) => ['heading', 'paragraph', 'fadeIn', 'slideUp', 'stagger', 'wave'].includes(value)
   },
   animationType: {
     type: String,
@@ -50,7 +49,7 @@ const props = defineProps({
   }
 });
 
-const characters = computed(() => props.text.split(''));
+const characters = computed(() => props.text ? props.text.split('') : []);
 const charElements = ref([]);
 let animation = null;
 let observer = null;
@@ -62,16 +61,19 @@ const createAnimation = () => {
     animation.kill();
   }
   
+  // 获取动画类型
+  const animType = ['fadeIn', 'slideUp', 'stagger', 'wave'].includes(props.type) ? props.type : props.animationType;
+  
   // 重置元素状态
   gsap.set(charElements.value, { 
-    autoAlpha: props.animationType === 'fadeIn' ? 0 : 1,
-    y: props.animationType === 'slideUp' ? 20 : 0
+    autoAlpha: animType === 'fadeIn' ? 0 : 1,
+    y: animType === 'slideUp' ? 20 : 0
   });
   
   // 创建新动画
   const tl = gsap.timeline({ delay: props.delay });
   
-  switch (props.animationType) {
+  switch (animType) {
     case 'fadeIn':
       animation = tl.to(charElements.value, {
         autoAlpha: 1,
@@ -123,10 +125,13 @@ const createAnimation = () => {
 const setupScrollTrigger = () => {
   if (!props.triggerOnScroll) return;
   
+  // 获取动画类型
+  const animType = ['fadeIn', 'slideUp', 'stagger', 'wave'].includes(props.type) ? props.type : props.animationType;
+  
   // 初始隐藏所有字符
   gsap.set(charElements.value, { 
-    autoAlpha: props.animationType === 'fadeIn' ? 0 : 1,
-    y: props.animationType === 'slideUp' ? 20 : 0
+    autoAlpha: animType === 'fadeIn' ? 0 : 1,
+    y: animType === 'slideUp' ? 20 : 0
   });
   
   // 创建Intersection Observer

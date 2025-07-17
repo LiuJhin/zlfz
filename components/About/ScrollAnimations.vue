@@ -31,8 +31,16 @@ const props = defineProps({
     default: 0.1
   },
   threshold: {
-    type: Number,
-    default: 0.2
+    type: [Number, String],
+    default: 0.2,
+    validator: (value) => {
+      // 如果是字符串，尝试转换为数字
+      if (typeof value === 'string') {
+        const num = parseFloat(value);
+        return !isNaN(num);
+      }
+      return typeof value === 'number';
+    }
   },
   direction: {
     type: String,
@@ -160,9 +168,10 @@ const createScrollAnimation = () => {
   }
   
   // 创建ScrollTrigger配置
+  const thresholdValue = typeof props.threshold === 'string' ? parseFloat(props.threshold) : props.threshold;
   const scrollConfig = {
     trigger: container.value,
-    start: `top ${100 - props.threshold * 100}%`,
+    start: `top ${100 - thresholdValue * 100}%`,
     markers: props.markers,
     toggleActions: 'play none none reverse'
   };
