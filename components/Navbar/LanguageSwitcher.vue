@@ -76,13 +76,18 @@ const isOpen = ref(false);
 const languages = [
   {
     code: "zh",
-    name: "中文",
-    flag: "🇨🇳",
+    name: "Chinese",
+    flag: "🇨",
   },
   {
     code: "en",
     name: "English",
-    flag: "🇺🇸",
+    flag: "🇺",
+  },
+  {
+    code: "jp",
+    name: "Japanese",
+    flag: "🇯🇵",
   },
 ];
 

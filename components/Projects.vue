@@ -3,7 +3,7 @@
     <div class="projects-container">
       <div class="section-header">
         <h2 class="section-title">
-          Projects built <span class="highlight">#onPolygon</span>
+          {{ $t("projects.title") }} <span class="highlight">#onPolygon</span>
         </h2>
       </div>
 
@@ -11,11 +11,13 @@
         <div class="project-card">
           <div class="project-number">01</div>
           <div class="project-content">
-            <h3 class="project-title">Unstoppable Domains</h3>
+            <h3 class="project-title">
+              {{ $t("projects.items.unstoppableDomains.title") }}
+            </h3>
             <p class="project-description">
-              Own your identity in the digital world with your own Web3 domain
+              {{ $t("projects.items.unstoppableDomains.description") }}
             </p>
-            <a href="#" class="project-link">Learn More</a>
+            <a href="#" class="project-link">{{ $t("projects.learnMore") }}</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">
@@ -43,12 +45,11 @@
         <div class="project-card">
           <div class="project-number">02</div>
           <div class="project-content">
-            <h3 class="project-title">Aave</h3>
+            <h3 class="project-title">{{ $t("projects.items.aave.title") }}</h3>
             <p class="project-description">
-              Open source and non-custodial liquidity protocol for earning
-              interest and borrowing assets
+              {{ $t("projects.items.aave.description") }}
             </p>
-            <a href="#" class="project-link">Learn More</a>
+            <a href="#" class="project-link">{{ $t("projects.learnMore") }}</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">
@@ -76,12 +77,13 @@
         <div class="project-card">
           <div class="project-number">03</div>
           <div class="project-content">
-            <h3 class="project-title">Uniswap</h3>
+            <h3 class="project-title">
+              {{ $t("projects.items.uniswap.title") }}
+            </h3>
             <p class="project-description">
-              A decentralized protocol for automated liquidity provision on
-              Ethereum
+              {{ $t("projects.items.uniswap.description") }}
             </p>
-            <a href="#" class="project-link">Learn More</a>
+            <a href="#" class="project-link">{{ $t("projects.learnMore") }}</a>
           </div>
           <div class="project-image">
             <div class="image-placeholder">

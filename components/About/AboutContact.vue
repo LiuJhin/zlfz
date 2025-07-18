@@ -2,8 +2,8 @@
   <section class="about-contact">
     <div class="about-contact-container">
       <div class="section-header">
-        <h2 class="section-title">联系我们</h2>
-        <p class="section-subtitle">随时与我们取得联系</p>
+        <h2 class="section-title">{{ $t('about.contact.title') }}</h2>
+        <p class="section-subtitle">{{ $t('about.contact.subtitle') }}</p>
         <div class="section-divider"></div>
       </div>
 
@@ -35,9 +35,9 @@
               </svg>
             </div>
             <div class="info-content">
-              <h3 class="info-title">公司地址</h3>
-              <p class="info-text">新加坡总部：Singapore Innovation Hub</p>
-              <p class="info-text">亚太区域办公室：多个城市设有分支机构</p>
+              <h3 class="info-title">{{ $t('about.contact.address.title') }}</h3>
+              <p class="info-text">{{ $t('about.contact.address.headquarters') }}</p>
+              <p class="info-text">{{ $t('about.contact.address.regional') }}</p>
             </div>
           </div>
 
@@ -60,9 +60,9 @@
               </svg>
             </div>
             <div class="info-content">
-              <h3 class="info-title">联系电话</h3>
-              <p class="info-text">+65 6xxx xxxx (新加坡总部)</p>
-              <p class="info-text">24/7 全球技术支持热线</p>
+              <h3 class="info-title">{{ $t('about.contact.phone.title') }}</h3>
+              <p class="info-text">{{ $t('about.contact.phone.headquarters') }}</p>
+              <p class="info-text">{{ $t('about.contact.phone.support') }}</p>
             </div>
           </div>
 
@@ -92,9 +92,9 @@
               </svg>
             </div>
             <div class="info-content">
-              <h3 class="info-title">电子邮箱</h3>
-              <p class="info-text">info@zhilingark.com</p>
-              <p class="info-text">support@zhilingark.com</p>
+              <h3 class="info-title">{{ $t('about.contact.email.title') }}</h3>
+              <p class="info-text">{{ $t('about.contact.email.info') }}</p>
+              <p class="info-text">{{ $t('about.contact.email.support') }}</p>
             </div>
           </div>
 
@@ -138,7 +138,7 @@
               </svg>
             </div>
             <div class="info-content">
-              <h3 class="info-title">社交媒体</h3>
+              <h3 class="info-title">{{ $t('about.contact.social.title') }}</h3>
               <div class="social-links">
                 <a
                   href="https://weixin.qq.com/"
@@ -297,7 +297,7 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p>点击查看地图</p>
+                <p>{{ $t('about.contact.map.clickToView') }}</p>
               </div>
             </div>
           </a>
@@ -305,55 +305,55 @@
       </div>
 
       <div class="contact-form-section">
-        <h3 class="form-title">发送消息</h3>
+        <h3 class="form-title">{{ $t('about.contact.form.title') }}</h3>
         <p class="form-description">
-          如果您有任何问题或建议，请随时与我们联系。我们将尽快回复您。
+          {{ $t('about.contact.form.description') }}
         </p>
 
         <form class="contact-form" @submit="handleSubmit">
           <div class="form-row">
             <div class="form-group">
-              <label for="name">姓名</label>
+              <label for="name">{{ $t('about.contact.form.name') }}</label>
               <input
                 type="text"
                 id="name"
-                placeholder="请输入您的姓名"
+                :placeholder="$t('about.contact.form.namePlaceholder')"
                 required
               />
             </div>
 
             <div class="form-group">
-              <label for="email">邮箱</label>
+              <label for="email">{{ $t('about.contact.form.email') }}</label>
               <input
                 type="email"
                 id="email"
-                placeholder="请输入您的邮箱"
+                :placeholder="$t('about.contact.form.emailPlaceholder')"
                 required
               />
             </div>
           </div>
 
           <div class="form-group">
-            <label for="subject">主题</label>
+            <label for="subject">{{ $t('about.contact.form.subject') }}</label>
             <input
               type="text"
               id="subject"
-              placeholder="请输入消息主题"
+              :placeholder="$t('about.contact.form.subjectPlaceholder')"
               required
             />
           </div>
 
           <div class="form-group">
-            <label for="message">消息</label>
+            <label for="message">{{ $t('about.contact.form.message') }}</label>
             <textarea
               id="message"
               rows="5"
-              placeholder="请输入您的消息内容"
+              :placeholder="$t('about.contact.form.messagePlaceholder')"
               required
             ></textarea>
           </div>
 
-          <button type="submit" class="submit-button">发送消息</button>
+          <button type="submit" class="submit-button">{{ $t('about.contact.form.submit') }}</button>
         </form>
       </div>
     </div>

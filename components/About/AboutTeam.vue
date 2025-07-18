@@ -3,8 +3,8 @@
     <div class="about-team-container">
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="section-header">
-          <AnimatedText tag="h2" class="section-title" type="slideUp" :delay="0.1">我们的团队</AnimatedText>
-          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" :delay="0.3">由行业专家组成的精英团队</AnimatedText>
+          <AnimatedText tag="h2" class="section-title" type="slideUp" :delay="0.1">{{ $t('about.team.title') }}</AnimatedText>
+          <AnimatedText tag="p" class="section-subtitle" type="fadeIn" :delay="0.3">{{ $t('about.team.subtitle') }}</AnimatedText>
           <div class="section-divider"></div>
         </div>
       </ScrollAnimations>
@@ -17,9 +17,9 @@
                 {{ member.initials }}
               </div>
             </div>
-            <AnimatedText tag="h3" class="member-name" type="fadeIn" :delay="0.1">{{ member.name }}</AnimatedText>
-            <AnimatedText tag="p" class="member-position" type="fadeIn" :delay="0.2">{{ member.position }}</AnimatedText>
-            <p class="member-description">{{ member.description }}</p>
+            <AnimatedText tag="h3" class="member-name" type="fadeIn" :delay="0.1">{{ $t(`about.team.members.${member.key}.name`) }}</AnimatedText>
+            <AnimatedText tag="p" class="member-position" type="fadeIn" :delay="0.2">{{ $t(`about.team.members.${member.key}.position`) }}</AnimatedText>
+            <p class="member-description">{{ $t(`about.team.members.${member.key}.description`) }}</p>
             <div class="member-social">
               <a v-for="social in member.social" :key="social.platform" :href="social.link" class="social-link" target="_blank">
                 <svg v-if="social.platform === 'linkedin'" class="svg-animate" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,11 +41,11 @@
       
       <ScrollAnimations type="fadeIn" threshold="0.1">
         <div class="join-team-section">
-          <AnimatedText tag="h3" class="join-team-title" type="wave" :delay="0.1">加入我们的团队</AnimatedText>
+          <AnimatedText tag="h3" class="join-team-title" type="wave" :delay="0.1">{{ $t('about.team.join.title') }}</AnimatedText>
           <p class="join-team-description">
-            我们始终在寻找优秀的人才加入我们的团队。如果你对区块链技术充满热情，并希望参与到前沿技术的开发和应用中，欢迎加入我们！
+            {{ $t('about.team.join.description') }}
           </p>
-          <a href="/contact" class="join-team-button shine-effect">查看职位空缺</a>
+          <a href="/contact" class="join-team-button shine-effect">{{ $t('about.team.join.button') }}</a>
         </div>
       </ScrollAnimations>
     </div>
@@ -99,10 +99,8 @@ onBeforeUnmount(() => {
 
 const teamMembers = ref([
   {
-    name: '张伟',
+    key: 'zhangwei',
     initials: 'ZW',
-    position: '创始人 & CEO',
-    description: '拥有10年智能技术行业经验，曾在多家知名科技公司担任技术领导职位。专注于AI聚合平台的商业应用和智能化生态系统建设。',
     avatarColor: '#8247E5',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -110,10 +108,8 @@ const teamMembers = ref([
     ]
   },
   {
-    name: '李明',
+    key: 'liming',
     initials: 'LM',
-    position: '首席技术官',
-    description: '拥有15年云计算和AI技术研发经验，曾在多家知名科技公司担任技术负责人。专注于企业级AI聚合平台和智能中间件解决方案架构设计。',
     avatarColor: '#3B82F6',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -121,10 +117,8 @@ const teamMembers = ref([
     ]
   },
   {
-    name: '王芳',
+    key: 'wangfang',
     initials: 'WF',
-    position: '产品总监',
-    description: '资深产品经理，深度理解企业数字化转型需求和AI应用场景。擅长将复杂的技术概念转化为易用的智能化产品解决方案。',
     avatarColor: '#EC4899',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -132,10 +126,8 @@ const teamMembers = ref([
     ]
   },
   {
-    name: '赵强',
+    key: 'zhaoqiang',
     initials: 'ZQ',
-    position: '研发主管',
-    description: '全栈开发专家，精通云原生架构和AI中间件开发。曾参与多个大型企业级智能化平台的核心开发工作。',
     avatarColor: '#10B981',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -143,10 +135,8 @@ const teamMembers = ref([
     ]
   },
   {
-    name: '陈静',
+    key: 'chenjing',
     initials: 'CJ',
-    position: '解决方案架构师',
-    description: '专注于企业级智能化解决方案设计，擅长分析业务需求并提供最佳的云计算和AI集成方案。拥有丰富的数字化转型咨询和实施经验。',
     avatarColor: '#F59E0B',
     social: [
       { platform: 'linkedin', link: '#' },
@@ -154,10 +144,8 @@ const teamMembers = ref([
     ]
   },
   {
-    name: '刘洋',
+    key: 'liuyang',
     initials: 'LY',
-    position: '安全专家',
-    description: '云安全和数据治理专家，专注于企业级安全架构设计和合规性评估。曾参与多个重要的数字化转型项目的安全评估工作。',
     avatarColor: '#6366F1',
     social: [
       { platform: 'linkedin', link: '#' },

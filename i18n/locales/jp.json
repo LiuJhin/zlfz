@@ -1,0 +1,454 @@
+{
+  "welcome": "ようこそ",
+  "hello": "こんにちは",
+  "about": "会社概要",
+  "contact": "お問い合わせ",
+  "home": "ホーム",
+  "language": "言語",
+  "switchLanguage": "言語切替",
+  "theme": "テーマ",
+  "darkMode": "ダークモード",
+  "lightMode": "ライトモード",
+  "switchTheme": "テーマ切替",
+  "messages": {
+    "welcome": "当ウェブサイトへようこそ",
+    "description": "Nuxt.jsとi18nで構築された多言語対応ウェブサイトです"
+  },
+  "buttons": {
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "save": "保存"
+  },
+  "hero": {
+    "title": "未来のブロックチェーンソリューション構築",
+    "description": "企業向けブロックチェーン技術サービスを提供し、デジタルトランスフォーメーションを支援します。コンサルティングから技術実装まで、安全で効率的かつスケーラブルなブロックチェーンアプリケーションを構築します。",
+    "getStarted": "今すぐ始める",
+    "learnMore": "詳細を見る",
+    "stats": {
+      "contractCreators": "契約作成者数",
+      "uniqueAddresses": "ユニークアドレス数",
+      "transactions": "総取引数",
+      "avgCost": "平均コスト"
+    }
+  },
+  "features": {
+    "title": "人気のスケーリング技術",
+    "learnMore": "詳細を見る",
+    "items": {
+      "polygonPos": {
+        "title": "Polygon PoS",
+        "description": "最も広く使用されているイーサリアムスケーリングエコシステムをサポートし、EVM互換性と高速取引、ほぼゼロのガス代による究極のユーザー体験を提供します。"
+      },
+      "polygonZkEvm": {
+        "title": "Polygon zkEVM",
+        "description": "セキュリティを維持しながらイーサリアムの拡張性を解放する、EVM等価性を提供する初のZKロールアップで、高速取引とほぼゼロのガスコストを実現します。"
+      },
+      "miden": {
+        "title": "Miden",
+        "description": "プライベートデータストレージとローカル取引実行を活用した分散型ロールアップ。プライバシーでより良いスケーリングを実現。"
+      },
+      "agglayerCdk": {
+        "title": "Agglayer CDK",
+        "description": "業界をリードするZK技術とエコシステムを使用してイーサリアムレイヤー2ソリューションを構築します。"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "会社概要",
+      "subtitle": "グローバルインテリジェントテクノロジーソリューションプロバイダー",
+      "description": "ZHILING ARK TECHNOLOGY PTE. LTD. はシンガポールに本社を置くグローバルなインテリジェントテクノロジーソリューションプロバイダーです。先進的なクラウドコンピューティングとAI統合技術を通じて、企業に次世代デジタルトランスフォーメーションとインテリジェントオートメーションソリューションを提供します。企業向けAI統合プラットフォームとスマートミドルウェアソリューションを構築し、異なるシステムを統合、クロスプラットフォームデータ連携を簡素化、大規模なインテリジェント自動運用を実現します。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "お気軽にお問い合わせください",
+      "address": {
+        "title": "会社住所",
+        "headquarters": "シンガポール本社：Singapore Innovation Hub",
+        "regional": "アジア太平洋地域オフィス：複数都市に支店"
+      },
+      "phone": {
+        "title": "電話番号",
+        "headquarters": "+65 6xxx xxxx (シンガポール本社)",
+        "support": "24/7 グローバル技術サポートホットライン"
+      },
+      "email": {
+        "title": "メールアドレス",
+        "info": "info{'@'}zhilingark.com",
+        "support": "support{'@'}zhilingark.com"
+      },
+      "social": {
+        "title": "ソーシャルメディア"
+      },
+      "map": {
+        "clickToView": "地図を表示"
+      },
+      "form": {
+        "title": "メッセージ送信",
+        "description": "ご質問やご提案がございましたら、お気軽にお問い合わせください。できるだけ早くご返信いたします。",
+        "name": "お名前",
+        "namePlaceholder": "お名前を入力してください",
+        "email": "メールアドレス",
+        "emailPlaceholder": "メールアドレスを入力してください",
+        "subject": "件名",
+        "subjectPlaceholder": "メッセージの件名を入力してください",
+        "message": "メッセージ",
+        "messagePlaceholder": "メッセージ内容を入力してください",
+        "submit": "メッセージを送信"
+      }
+    },
+    "partners": {
+      "title": "パートナー",
+      "subtitle": "業界リーダーとの共同イノベーション",
+      "items": {
+        "aws": {
+          "name": "AWS",
+          "description": "世界をリードするクラウドプラットフォーム。AWS上に企業向けAI統合プラットフォームを構築し、スケーラブルなインテリジェントソリューションを提供します。"
+        },
+        "azure": {
+          "name": "Microsoft Azure",
+          "description": "マイクロソフトのクラウドプラットフォーム。AzureのAIサービスとクラウドインフラを活用し、スマートミドルウェアと自動化ソリューションを提供します。"
+        },
+        "googleCloud": {
+          "name": "Google Cloud",
+          "description": "Google Cloud Platform。先進的なAIと機械学習サービスを統合し、企業のインテリジェント運用とデータ分析を支援します。"
+        },
+        "oracle": {
+          "name": "Oracle",
+          "description": "企業向けデータベースとクラウドサービスプロバイダー。Oracleと協力し、信頼性の高いデータ管理とインテリジェント分析ソリューションを提供します。"
+        },
+        "singapore": {
+          "name": "シンガポール政府機関",
+          "description": "シンガポール政府技術部門。政府のデジタルトランスフォーメーションプロジェクトにインテリジェント技術ソリューションを提供し、公共サービス効率を向上させます。"
+        },
+        "multinational": {
+          "name": "多国籍企業グループ",
+          "description": "多数の多国籍企業と提携し、当社のAI統合プラットフォームとスマートミドルウェアを通じてグローバル事業のデジタルトランスフォーメーションとインテリジェント運用を実現します。"
+        },
+        "education": {
+          "name": "教育研究機関",
+          "description": "有名大学や研究機関。共同でブロックチェーン技術研究を実施し、専門人材を育成、技術革新と応用を推進します。"
+        },
+        "retail": {
+          "name": "小売企業グループ",
+          "description": "大手小売企業。ブロックチェーンを活用したロイヤルティプログラムと偽造防止追跡システムを共同開発し、顧客体験とブランド価値を向上させます。"
+        }
+      },
+      "cta": {
+        "title": "パートナーになる",
+        "description": "あらゆる業界の企業や組織との協力を歓迎します。デジタルトランスフォーメーションにおけるインテリジェント技術の応用とビジネス価値を共に探求しましょう。AI統合プラットフォームソリューションが必要な場合も、戦略的提携を希望する場合も、ご連絡をお待ちしております。",
+        "button": "お問い合わせ"
+      }
+    },
+    "team": {
+      "title": "チーム紹介",
+      "subtitle": "業界の専門家で構成される精鋭チーム",
+      "members": {
+        "zhangwei": {
+          "name": "張偉",
+          "position": "創業者 & CEO",
+          "description": "10年のインテリジェント技術業界経験。複数の有名テクノロジー企業で技術リーダー職を歴任。AI統合プラットフォームの商業応用とインテリジェントエコシステム構築に注力。"
+        },
+        "liming": {
+          "name": "李明",
+          "position": "最高技術責任者",
+          "description": "15年のクラウドおよびAI技術開発経験。複数の有名テクノロジー企業で技術責任者を歴任。企業向けAI統合プラットフォームとスマートミドルウェアソリューションのアーキテクチャ設計に特化。"
+        },
+        "wangfang": {
+          "name": "王芳",
+          "position": "プロダクトディレクター",
+          "description": "ベテランプロダクトマネージャー。企業のデジタルトランスフォーメーション需要とAI応用シーンを深く理解。複雑な技術概念を使いやすいインテリジェントソリューションに変換することを得意とする。"
+        },
+        "zhaoqiang": {
+          "name": "趙強",
+          "position": "開発責任者",
+          "description": "フルスタック開発エキスパート。クラウドネイティブアーキテクチャとAIミドルウェア開発に精通。複数の大規模企業向けインテリジェントプラットフォームのコア開発に参加。"
+        },
+        "chenjing": {
+          "name": "陳静",
+          "position": "ソリューションアーキテクト",
+          "description": "企業向けインテリジェントソリューション設計に特化。業務ニーズを分析し最適なクラウド・AI統合ソリューションを提供することを得意とする。豊富なデジタルトランスフォーメーションコンサルティング・実装経験を有する。"
+        },
+        "liuyang": {
+          "name": "劉洋",
+          "position": "セキュリティ専門家",
+          "description": "クラウドセキュリティとデータガバナンスのエキスパート。企業向けセキュリティアーキテクチャ設計とコンプライアンス評価に注力。複数の重要なデジタルトランスフォーメーションプロジェクトのセキュリティ評価に参加。"
+        }
+      },
+      "join": {
+        "title": "チームに参加する",
+        "description": "優秀な人材を常に募集しています。ブロックチェーン技術に情熱を持ち、最先端技術の開発と応用に参加したい方は、ぜひご参加ください！",
+        "button": "募集ポジションを見る"
+      }
+    },
+    "qualifications": {
+      "title": "企業資格",
+      "subtitle": "専門認証と業界資格",
+      "certifications": {
+        "title": "業界認証"
+      },
+      "items": {
+        "highTech": {
+          "title": "ハイテク企業認証",
+          "description": "国が認定するハイテク企業で、中核的な自主知的財産権を保有"
+        },
+        "software": {
+          "title": "ソフトウェア企業認定",
+          "description": "国家規定のソフトウェア企業認定基準を満たす"
+        },
+        "iso9001": {
+          "title": "ISO 9001品質管理システム認証",
+          "description": "国際標準化機構品質管理システム認証"
+        },
+        "iso27001": {
+          "title": "ISO 27001情報セキュリティ管理システム認証",
+          "description": "国際標準化機構情報セキュリティ管理システム認証"
+        }
+      },
+      "certificationItems": {
+        "bsn": {
+          "name": "ブロックチェーンサービスネットワーク認証",
+          "description": "ブロックチェーンサービスネットワーク公式認定プロバイダー"
+        },
+        "tcbp": {
+          "name": "信頼できるブロックチェーン推進計画メンバー",
+          "description": "中国情報通信研究院 信頼できるブロックチェーン推進計画メンバー"
+        },
+        "mlps": {
+          "name": "ネットワークセキュリティ等級保護",
+          "description": "国家ネットワークセキュリティ等級保護レベル3認証を取得"
+        },
+        "ccss": {
+          "name": "クラウドコンピューティングサービスセキュリティ評価",
+          "description": "国家クラウドコンピューティングサービスセキュリティ評価を通過"
+        }
+      },
+      "labels": {
+        "certNumber": "認証番号:",
+        "issueDate": "発行日:",
+        "validUntil": "有効期限:"
+      }
+    }
+  },
+  "projects": {
+    "title": "Polygon上に構築されたプロジェクト",
+    "learnMore": "詳細を見る",
+    "items": {
+      "unstoppableDomains": {
+        "title": "Unstoppable Domains",
+        "description": "Web3ドメインを所有し、デジタルアイデンティティを管理"
+      },
+      "aave": {
+        "title": "Aave",
+        "description": "オープンソースの非保管型流動性プロトコル。資産の貸借と利息獲得が可能"
+      },
+      "uniswap": {
+        "title": "Uniswap",
+        "description": "イーサリアム上の自動流動性提供のための分散型プロトコル"
+      }
+    }
+  },
+  "navbar": {
+    "solutions": "ソリューション",
+    "cloudServices": "クラウドサービス",
+    "community": "コミュニティ",
+    "industrySolutions": "業界ソリューション",
+    "caseStudies": "導入事例",
+    "aboutUs": "会社概要",
+    "docs": "ドキュメント",
+    "menu": {
+      "solutions": {
+        "title": "ソリューション",
+        "enterprise": {
+          "title": "企業向けソリューション",
+          "description": "企業に包括的なブロックチェーンソリューションを提供"
+        },
+        "devTools": {
+          "title": "開発者ツール",
+          "description": "アプリケーション迅速構築を支援する強力なツールセット"
+        },
+        "blockchain": {
+          "title": "ブロックチェーンサービス",
+          "description": "安全で信頼性の高いブロックチェーン基盤サービス"
+        }
+      },
+      "cloudServices": {
+        "title": "クラウドサービス",
+        "strategy": {
+          "title": "クラウド戦略コンサルティング",
+          "description": "専門的なクラウド戦略計画とコンサルティング"
+        },
+        "technical": {
+          "title": "クラウド技術専門サービス",
+          "description": "包括的なクラウド技術サポートと専門サービス"
+        },
+        "operations": {
+          "title": "クラウド運用管理サービス",
+          "description": "効率的なクラウドプラットフォームの運用管理"
+        },
+        "security": {
+          "title": "クラウドセキュリティ保護サービス",
+          "description": "包括的なクラウドセキュリティ保護と脅威検知"
+        },
+        "costOptimization": {
+          "title": "クラウドコスト最適化サービス",
+          "description": "インテリジェントなクラウドコスト分析と最適化サービス"
+        },
+        "migration": {
+          "title": "クラウド移行サービス",
+          "description": "安全で効率的なクラウド移行ソリューション"
+        }
+      },
+      "community": {
+        "title": "コミュニティ",
+        "developers": {
+          "title": "開発者コミュニティ",
+          "description": "活発な開発者コミュニティに参加"
+        },
+        "events": {
+          "title": "技術イベント",
+          "description": "オンライン/オフライン技術交流イベントに参加"
+        },
+        "opensource": {
+          "title": "オープンソース貢献",
+          "description": "オープンソースプロジェクトへのコード・アイデア貢献"
+        },
+        "forum": {
+          "title": "技術フォーラム",
+          "description": "経験共有と問題解決のための技術フォーラム"
+        }
+      },
+      "industry": {
+        "title": "業界ソリューション",
+        "fintech": {
+          "title": "フィンテックソリューション",
+          "description": "金融業界向け革新的技術ソリューション"
+        },
+        "supplyChain": {
+          "title": "サプライチェーン管理",
+          "description": "サプライチェーン最適化のブロックチェーンソリューション"
+        },
+        "digitalIdentity": {
+          "title": "デジタル身分証明",
+          "description": "安全で信頼性の高いデジタル身分認証システム"
+        },
+        "dataSecurity": {
+          "title": "データセキュリティとプライバシー",
+          "description": "データセキュリティとユーザープライバシー保護ソリューション"
+        }
+      },
+      "cases": {
+        "title": "導入事例",
+        "successStories": {
+          "title": "成功事例集",
+          "description": "導入成功事例を閲覧"
+        },
+        "financial": {
+          "title": "金融業界",
+          "description": "フィンテック分野の革新的応用"
+        },
+        "supplyChain": {
+          "title": "サプライチェーン業界",
+          "description": "サプライチェーン管理のブロックチェーン応用"
+        },
+        "healthcare": {
+          "title": "医療健康",
+          "description": "医療データ管理と共有ソリューション"
+        },
+        "government": {
+          "title": "政府サービス",
+          "description": "政府サービス効率向上のためのブロックチェーン応用"
+        }
+      },
+      "about": {
+        "title": "会社概要",
+        "company": {
+          "title": "会社紹介",
+          "description": "ミッションとビジョンについて"
+        },
+        "qualifications": {
+          "title": "企業資格",
+          "description": "専門認証と業界資格を確認"
+        },
+        "team": {
+          "title": "技術チーム",
+          "description": "専門技術チームの紹介"
+        },
+        "partners": {
+          "title": "パートナー",
+          "description": "パートナーネットワークを確認"
+        },
+        "careers": {
+          "title": "採用情報",
+          "description": "エキサイティングなキャリア機会を探す"
+        },
+        "contact": {
+          "title": "連絡先",
+          "description": "連絡先情報を取得"
+        }
+      }
+    }
+  },
+  "testScenarios": {
+    "title": "多言語機能テストシナリオ",
+    "basicUsage": {
+      "title": "基本使用法",
+      "simpleText": "単純テキスト翻訳",
+      "nestedObject": "ネストオブジェクト翻訳",
+      "arrayData": "配列データ翻訳"
+    },
+    "dynamicContent": {
+      "title": "動的コンテンツ",
+      "userGreeting": "こんにちは、{name}さん！",
+      "itemCount": "アイテム数: {count}個",
+      "timeRemaining": "残り時間: {time}分"
+    },
+    "pluralization": {
+      "title": "複数形処理",
+      "noItems": "アイテムなし",
+      "oneItem": "1個のアイテム",
+      "multipleItems": "{count}個のアイテム"
+    },
+    "dateTime": {
+      "title": "日付と時刻",
+      "currentDate": "現在の日付",
+      "lastUpdated": "最終更新日",
+      "createdAt": "作成日時"
+    },
+    "forms": {
+      "title": "フォーム要素",
+      "name": "氏名",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "message": "メッセージ",
+      "placeholders": {
+        "enterName": "氏名を入力してください",
+        "enterEmail": "メールアドレスを入力してください",
+        "enterPhone": "電話番号を入力してください",
+        "enterMessage": "メッセージを入力してください"
+      },
+      "validation": {
+        "required": "この項目は必須です",
+        "invalidEmail": "有効なメールアドレスを入力してください",
+        "minLength": "最低{min}文字必要です"
+      }
+    },
+    "status": {
+      "title": "ステータスメッセージ",
+      "loading": "読み込み中...",
+      "success": "操作成功",
+      "error": "操作失敗",
+      "warning": "警告",
+      "info": "情報"
+    },
+    "navigation": {
+      "title": "ナビゲーション要素",
+      "previous": "前へ",
+      "next": "次へ",
+      "first": "最初へ",
+      "last": "最後へ",
+      "goBack": "戻る",
+      "goHome": "ホームに戻る"
+    }
+  }
+}

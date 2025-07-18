@@ -7,7 +7,7 @@
       <div class="about-hero-content">
         <!-- 使用文字动画组件 -->
         <AnimatedText 
-          text="关于我们" 
+          :text="$t('about.hero.title')" 
           type="heading" 
           animation-type="stagger" 
           :duration="1.2" 
@@ -15,7 +15,7 @@
         />
         
         <AnimatedText 
-          text="全球智能技术解决方案提供商" 
+          :text="$t('about.hero.subtitle')" 
           type="paragraph" 
           animation-type="slideUp" 
           :delay="0.5" 
@@ -28,9 +28,7 @@
           :threshold="0.1"
         >
           <p class="about-hero-description">
-            ZHILING ARK TECHNOLOGY PTE. LTD. 是一家总部位于新加坡的全球智能技术解决方案提供商，
-            致力于通过先进的云计算和AI集成技术，为企业提供下一代数字化转型和智能自动化解决方案。
-            我们构建企业级AI聚合平台和智能中间件解决方案，统一不同系统，简化跨平台数据协作，实现大规模智能自动化运营。
+            {{ $t('about.hero.description') }}
           </p>
         </ScrollAnimations>
       </div>

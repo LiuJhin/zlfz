@@ -2,7 +2,7 @@
   <section class="features-section">
     <div class="features-container">
       <div class="section-header">
-        <h2 class="section-title">The most adopted scaling technology</h2>
+        <h2 class="section-title">{{ $t("features.title") }}</h2>
       </div>
 
       <div class="features-grid">
@@ -23,13 +23,11 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">Polygon PoS</h3>
+          <h3 class="feature-title">{{ $t("features.items.polygonPos.title") }}</h3>
           <p class="feature-description">
-            Support the most widely used Ethereum scaling ecosystem that offers
-            EVM compatibility and an ultimate user experience with fast
-            transactions at near-zero gas fees today.
+            {{ $t("features.items.polygonPos.description") }}
           </p>
-          <a href="#" class="feature-link">Learn More</a>
+          <a href="#" class="feature-link">{{ $t("features.learnMore") }}</a>
         </div>
 
         <div class="feature-card">
@@ -49,13 +47,11 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">Polygon zkEVM</h3>
+          <h3 class="feature-title">{{ $t("features.items.polygonZkEvm.title") }}</h3>
           <p class="feature-description">
-            Unlock Ethereum scalability while maintaining security with the
-            first ZK-rollup that offers EVM equivalence with fast transactions
-            at near-zero gas cost today.
+            {{ $t("features.items.polygonZkEvm.description") }}
           </p>
-          <a href="#" class="feature-link">Learn More</a>
+          <a href="#" class="feature-link">{{ $t("features.learnMore") }}</a>
         </div>
 
         <div class="feature-card">
@@ -75,12 +71,11 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">Miden</h3>
+          <h3 class="feature-title">{{ $t("features.items.miden.title") }}</h3>
           <p class="feature-description">
-            A decentralized rollup that leverages private data storage and local
-            transaction execution. Because privacy scales better.
+            {{ $t("features.items.miden.description") }}
           </p>
-          <a href="#" class="feature-link">Learn More</a>
+          <a href="#" class="feature-link">{{ $t("features.learnMore") }}</a>
         </div>
 
         <div class="feature-card">
@@ -100,11 +95,11 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">Agglayer CDK</h3>
+          <h3 class="feature-title">{{ $t("features.items.agglayerCdk.title") }}</h3>
           <p class="feature-description">
-            Build Ethereum Layer 2s with industry-leading ZK tech & ecosystem.
+            {{ $t("features.items.agglayerCdk.description") }}
           </p>
-          <a href="#" class="feature-link">Learn More</a>
+          <a href="#" class="feature-link">{{ $t("features.learnMore") }}</a>
         </div>
       </div>
     </div>

@@ -2,8 +2,8 @@
   <section id="partners" class="about-partners">
     <div class="about-partners-container">
       <div class="section-header">
-        <h2 class="section-title">合作伙伴</h2>
-        <p class="section-subtitle">与行业领导者共同创新</p>
+        <h2 class="section-title">{{ $t('about.partners.title') }}</h2>
+        <p class="section-subtitle">{{ $t('about.partners.subtitle') }}</p>
         <div class="section-divider"></div>
       </div>
       
@@ -12,18 +12,17 @@
           <div class="partner-logo" :style="{ backgroundColor: partner.bgColor }">
             <span class="partner-initial">{{ partner.initial }}</span>
           </div>
-          <h3 class="partner-name">{{ partner.name }}</h3>
-          <p class="partner-description">{{ partner.description }}</p>
+          <h3 class="partner-name">{{ $t(`about.partners.items.${partner.key}.name`) }}</h3>
+          <p class="partner-description">{{ $t(`about.partners.items.${partner.key}.description`) }}</p>
         </div>
       </div>
       
       <div class="partnership-cta">
-        <h3 class="cta-title">成为我们的合作伙伴</h3>
+        <h3 class="cta-title">{{ $t('about.partners.cta.title') }}</h3>
         <p class="cta-description">
-          我们欢迎各行各业的企业和组织与我们合作，共同探索智能技术在数字化转型中的应用场景和商业价值。
-          无论您是寻求AI聚合平台解决方案，还是希望建立战略合作关系，我们都期待与您沟通交流。
+          {{ $t('about.partners.cta.description') }}
         </p>
-        <a href="/contact" class="cta-button">联系我们</a>
+        <a href="/contact" class="cta-button">{{ $t('about.partners.cta.button') }}</a>
       </div>
     </div>
   </section>
@@ -34,51 +33,43 @@ import { ref } from 'vue';
 
 const partners = ref([
   {
-    name: 'AWS',
+    key: 'aws',
     initial: 'A',
-    description: '全球领先的云计算平台，我们基于AWS构建企业级AI聚合平台，为客户提供可扩展的智能化解决方案。',
     bgColor: '#3B82F6'
   },
   {
-    name: 'Microsoft Azure',
+    key: 'azure',
     initial: 'M',
-    description: '微软云计算平台，我们利用Azure的AI服务和云基础设施，为企业提供智能中间件和自动化解决方案。',
     bgColor: '#10B981'
   },
   {
-    name: 'Google Cloud',
+    key: 'googleCloud',
     initial: 'G',
-    description: '谷歌云平台，我们整合其先进的AI和机器学习服务，帮助企业实现智能化运营和数据洞察。',
     bgColor: '#F59E0B'
   },
   {
-    name: 'Oracle',
+    key: 'oracle',
     initial: 'O',
-    description: '企业级数据库和云服务提供商，我们与Oracle合作为企业提供稳定可靠的数据管理和智能分析解决方案。',
     bgColor: '#EC4899'
   },
   {
-    name: '新加坡政府机构',
+    key: 'singapore',
     initial: 'S',
-    description: '新加坡政府技术部门，我们为政府数字化转型项目提供智能技术解决方案，提升公共服务效率。',
     bgColor: '#8B5CF6'
   },
   {
-    name: '跨国企业集团',
+    key: 'multinational',
     initial: 'M',
-    description: '多家跨国企业与我们合作，通过我们的AI聚合平台和智能中间件实现全球业务的数字化转型和智能化运营。',
     bgColor: '#6366F1'
   },
   {
-    name: '教育科研机构',
+    key: 'education',
     initial: 'A',
-    description: '知名高校和研究机构，我们共同开展区块链技术研究，培养专业人才，推动技术创新和应用。',
     bgColor: '#14B8A6'
   },
   {
-    name: '零售商业集团',
+    key: 'retail',
     initial: 'R',
-    description: '大型零售企业，我们合作开发了区块链忠诚度计划和防伪溯源系统，提升客户体验和品牌价值。',
     bgColor: '#F97316'
   }
 ]);

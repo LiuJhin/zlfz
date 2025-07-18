@@ -31,7 +31,156 @@
       "avgCost": "平均成本"
     }
   },
+  "features": {
+    "title": "最受欢迎的扩容技术",
+    "learnMore": "了解更多",
+    "items": {
+      "polygonPos": {
+        "title": "Polygon PoS",
+        "description": "支持最广泛使用的以太坊扩容生态系统，提供EVM兼容性和极致用户体验，实现快速交易和接近零的Gas费用。"
+      },
+      "polygonZkEvm": {
+        "title": "Polygon zkEVM",
+        "description": "在保持安全性的同时解锁以太坊可扩展性，首个提供EVM等效性的ZK-rollup，实现快速交易和接近零的Gas成本。"
+      },
+      "miden": {
+        "title": "Miden",
+        "description": "利用私有数据存储和本地交易执行的去中心化rollup。因为隐私能更好地扩展。"
+      },
+      "agglayerCdk": {
+        "title": "Agglayer CDK",
+        "description": "使用行业领先的ZK技术和生态系统构建以太坊Layer 2。"
+      }
+    }
+  },
   "about": {
+    "hero": {
+      "title": "关于我们",
+      "subtitle": "全球智能技术解决方案提供商",
+      "description": "ZHILING ARK TECHNOLOGY PTE. LTD. 是一家总部位于新加坡的全球智能技术解决方案提供商，致力于通过先进的云计算和AI集成技术，为企业提供下一代数字化转型和智能自动化解决方案。我们构建企业级AI聚合平台和智能中间件解决方案，统一不同系统，简化跨平台数据协作，实现大规模智能自动化运营。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "subtitle": "随时与我们取得联系",
+      "address": {
+        "title": "公司地址",
+        "headquarters": "新加坡总部：Singapore Innovation Hub",
+        "regional": "亚太区域办公室：多个城市设有分支机构"
+      },
+      "phone": {
+        "title": "联系电话",
+        "headquarters": "+65 6xxx xxxx (新加坡总部)",
+        "support": "24/7 全球技术支持热线"
+      },
+      "email": {
+        "title": "电子邮箱",
+        "info": "info{'@'}zhilingark.com",
+        "support": "support{'@'}zhilingark.com"
+      },
+      "social": {
+        "title": "社交媒体"
+      },
+      "map": {
+        "clickToView": "点击查看地图"
+      },
+      "form": {
+        "title": "发送消息",
+        "description": "如果您有任何问题或建议，请随时与我们联系。我们将尽快回复您。",
+        "name": "姓名",
+        "namePlaceholder": "请输入您的姓名",
+        "email": "邮箱",
+        "emailPlaceholder": "请输入您的邮箱",
+        "subject": "主题",
+        "subjectPlaceholder": "请输入消息主题",
+        "message": "消息",
+        "messagePlaceholder": "请输入您的消息内容",
+        "submit": "发送消息"
+      }
+    },
+    "partners": {
+      "title": "合作伙伴",
+      "subtitle": "与行业领导者共同创新",
+      "items": {
+        "aws": {
+          "name": "AWS",
+          "description": "全球领先的云计算平台，我们基于AWS构建企业级AI聚合平台，为客户提供可扩展的智能化解决方案。"
+        },
+        "azure": {
+          "name": "Microsoft Azure",
+          "description": "微软云计算平台，我们利用Azure的AI服务和云基础设施，为企业提供智能中间件和自动化解决方案。"
+        },
+        "googleCloud": {
+          "name": "Google Cloud",
+          "description": "谷歌云平台，我们整合其先进的AI和机器学习服务，帮助企业实现智能化运营和数据洞察。"
+        },
+        "oracle": {
+          "name": "Oracle",
+          "description": "企业级数据库和云服务提供商，我们与Oracle合作为企业提供稳定可靠的数据管理和智能分析解决方案。"
+        },
+        "singapore": {
+          "name": "新加坡政府机构",
+          "description": "新加坡政府技术部门，我们为政府数字化转型项目提供智能技术解决方案，提升公共服务效率。"
+        },
+        "multinational": {
+          "name": "跨国企业集团",
+          "description": "多家跨国企业与我们合作，通过我们的AI聚合平台和智能中间件实现全球业务的数字化转型和智能化运营。"
+        },
+        "education": {
+          "name": "教育科研机构",
+          "description": "知名高校和研究机构，我们共同开展区块链技术研究，培养专业人才，推动技术创新和应用。"
+        },
+        "retail": {
+          "name": "零售商业集团",
+          "description": "大型零售企业，我们合作开发了区块链忠诚度计划和防伪溯源系统，提升客户体验和品牌价值。"
+        }
+      },
+      "cta": {
+        "title": "成为我们的合作伙伴",
+        "description": "我们欢迎各行各业的企业和组织与我们合作，共同探索智能技术在数字化转型中的应用场景和商业价值。无论您是寻求AI聚合平台解决方案，还是希望建立战略合作关系，我们都期待与您沟通交流。",
+        "button": "联系我们"
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "subtitle": "由行业专家组成的精英团队",
+      "members": {
+        "zhangwei": {
+          "name": "张伟",
+          "position": "创始人 & CEO",
+          "description": "拥有10年智能技术行业经验，曾在多家知名科技公司担任技术领导职位。专注于AI聚合平台的商业应用和智能化生态系统建设。"
+        },
+        "liming": {
+          "name": "李明",
+          "position": "首席技术官",
+          "description": "拥有15年云计算和AI技术研发经验，曾在多家知名科技公司担任技术负责人。专注于企业级AI聚合平台和智能中间件解决方案架构设计。"
+        },
+        "wangfang": {
+          "name": "王芳",
+          "position": "产品总监",
+          "description": "资深产品经理，深度理解企业数字化转型需求和AI应用场景。擅长将复杂的技术概念转化为易用的智能化产品解决方案。"
+        },
+        "zhaoqiang": {
+          "name": "赵强",
+          "position": "研发主管",
+          "description": "全栈开发专家，精通云原生架构和AI中间件开发。曾参与多个大型企业级智能化平台的核心开发工作。"
+        },
+        "chenjing": {
+          "name": "陈静",
+          "position": "解决方案架构师",
+          "description": "专注于企业级智能化解决方案设计，擅长分析业务需求并提供最佳的云计算和AI集成方案。拥有丰富的数字化转型咨询和实施经验。"
+        },
+        "liuyang": {
+          "name": "刘洋",
+          "position": "安全专家",
+          "description": "云安全和数据治理专家，专注于企业级安全架构设计和合规性评估。曾参与多个重要的数字化转型项目的安全评估工作。"
+        }
+      },
+      "join": {
+        "title": "加入我们的团队",
+        "description": "我们始终在寻找优秀的人才加入我们的团队。如果你对区块链技术充满热情，并希望参与到前沿技术的开发和应用中，欢迎加入我们！",
+        "button": "查看职位空缺"
+      }
+    },
     "qualifications": {
       "title": "企业资质",
       "subtitle": "我们的专业认证与行业资质",
@@ -78,6 +227,24 @@
         "certNumber": "证书编号:",
         "issueDate": "发证日期:",
         "validUntil": "有效期至:"
+      }
+    }
+  },
+  "projects": {
+    "title": "基于Polygon构建的项目",
+    "learnMore": "了解更多",
+    "items": {
+      "unstoppableDomains": {
+        "title": "Unstoppable Domains",
+        "description": "在数字世界中拥有您自己的Web3域名，掌控您的数字身份"
+      },
+      "aave": {
+        "title": "Aave",
+        "description": "开源且非托管的流动性协议，用于赚取利息和借贷资产"
+      },
+      "uniswap": {
+        "title": "Uniswap",
+        "description": "以太坊上自动化流动性提供的去中心化协议"
       }
     }
   },
