@@ -1,35 +1,9 @@
 <template>
   <div class="strategy-consulting-page">
-    <!-- Hero Section with Advanced Background -->
+    <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-background">
-        <div class="geometric-pattern">
-          <div class="pattern-layer layer-1">
-            <div class="hexagon" v-for="i in 12" :key="i" :style="{ animationDelay: i * 0.2 + 's' }"></div>
-          </div>
-          <div class="pattern-layer layer-2">
-            <div class="circuit-line" v-for="i in 8" :key="i"></div>
-          </div>
-        </div>
-        <div class="floating-elements">
-          <div class="element element-1">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2"/>
-              <path d="M12 8V16M8 10L16 14M8 14L16 10" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </div>
-          <div class="element element-2">
-            <svg width="35" height="35" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
-              <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </div>
-          <div class="element element-3">
-            <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
-              <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </div>
-        </div>
+        <div class="gradient-overlay"></div>
       </div>
       
       <div class="hero-content">
@@ -37,8 +11,7 @@
           <div class="content-wrapper">
             <div class="hero-text">
               <div class="hero-badge">
-                <span class="badge-icon">🚀</span>
-                <span class="badge-text">Enterprise Cloud Strategy</span>
+                <span class="badge-text">企业云战略</span>
               </div>
               
               <h1 class="hero-title">
@@ -69,125 +42,47 @@
               <div class="hero-actions">
                 <a href="/contact" class="btn-primary">
                   <span>免费咨询</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
-                  </svg>
                 </a>
                 <a href="#services" class="btn-outline">
                   <span>服务详情</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 5V19M5 12L12 19L19 12" stroke="currentColor" stroke-width="2"/>
-                  </svg>
                 </a>
               </div>
             </div>
             
             <div class="hero-visual">
-              <div class="strategy-dashboard">
-                <div class="dashboard-header">
-                  <div class="header-title">
-                    <span class="title-icon">📊</span>
-                    <span>云战略控制台</span>
-                  </div>
-                  <div class="status-indicator">
-                    <span class="status-dot"></span>
-                    <span class="status-text">实时分析</span>
-                  </div>
+              <div class="strategy-overview">
+                <div class="overview-header">
+                  <h3>云战略概览</h3>
                 </div>
                 
-                <div class="dashboard-content">
-                  <div class="metrics-grid">
-                    <div class="metric-card">
-                      <div class="metric-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                          <path d="M3 3V21H21" stroke="currentColor" stroke-width="2"/>
-                          <path d="M7 12L12 7L16 11L21 6" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                      </div>
-                      <div class="metric-info">
-                        <div class="metric-value">85%</div>
-                        <div class="metric-name">效率提升</div>
-                      </div>
+                <div class="overview-content">
+                  <div class="metrics-simple">
+                    <div class="metric-item">
+                      <div class="metric-value">85%</div>
+                      <div class="metric-label">效率提升</div>
                     </div>
-                    
-                    <div class="metric-card">
-                      <div class="metric-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                          <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                      </div>
-                      <div class="metric-info">
-                        <div class="metric-value">99.9%</div>
-                        <div class="metric-name">可用性</div>
-                      </div>
+                    <div class="metric-item">
+                      <div class="metric-value">99.9%</div>
+                      <div class="metric-label">可用性</div>
+                    </div>
+                    <div class="metric-item">
+                      <div class="metric-value">60%</div>
+                      <div class="metric-label">成本节省</div>
                     </div>
                   </div>
                   
-                  <div class="strategy-chart">
-                    <div class="chart-header">
-                      <span>云成熟度评估</span>
+                  <div class="key-benefits">
+                    <div class="benefit-item">
+                      <span>✓ 云原生架构设计</span>
                     </div>
-                    <div class="chart-visual">
-                      <div class="progress-rings">
-                        <div class="ring-item">
-                          <div class="progress-ring" data-progress="75">
-                            <svg width="60" height="60">
-                              <circle cx="30" cy="30" r="25" stroke="#e5e7eb" stroke-width="4" fill="none"/>
-                              <circle cx="30" cy="30" r="25" stroke="#6366f1" stroke-width="4" fill="none" 
-                                      stroke-dasharray="157" stroke-dashoffset="39" stroke-linecap="round"/>
-                            </svg>
-                            <div class="ring-value">75%</div>
-                          </div>
-                          <div class="ring-label">基础设施</div>
-                        </div>
-                        
-                        <div class="ring-item">
-                          <div class="progress-ring" data-progress="60">
-                            <svg width="60" height="60">
-                              <circle cx="30" cy="30" r="25" stroke="#e5e7eb" stroke-width="4" fill="none"/>
-                              <circle cx="30" cy="30" r="25" stroke="#8b5cf6" stroke-width="4" fill="none" 
-                                      stroke-dasharray="157" stroke-dashoffset="63" stroke-linecap="round"/>
-                            </svg>
-                            <div class="ring-value">60%</div>
-                          </div>
-                          <div class="ring-label">应用现代化</div>
-                        </div>
-                        
-                        <div class="ring-item">
-                          <div class="progress-ring" data-progress="90">
-                            <svg width="60" height="60">
-                              <circle cx="30" cy="30" r="25" stroke="#e5e7eb" stroke-width="4" fill="none"/>
-                              <circle cx="30" cy="30" r="25" stroke="#10b981" stroke-width="4" fill="none" 
-                                      stroke-dasharray="157" stroke-dashoffset="16" stroke-linecap="round"/>
-                            </svg>
-                            <div class="ring-value">90%</div>
-                          </div>
-                          <div class="ring-label">安全合规</div>
-                        </div>
-                      </div>
+                    <div class="benefit-item">
+                      <span>✓ 成本优化策略</span>
                     </div>
-                  </div>
-                  
-                  <div class="recommendations">
-                    <div class="rec-header">
-                      <span>智能建议</span>
+                    <div class="benefit-item">
+                      <span>✓ 安全合规保障</span>
                     </div>
-                    <div class="rec-list">
-                      <div class="rec-item">
-                        <span class="rec-icon">💡</span>
-                        <span class="rec-text">优化容器编排策略</span>
-                        <span class="rec-priority high">高</span>
-                      </div>
-                      <div class="rec-item">
-                        <span class="rec-icon">🔧</span>
-                        <span class="rec-text">实施自动化运维</span>
-                        <span class="rec-priority medium">中</span>
-                      </div>
-                      <div class="rec-item">
-                        <span class="rec-icon">📊</span>
-                        <span class="rec-text">部署监控体系</span>
-                        <span class="rec-priority low">低</span>
-                      </div>
+                    <div class="benefit-item">
+                      <span>✓ 持续运维支持</span>
                     </div>
                   </div>
                 </div>
@@ -203,7 +98,6 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-icon">⚡</span>
             <span class="badge-text">核心服务</span>
           </div>
           <h2>全方位云战略咨询服务</h2>
@@ -213,11 +107,6 @@
         <div class="services-grid">
           <div class="service-card featured">
             <div class="card-header">
-              <div class="service-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 11H15M9 15H15M17 21H7C5.89543 21 5 20.1046 5 19V5C5 3.89543 5.89543 3 7 3H12.5858C12.851 3 13.1054 3.10536 13.2929 3.29289L19.7071 9.70711C19.8946 9.89464 20 10.149 20 10.4142V19C20 20.1046 19.1046 21 18 21H17Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
               <div class="featured-badge">推荐</div>
             </div>
             <h3>云战略评估与规划</h3>
@@ -230,13 +119,6 @@
           </div>
           
           <div class="service-card">
-            <div class="card-header">
-              <div class="service-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-            </div>
             <h3>云架构设计优化</h3>
             <p>设计高可用、可扩展的云技术架构，确保系统性能和安全性。</p>
             <div class="service-features">
@@ -247,14 +129,6 @@
           </div>
           
           <div class="service-card">
-            <div class="card-header">
-              <div class="service-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-            </div>
             <h3>成本优化分析</h3>
             <p>全面分析云资源使用情况，提供精准的成本优化建议和实施方案。</p>
             <div class="service-features">
@@ -265,13 +139,6 @@
           </div>
           
           <div class="service-card">
-            <div class="card-header">
-              <div class="service-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-              </div>
-            </div>
             <h3>风险评估与治理</h3>
             <p>识别潜在风险，制定完善的风险缓解策略和治理框架。</p>
             <div class="service-features">
@@ -289,7 +156,6 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-icon">🔄</span>
             <span class="badge-text">服务流程</span>
           </div>
           <h2>标准化咨询流程</h2>
@@ -313,6 +179,302 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="header-badge">
+            <span class="badge-text">成功案例</span>
+          </div>
+          <h2>客户成功案例</h2>
+          <p>真实案例见证我们的专业实力和服务质量</p>
+        </div>
+        
+        <div class="cases-grid">
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">金融集团</span>
+                </div>
+                <div class="company-info">
+                  <h3>某大型金融集团</h3>
+                  <span class="industry-tag">金融服务</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">60%</span>
+                <span class="result-label">成本节省</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>全面云化转型战略</h4>
+              <p>为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。</p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>系统性能提升85%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>安全等级提升至金融级</span>
+                </div>
+                <div class="highlight-item">
+                  <span>业务响应速度提升3倍</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">制造企业</span>
+                </div>
+                <div class="company-info">
+                  <h3>某制造业龙头企业</h3>
+                  <span class="industry-tag">智能制造</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">40%</span>
+                <span class="result-label">效率提升</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>智能制造云平台建设</h4>
+              <p>构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。</p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>生产效率提升40%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>库存周转率提升50%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>产品质量提升30%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">零售集团</span>
+                </div>
+                <div class="company-info">
+                  <h3>某新零售集团</h3>
+                  <span class="industry-tag">新零售</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">200%</span>
+                <span class="result-label">业务增长</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>全渠道数字化平台</h4>
+              <p>打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。</p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>销售额增长200%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>客户满意度提升45%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>移动端转化率提升60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Advantages Section -->
+    <section class="tech-advantages-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="header-badge">
+            <span class="badge-text">技术优势</span>
+          </div>
+          <h2>领先的技术实力</h2>
+          <p>基于前沿技术栈，提供企业级云战略解决方案</p>
+        </div>
+        
+        <div class="tech-grid">
+          <div class="tech-category">
+            <h3>云原生技术</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Kubernetes</h4>
+                  <p>容器编排与管理</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Docker</h4>
+                  <p>应用容器化</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Helm</h4>
+                  <p>应用包管理</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tech-category">
+            <h3>DevOps工具链</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Jenkins</h4>
+                  <p>持续集成/部署</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>GitLab</h4>
+                  <p>代码管理与CI/CD</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Terraform</h4>
+                  <p>基础设施即代码</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tech-category">
+            <h3>监控与运维</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Prometheus</h4>
+                  <p>系统监控</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Grafana</h4>
+                  <p>数据可视化</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>ELK Stack</h4>
+                  <p>日志分析</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expert Team Section -->
+    <section class="expert-team-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>资深云战略专家</h2>
+          <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>
+        </div>
+        
+        <div class="experts-grid">
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">张</span>
+              </div>
+              <div class="expert-badge">首席专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>张云峰</h3>
+              <p class="expert-title">云战略首席架构师</p>
+              <p class="expert-desc">15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目。</p>
+              <div class="expert-skills">
+                <span class="skill-tag">云架构设计</span>
+                <span class="skill-tag">数字化转型</span>
+                <span class="skill-tag">企业咨询</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">李</span>
+              </div>
+              <div class="expert-badge">技术专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>李明华</h3>
+              <p class="expert-title">云原生技术专家</p>
+              <p class="expert-desc">12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计。</p>
+              <div class="expert-skills">
+                <span class="skill-tag">Kubernetes</span>
+                <span class="skill-tag">微服务</span>
+                <span class="skill-tag">DevOps</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">王</span>
+              </div>
+              <div class="expert-badge">安全专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>王安全</h3>
+              <p class="expert-title">云安全架构师</p>
+              <p class="expert-desc">10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估。</p>
+              <div class="expert-skills">
+                <span class="skill-tag">云安全</span>
+                <span class="skill-tag">合规评估</span>
+                <span class="skill-tag">风险管理</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>常见问题解答</h2>
+          <p>解答您在云战略规划过程中的疑问</p>
+        </div>
+        
+        <div class="faq-container">
+          <div class="faq-item" v-for="(faq, index) in faqList" :key="index">
+            <div class="faq-question" @click="toggleFaq(index)">
+              <h3>{{ faq.question }}</h3>
+              <div class="faq-toggle" :class="{ active: faq.isOpen }">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-answer" :class="{ active: faq.isOpen }">
+              <p>{{ faq.answer }}</p>
             </div>
           </div>
         </div>
@@ -354,28 +516,24 @@
           <div class="cta-benefits">
             <div class="benefit-grid">
               <div class="benefit-item">
-                <span class="benefit-icon">🎯</span>
                 <div class="benefit-text">
                   <h4>精准定位</h4>
                   <p>量身定制的战略方案</p>
                 </div>
               </div>
               <div class="benefit-item">
-                <span class="benefit-icon">⚡</span>
                 <div class="benefit-text">
                   <h4>快速响应</h4>
                   <p>7x24小时专家支持</p>
                 </div>
               </div>
               <div class="benefit-item">
-                <span class="benefit-icon">🛡️</span>
                 <div class="benefit-text">
                   <h4>安全保障</h4>
                   <p>企业级安全防护</p>
                 </div>
               </div>
               <div class="benefit-item">
-                <span class="benefit-icon">📈</span>
                 <div class="benefit-text">
                   <h4>持续优化</h4>
                   <p>长期价值提升</p>
@@ -429,6 +587,40 @@ const processSteps = [
     details: ['详细报告交付', '实施指导培训', '持续支持服务']
   }
 ]
+
+// FAQ数据
+const faqList = ref([
+  {
+    question: '云战略咨询服务包含哪些内容？',
+    answer: '我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。',
+    isOpen: false
+  },
+  {
+    question: '云化转型需要多长时间？',
+    answer: '云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划。',
+    isOpen: false
+  },
+  {
+    question: '如何保证数据安全和合规性？',
+    answer: '我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。',
+    isOpen: false
+  },
+  {
+    question: '云化后的成本如何控制？',
+    answer: '我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。',
+    isOpen: false
+  },
+  {
+    question: '是否提供后续的技术支持？',
+    answer: '是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。',
+    isOpen: false
+  }
+])
+
+// FAQ交互方法
+const toggleFaq = (index) => {
+  faqList.value[index].isOpen = !faqList.value[index].isOpen
+}
 </script>
 
 <style scoped>
@@ -720,14 +912,14 @@ const processSteps = [
   transform: translateY(-2px);
 }
 
-/* Strategy Dashboard */
+/* Strategy Overview */
 .hero-visual {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.strategy-dashboard {
+.strategy-overview {
   width: 100%;
   max-width: 500px;
   background: var(--card-bg);
@@ -735,201 +927,67 @@ const processSteps = [
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border: 1px solid var(--border-color);
+  padding: 30px;
 }
 
-.dashboard-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 25px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
-  color: white;
+.overview-header {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.header-title {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.overview-header h3 {
+  font-size: 1.5rem;
   font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
 }
 
-.title-icon {
-  font-size: 1.2rem;
-}
-
-.status-indicator {
+.overview-content {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.9rem;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #10b981;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-
-.dashboard-content {
-  padding: 25px;
-}
-
-.metrics-grid {
+.metrics-simple {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  margin-bottom: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.metric-card {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 15px;
+.metric-item {
+  text-align: center;
+  padding: 20px 10px;
   background: var(--bg-secondary);
   border-radius: 12px;
   border: 1px solid var(--border-color);
 }
 
-.metric-icon {
-  width: 40px;
-  height: 40px;
-  background: var(--primary-color-light);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-color);
-}
-
-.metric-info {
-  flex: 1;
-}
-
-.metric-value {
-  font-size: 1.2rem;
+.metric-item .metric-value {
+  font-size: 1.8rem;
   font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 2px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
 }
 
-.metric-name {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-}
-
-.strategy-chart {
-  margin-bottom: 25px;
-}
-
-.chart-header {
+.metric-item .metric-label {
   font-size: 0.9rem;
   color: var(--text-secondary);
-  margin-bottom: 15px;
   font-weight: 500;
 }
 
-.chart-visual {
-  background: var(--bg-secondary);
-  border-radius: 12px;
-  padding: 20px;
-}
-
-.progress-rings {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.ring-item {
-  text-align: center;
-}
-
-.progress-ring {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.ring-value {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.ring-label {
-  font-size: 0.7rem;
-  color: var(--text-secondary);
-}
-
-.recommendations {
-  background: var(--bg-secondary);
-  border-radius: 12px;
-  padding: 15px;
-}
-
-.rec-header {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: 15px;
-  font-weight: 500;
-}
-
-.rec-list {
+.key-benefits {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 
-.rec-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  background: var(--card-bg);
+.benefit-item {
+  padding: 12px 16px;
+  background: var(--bg-secondary);
   border-radius: 8px;
-  font-size: 0.8rem;
-}
-
-.rec-icon {
-  font-size: 1rem;
-}
-
-.rec-text {
-  flex: 1;
-  color: var(--text-primary);
-}
-
-.rec-priority {
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  font-weight: 500;
-}
-
-.rec-priority.high {
-  background: #fef2f2;
-  color: #dc2626;
-}
-
-.rec-priority.medium {
-  background: #fef3c7;
-  color: #d97706;
-}
-
-.rec-priority.low {
-  background: #f0fdf4;
-  color: #16a34a;
+  border: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
 }
 
 /* Services Section */
@@ -1148,6 +1206,355 @@ const processSteps = [
   color: var(--text-secondary);
 }
 
+/* Case Studies Section */
+.case-studies-section {
+  padding: 120px 0;
+  background: var(--bg-color);
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.case-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.case-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.case-company {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.company-info h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.industry-tag {
+  background: var(--primary-color-light);
+  color: var(--primary-color);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.case-result {
+  text-align: right;
+}
+
+.result-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+  line-height: 1;
+}
+
+.result-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.case-content h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.case-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.case-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.highlight-icon {
+  font-size: 1.2rem;
+}
+
+/* Technology Advantages Section */
+.tech-advantages-section {
+  padding: 120px 0;
+  background: var(--bg-secondary);
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.tech-category {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+}
+
+.tech-category h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.tech-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tech-item {
+  padding: 20px;
+  background: var(--bg-color);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.tech-item:hover {
+  background: var(--primary-color-light);
+  transform: translateX(5px);
+}
+
+.tech-info h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.tech-info p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Expert Team Section */
+.expert-team-section {
+  padding: 120px 0;
+  background: var(--bg-color);
+}
+
+.experts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.expert-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.expert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.expert-avatar {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.avatar-placeholder {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.expert-badge {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background: var(--accent-color);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 3px solid white;
+}
+
+.expert-info h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.expert-title {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.expert-desc {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.expert-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: var(--primary-color-light);
+  color: var(--primary-color);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 120px 0;
+  background: var(--bg-secondary);
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 60px auto 0;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+}
+
+.faq-question {
+  padding: 25px 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  background: var(--bg-color);
+}
+
+.faq-question h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
+  flex: 1;
+}
+
+.faq-toggle {
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: var(--primary-color);
+}
+
+.faq-toggle.active {
+  background: var(--primary-color);
+  color: white;
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-answer.active {
+  max-height: 200px;
+}
+
+.faq-answer p {
+  padding: 0 30px 25px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
 /* CTA Section */
 .cta-section {
   padding: 100px 0;
@@ -1283,6 +1690,18 @@ const processSteps = [
     gap: 40px;
     text-align: center;
   }
+  
+  .cases-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .experts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -1301,6 +1720,40 @@ const processSteps = [
   .benefit-grid {
     grid-template-columns: 1fr;
   }
+  
+  .case-card {
+    padding: 30px 25px;
+  }
+  
+  .case-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .case-result {
+    text-align: center;
+  }
+  
+  .tech-category {
+    padding: 30px 25px;
+  }
+  
+  .experts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .expert-card {
+    padding: 30px 25px;
+  }
+  
+  .faq-question {
+    padding: 20px 25px;
+  }
+  
+  .faq-answer p {
+    padding: 0 25px 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1314,6 +1767,22 @@ const processSteps = [
   
   .cta-actions {
     flex-direction: column;
+  }
+  
+  .cases-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .case-card {
+    padding: 25px 20px;
+  }
+  
+  .tech-category {
+    padding: 25px 20px;
+  }
+  
+  .expert-card {
+    padding: 25px 20px;
   }
 }
 </style>

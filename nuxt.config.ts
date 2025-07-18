@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     host: "0.0.0.0",
   },
   i18n: {
-    defaultLocale: "zh",
+    defaultLocale: "jp",
     locales: [
       { code: "zh", name: "Chinese", file: "zh.json" },
       { code: "en", name: "English", file: "en.json" },
