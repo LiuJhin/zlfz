@@ -178,7 +178,7 @@ const createCube = () => {
     cubeCamera = new THREE.CubeCamera(0.1, 1000, cubeRenderTarget);
     scene.add(cubeCamera);
   } catch (error) {
-    console.warn('创建环境贴图时出错:', error);
+    console.warn("创建环境贴图时出错:", error);
     cubeRenderTarget = null;
     cubeCamera = null;
   }
@@ -324,7 +324,7 @@ const animate = () => {
   const elapsedTime = clock.getElapsedTime();
 
   // 更新场景中所有光晕效果的时间参数
-  if (scene && typeof scene.traverse === 'function') {
+  if (scene && typeof scene.traverse === "function") {
     try {
       scene.traverse((object) => {
         if (
@@ -337,7 +337,7 @@ const animate = () => {
         }
       });
     } catch (error) {
-      console.warn('更新光晕效果时出错:', error);
+      console.warn("更新光晕效果时出错:", error);
     }
   }
 
@@ -424,11 +424,17 @@ const animate = () => {
   }
 
   // 更新环境贴图
-  if (cubeCamera && cubeRenderTarget && cubeCamera.update && renderer && scene) {
+  if (
+    cubeCamera &&
+    cubeRenderTarget &&
+    cubeCamera.update &&
+    renderer &&
+    scene
+  ) {
     try {
       cubeCamera.update(renderer, scene);
     } catch (error) {
-      console.warn('更新环境贴图时出错:', error);
+      console.warn("更新环境贴图时出错:", error);
     }
   }
 
@@ -460,7 +466,7 @@ onBeforeUnmount(() => {
   }
 
   // 清理立方体组及其子对象
-  if (cube && typeof cube.traverse === 'function') {
+  if (cube && typeof cube.traverse === "function") {
     try {
       // 递归清理所有小立方体及其材质
       cube.traverse((object) => {
@@ -482,24 +488,24 @@ onBeforeUnmount(() => {
         }
       });
     } catch (error) {
-      console.warn('清理立方体时出错:', error);
+      console.warn("清理立方体时出错:", error);
     }
 
-    if (scene && typeof scene.remove === 'function') {
+    if (scene && typeof scene.remove === "function") {
       try {
         scene.remove(cube);
       } catch (error) {
-        console.warn('从场景中移除立方体时出错:', error);
+        console.warn("从场景中移除立方体时出错:", error);
       }
     }
   }
 
   // 清理环境贴图资源
-  if (cubeRenderTarget && typeof cubeRenderTarget.dispose === 'function') {
+  if (cubeRenderTarget && typeof cubeRenderTarget.dispose === "function") {
     try {
       cubeRenderTarget.dispose();
     } catch (error) {
-      console.warn('清理cubeRenderTarget时出错:', error);
+      console.warn("清理cubeRenderTarget时出错:", error);
     }
   }
 
@@ -508,7 +514,7 @@ onBeforeUnmount(() => {
   }
 
   // 清理场景中的所有光源
-  if (scene && typeof scene.traverse === 'function') {
+  if (scene && typeof scene.traverse === "function") {
     try {
       scene.traverse((object) => {
         if (object && object.isLight) {
@@ -516,7 +522,7 @@ onBeforeUnmount(() => {
         }
       });
     } catch (error) {
-      console.warn('清理场景光源时出错:', error);
+      console.warn("清理场景光源时出错:", error);
     }
   }
 

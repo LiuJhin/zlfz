@@ -1,0 +1,287 @@
+{
+  "welcome": "欢迎",
+  "hello": "你好",
+  "about": "关于",
+  "contact": "联系我们",
+  "home": "首页",
+  "language": "语言",
+  "switchLanguage": "切换语言",
+  "theme": "主题",
+  "darkMode": "暗黑模式",
+  "lightMode": "明亮模式",
+  "switchTheme": "切换主题",
+  "messages": {
+    "welcome": "欢迎来到我们的网站",
+    "description": "这是一个使用Nuxt.js和i18n的多语言网站"
+  },
+  "buttons": {
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "hero": {
+    "title": "构建未来的区块链解决方案",
+    "description": "我们提供企业级区块链技术服务，助力您的数字化转型之路。从咨询规划到技术实施，为您打造安全、高效、可扩展的区块链应用。",
+    "getStarted": "立即开始",
+    "learnMore": "了解更多",
+    "stats": {
+      "contractCreators": "合约创建者",
+      "uniqueAddresses": "独立地址",
+      "transactions": "交易总数",
+      "avgCost": "平均成本"
+    }
+  },
+  "about": {
+    "qualifications": {
+      "title": "企业资质",
+      "subtitle": "我们的专业认证与行业资质",
+      "certifications": {
+        "title": "行业认证"
+      },
+      "items": {
+        "highTech": {
+          "title": "高新技术企业认证",
+          "description": "国家认定的高新技术企业，拥有核心自主知识产权"
+        },
+        "software": {
+          "title": "软件企业认定证书",
+          "description": "符合国家规定的软件企业认定标准"
+        },
+        "iso9001": {
+          "title": "ISO 9001质量管理体系认证",
+          "description": "国际标准化组织质量管理体系认证"
+        },
+        "iso27001": {
+          "title": "ISO 27001信息安全管理体系认证",
+          "description": "国际标准化组织信息安全管理体系认证"
+        }
+      },
+      "certificationItems": {
+        "bsn": {
+          "name": "区块链服务网络认证",
+          "description": "区块链服务网络官方认证服务提供商"
+        },
+        "tcbp": {
+          "name": "可信区块链推进计划成员",
+          "description": "中国信息通信研究院可信区块链推进计划成员单位"
+        },
+        "mlps": {
+          "name": "网络安全等级保护",
+          "description": "通过国家网络安全等级保护三级认证"
+        },
+        "ccss": {
+          "name": "云计算服务安全评估",
+          "description": "通过国家云计算服务安全评估"
+        }
+      },
+      "labels": {
+        "certNumber": "证书编号:",
+        "issueDate": "发证日期:",
+        "validUntil": "有效期至:"
+      }
+    }
+  },
+  "navbar": {
+    "solutions": "解决方案",
+    "cloudServices": "云管理服务",
+    "community": "社区",
+    "industrySolutions": "行业方案",
+    "caseStudies": "客户案例",
+    "aboutUs": "关于我们",
+    "docs": "文档中心",
+    "menu": {
+      "solutions": {
+        "title": "解决方案",
+        "enterprise": {
+          "title": "企业解决方案",
+          "description": "为企业提供全方位的区块链解决方案"
+        },
+        "devTools": {
+          "title": "开发者工具",
+          "description": "强大的开发工具集，助力快速构建应用"
+        },
+        "blockchain": {
+          "title": "区块链服务",
+          "description": "安全可靠的区块链基础设施服务"
+        }
+      },
+      "cloudServices": {
+        "title": "云管理服务",
+        "strategy": {
+          "title": "云战略咨询规划",
+          "description": "专业的云战略规划与咨询服务"
+        },
+        "technical": {
+          "title": "云技术专业服务",
+          "description": "全面的云技术支持与专业服务"
+        },
+        "operations": {
+          "title": "云运维管理服务",
+          "description": "高效的云平台运维与管理"
+        },
+        "security": {
+          "title": "云安全防护服务",
+          "description": "全面的云安全防护与威胁检测"
+        },
+        "costOptimization": {
+          "title": "云成本优化服务",
+          "description": "智能的云成本分析与优化服务"
+        },
+        "migration": {
+          "title": "云迁移服务",
+          "description": "安全高效的云迁移解决方案"
+        }
+      },
+      "community": {
+        "title": "社区",
+        "developers": {
+          "title": "开发者社区",
+          "description": "加入我们活跃的开发者社区"
+        },
+        "events": {
+          "title": "技术活动",
+          "description": "参与线上线下技术交流活动"
+        },
+        "opensource": {
+          "title": "开源贡献",
+          "description": "为开源项目贡献代码与想法"
+        },
+        "forum": {
+          "title": "技术论坛",
+          "description": "分享经验，解决问题的技术论坛"
+        }
+      },
+      "industry": {
+        "title": "行业方案",
+        "fintech": {
+          "title": "金融科技解决方案",
+          "description": "为金融行业提供创新技术解决方案"
+        },
+        "supplyChain": {
+          "title": "供应链管理方案",
+          "description": "优化供应链流程的区块链解决方案"
+        },
+        "digitalIdentity": {
+          "title": "数字身份认证",
+          "description": "安全可靠的数字身份认证系统"
+        },
+        "dataSecurity": {
+          "title": "数据安全与隐私",
+          "description": "保护数据安全与用户隐私的解决方案"
+        }
+      },
+      "cases": {
+        "title": "客户案例",
+        "successStories": {
+          "title": "成功案例集",
+          "description": "浏览我们的成功客户案例"
+        },
+        "financial": {
+          "title": "金融行业",
+          "description": "金融科技领域的创新应用"
+        },
+        "supplyChain": {
+          "title": "供应链行业",
+          "description": "供应链管理的区块链应用"
+        },
+        "healthcare": {
+          "title": "医疗健康",
+          "description": "医疗数据管理与共享解决方案"
+        },
+        "government": {
+          "title": "政府服务",
+          "description": "提升政府服务效率的区块链应用"
+        }
+      },
+      "about": {
+        "title": "关于我们",
+        "company": {
+          "title": "公司简介",
+          "description": "了解我们的使命与愿景"
+        },
+        "qualifications": {
+          "title": "企业资质",
+          "description": "查看我们的专业认证与行业资质"
+        },
+        "team": {
+          "title": "技术团队",
+          "description": "认识我们专业的技术团队"
+        },
+        "partners": {
+          "title": "合作伙伴",
+          "description": "查看我们的合作伙伴网络"
+        },
+        "careers": {
+          "title": "加入我们",
+          "description": "探索激动人心的职业机会"
+        },
+        "contact": {
+          "title": "联系方式",
+          "description": "获取我们的联系方式"
+        }
+      }
+    }
+  },
+  "testScenarios": {
+    "title": "多语言功能测试场景",
+    "basicUsage": {
+      "title": "基础用法",
+      "simpleText": "简单文本翻译",
+      "nestedObject": "嵌套对象翻译",
+      "arrayData": "数组数据翻译"
+    },
+    "dynamicContent": {
+      "title": "动态内容",
+      "userGreeting": "你好，{name}！",
+      "itemCount": "你有 {count} 个项目",
+      "timeRemaining": "剩余时间：{time} 分钟"
+    },
+    "pluralization": {
+      "title": "复数形式",
+      "noItems": "没有项目",
+      "oneItem": "1个项目",
+      "multipleItems": "{count}个项目"
+    },
+    "dateTime": {
+      "title": "日期时间",
+      "currentDate": "当前日期",
+      "lastUpdated": "最后更新",
+      "createdAt": "创建时间"
+    },
+    "forms": {
+      "title": "表单元素",
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "message": "留言",
+      "placeholders": {
+        "enterName": "请输入您的姓名",
+        "enterEmail": "请输入您的邮箱",
+        "enterPhone": "请输入您的电话",
+        "enterMessage": "请输入您的留言"
+      },
+      "validation": {
+        "required": "此字段为必填项",
+        "invalidEmail": "请输入有效的邮箱地址",
+        "minLength": "至少需要{min}个字符"
+      }
+    },
+    "status": {
+      "title": "状态信息",
+      "loading": "加载中...",
+      "success": "操作成功",
+      "error": "操作失败",
+      "warning": "警告信息",
+      "info": "提示信息"
+    },
+    "navigation": {
+      "title": "导航元素",
+      "previous": "上一页",
+      "next": "下一页",
+      "first": "首页",
+      "last": "末页",
+      "goBack": "返回",
+      "goHome": "回到首页"
+    }
+  }
+}

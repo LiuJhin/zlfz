@@ -1,0 +1,287 @@
+{
+  "welcome": "Welcome",
+  "hello": "Hello",
+  "about": "About",
+  "contact": "Contact Us",
+  "home": "Home",
+  "language": "Language",
+  "switchLanguage": "Switch Language",
+  "theme": "Theme",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "switchTheme": "Switch Theme",
+  "messages": {
+    "welcome": "Welcome to our website",
+    "description": "This is a multilingual website using Nuxt.js and i18n"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "hero": {
+    "title": "Building Future Blockchain Solutions",
+    "description": "We provide enterprise-grade blockchain technology services to accelerate your digital transformation journey. From consulting and planning to technical implementation, we create secure, efficient, and scalable blockchain applications for you.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "stats": {
+      "contractCreators": "Contract Creators",
+      "uniqueAddresses": "Unique Addresses",
+      "transactions": "Transactions",
+      "avgCost": "Avg Cost"
+    }
+  },
+  "about": {
+    "qualifications": {
+      "title": "Corporate Qualifications",
+      "subtitle": "Our Professional Certifications and Industry Qualifications",
+      "certifications": {
+        "title": "Industry Certifications"
+      },
+      "items": {
+        "highTech": {
+          "title": "High-Tech Enterprise Certification",
+          "description": "Nationally recognized high-tech enterprise with core independent intellectual property"
+        },
+        "software": {
+          "title": "Software Enterprise Certification",
+          "description": "Meets national standards for software enterprise certification"
+        },
+        "iso9001": {
+          "title": "ISO 9001 Quality Management System Certification",
+          "description": "International Organization for Standardization quality management system certification"
+        },
+        "iso27001": {
+          "title": "ISO 27001 Information Security Management System Certification",
+          "description": "International Organization for Standardization information security management system certification"
+        }
+      },
+      "certificationItems": {
+        "bsn": {
+          "name": "Blockchain Service Network Certification",
+          "description": "Official certified service provider of Blockchain Service Network"
+        },
+        "tcbp": {
+          "name": "Trusted Blockchain Promotion Plan Member",
+          "description": "Member unit of China Academy of Information and Communications Technology Trusted Blockchain Promotion Plan"
+        },
+        "mlps": {
+          "name": "Multi-Level Protection Scheme",
+          "description": "Passed national network security level protection level 3 certification"
+        },
+        "ccss": {
+          "name": "Cloud Computing Service Security Assessment",
+          "description": "Passed national cloud computing service security assessment"
+        }
+      },
+      "labels": {
+        "certNumber": "Certificate Number:",
+        "issueDate": "Issue Date:",
+        "validUntil": "Valid Until:"
+      }
+    }
+  },
+  "navbar": {
+    "solutions": "Solutions",
+    "cloudServices": "Cloud Management Services",
+    "community": "Community",
+    "industrySolutions": "Industry Solutions",
+    "caseStudies": "Case Studies",
+    "aboutUs": "About Us",
+    "docs": "Documentation",
+    "menu": {
+      "solutions": {
+        "title": "Solutions",
+        "enterprise": {
+          "title": "Enterprise Solutions",
+          "description": "Comprehensive blockchain solutions for enterprises"
+        },
+        "devTools": {
+          "title": "Developer Tools",
+          "description": "Powerful development toolkit for rapid application building"
+        },
+        "blockchain": {
+          "title": "Blockchain Services",
+          "description": "Secure and reliable blockchain infrastructure services"
+        }
+      },
+      "cloudServices": {
+        "title": "Cloud Management Services",
+        "strategy": {
+          "title": "Cloud Strategy Consulting",
+          "description": "Professional cloud strategy planning and consulting services"
+        },
+        "technical": {
+          "title": "Cloud Technical Services",
+          "description": "Comprehensive cloud technical support and professional services"
+        },
+        "operations": {
+          "title": "Cloud Operations Management",
+          "description": "Efficient cloud platform operations and management"
+        },
+        "security": {
+          "title": "Cloud Security Protection",
+          "description": "Comprehensive cloud security protection and threat detection"
+        },
+        "costOptimization": {
+          "title": "Cloud Cost Optimization",
+          "description": "Intelligent cloud cost analysis and optimization services"
+        },
+        "migration": {
+          "title": "Cloud Migration Services",
+          "description": "Secure and efficient cloud migration solutions"
+        }
+      },
+      "community": {
+        "title": "Community",
+        "developers": {
+          "title": "Developer Community",
+          "description": "Join our active developer community"
+        },
+        "events": {
+          "title": "Technical Events",
+          "description": "Participate in online and offline technical exchange events"
+        },
+        "opensource": {
+          "title": "Open Source Contribution",
+          "description": "Contribute code and ideas to open source projects"
+        },
+        "forum": {
+          "title": "Technical Forum",
+          "description": "Technical forum for sharing experiences and solving problems"
+        }
+      },
+      "industry": {
+        "title": "Industry Solutions",
+        "fintech": {
+          "title": "Fintech Solutions",
+          "description": "Innovative technology solutions for the financial industry"
+        },
+        "supplyChain": {
+          "title": "Supply Chain Management",
+          "description": "Blockchain solutions for optimizing supply chain processes"
+        },
+        "digitalIdentity": {
+          "title": "Digital Identity Authentication",
+          "description": "Secure and reliable digital identity authentication system"
+        },
+        "dataSecurity": {
+          "title": "Data Security & Privacy",
+          "description": "Solutions for protecting data security and user privacy"
+        }
+      },
+      "cases": {
+        "title": "Case Studies",
+        "successStories": {
+          "title": "Success Stories",
+          "description": "Browse our successful customer case studies"
+        },
+        "financial": {
+          "title": "Financial Industry",
+          "description": "Innovative applications in fintech"
+        },
+        "supplyChain": {
+          "title": "Supply Chain Industry",
+          "description": "Blockchain applications in supply chain management"
+        },
+        "healthcare": {
+          "title": "Healthcare",
+          "description": "Medical data management and sharing solutions"
+        },
+        "government": {
+          "title": "Government Services",
+          "description": "Blockchain applications for improving government service efficiency"
+        }
+      },
+      "about": {
+        "title": "About Us",
+        "company": {
+          "title": "Company Profile",
+          "description": "Learn about our mission and vision"
+        },
+        "qualifications": {
+          "title": "Corporate Qualifications",
+          "description": "View our professional certifications and industry qualifications"
+        },
+        "team": {
+          "title": "Technical Team",
+          "description": "Meet our professional technical team"
+        },
+        "partners": {
+          "title": "Partners",
+          "description": "View our partner network"
+        },
+        "careers": {
+          "title": "Join Us",
+          "description": "Explore exciting career opportunities"
+        },
+        "contact": {
+          "title": "Contact Information",
+          "description": "Get our contact information"
+        }
+      }
+    }
+  },
+  "testScenarios": {
+    "title": "Multilingual Feature Test Scenarios",
+    "basicUsage": {
+      "title": "Basic Usage",
+      "simpleText": "Simple text translation",
+      "nestedObject": "Nested object translation",
+      "arrayData": "Array data translation"
+    },
+    "dynamicContent": {
+      "title": "Dynamic Content",
+      "userGreeting": "Hello, {name}!",
+      "itemCount": "You have {count} items",
+      "timeRemaining": "Time remaining: {time} minutes"
+    },
+    "pluralization": {
+      "title": "Pluralization",
+      "noItems": "No items",
+      "oneItem": "1 item",
+      "multipleItems": "{count} items"
+    },
+    "dateTime": {
+      "title": "Date & Time",
+      "currentDate": "Current Date",
+      "lastUpdated": "Last Updated",
+      "createdAt": "Created At"
+    },
+    "forms": {
+      "title": "Form Elements",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "placeholders": {
+        "enterName": "Please enter your name",
+        "enterEmail": "Please enter your email",
+        "enterPhone": "Please enter your phone",
+        "enterMessage": "Please enter your message"
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "minLength": "At least {min} characters required"
+      }
+    },
+    "status": {
+      "title": "Status Information",
+      "loading": "Loading...",
+      "success": "Operation successful",
+      "error": "Operation failed",
+      "warning": "Warning message",
+      "info": "Information message"
+    },
+    "navigation": {
+      "title": "Navigation Elements",
+      "previous": "Previous",
+      "next": "Next",
+      "first": "First",
+      "last": "Last",
+      "goBack": "Go Back",
+      "goHome": "Go Home"
+    }
+  }
+}

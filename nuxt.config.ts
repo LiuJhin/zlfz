@@ -10,15 +10,22 @@ export default defineNuxtConfig({
     host: "0.0.0.0",
   },
   i18n: {
-    // 保留i18n配置但禁用自动加载翻译文件
-    defaultLocale: "en",
+    defaultLocale: "zh",
     locales: [
-      { code: "en", name: "English" },
-      { code: "zh", name: "中文" },
+      { code: "zh", name: "中文", file: "zh.json" },
+      { code: "en", name: "English", file: "en.json" },
     ],
-    // 禁用自动加载翻译文件
-    lazy: false,
+    lazy: true,
+    langDir: "locales",
     strategy: "no_prefix",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
   },
 
   colorMode: {

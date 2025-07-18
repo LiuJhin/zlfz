@@ -119,8 +119,9 @@
               </li>
             </ul>
             <div class="mobile-menu-footer">
+              <LanguageSwitcher />
               <ThemeSwitcher />
-              <a href="#" class="mobile-cta-button">Polygon Docs</a>
+              <a href="#" class="mobile-cta-button">{{ $t("navbar.docs") }}</a>
             </div>
           </div>
         </div>
@@ -130,24 +131,27 @@
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, computed } from "vue";
 import NavbarLogo from "./NavbarLogo.vue";
 import NavbarMenu from "./NavbarMenu.vue";
 import NavbarControls from "./NavbarControls.vue";
 import ThemeSwitcher from "./ThemeSwitcher.vue";
+import LanguageSwitcher from "./LanguageSwitcher.vue";
 
 // 移动端菜单状态
 const mobileMenuOpen = ref(false);
 
+const { t } = useI18n();
+
 // 菜单数据
-const menuItems = reactive([
+const menuItems = computed(() => [
   {
-    title: "解决方案",
+    title: t("navbar.solutions"),
     link: "#",
     isOpen: false,
     dropdownItems: [
       {
-        title: "企业解决方案",
+        title: t("navbar.solutions"),
         link: "#",
         icon: "solution",
         description: "为企业提供全方位的区块链解决方案",
@@ -167,7 +171,7 @@ const menuItems = reactive([
     ],
   },
   {
-    title: "云管理服务",
+    title: t("navbar.cloudServices"),
     link: "#",
     isOpen: false,
     dropdownItems: [
@@ -210,7 +214,7 @@ const menuItems = reactive([
     ],
   },
   {
-    title: "社区",
+    title: t("navbar.community"),
     link: "#",
     isOpen: false,
     dropdownItems: [
@@ -241,7 +245,7 @@ const menuItems = reactive([
     ],
   },
   {
-    title: "行业方案",
+    title: t("navbar.industrySolutions"),
     link: "#",
     isOpen: false,
     dropdownItems: [
@@ -272,7 +276,7 @@ const menuItems = reactive([
     ],
   },
   {
-    title: "客户案例",
+    title: t("navbar.caseStudies"),
     link: "#",
     isOpen: false,
     dropdownItems: [
@@ -309,7 +313,7 @@ const menuItems = reactive([
     ],
   },
   {
-    title: "关于我们",
+    title: t("navbar.aboutUs"),
     link: "#",
     isOpen: false,
     dropdownItems: [
@@ -593,24 +597,29 @@ const getIconPath = (icon) => {
   line-height: 1.3;
 }
 
+/* 移动端菜单底部样式 */
 .mobile-menu-footer {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  border-top: 1px solid var(--border-color);
+  margin-top: auto;
 }
 
 .mobile-cta-button {
-  background-color: var(--cta-button-bg);
-  color: var(--cta-button-text);
-  padding: 12px 24px;
-  border-radius: 30px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
+  text-align: center;
+  font-weight: 600;
   transition: background-color 0.2s ease;
-  display: inline-block;
+}
+
+.mobile-cta-button:hover {
+  background-color: var(--primary-color-dark);
 }
 
 /* 响应式设计 */
@@ -625,6 +634,18 @@ const getIconPath = (icon) => {
 
   .mobile-menu {
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-button {
+    display: none;
   }
 }
 </style>

@@ -61,6 +61,9 @@
       </a>
     </div>
 
+    <!-- 语言切换 -->
+    <LanguageSwitcher />
+    
     <!-- 主题切换 -->
     <ThemeSwitcher />
 
@@ -71,6 +74,7 @@
 
 <script setup>
 import ThemeSwitcher from "./ThemeSwitcher.vue";
+import LanguageSwitcher from "./LanguageSwitcher.vue";
 </script>
 
 <style scoped>

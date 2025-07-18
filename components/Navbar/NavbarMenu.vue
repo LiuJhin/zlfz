@@ -13,222 +13,213 @@
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, computed } from "vue";
 import NavbarMenuItem from "./NavbarMenuItem.vue";
 
-// 菜单数据，实际项目中可能从API获取或存储在store中
-const menuItems = reactive([
+const { t } = useI18n();
+
+// 菜单状态管理
+const menuState = reactive({
+  activeItem: null,
+  openStates: {},
+});
+
+// 切换下拉菜单的显示状态
+const toggleDropdown = (item) => {
+  const itemTitle = item.title;
+
+  // 如果点击的是当前已打开的菜单，则关闭它
+  if (menuState.activeItem === itemTitle && menuState.openStates[itemTitle]) {
+    menuState.openStates[itemTitle] = false;
+    menuState.activeItem = null;
+    return;
+  }
+
+  // 关闭所有其他打开的菜单
+  Object.keys(menuState.openStates).forEach((key) => {
+    menuState.openStates[key] = false;
+  });
+
+  // 打开当前点击的菜单
+  menuState.openStates[itemTitle] = true;
+  menuState.activeItem = itemTitle;
+};
+
+// 菜单数据，使用计算属性实现响应式多语言
+const menuItems = computed(() => [
   {
-    title: "解决方案",
+    title: t("navbar.menu.cloudServices.title"),
     link: "#",
-    isOpen: false,
+    get isOpen() {
+      return menuState.openStates[this.title] || false;
+    },
     dropdownItems: [
       {
-        title: "企业解决方案",
-        link: "#",
-        icon: "solution",
-        description: "为企业提供全方位的区块链解决方案",
-      },
-      {
-        title: "开发者工具",
-        link: "#",
-        icon: "solution",
-        description: "强大的开发工具集，助力快速构建应用",
-      },
-      {
-        title: "区块链服务",
-        link: "#",
-        icon: "solution",
-        description: "安全可靠的区块链基础设施服务",
-      },
-    ],
-  },
-  {
-    title: "云管理服务",
-    link: "#",
-    isOpen: false,
-    dropdownItems: [
-      {
-        title: "云战略咨询规划",
+        title: t("navbar.menu.cloudServices.strategy.title"),
         link: "/cloud-services/strategy-consulting",
         icon: "cloud",
-        description: "专业的云战略规划与咨询服务",
+        description: t("navbar.menu.cloudServices.strategy.description"),
       },
       {
-        title: "云技术专业服务",
+        title: t("navbar.menu.cloudServices.technical.title"),
         link: "/cloud-services/technical-services",
         icon: "cloud",
-        description: "全面的云技术支持与专业服务",
+        description: t("navbar.menu.cloudServices.technical.description"),
       },
       {
-        title: "云运维管理服务",
+        title: t("navbar.menu.cloudServices.operations.title"),
         link: "/cloud-services/operations-management",
         icon: "cloud",
-        description: "高效的云平台运维与管理",
+        description: t("navbar.menu.cloudServices.operations.description"),
       },
       {
-        title: "云安全防护服务",
+        title: t("navbar.menu.cloudServices.security.title"),
         link: "/cloud-services/security-protection",
         icon: "cloud",
-        description: "全面的云安全防护与威胁检测",
+        description: t("navbar.menu.cloudServices.security.description"),
       },
       {
-        title: "云成本优化服务",
+        title: t("navbar.menu.cloudServices.costOptimization.title"),
         link: "/cloud-services/cost-optimization",
         icon: "cloud",
-        description: "智能的云成本分析与优化服务",
+        description: t(
+          "navbar.menu.cloudServices.costOptimization.description"
+        ),
       },
       {
-        title: "云迁移服务",
+        title: t("navbar.menu.cloudServices.migration.title"),
         link: "/cloud-services/cloud-migration",
         icon: "cloud",
-        description: "安全高效的云迁移解决方案",
+        description: t("navbar.menu.cloudServices.migration.description"),
       },
     ],
   },
   {
-    title: "社区",
+    title: t("navbar.menu.industry.title"),
     link: "#",
-    isOpen: false,
+    get isOpen() {
+      return menuState.openStates[this.title] || false;
+    },
     dropdownItems: [
       {
-        title: "开发者社区",
-        link: "#",
-        icon: "community",
-        description: "加入我们活跃的开发者社区",
-      },
-      {
-        title: "技术活动",
-        link: "#",
-        icon: "community",
-        description: "参与线上线下技术交流活动",
-      },
-      {
-        title: "开源贡献",
-        link: "#",
-        icon: "community",
-        description: "为开源项目贡献代码与想法",
-      },
-      {
-        title: "技术论坛",
-        link: "#",
-        icon: "community",
-        description: "分享经验，解决问题的技术论坛",
-      },
-    ],
-  },
-  {
-    title: "行业方案",
-    link: "#",
-    isOpen: false,
-    dropdownItems: [
-      {
-        title: "金融科技解决方案",
+        title: t("navbar.menu.industry.fintech.title"),
         link: "/industry-solutions/fintech",
         icon: "solution",
-        description: "为金融行业提供创新技术解决方案",
+        description: t("navbar.menu.industry.fintech.description"),
       },
       {
-        title: "供应链管理方案",
+        title: t("navbar.menu.industry.supplyChain.title"),
         link: "/industry-solutions/supply-chain",
         icon: "solution",
-        description: "优化供应链流程的区块链解决方案",
+        description: t("navbar.menu.industry.supplyChain.description"),
       },
       {
-        title: "数字身份认证",
+        title: t("navbar.menu.industry.digitalIdentity.title"),
         link: "/industry-solutions/digital-identity",
         icon: "solution",
-        description: "安全可靠的数字身份认证系统",
+        description: t("navbar.menu.industry.digitalIdentity.description"),
       },
       {
-        title: "数据安全与隐私",
+        title: t("navbar.menu.industry.dataSecurity.title"),
         link: "/industry-solutions/data-security",
         icon: "solution",
-        description: "保护数据安全与用户隐私的解决方案",
+        description: t("navbar.menu.industry.dataSecurity.description"),
       },
     ],
   },
   {
-    title: "客户案例",
+    title: t("navbar.menu.cases.title"),
     link: "#",
-    isOpen: false,
+    get isOpen() {
+      return menuState.openStates[this.title] || false;
+    },
     dropdownItems: [
       {
-        title: "成功案例集",
+        title: t("navbar.menu.cases.successStories.title"),
         link: "/case-studies/success-stories",
         icon: "case",
-        description: "浏览我们的成功客户案例",
+        description: t("navbar.menu.cases.successStories.description"),
       },
       {
-        title: "金融行业",
+        title: t("navbar.menu.cases.financial.title"),
         link: "/case-studies/financial",
         icon: "case",
-        description: "金融科技领域的创新应用",
+        description: t("navbar.menu.cases.financial.description"),
       },
       {
-        title: "供应链行业",
+        title: t("navbar.menu.cases.supplyChain.title"),
         link: "/case-studies/supply-chain",
         icon: "case",
-        description: "供应链管理的区块链应用",
+        description: t("navbar.menu.cases.supplyChain.description"),
       },
       {
-        title: "医疗健康",
+        title: t("navbar.menu.cases.healthcare.title"),
         link: "/case-studies/healthcare",
         icon: "case",
-        description: "医疗数据管理与共享解决方案",
+        description: t("navbar.menu.cases.healthcare.description"),
       },
       {
-        title: "政府服务",
+        title: t("navbar.menu.cases.government.title"),
         link: "/case-studies/government",
         icon: "case",
-        description: "提升政府服务效率的区块链应用",
+        description: t("navbar.menu.cases.government.description"),
       },
     ],
   },
   {
-    title: "关于我们",
+    title: t("navbar.menu.about.title"),
     link: "#",
-    isOpen: false,
+    get isOpen() {
+      return menuState.openStates[this.title] || false;
+    },
     dropdownItems: [
       {
-        title: "公司简介",
+        title: t("navbar.menu.about.company.title"),
         link: "/about",
         icon: "about",
-        description: "了解我们的使命与愿景",
+        description: t("navbar.menu.about.company.description"),
       },
       {
-        title: "企业资质",
+        title: t("navbar.menu.about.qualifications.title"),
         link: "/about#qualifications",
         icon: "about",
-        description: "查看我们的专业认证与行业资质",
+        description: t("navbar.menu.about.qualifications.description"),
       },
       {
-        title: "技术团队",
+        title: t("navbar.menu.about.team.title"),
         link: "/about#team",
         icon: "about",
-        description: "认识我们专业的技术团队",
+        description: t("navbar.menu.about.team.description"),
       },
       {
-        title: "合作伙伴",
+        title: t("navbar.menu.about.partners.title"),
         link: "/about#partners",
         icon: "about",
-        description: "查看我们的合作伙伴网络",
+        description: t("navbar.menu.about.partners.description"),
       },
       {
-        title: "加入我们",
+        title: t("navbar.menu.about.careers.title"),
         link: "/about#team",
         icon: "about",
-        description: "探索激动人心的职业机会",
+        description: t("navbar.menu.about.careers.description"),
       },
       {
-        title: "联系方式",
+        title: t("navbar.menu.about.contact.title"),
         link: "/contact",
         icon: "about",
-        description: "获取我们的联系方式",
+        description: t("navbar.menu.about.contact.description"),
       },
     ],
   },
 ]);
+
+// 关闭菜单的方法
+const closeMenu = () => {
+  Object.keys(menuState.openStates).forEach((key) => {
+    menuState.openStates[key] = false;
+  });
+  menuState.activeItem = null;
+};
 </script>
 
 <style scoped>
