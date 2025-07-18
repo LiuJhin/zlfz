@@ -17,7 +17,7 @@
           <div class="footer-column">
             <h3 class="column-title">Products</h3>
             <ul class="link-list">
-              <li><a href="#">Polygon PoS</a></li>
+              <li><a href="#">ZHILING ARK</a></li>
               <li><a href="#">Polygon zkEVM</a></li>
               <li><a href="#">Miden</a></li>
               <li><a href="#">Agglayer CDK</a></li>

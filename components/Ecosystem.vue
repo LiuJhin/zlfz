@@ -35,7 +35,7 @@
       <div class="partners-section">
         <h3 class="partners-title">Industry Giants We Are Trusted By</h3>
         <div class="partners-grid">
-          <div class="partner-logo" v-for="i in 12" :key="i">
+          <div class="partner-logo" v-for="i in 15" :key="i">
             <div class="logo-placeholder">
               <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" opacity="0.5" />

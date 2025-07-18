@@ -2,6 +2,7 @@
   <div class="home-page">
     <Hero />
     <Features />
+    <ServiceProvision/>
     <Projects />
     <Ecosystem />
     <Contact />
@@ -11,6 +12,7 @@
 <script setup>
 import Hero from "@/components/Hero.vue";
 import Features from "@/components/Features.vue";
+import ServiceProvision from "@/components/ServiceProvision.vue";
 import Projects from "@/components/Projects.vue";
 import Ecosystem from "@/components/Ecosystem.vue";
 import Contact from "@/components/Contact.vue";
