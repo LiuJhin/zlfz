@@ -23,7 +23,9 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">{{ $t("features.items.polygonPos.title") }}</h3>
+          <h3 class="feature-title">
+            {{ $t("features.items.polygonPos.title") }}
+          </h3>
           <p class="feature-description">
             {{ $t("features.items.polygonPos.description") }}
           </p>
@@ -47,7 +49,9 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">{{ $t("features.items.polygonZkEvm.title") }}</h3>
+          <h3 class="feature-title">
+            {{ $t("features.items.polygonZkEvm.title") }}
+          </h3>
           <p class="feature-description">
             {{ $t("features.items.polygonZkEvm.description") }}
           </p>
@@ -95,7 +99,9 @@
               />
             </svg>
           </div>
-          <h3 class="feature-title">{{ $t("features.items.agglayerCdk.title") }}</h3>
+          <h3 class="feature-title">
+            {{ $t("features.items.agglayerCdk.title") }}
+          </h3>
           <p class="feature-description">
             {{ $t("features.items.agglayerCdk.description") }}
           </p>

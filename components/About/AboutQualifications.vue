@@ -1,154 +1,93 @@
 <template>
   <section id="qualifications" class="about-qualifications">
     <div class="about-qualifications-container">
-      <ScrollAnimations type="fadeIn" threshold="0.1">
-        <div class="section-header">
-          <AnimatedText
-            tag="h2"
-            class="section-title"
-            type="slideUp"
-            :delay="0.1"
-            >{{ $t("about.qualifications.title") }}</AnimatedText
-          >
-          <AnimatedText
-            tag="p"
-            class="section-subtitle"
-            type="fadeIn"
-            :delay="0.3"
-            >{{ $t("about.qualifications.subtitle") }}</AnimatedText
-          >
-          <div class="section-divider"></div>
-        </div>
-      </ScrollAnimations>
+      <div class="section-header">
+        <h2 class="section-title">{{ $t("about.qualifications.title") }}</h2>
+        <p class="section-subtitle">{{ $t("about.qualifications.subtitle") }}</p>
+      </div>
 
-      <ScrollAnimations type="stagger" stagger="0.15" threshold="0.1">
-        <div class="qualifications-grid">
-          <div
-            v-for="(qualification, index) in qualifications"
-            :key="index"
-            class="qualification-card"
-          >
-            <div
-              class="qualification-icon svg-animate"
-              :style="{ backgroundColor: qualification.bgColor }"
-            >
-              <svg
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  class="svg-path"
-                  d="M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  class="svg-path"
-                  d="M8.21 13.89L7 23L12 20L17 23L15.79 13.88"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+      <div class="qualifications-grid">
+        <div
+          v-for="(qualification, index) in qualifications"
+          :key="index"
+          class="qualification-card"
+        >
+          <div class="qualification-header">
+            <div class="qualification-badge" :style="{ backgroundColor: qualification.bgColor }">
+              {{ qualification.abbr }}
             </div>
-            <div class="qualification-content">
-              <AnimatedText
-                tag="h3"
-                class="qualification-title"
-                type="fadeIn"
-                :delay="0.1"
-                >{{ qualification.title }}</AnimatedText
-              >
-              <p class="qualification-description">
-                {{ qualification.description }}
-              </p>
-              <div class="qualification-details">
-                <div class="qualification-detail">
-                  <span class="detail-label">{{
-                    $t("about.qualifications.labels.certNumber")
-                  }}</span>
-                  <span class="detail-value">{{
-                    qualification.certNumber
-                  }}</span>
-                </div>
-                <div class="qualification-detail">
-                  <span class="detail-label">{{
-                    $t("about.qualifications.labels.issueDate")
-                  }}</span>
-                  <span class="detail-value">{{
-                    qualification.issueDate
-                  }}</span>
-                </div>
-                <div class="qualification-detail">
-                  <span class="detail-label">{{
-                    $t("about.qualifications.labels.validUntil")
-                  }}</span>
-                  <span class="detail-value">{{
-                    qualification.validUntil
-                  }}</span>
-                </div>
+            <h3 class="qualification-title">{{ qualification.title }}</h3>
+          </div>
+          <p class="qualification-description">{{ qualification.description }}</p>
+          <div class="qualification-meta">
+            <div class="meta-item">
+              <span class="meta-label">证书编号</span>
+              <span class="meta-value">{{ qualification.certNumber }}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">有效期至</span>
+              <span class="meta-value">{{ qualification.validUntil }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications-section">
+        <h3 class="certifications-title">{{ $t("about.qualifications.certifications.title") }}</h3>
+        <div class="certifications-grid">
+          <div
+            v-for="(certification, index) in certifications"
+            :key="index"
+            class="certification-item"
+          >
+            <div class="certification-icon" :style="{ backgroundColor: certification.bgColor }">
+              {{ certification.abbr }}
+            </div>
+            <div class="certification-info">
+              <h4 class="certification-name">{{ certification.name }}</h4>
+              <p class="certification-description">{{ certification.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cloud-credentials-section">
+        <h3 class="credentials-title animate-fade-in">云服务商资质认证</h3>
+        <div class="credentials-grid">
+          <div
+            v-for="(credential, index) in cloudCredentials"
+            :key="index"
+            class="credential-item animate-slide-up"
+            :style="{ animationDelay: `${index * 0.2}s` }"
+          >
+            <div class="credential-image">
+              <div class="image-loading-overlay">
+                <div class="loading-spinner"></div>
+              </div>
+              <img 
+                :src="credential.image" 
+                :alt="credential.name"
+                @load="handleImageLoad"
+                @error="handleImageError"
+                class="credential-logo"
+              />
+            </div>
+            <div class="credential-info">
+              <h4 class="credential-name">{{ credential.name }}</h4>
+              <p class="credential-description">{{ credential.description }}</p>
+              <div class="credential-badge">
+                <span class="badge-text">认证合作伙伴</span>
               </div>
             </div>
           </div>
         </div>
-      </ScrollAnimations>
-
-      <ScrollAnimations type="fadeIn" threshold="0.1">
-        <div class="certifications-section">
-          <AnimatedText
-            tag="h3"
-            class="certifications-title"
-            type="wave"
-            :delay="0.1"
-            >{{ $t("about.qualifications.certifications.title") }}</AnimatedText
-          >
-          <ScrollAnimations type="stagger" stagger="0.1" threshold="0.1">
-            <div class="certifications-grid">
-              <div
-                v-for="(certification, index) in certifications"
-                :key="index"
-                class="certification-item"
-              >
-                <div
-                  class="certification-logo shimmer"
-                  :style="{ backgroundColor: certification.bgColor }"
-                >
-                  <span class="certification-abbr">{{
-                    certification.abbr
-                  }}</span>
-                </div>
-                <div class="certification-content">
-                  <AnimatedText
-                    tag="h4"
-                    class="certification-name"
-                    type="fadeIn"
-                    :delay="0.1"
-                    >{{ certification.name }}</AnimatedText
-                  >
-                  <p class="certification-description">
-                    {{ certification.description }}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </ScrollAnimations>
-        </div>
-      </ScrollAnimations>
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { reactive, computed, onMounted, onBeforeUnmount } from "vue";
-import AnimatedText from "./AnimatedText.vue";
-import ScrollAnimations from "./ScrollAnimations.vue";
-import { gsap } from "gsap";
+import { computed } from "vue";
 
 const { t } = useI18n();
 
@@ -158,33 +97,33 @@ const qualifications = computed(() => [
     title: t("about.qualifications.items.highTech.title"),
     description: t("about.qualifications.items.highTech.description"),
     certNumber: "GR202111003456",
-    issueDate: "2021-10-15",
     validUntil: "2024-10-14",
-    bgColor: "var(--primary-color)",
+    bgColor: "#3B82F6",
+    abbr: "高新",
   },
   {
     title: t("about.qualifications.items.software.title"),
     description: t("about.qualifications.items.software.description"),
     certNumber: "RQ20211100789",
-    issueDate: "2021-08-20",
     validUntil: "2024-08-19",
-    bgColor: "var(--secondary-color)",
+    bgColor: "#10B981",
+    abbr: "软著",
   },
   {
     title: t("about.qualifications.items.iso9001.title"),
     description: t("about.qualifications.items.iso9001.description"),
     certNumber: "ISO9001-CN-123456",
-    issueDate: "2022-03-10",
     validUntil: "2025-03-09",
-    bgColor: "var(--accent-color)",
+    bgColor: "#F59E0B",
+    abbr: "ISO",
   },
   {
     title: t("about.qualifications.items.iso27001.title"),
     description: t("about.qualifications.items.iso27001.description"),
     certNumber: "ISO27001-CN-654321",
-    issueDate: "2022-05-18",
     validUntil: "2025-05-17",
-    bgColor: "#6366F1",
+    bgColor: "#EC4899",
+    abbr: "安全",
   },
 ]);
 
@@ -216,315 +155,605 @@ const certifications = computed(() => [
   },
 ]);
 
-// 初始化 SVG 动画
-onMounted(() => {
-  // 初始化 SVG 路径动画
-  const svgPaths = document.querySelectorAll(".svg-path");
-  gsap.set(svgPaths, { strokeDasharray: 1000, strokeDashoffset: 1000 });
+// 云服务商资质认证数据
+const cloudCredentials = [
+  {
+    name: "Amazon Web Services",
+    image: "/assets/image/credential/aws.jpg",
+    description: "AWS 合作伙伴认证，提供专业的云计算解决方案"
+  },
+  {
+    name: "Microsoft Azure",
+    image: "/assets/image/credential/Azure.jpg",
+    description: "Azure 认证合作伙伴，专注于企业级云服务"
+  },
+  {
+    name: "Google Cloud Platform",
+    image: "/assets/image/credential/Gcp.jpg",
+    description: "GCP 认证专家，提供先进的云原生解决方案"
+  },
+  {
+    name: "腾讯云",
+    image: "/assets/image/credential/Tencent.jpg",
+    description: "腾讯云合作伙伴，专业的国内云服务提供商"
+  },
+  {
+    name: "Oracle Cloud",
+    image: "/assets/image/credential/oci.jpg",
+    description: "Oracle 云基础设施认证合作伙伴"
+  }
+];
 
-  // 使用 IntersectionObserver 监听 SVG 元素进入视口
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const paths = entry.target.querySelectorAll(".svg-path");
-          gsap.to(paths, {
-            strokeDashoffset: 0,
-            duration: 2,
-            stagger: 0.1,
-            ease: "power2.out",
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.2 }
-  );
+// 图片加载处理
+const handleImageLoad = (event) => {
+  const img = event.target;
+  const overlay = img.parentElement.querySelector('.image-loading-overlay');
+  if (overlay) {
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 300);
+  }
+  img.style.opacity = '1';
+};
 
-  // 监听所有 SVG 动画元素
-  document.querySelectorAll(".svg-animate").forEach((svg) => {
-    observer.observe(svg);
-  });
-});
+const handleImageError = (event) => {
+  const img = event.target;
+  const overlay = img.parentElement.querySelector('.image-loading-overlay');
+  if (overlay) {
+    overlay.innerHTML = '<div class="error-icon">❌</div>';
+  }
+};
 
-// 清理动画资源
-onBeforeUnmount(() => {
-  // 清理 GSAP 动画
-  gsap.killTweensOf(".svg-path");
-});
+
 </script>
 
 <style scoped>
 .about-qualifications {
-  padding: 80px 0;
-  background-color: var(--bg-color);
+  padding: 120px 0;
+  background: linear-gradient(135deg, var(--bg-gradient) 0%, var(--bg-color) 100%);
+  transition: background 0.3s ease;
 }
 
 .about-qualifications-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 300;
   color: var(--text-color);
   margin-bottom: 16px;
+  letter-spacing: -0.02em;
+  transition: color 0.3s ease;
 }
 
 .section-subtitle {
-  font-size: 1.2rem;
-  color: var(--text-secondary);
-  margin-bottom: 20px;
-}
-
-.section-divider {
-  width: 80px;
-  height: 4px;
-  background-color: var(--primary-color);
+  font-size: 1.25rem;
+  color: var(--text-color);
+  opacity: 0.7;
+  font-weight: 400;
+  max-width: 600px;
   margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.section-divider::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.4),
-    transparent
-  );
-  animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
-  }
+  line-height: 1.6;
+  transition: color 0.3s ease;
 }
 
 .qualifications-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin-bottom: 60px;
+  gap: 32px;
+  margin-bottom: 100px;
 }
 
 .qualification-card {
-  display: flex;
-  background-color: var(--card-bg);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
 }
 
 .qualification-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-color);
 }
 
-.qualification-icon {
+.qualification-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.qualification-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  padding: 20px 0;
   color: white;
-}
-
-.svg-animate .svg-path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: draw-path 2s forwards;
-}
-
-@keyframes draw-path {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.qualification-content {
-  flex: 1;
-  padding: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0;
 }
 
 .qualification-title {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-color);
-  margin-bottom: 10px;
+  margin: 0;
+  transition: color 0.3s ease;
 }
 
 .qualification-description {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  margin-bottom: 15px;
-}
-
-.qualification-details {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.qualification-detail {
-  font-size: 0.85rem;
-}
-
-.detail-label {
-  color: var(--text-tertiary);
-  margin-right: 5px;
-}
-
-.detail-value {
   color: var(--text-color);
+  opacity: 0.7;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.qualification-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meta-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.meta-item:last-child {
+  border-bottom: none;
+}
+
+.meta-label {
+  color: var(--text-color);
+  opacity: 0.6;
+  font-size: 0.875rem;
   font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.meta-value {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
 }
 
 .certifications-section {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .certifications-title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 300;
   color: var(--text-color);
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
+  letter-spacing: -0.01em;
+  transition: color 0.3s ease;
 }
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
 .certification-item {
-  background-color: var(--card-bg);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
 }
 
 .certification-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-color);
 }
 
-.certification-logo {
-  height: 100px;
+.certification-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  position: relative;
-  overflow: hidden;
-}
-
-.shimmer {
-  position: relative;
-}
-
-.shimmer::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  transform: rotate(30deg);
-  animation: shimmer-rotate 3s infinite linear;
-}
-
-@keyframes shimmer-rotate {
-  0% {
-    transform: rotate(30deg) translateX(-100%);
-  }
-  100% {
-    transform: rotate(30deg) translateX(100%);
-  }
-}
-
-.certification-abbr {
-  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 1px;
-  position: relative;
-  z-index: 1;
+  font-size: 1rem;
+  flex-shrink: 0;
 }
 
-.certification-content {
-  padding: 20px;
+.certification-info {
+  flex: 1;
 }
 
 .certification-name {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-color);
-  margin-bottom: 10px;
+  margin: 0 0 8px 0;
+  transition: color 0.3s ease;
 }
 
 .certification-description {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: var(--text-color);
+  opacity: 0.7;
   line-height: 1.5;
+  font-size: 0.9rem;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+/* 云服务商资质认证样式 */
+.cloud-credentials-section {
+  margin-top: 80px;
+}
+
+.credentials-title {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 48px;
+  letter-spacing: -0.01em;
+  transition: color 0.3s ease;
+}
+
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+.credential-item {
+  background: var(--card-bg);
+  border-radius: 24px;
+  padding: 56px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  transition: all 0.3s ease;
+  min-height: 580px;
+  text-align: center;
+}
+
+.credential-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  border-color: var(--primary-color);
+}
+
+.credential-image {
+  width: 100%;
+  max-width: 480px;
+  height: 340px;
+  border-radius: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 4px solid var(--border-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.credential-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.credential-image:hover .credential-logo {
+  transform: scale(1.05);
+}
+
+.image-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border-color);
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.error-icon {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.credential-info {
+  width: 100%;
+}
+
+.credential-name {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0 0 12px 0;
+  letter-spacing: -0.01em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.credential-item:hover .credential-name {
+  transform: translateY(-2px);
+  color: var(--primary-color);
+}
+
+.credential-description {
+  color: var(--text-color);
+  opacity: 0.7;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0 0 16px 0;
+  max-width: 320px;
+  margin: 0 auto 16px auto;
+  transition: color 0.3s ease;
+}
+
+.credential-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(130, 71, 229, 0.3);
+  transition: all 0.3s ease;
+}
+
+.credential-item:hover .credential-badge {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(130, 71, 229, 0.4);
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out both;
+}
+
+.credential-item:hover {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* 暗色主题特殊优化 */
+.dark-mode .credential-image {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .credential-item:hover {
+  box-shadow: 0 12px 40px rgba(130, 71, 229, 0.3);
+}
+
+.dark-mode .qualification-card:hover {
+  box-shadow: 0 20px 40px rgba(130, 71, 229, 0.2);
+}
+
+.dark-mode .certification-item:hover {
+  box-shadow: 0 8px 25px rgba(130, 71, 229, 0.2);
+}
+
+/* 棕褐色主题优化 */
+.sepia-mode .credential-image {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: var(--border-color);
+}
+
+.sepia-mode .credential-item:hover {
+  box-shadow: 0 12px 40px rgba(107, 91, 149, 0.3);
+}
+
+.sepia-mode .qualification-card:hover {
+  box-shadow: 0 20px 40px rgba(107, 91, 149, 0.2);
+}
+
+.sepia-mode .certification-item:hover {
+  box-shadow: 0 8px 25px rgba(107, 91, 149, 0.2);
 }
 
 /* 响应式样式 */
-@media (max-width: 1024px) {
-  .certifications-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media (max-width: 768px) {
-  .qualifications-grid {
-    grid-template-columns: 1fr;
+  .about-qualifications {
+    padding: 80px 0;
+  }
+
+  .about-qualifications-container {
+    padding: 0 20px;
+  }
+
+  .section-header {
+    margin-bottom: 60px;
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 2.25rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .qualifications-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 80px;
+  }
+
+  .qualification-card {
+    padding: 24px;
+  }
+
+  .qualification-header {
+    gap: 12px;
+  }
+
+  .qualification-badge {
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .qualification-title {
+    font-size: 1.125rem;
   }
 
   .certifications-title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
-}
 
-@media (max-width: 576px) {
   .certifications-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .qualification-details {
+  .certification-item {
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .certification-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 0.9rem;
+  }
+
+  .cloud-credentials-section {
+    margin-top: 60px;
+  }
+
+  .credentials-title {
+    font-size: 1.75rem;
+  }
+
+  .credentials-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .qualification-icon {
-    width: 60px;
+  .credentials-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .credential-item {
+    padding: 40px;
+    gap: 32px;
+    min-height: 460px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .credential-image {
+    width: 100%;
+    max-width: 360px;
+    height: 260px;
+  }
+
+  .credential-info {
+    width: 100%;
+  }
+
+  .credential-name {
+    font-size: 1.125rem;
+  }
+
+  .credential-description {
+    font-size: 0.9rem;
   }
 }
 </style>

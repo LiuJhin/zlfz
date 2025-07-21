@@ -71,11 +71,11 @@
 
             <!-- Logo主体 -->
             <div class="logo-container">
-              <div class="logo-background">
+              <!-- <div class="logo-background">
                 <div class="logo-pattern"></div>
-              </div>
+              </div> -->
               <div class="logo-icon-wrapper">
-                <div class="premium-logo-icon" v-html="logo.icon"></div>
+                <img class="premium-logo-icon" :src="logo.icon" />
               </div>
               <div class="logo-shine"></div>
             </div>
@@ -166,88 +166,63 @@ const logos = ref([
     name: "AWS",
     category: "Cloud Platform",
     level: 5,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M30.5 45.5c-7.5 5.5-18.4 8.5-27.8 8.5-13.2 0-25-4.9-34-13 -0.7-0.6-0.1-1.5 0.8-1l22.7 13.4c11.2 6.6 25.1 6.6 36.3 0l22.7-13.4c0.9-0.5 1.5 0.4 0.8 1C43 49.6 31.2 54.5 18 54.5c-9.4 0-20.3-3-27.8-8.5"/>
-      <path d="M35.2 39.5L58 26.1c0.9-0.5 0.9-1.4 0-1.9L35.2 10.5c-0.9-0.5-2.3-0.5-3.2 0L9.2 24.2c-0.9 0.5-0.9 1.4 0 1.9L32 39.8C32.9 40.3 34.3 40.3 35.2 39.5z"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202007/1596173157.png`,
   },
   {
     id: 2,
     name: "Microsoft Azure",
     category: "Cloud Platform",
     level: 4,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M25 15l20 35h-15l-5-10h-10l5-10h5l-5-10h5zm25 0l15 25-15 10h20l-15-25 15-10h-20z"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202007/1596172473.png`,
   },
   {
     id: 3,
     name: "Google Cloud",
     category: "Cloud Platform",
     level: 4,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M65 25c0-8.3-6.7-15-15-15s-15 6.7-15 15h-5c-5.5 0-10 4.5-10 10s4.5 10 10 10h35c5.5 0 10-4.5 10-10S70.5 25 65 25z"/>
-      <circle cx="35" cy="25" r="3"/>
-      <circle cx="50" cy="25" r="3"/>
-      <circle cx="65" cy="25" r="3"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202007/1596173149.png`,
   },
   {
     id: 4,
-    name: "Docker",
+    name: "ORACLE",
     category: "Containerization",
     level: 5,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <rect x="20" y="25" width="8" height="8"/>
-      <rect x="30" y="25" width="8" height="8"/>
-      <rect x="40" y="25" width="8" height="8"/>
-      <rect x="25" y="15" width="8" height="8"/>
-      <rect x="35" y="15" width="8" height="8"/>
-      <rect x="30" y="5" width="8" height="8"/>
-      <path d="M55 30c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v10c0 2.8-2.2 5-5 5H60c-2.8 0-5-2.2-5-5V30z"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202408/1723107728.png`,
   },
   {
     id: 5,
-    name: "Kubernetes",
-    category: "Container Orchestration",
+    name: "HUAWEI Cloud",
+    category: "Containerization",
     level: 4,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M50 10l15 10v20l-15 10-15-10V20l15-10zm0 5l-10 7v14l10 7 10-7V22l-10-7z"/>
-      <circle cx="50" cy="30" r="8"/>
-      <circle cx="50" cy="30" r="3"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202007/1596172567.png`,
   },
   {
     id: 6,
-    name: "Terraform",
+    name: "Tencent Cloud",
     category: "Infrastructure as Code",
     level: 4,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M20 15v20l15-10V5L20 15zm20 0v20l15-10V5L40 15zm20 10v20l15-10V15L60 25z"/>
-    </svg>`,
+    icon: `https://www.cloudchinas.com/upload/202007/1596172752.png`,
   },
   {
     id: 7,
-    name: "Jenkins",
-    category: "CI/CD Platform",
-    level: 3,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <circle cx="50" cy="30" r="20"/>
-      <circle cx="45" cy="25" r="3"/>
-      <circle cx="55" cy="25" r="3"/>
-      <path d="M40 35c0 5.5 4.5 10 10 10s10-4.5 10-10"/>
-    </svg>`,
+    name: "Kubernetes",
+    category: "Container Orchestration",
+    level: 4,
+    icon: `https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg`,
   },
   {
     id: 8,
+    name: "Jenkins",
+    category: "CI/CD Platform",
+    level: 3,
+    icon: `https://www.jenkins.io/images/logos/jenkins/jenkins.svg`,
+  },
+  {
+    id: 9,
     name: "GitLab",
     category: "DevOps Platform",
     level: 4,
-    icon: `<svg viewBox="0 0 100 60" fill="currentColor">
-      <path d="M50 45L35 20h10l5 15 5-15h10L50 45z"/>
-      <path d="M20 20l15 25L50 30 35 20H20zm60 0l-15 25L50 30l15-10h15z"/>
-    </svg>`,
+    icon: `https://about.gitlab.com/images/logos/gitlab-logo.png`,
   },
 ]);
 
@@ -836,8 +811,8 @@ onUnmounted(() => {
 }
 
 .premium-logo-icon {
-  width: 60px;
-  height: 60px;
+  max-width: 180px;
+  max-height: 90px;
   color: var(--text-color);
   opacity: 0.8;
   transition: all 0.4s ease;

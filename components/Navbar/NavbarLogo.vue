@@ -87,10 +87,11 @@
 
 .logo-text {
   font-weight: 700;
-  background: var(--bg-gradient);
+  background: linear-gradient(135deg, var(--primary-color-light) 0%, var(--primary-color-dark) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  transition: background 0.3s ease;
 }
 
 @media (max-width: 640px) {

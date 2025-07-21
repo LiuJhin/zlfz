@@ -5,7 +5,7 @@
       <div class="hero-background">
         <div class="gradient-overlay"></div>
       </div>
-      
+
       <div class="hero-content">
         <div class="container">
           <div class="content-wrapper">
@@ -13,17 +13,17 @@
               <div class="hero-badge">
                 <span class="badge-text">企业云战略</span>
               </div>
-              
+
               <h1 class="hero-title">
                 智能云战略
                 <span class="highlight-text">咨询规划</span>
               </h1>
-              
+
               <p class="hero-description">
                 基于前沿技术和丰富经验，为企业量身定制云计算战略蓝图，
                 助力数字化转型升级，构建面向未来的智能化IT架构。
               </p>
-              
+
               <div class="hero-stats">
                 <div class="stat-item">
                   <div class="stat-number">500+</div>
@@ -38,7 +38,7 @@
                   <div class="stat-label">平均成本节省</div>
                 </div>
               </div>
-              
+
               <div class="hero-actions">
                 <a href="/contact" class="btn-primary">
                   <span>免费咨询</span>
@@ -48,13 +48,13 @@
                 </a>
               </div>
             </div>
-            
+
             <div class="hero-visual">
               <div class="strategy-overview">
                 <div class="overview-header">
                   <h3>云战略概览</h3>
                 </div>
-                
+
                 <div class="overview-content">
                   <div class="metrics-simple">
                     <div class="metric-item">
@@ -70,7 +70,7 @@
                       <div class="metric-label">成本节省</div>
                     </div>
                   </div>
-                  
+
                   <div class="key-benefits">
                     <div class="benefit-item">
                       <span>✓ 云原生架构设计</span>
@@ -103,21 +103,23 @@
           <h2>全方位云战略咨询服务</h2>
           <p>从战略规划到落地实施，提供端到端的专业咨询服务</p>
         </div>
-        
+
         <div class="services-grid">
           <div class="service-card featured">
             <div class="card-header">
               <div class="featured-badge">推荐</div>
             </div>
             <h3>云战略评估与规划</h3>
-            <p>深度分析企业现状，制定个性化云战略路线图，确保数字化转型成功。</p>
+            <p>
+              深度分析企业现状，制定个性化云战略路线图，确保数字化转型成功。
+            </p>
             <div class="service-features">
               <span class="feature-tag">现状评估</span>
               <span class="feature-tag">战略规划</span>
               <span class="feature-tag">路线图制定</span>
             </div>
           </div>
-          
+
           <div class="service-card">
             <h3>云架构设计优化</h3>
             <p>设计高可用、可扩展的云技术架构，确保系统性能和安全性。</p>
@@ -127,7 +129,7 @@
               <span class="feature-tag">安全加固</span>
             </div>
           </div>
-          
+
           <div class="service-card">
             <h3>成本优化分析</h3>
             <p>全面分析云资源使用情况，提供精准的成本优化建议和实施方案。</p>
@@ -137,7 +139,7 @@
               <span class="feature-tag">预算规划</span>
             </div>
           </div>
-          
+
           <div class="service-card">
             <h3>风险评估与治理</h3>
             <p>识别潜在风险，制定完善的风险缓解策略和治理框架。</p>
@@ -161,19 +163,32 @@
           <h2>标准化咨询流程</h2>
           <p>采用成熟的方法论，确保项目高质量交付</p>
         </div>
-        
+
         <div class="process-flow">
           <div class="flow-container">
-            <div class="process-step" v-for="(step, index) in processSteps" :key="index">
-              <div class="step-connector" v-if="index < processSteps.length - 1"></div>
+            <div
+              class="process-step"
+              v-for="(step, index) in processSteps"
+              :key="index"
+            >
+              <div
+                class="step-connector"
+                v-if="index < processSteps.length - 1"
+              ></div>
               <div class="step-circle">
-                <span class="step-number">{{ String(index + 1).padStart(2, '0') }}</span>
+                <span class="step-number">{{
+                  String(index + 1).padStart(2, "0")
+                }}</span>
               </div>
               <div class="step-content">
                 <h3>{{ step.title }}</h3>
                 <p>{{ step.description }}</p>
                 <div class="step-details">
-                  <div class="detail-item" v-for="detail in step.details" :key="detail">
+                  <div
+                    class="detail-item"
+                    v-for="detail in step.details"
+                    :key="detail"
+                  >
                     <span class="detail-icon">✓</span>
                     <span class="detail-text">{{ detail }}</span>
                   </div>
@@ -195,7 +210,7 @@
           <h2>客户成功案例</h2>
           <p>真实案例见证我们的专业实力和服务质量</p>
         </div>
-        
+
         <div class="cases-grid">
           <div class="case-card">
             <div class="case-header">
@@ -215,7 +230,9 @@
             </div>
             <div class="case-content">
               <h4>全面云化转型战略</h4>
-              <p>为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。</p>
+              <p>
+                为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。
+              </p>
               <div class="case-highlights">
                 <div class="highlight-item">
                   <span>系统性能提升85%</span>
@@ -229,7 +246,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-company">
@@ -248,7 +265,9 @@
             </div>
             <div class="case-content">
               <h4>智能制造云平台建设</h4>
-              <p>构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。</p>
+              <p>
+                构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。
+              </p>
               <div class="case-highlights">
                 <div class="highlight-item">
                   <span>生产效率提升40%</span>
@@ -262,7 +281,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-company">
@@ -281,7 +300,9 @@
             </div>
             <div class="case-content">
               <h4>全渠道数字化平台</h4>
-              <p>打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。</p>
+              <p>
+                打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。
+              </p>
               <div class="case-highlights">
                 <div class="highlight-item">
                   <span>销售额增长200%</span>
@@ -309,7 +330,7 @@
           <h2>领先的技术实力</h2>
           <p>基于前沿技术栈，提供企业级云战略解决方案</p>
         </div>
-        
+
         <div class="tech-grid">
           <div class="tech-category">
             <h3>云原生技术</h3>
@@ -334,7 +355,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
             <h3>DevOps工具链</h3>
             <div class="tech-items">
@@ -358,7 +379,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
             <h3>监控与运维</h3>
             <div class="tech-items">
@@ -393,7 +414,7 @@
           <h2>资深云战略专家</h2>
           <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>
         </div>
-        
+
         <div class="experts-grid">
           <div class="expert-card">
             <div class="expert-avatar">
@@ -405,7 +426,9 @@
             <div class="expert-info">
               <h3>张云峰</h3>
               <p class="expert-title">云战略首席架构师</p>
-              <p class="expert-desc">15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目。</p>
+              <p class="expert-desc">
+                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目。
+              </p>
               <div class="expert-skills">
                 <span class="skill-tag">云架构设计</span>
                 <span class="skill-tag">数字化转型</span>
@@ -413,7 +436,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="expert-card">
             <div class="expert-avatar">
               <div class="avatar-placeholder">
@@ -424,7 +447,9 @@
             <div class="expert-info">
               <h3>李明华</h3>
               <p class="expert-title">云原生技术专家</p>
-              <p class="expert-desc">12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计。</p>
+              <p class="expert-desc">
+                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计。
+              </p>
               <div class="expert-skills">
                 <span class="skill-tag">Kubernetes</span>
                 <span class="skill-tag">微服务</span>
@@ -432,7 +457,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="expert-card">
             <div class="expert-avatar">
               <div class="avatar-placeholder">
@@ -443,7 +468,9 @@
             <div class="expert-info">
               <h3>王安全</h3>
               <p class="expert-title">云安全架构师</p>
-              <p class="expert-desc">10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估。</p>
+              <p class="expert-desc">
+                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估。
+              </p>
               <div class="expert-skills">
                 <span class="skill-tag">云安全</span>
                 <span class="skill-tag">合规评估</span>
@@ -462,14 +489,20 @@
           <h2>常见问题解答</h2>
           <p>解答您在云战略规划过程中的疑问</p>
         </div>
-        
+
         <div class="faq-container">
           <div class="faq-item" v-for="(faq, index) in faqList" :key="index">
             <div class="faq-question" @click="toggleFaq(index)">
               <h3>{{ faq.question }}</h3>
               <div class="faq-toggle" :class="{ active: faq.isOpen }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </svg>
               </div>
             </div>
@@ -488,8 +521,16 @@
           <div class="cta-content">
             <div class="cta-icon">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M12 8V16M8 10L16 14M8 14L16 10" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 8V16M8 10L16 14M8 14L16 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h2>开启您的云战略转型之旅</h2>
@@ -501,18 +542,26 @@
               <a href="/contact" class="btn-primary">
                 <span>立即咨询</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M5 12H19M19 12L12 5M19 12L12 19"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </a>
               <a href="#case-studies" class="btn-secondary">
                 <span>成功案例</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M15 3H21V9M9 21H3V15M21 3L14 10M3 21L10 14" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M15 3H21V9M9 21H3V15M21 3L14 10M3 21L10 14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </a>
             </div>
           </div>
-          
+
           <div class="cta-benefits">
             <div class="benefit-grid">
               <div class="benefit-item">
@@ -550,77 +599,91 @@
 <script setup>
 // 页面元数据
 definePageMeta({
-  layout: 'default',
-  title: '云战略咨询规划 - ZHILING ARK TECHNOLOGY',
-  description: 'ZHILING ARK TECHNOLOGY提供专业的云战略咨询规划服务，助力企业数字化转型升级'
-})
+  layout: "default",
+  title: "云战略咨询规划 - ZHILING ARK TECHNOLOGY",
+  description:
+    "ZHILING ARK TECHNOLOGY提供专业的云战略咨询规划服务，助力企业数字化转型升级",
+});
 
 // SEO 头部信息
 useHead({
-  title: '云战略咨询规划 - ZHILING ARK TECHNOLOGY',
+  title: "云战略咨询规划 - ZHILING ARK TECHNOLOGY",
   meta: [
-    { name: 'description', content: '专业的云战略规划与咨询服务，基于前沿技术和丰富经验，为企业量身定制云计算战略蓝图，助力数字化转型升级' },
-    { name: 'keywords', content: '云战略,云咨询,云规划,数字化转型,云计算战略,企业云服务,云架构设计' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        "专业的云战略规划与咨询服务，基于前沿技术和丰富经验，为企业量身定制云计算战略蓝图，助力数字化转型升级",
+    },
+    {
+      name: "keywords",
+      content:
+        "云战略,云咨询,云规划,数字化转型,云计算战略,企业云服务,云架构设计",
+    },
+  ],
+});
 
 // 流程步骤数据
 const processSteps = [
   {
-    title: '需求调研分析',
-    description: '深入了解企业业务需求、技术现状和发展目标',
-    details: ['业务流程梳理', '技术架构评估', '痛点问题识别']
+    title: "需求调研分析",
+    description: "深入了解企业业务需求、技术现状和发展目标",
+    details: ["业务流程梳理", "技术架构评估", "痛点问题识别"],
   },
   {
-    title: '现状全面评估',
-    description: '评估现有IT基础设施、应用系统和数据架构',
-    details: ['基础设施审计', '应用系统分析', '数据架构评估']
+    title: "现状全面评估",
+    description: "评估现有IT基础设施、应用系统和数据架构",
+    details: ["基础设施审计", "应用系统分析", "数据架构评估"],
   },
   {
-    title: '战略方案制定',
-    description: '制定详细的云战略规划和实施路线图',
-    details: ['战略目标设定', '技术路线规划', '实施计划制定']
+    title: "战略方案制定",
+    description: "制定详细的云战略规划和实施路线图",
+    details: ["战略目标设定", "技术路线规划", "实施计划制定"],
   },
   {
-    title: '方案交付实施',
-    description: '提供完整的咨询报告和实施指导',
-    details: ['详细报告交付', '实施指导培训', '持续支持服务']
-  }
-]
+    title: "方案交付实施",
+    description: "提供完整的咨询报告和实施指导",
+    details: ["详细报告交付", "实施指导培训", "持续支持服务"],
+  },
+];
 
 // FAQ数据
 const faqList = ref([
   {
-    question: '云战略咨询服务包含哪些内容？',
-    answer: '我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。',
-    isOpen: false
+    question: "云战略咨询服务包含哪些内容？",
+    answer:
+      "我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。",
+    isOpen: false,
   },
   {
-    question: '云化转型需要多长时间？',
-    answer: '云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划。',
-    isOpen: false
+    question: "云化转型需要多长时间？",
+    answer:
+      "云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划。",
+    isOpen: false,
   },
   {
-    question: '如何保证数据安全和合规性？',
-    answer: '我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。',
-    isOpen: false
+    question: "如何保证数据安全和合规性？",
+    answer:
+      "我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。",
+    isOpen: false,
   },
   {
-    question: '云化后的成本如何控制？',
-    answer: '我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。',
-    isOpen: false
+    question: "云化后的成本如何控制？",
+    answer:
+      "我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。",
+    isOpen: false,
   },
   {
-    question: '是否提供后续的技术支持？',
-    answer: '是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。',
-    isOpen: false
-  }
-])
+    question: "是否提供后续的技术支持？",
+    answer:
+      "是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。",
+    isOpen: false,
+  },
+]);
 
 // FAQ交互方法
 const toggleFaq = (index) => {
-  faqList.value[index].isOpen = !faqList.value[index].isOpen
-}
+  faqList.value[index].isOpen = !faqList.value[index].isOpen;
+};
 </script>
 
 <style scoped>
@@ -635,7 +698,11 @@ const toggleFaq = (index) => {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-color) 0%,
+    var(--bg-secondary) 100%
+  );
 }
 
 .hero-background {
@@ -672,26 +739,67 @@ const toggleFaq = (index) => {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-light));
+  background: linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--primary-color-light)
+  );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   animation: hexagonFloat 8s ease-in-out infinite;
 }
 
-.hexagon:nth-child(1) { top: 10%; left: 10%; }
-.hexagon:nth-child(2) { top: 20%; left: 80%; }
-.hexagon:nth-child(3) { top: 40%; left: 15%; }
-.hexagon:nth-child(4) { top: 60%; left: 85%; }
-.hexagon:nth-child(5) { top: 80%; left: 20%; }
-.hexagon:nth-child(6) { top: 15%; left: 60%; }
-.hexagon:nth-child(7) { top: 70%; left: 60%; }
-.hexagon:nth-child(8) { top: 30%; left: 40%; }
-.hexagon:nth-child(9) { top: 50%; left: 70%; }
-.hexagon:nth-child(10) { top: 25%; left: 30%; }
-.hexagon:nth-child(11) { top: 75%; left: 40%; }
-.hexagon:nth-child(12) { top: 45%; left: 90%; }
+.hexagon:nth-child(1) {
+  top: 10%;
+  left: 10%;
+}
+.hexagon:nth-child(2) {
+  top: 20%;
+  left: 80%;
+}
+.hexagon:nth-child(3) {
+  top: 40%;
+  left: 15%;
+}
+.hexagon:nth-child(4) {
+  top: 60%;
+  left: 85%;
+}
+.hexagon:nth-child(5) {
+  top: 80%;
+  left: 20%;
+}
+.hexagon:nth-child(6) {
+  top: 15%;
+  left: 60%;
+}
+.hexagon:nth-child(7) {
+  top: 70%;
+  left: 60%;
+}
+.hexagon:nth-child(8) {
+  top: 30%;
+  left: 40%;
+}
+.hexagon:nth-child(9) {
+  top: 50%;
+  left: 70%;
+}
+.hexagon:nth-child(10) {
+  top: 25%;
+  left: 30%;
+}
+.hexagon:nth-child(11) {
+  top: 75%;
+  left: 40%;
+}
+.hexagon:nth-child(12) {
+  top: 45%;
+  left: 90%;
+}
 
 @keyframes hexagonFloat {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
     opacity: 0.3;
   }
@@ -708,18 +816,55 @@ const toggleFaq = (index) => {
 .circuit-line {
   position: absolute;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
   animation: circuitFlow 6s linear infinite;
 }
 
-.circuit-line:nth-child(1) { top: 20%; width: 200px; left: 10%; }
-.circuit-line:nth-child(2) { top: 40%; width: 150px; right: 10%; }
-.circuit-line:nth-child(3) { top: 60%; width: 180px; left: 20%; }
-.circuit-line:nth-child(4) { top: 80%; width: 120px; right: 20%; }
-.circuit-line:nth-child(5) { top: 30%; width: 160px; left: 50%; }
-.circuit-line:nth-child(6) { top: 70%; width: 140px; right: 30%; }
-.circuit-line:nth-child(7) { top: 50%; width: 100px; left: 70%; }
-.circuit-line:nth-child(8) { top: 90%; width: 130px; left: 40%; }
+.circuit-line:nth-child(1) {
+  top: 20%;
+  width: 200px;
+  left: 10%;
+}
+.circuit-line:nth-child(2) {
+  top: 40%;
+  width: 150px;
+  right: 10%;
+}
+.circuit-line:nth-child(3) {
+  top: 60%;
+  width: 180px;
+  left: 20%;
+}
+.circuit-line:nth-child(4) {
+  top: 80%;
+  width: 120px;
+  right: 20%;
+}
+.circuit-line:nth-child(5) {
+  top: 30%;
+  width: 160px;
+  left: 50%;
+}
+.circuit-line:nth-child(6) {
+  top: 70%;
+  width: 140px;
+  right: 30%;
+}
+.circuit-line:nth-child(7) {
+  top: 50%;
+  width: 100px;
+  left: 70%;
+}
+.circuit-line:nth-child(8) {
+  top: 90%;
+  width: 130px;
+  left: 40%;
+}
 
 @keyframes circuitFlow {
   0% {
@@ -766,7 +911,8 @@ const toggleFaq = (index) => {
 }
 
 @keyframes elementFloat {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
     opacity: 0.4;
   }
@@ -821,7 +967,11 @@ const toggleFaq = (index) => {
 }
 
 .highlight-text {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-light)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -868,7 +1018,9 @@ const toggleFaq = (index) => {
   flex-wrap: wrap;
 }
 
-.btn-primary, .btn-outline, .btn-secondary {
+.btn-primary,
+.btn-outline,
+.btn-secondary {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -880,7 +1032,11 @@ const toggleFaq = (index) => {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
   color: white;
   box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
 }
@@ -1051,7 +1207,11 @@ const toggleFaq = (index) => {
 
 .service-card.featured {
   border: 2px solid var(--primary-color);
-  background: linear-gradient(135deg, var(--card-bg), var(--primary-color-light));
+  background: linear-gradient(
+    135deg,
+    var(--card-bg),
+    var(--primary-color-light)
+  );
 }
 
 .card-header {
@@ -1148,7 +1308,11 @@ const toggleFaq = (index) => {
 .step-circle {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1249,7 +1413,11 @@ const toggleFaq = (index) => {
 .company-logo {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-light)
+  );
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -1421,7 +1589,11 @@ const toggleFaq = (index) => {
 .avatar-placeholder {
   width: 100px;
   height: 100px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-light)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1558,7 +1730,11 @@ const toggleFaq = (index) => {
 /* CTA Section */
 .cta-section {
   padding: 100px 0;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
   color: white;
 }
 
@@ -1672,33 +1848,33 @@ const toggleFaq = (index) => {
     gap: 40px;
     text-align: center;
   }
-  
+
   .hero-title {
     font-size: 2.8rem;
   }
-  
+
   .flow-container {
     grid-template-columns: 1fr;
   }
-  
+
   .step-connector {
     display: none;
   }
-  
+
   .cta-wrapper {
     grid-template-columns: 1fr;
     gap: 40px;
     text-align: center;
   }
-  
+
   .cases-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .tech-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .experts-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1708,49 +1884,49 @@ const toggleFaq = (index) => {
   .hero-title {
     font-size: 2.2rem;
   }
-  
+
   .hero-stats {
     grid-template-columns: 1fr;
   }
-  
+
   .services-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .benefit-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .case-card {
     padding: 30px 25px;
   }
-  
+
   .case-header {
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
-  
+
   .case-result {
     text-align: center;
   }
-  
+
   .tech-category {
     padding: 30px 25px;
   }
-  
+
   .experts-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .expert-card {
     padding: 30px 25px;
   }
-  
+
   .faq-question {
     padding: 20px 25px;
   }
-  
+
   .faq-answer p {
     padding: 0 25px 20px;
   }
@@ -1760,27 +1936,27 @@ const toggleFaq = (index) => {
   .hero-title {
     font-size: 1.8rem;
   }
-  
+
   .hero-actions {
     flex-direction: column;
   }
-  
+
   .cta-actions {
     flex-direction: column;
   }
-  
+
   .cases-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .case-card {
     padding: 25px 20px;
   }
-  
+
   .tech-category {
     padding: 25px 20px;
   }
-  
+
   .expert-card {
     padding: 25px 20px;
   }
