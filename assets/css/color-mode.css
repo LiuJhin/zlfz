@@ -3,6 +3,7 @@
   --bg-color: #ffffff;
   --bg-gradient: #f5f7fa;
   --text-color: #333333;
+  --text-secondary: #666666;
   --link-color: #0066cc;
   --border-color: #e0e0e0;
   --button-bg: #4caf50;
@@ -10,12 +11,16 @@
   --button-text: #ffffff;
   --header-bg: #f5f5f5;
   --card-bg: #ffffff;
+  --card-bg-secondary: #f8f9fa;
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
 
   /* Polygon主题变量 */
   --primary-color: #8247e5;
   --primary-color-light: #a47ef5;
   --primary-color-dark: #6b38c1;
+  --accent-color: #ff6b35;
   --navbar-bg: #ffffff;
   --navbar-text: #333333;
   --navbar-hover: #8247e5;
@@ -31,6 +36,7 @@
   --bg-color: #121212;
   --bg-gradient: #1a1a2e;
   --text-color: #e0e0e0;
+  --text-secondary: #a0a0a0;
   --link-color: #a47ef5;
   --border-color: #333333;
   --button-bg: #2e7d32;
@@ -38,12 +44,16 @@
   --button-text: #ffffff;
   --header-bg: #1e1e1e;
   --card-bg: #1e1e1e;
+  --card-bg-secondary: #2a2a2a;
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.4);
 
   /* Polygon暗黑模式主题变量 */
   --primary-color: #a47ef5;
   --primary-color-light: #c4a9f5;
   --primary-color-dark: #8247e5;
+  --accent-color: #ff8a65;
   --navbar-bg: #121212;
   --navbar-text: #e0e0e0;
   --navbar-hover: #a47ef5;
@@ -100,6 +110,7 @@ button:hover {
 .sepia-mode {
   --bg-color: #f1e7d0;
   --text-color: #433422;
+  --text-secondary: #6b5b47;
   --link-color: #6b5b95;
   --border-color: #d3c6a6;
   --button-bg: #786d5f;
@@ -107,10 +118,14 @@ button:hover {
   --button-text: #ffffff;
   --header-bg: #e6d9bc;
   --card-bg: #f5ecd9;
+  --card-bg-secondary: #f0e3c6;
   --card-shadow: 0 2px 4px rgba(101, 84, 58, 0.2);
+  --shadow-light: 0 4px 6px rgba(101, 84, 58, 0.2);
+  --shadow-hover: 0 8px 25px rgba(101, 84, 58, 0.3);
 
   /* 导航栏棕褐色模式变量 */
   --primary-color: #6b5b95;
+  --accent-color: #d4a574;
   --navbar-bg: #f1e7d0;
   --navbar-text: #433422;
   --navbar-hover: #6b5b95;

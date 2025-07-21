@@ -232,7 +232,7 @@
                 <div class="tech-tags">
                   <span class="tech-tag">Ethereum</span>
                   <span class="tech-tag">Hyperledger</span>
-                  <span class="tech-tag">Polygon</span>
+                  <span class="tech-tag">ZHILING ARK</span>
                   <span class="tech-tag">Solidity</span>
                 </div>
               </div>
