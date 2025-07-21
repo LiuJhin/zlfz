@@ -35,27 +35,39 @@
         
         <div class="stats-grid">
           <div class="stat-item">
-            <div class="stat-number">200+</div>
+            <div class="stat-number">250+</div>
             <div class="stat-label">成功项目</div>
-            <div class="stat-description">覆盖多个行业领域</div>
+            <div class="stat-description">覆盖全球12个国家和地区</div>
           </div>
           
           <div class="stat-item">
-            <div class="stat-number">50+</div>
+            <div class="stat-number">80+</div>
             <div class="stat-label">合作客户</div>
-            <div class="stat-description">来自全球各地的企业</div>
+            <div class="stat-description">包括世界500强企业20家</div>
           </div>
           
           <div class="stat-item">
-            <div class="stat-number">95%</div>
+            <div class="stat-number">98%</div>
             <div class="stat-label">客户满意度</div>
-            <div class="stat-description">持续的高质量服务</div>
+            <div class="stat-description">连续5年保持行业最高水平</div>
           </div>
           
           <div class="stat-item">
             <div class="stat-number">24/7</div>
             <div class="stat-label">技术支持</div>
-            <div class="stat-description">全天候专业服务</div>
+            <div class="stat-description">平均响应时间不超过15分钟</div>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">行业解决方案</div>
+            <div class="stat-description">定制化解决方案覆盖主要行业</div>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-number">60%</div>
+            <div class="stat-label">平均ROI提升</div>
+            <div class="stat-description">客户投资回报率显著提高</div>
           </div>
         </div>
       </div>
@@ -81,7 +93,7 @@
             <div class="case-content">
               <div class="case-category">金融科技</div>
               <h3>全球银行数字化转型</h3>
-              <p>为某国际银行构建了完整的数字化银行平台，实现了客户服务效率提升300%，交易处理速度提升500%。</p>
+              <p>为某国际银行构建了完整的数字化银行平台，包括移动银行、智能客服和风控系统，实现了客户服务效率提升300%，交易处理速度提升500%，同时降低了运营成本45%。</p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">300%</span>
@@ -90,6 +102,10 @@
                 <div class="metric">
                   <span class="metric-value">500%</span>
                   <span class="metric-label">速度提升</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">45%</span>
+                  <span class="metric-label">成本降低</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">99.9%</span>
@@ -112,7 +128,7 @@
             <div class="case-content">
               <div class="case-category">供应链管理</div>
               <h3>智能供应链优化平台</h3>
-              <p>为制造业巨头打造的智能供应链管理系统，实现了库存成本降低40%，供应链透明度提升至100%。</p>
+              <p>为全球制造业巨头打造的智能供应链管理系统，整合了物联网、区块链和AI技术，实现了库存成本降低40%，供应链透明度提升至100%，物流效率提升65%。</p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">40%</span>
@@ -121,6 +137,10 @@
                 <div class="metric">
                   <span class="metric-value">100%</span>
                   <span class="metric-label">透明度</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">65%</span>
+                  <span class="metric-label">物流效率</span>
                 </div>
               </div>
               <a href="/case-studies/supply-chain" class="case-link">查看详情</a>
@@ -139,7 +159,7 @@
             <div class="case-content">
               <div class="case-category">医疗健康</div>
               <h3>智慧医疗数据平台</h3>
-              <p>为大型医疗集团构建的智慧医疗数据管理平台，提升了诊疗效率60%，患者满意度达到98%。</p>
+              <p>为亚太地区最大医疗集团构建的智慧医疗数据管理平台，集成电子病历、远程诊疗和AI辅助诊断，提升了诊疗效率60%，患者满意度达到98%，医疗资源利用率提高75%。</p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">60%</span>
@@ -148,6 +168,10 @@
                 <div class="metric">
                   <span class="metric-value">98%</span>
                   <span class="metric-label">满意度</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">75%</span>
+                  <span class="metric-label">资源利用</span>
                 </div>
               </div>
               <a href="/case-studies/healthcare" class="case-link">查看详情</a>
@@ -166,7 +190,7 @@
             <div class="case-content">
               <div class="case-category">政府服务</div>
               <h3>智慧城市管理系统</h3>
-              <p>为某市政府打造的智慧城市综合管理平台，提升了政务服务效率80%，市民满意度达到96%。</p>
+              <p>为某省会城市政府打造的智慧城市综合管理平台，覆盖交通、环保、公共安全等多个领域，提升了政务服务效率80%，市民满意度达到96%，城市事件响应时间缩短70%。</p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">80%</span>
@@ -176,8 +200,74 @@
                   <span class="metric-value">96%</span>
                   <span class="metric-label">满意度</span>
                 </div>
+                <div class="metric">
+                  <span class="metric-value">70%</span>
+                  <span class="metric-label">响应提速</span>
+                </div>
               </div>
               <a href="/case-studies/government" class="case-link">查看详情</a>
+            </div>
+          </div>
+          
+          <div class="case-card">
+            <div class="case-image">
+              <div class="case-icon">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 3V21H21M21 16L17 12L13 16L9 12L5 16" stroke="currentColor" stroke-width="2"/>
+                  <circle cx="7" cy="8" r="2" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="case-content">
+              <div class="case-category">零售电商</div>
+              <h3>全渠道零售解决方案</h3>
+              <p>为国内领先零售集团打造的全渠道零售平台，整合线上线下资源，实现了销售额增长85%，客户留存率提升50%，运营成本降低35%。</p>
+              <div class="case-metrics">
+                <div class="metric">
+                  <span class="metric-value">85%</span>
+                  <span class="metric-label">销售增长</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">50%</span>
+                  <span class="metric-label">留存提升</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">35%</span>
+                  <span class="metric-label">成本降低</span>
+                </div>
+              </div>
+              <a href="/case-studies/retail" class="case-link">查看详情</a>
+            </div>
+          </div>
+          
+          <div class="case-card">
+            <div class="case-image">
+              <div class="case-icon">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M12 12L12 21M12 12L20 7.5M12 12L4 7.5" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="case-content">
+              <div class="case-category">教育科技</div>
+              <h3>智慧校园整体解决方案</h3>
+              <p>为某知名高校打造的智慧校园平台，包括在线学习、校园管理和数据分析系统，提升了教学质量55%，管理效率提高70%，学生满意度达到92%。</p>
+              <div class="case-metrics">
+                <div class="metric">
+                  <span class="metric-value">55%</span>
+                  <span class="metric-label">教学提升</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">70%</span>
+                  <span class="metric-label">效率提高</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">92%</span>
+                  <span class="metric-label">满意度</span>
+                </div>
+              </div>
+              <a href="/case-studies/education" class="case-link">查看详情</a>
             </div>
           </div>
         </div>
@@ -200,7 +290,7 @@
               </svg>
             </div>
             <h3>技术创新</h3>
-            <p>持续的技术创新和研发投入，确保我们始终处于行业前沿</p>
+            <p>持续的技术创新和研发投入，每年投入营收的15%用于新技术研发，拥有超过50项技术专利，确保我们始终处于行业前沿</p>
           </div>
           
           <div class="factor-item">
@@ -210,7 +300,7 @@
               </svg>
             </div>
             <h3>专业团队</h3>
-            <p>拥有丰富经验的专业团队，为客户提供最优质的服务</p>
+            <p>拥有来自全球顶尖科技公司的专业团队，平均行业经验超过10年，85%的团队成员拥有硕士及以上学位，为客户提供最优质的服务</p>
           </div>
           
           <div class="factor-item">
@@ -220,7 +310,7 @@
               </svg>
             </div>
             <h3>质量保证</h3>
-            <p>严格的质量管理体系，确保每个项目都达到最高标准</p>
+            <p>通过ISO9001、CMMI5等国际认证的质量管理体系，实施严格的质量控制流程和全面的测试方案，确保每个项目都达到最高标准</p>
           </div>
           
           <div class="factor-item">
@@ -230,7 +320,28 @@
               </svg>
             </div>
             <h3>快速响应</h3>
-            <p>敏捷的项目管理和快速响应机制，确保项目按时交付</p>
+            <p>采用敏捷开发和DevOps实践，平均响应时间不超过15分钟，95%的项目按时或提前交付，确保客户需求得到及时满足</p>
+          </div>
+          
+          <div class="factor-item">
+            <div class="factor-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 8V12L15 15" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>行业经验</h3>
+            <p>在金融、医疗、零售、制造等多个行业拥有超过15年的深厚经验，深入理解各行业特点和痛点，提供真正符合行业需求的解决方案</p>
+          </div>
+          
+          <div class="factor-item">
+            <div class="factor-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                <path d="M9 22H15M12 17V22M8 2H16L19 7H5L8 2ZM5 7H19V11C19 15.4183 15.4183 19 11 19H13C8.58172 19 5 15.4183 5 11V7Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>持续创新</h3>
+            <p>建立了创新实验室和技术孵化中心，每季度推出新的技术方案和产品更新，确保客户始终能够获得最前沿的技术支持</p>
           </div>
         </div>
       </div>
@@ -252,11 +363,11 @@
                   <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
                 </svg>
               </div>
-              <p>"ZHILING ARK TECHNOLOGY为我们提供了卓越的技术解决方案，不仅提升了我们的业务效率，还帮助我们在竞争激烈的市场中保持领先地位。"</p>
+              <p>"ZHILING ARK TECHNOLOGY为我们提供了卓越的数字银行解决方案，不仅提升了我们的业务效率300%，还帮助我们在竞争激烈的金融市场中保持领先地位。他们的技术团队对金融行业的深刻理解令人印象深刻。"</p>
               <div class="testimonial-author">
                 <div class="author-info">
-                  <div class="author-name">张总</div>
-                  <div class="author-title">某大型银行 CTO</div>
+                  <div class="author-name">张志远</div>
+                  <div class="author-title">中国某大型银行 首席技术官</div>
                 </div>
               </div>
             </div>
@@ -270,11 +381,11 @@
                   <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
                 </svg>
               </div>
-              <p>"他们的专业团队和创新技术帮助我们实现了数字化转型，大大提升了我们的运营效率和客户满意度。"</p>
+              <p>"他们的专业团队和创新技术帮助我们实现了全面的数字化转型，大大提升了我们的供应链效率和透明度。特别是在疫情期间，他们的解决方案帮助我们维持了稳定的生产和供应，为我们赢得了市场优势。"</p>
               <div class="testimonial-author">
                 <div class="author-info">
-                  <div class="author-name">李总</div>
-                  <div class="author-title">制造业集团 CEO</div>
+                  <div class="author-name">李明辉</div>
+                  <div class="author-title">全球制造业集团 首席执行官</div>
                 </div>
               </div>
             </div>
@@ -288,11 +399,65 @@
                   <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
                 </svg>
               </div>
-              <p>"与ZHILING ARK TECHNOLOGY的合作让我们深刻体验到了什么是真正的专业服务，他们的解决方案完美契合我们的需求。"</p>
+              <p>"与ZHILING ARK TECHNOLOGY的合作让我们深刻体验到了什么是真正的专业服务，他们的智慧医疗解决方案完美契合我们的需求。他们不仅提供了技术支持，还帮助我们重新设计了整个医疗流程，大幅提升了患者体验和医疗效率。"</p>
               <div class="testimonial-author">
                 <div class="author-info">
-                  <div class="author-name">王总</div>
-                  <div class="author-title">医疗集团 董事长</div>
+                  <div class="author-name">王健</div>
+                  <div class="author-title">亚太医疗集团 董事长</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <p>"ZHILING ARK TECHNOLOGY的智慧城市解决方案彻底改变了我们的城市管理方式。通过他们的平台，我们实现了城市资源的智能调配和高效管理，市民满意度显著提升。他们的团队不仅技术过硬，而且对政府业务有着深刻理解。"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">陈国强</div>
+                  <div class="author-title">某省会城市 信息化办公室主任</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <p>"我们选择ZHILING ARK TECHNOLOGY作为数字化转型合作伙伴是一个明智的决定。他们的全渠道零售解决方案帮助我们实现了线上线下的无缝整合，销售额增长了85%，顾客体验得到了显著提升。他们对零售行业的理解和技术能力令人印象深刻。"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">赵丽娜</div>
+                  <div class="author-title">国内领先零售集团 数字化转型负责人</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7" stroke="currentColor" stroke-width="2"/>
+                  <path d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <p>"ZHILING ARK TECHNOLOGY的智慧校园解决方案为我们的教育管理带来了革命性的变化。他们不仅提供了先进的技术平台，还帮助我们重新设计了教学流程和管理模式，使我们的教育质量和管理效率都得到了显著提升。"</p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">刘教授</div>
+                  <div class="author-title">某知名高校 信息化建设负责人</div>
                 </div>
               </div>
             </div>
@@ -304,9 +469,39 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>开启您的成功之旅</h2>
-          <p>让我们一起创造下一个成功案例</p>
-          <a href="/contact" class="btn-primary">立即咨询</a>
+          <h2>准备好创造您的成功案例了吗？</h2>
+          <p>联系我们，开启您的数字化转型之旅，成为下一个成功典范</p>
+          <div class="cta-benefits">
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span>免费初步咨询评估</span>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span>定制化解决方案</span>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span>专家团队全程支持</span>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a href="/contact" class="btn-primary">预约咨询</a>
+            <a href="/services" class="btn-secondary">探索服务方案</a>
+            <a href="/case-studies" class="btn-outline">查看更多案例</a>
+          </div>
         </div>
       </div>
     </section>
@@ -719,6 +914,65 @@ useHead({
   font-size: 1.2rem;
   margin-bottom: 2rem;
   opacity: 0.9;
+}
+
+.cta-benefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.benefit-icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.benefit-item span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: var(--primary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .cta-section .btn-primary {

@@ -1,5 +1,9 @@
 <template>
   <div class="app-container">
+    <!-- 交互元素 -->
+    <ScrollIndicator />
+    <MouseFollower />
+    
     <NuxtRouteAnnouncer />
     <Navbar />
 
@@ -15,6 +19,8 @@
 import "@/assets/css/color-mode.css";
 import Footer from "@/components/Footer.vue";
 import Navbar from "@/components/Navbar/Navbar.vue";
+import ScrollIndicator from "@/components/ScrollIndicator.vue";
+import MouseFollower from "@/components/MouseFollower.vue";
 </script>
 
 <style>
