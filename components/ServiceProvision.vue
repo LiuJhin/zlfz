@@ -472,7 +472,7 @@ onUnmounted(() => {
 
 <style scoped>
 .premium-showcase {
-  padding: 150px 0;
+  padding: 80px 0;
   background: var(--bg-color);
   position: relative;
   overflow: hidden;
@@ -562,7 +562,7 @@ onUnmounted(() => {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -572,7 +572,7 @@ onUnmounted(() => {
 /* 高级标题区域 */
 .premium-header {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   position: relative;
 }
 
@@ -593,10 +593,10 @@ onUnmounted(() => {
 }
 
 .premium-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 0.9;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   perspective: 1000px;
 }
 
@@ -647,15 +647,15 @@ onUnmounted(() => {
 /* 高级Logo展示区 */
 .premium-logos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 50px;
-  margin-bottom: 120px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
   perspective: 1000px;
 }
 
 .premium-card {
   position: relative;
-  height: 400px;
+  height: 320px;
   cursor: pointer;
   transform-style: preserve-3d;
   transition: transform 0.6s ease;
@@ -719,8 +719,8 @@ onUnmounted(() => {
   background: var(--card-bg);
   backdrop-filter: blur(20px);
   border: 1px solid var(--border-color);
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 16px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -737,7 +737,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .decoration-line {
@@ -772,7 +772,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .logo-background {
@@ -811,8 +811,8 @@ onUnmounted(() => {
 }
 
 .premium-logo-icon {
-  max-width: 180px;
-  max-height: 90px;
+  max-width: 140px;
+  max-height: 70px;
   color: var(--text-color);
   opacity: 0.8;
   transition: all 0.4s ease;
@@ -837,7 +837,7 @@ onUnmounted(() => {
 /* 信息区域 */
 .card-info {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .logo-title {
@@ -957,13 +957,13 @@ onUnmounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  margin-top: 80px;
-  padding: 40px;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 30px;
   background: var(--card-bg);
   backdrop-filter: blur(20px);
   border: 1px solid var(--border-color);
-  border-radius: 20px;
+  border-radius: 16px;
   box-shadow: var(--card-shadow);
 }
 
@@ -1149,51 +1149,102 @@ onUnmounted(() => {
 }
 
 /* 响应式设计 */
+@media (min-width: 1200px) {
+  .premium-logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .premium-logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .premium-logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 1200px) {
   .premium-logos {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
+    gap: 25px;
   }
 
   .premium-card {
-    height: 350px;
+    height: 300px;
   }
 
   .premium-title {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 }
 
 @media (max-width: 768px) {
   .premium-showcase {
-    padding: 100px 0;
+    padding: 60px 0;
   }
 
-  .premium-logos {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    margin-bottom: 80px;
-  }
-
-  .premium-card {
-    height: 320px;
+  .premium-header {
+    margin-bottom: 40px;
   }
 
   .premium-title {
     font-size: 2.5rem;
-  }
-
-  .title-line {
-    font-size: 2.5rem;
+    margin-bottom: 20px;
   }
 
   .premium-subtitle {
     font-size: 1.1rem;
   }
 
+  .premium-logos {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 35px;
+  }
+
+  .premium-card {
+    height: 280px;
+  }
+
+  .card-3d-container {
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .card-top-decoration {
+    margin-bottom: 12px;
+  }
+
+  .logo-container {
+    margin: 12px 0;
+  }
+
+  .premium-logo-icon {
+    max-width: 120px;
+    max-height: 60px;
+  }
+
+  .card-info {
+    margin-bottom: 12px;
+  }
+
+  .logo-title {
+    font-size: 1.1rem;
+  }
+
+  .logo-category {
+    font-size: 0.85rem;
+  }
+
   .partnership-stats {
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
+    padding: 25px 20px;
+    margin-top: 30px;
+    border-radius: 14px;
   }
 
   .stat-divider {
@@ -1202,30 +1253,96 @@ onUnmounted(() => {
   }
 
   .stat-number {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
+  .premium-showcase {
+    padding: 40px 0;
+  }
+
   .container {
     padding: 0 15px;
   }
 
-  .premium-card {
-    height: 280px;
-  }
-
-  .card-3d-container {
-    padding: 20px;
+  .premium-header {
+    margin-bottom: 30px;
   }
 
   .premium-title {
     font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .premium-subtitle {
+    font-size: 1rem;
+  }
+
+  .subtitle-container {
+    gap: 20px;
+  }
+
+  .subtitle-line {
+    width: 60px;
+  }
+
+  .premium-logos {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .premium-card {
+    height: 260px;
+  }
+
+  .card-3d-container {
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .card-top-decoration {
+    margin-bottom: 10px;
+  }
+
+  .logo-container {
+    margin: 10px 0;
   }
 
   .premium-logo-icon {
-    width: 50px;
-    height: 50px;
+    max-width: 100px;
+    max-height: 50px;
+  }
+
+  .card-info {
+    margin-bottom: 10px;
+  }
+
+  .logo-title {
+    font-size: 1rem;
+  }
+
+  .logo-category {
+    font-size: 0.8rem;
+  }
+
+  .partnership-stats {
+    gap: 20px;
+    padding: 20px 15px;
+    margin-top: 25px;
+    border-radius: 12px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
   }
 
   .logo-background {
