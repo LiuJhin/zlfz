@@ -249,6 +249,7 @@
     }
   },
   "navbar": {
+    "home": "ホーム",
     "solutions": "ソリューション",
     "cloudServices": "クラウドサービス",
     "community": "コミュニティ",

@@ -107,46 +107,181 @@
         <div class="services-grid">
           <div class="service-card featured">
             <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M12 8V16M8 10L16 14M8 14L16 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
               <div class="featured-badge">推荐</div>
             </div>
             <h3>云战略评估与规划</h3>
             <p>
-              深度分析企业现状，制定个性化云战略路线图，确保数字化转型成功。
+              深度分析企业现状，制定个性化云战略路线图，确保数字化转型成功。包含业务需求分析、技术现状评估、竞争对手分析和未来发展规划。
             </p>
             <div class="service-features">
               <span class="feature-tag">现状评估</span>
               <span class="feature-tag">战略规划</span>
               <span class="feature-tag">路线图制定</span>
+              <span class="feature-tag">ROI分析</span>
             </div>
           </div>
 
           <div class="service-card">
+            <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 4H20V20H4V4Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 9H15V15H9V9Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 1V7M15 1V7M9 17V23M15 17V23M1 9H7M17 9H23M1 15H7M17 15H23"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
             <h3>云架构设计优化</h3>
-            <p>设计高可用、可扩展的云技术架构，确保系统性能和安全性。</p>
+            <p>
+              设计高可用、可扩展的云技术架构，确保系统性能和安全性。采用微服务架构、容器化部署和自动化运维最佳实践。
+            </p>
             <div class="service-features">
               <span class="feature-tag">架构设计</span>
               <span class="feature-tag">性能优化</span>
               <span class="feature-tag">安全加固</span>
+              <span class="feature-tag">容灾备份</span>
             </div>
           </div>
 
           <div class="service-card">
+            <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 1V23M17 5H9.5A3.5 3.5 0 0 0 6 8.5V8.5A3.5 3.5 0 0 0 9.5 12H14.5A3.5 3.5 0 0 1 18 15.5V15.5A3.5 3.5 0 0 1 14.5 19H6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
             <h3>成本优化分析</h3>
-            <p>全面分析云资源使用情况，提供精准的成本优化建议和实施方案。</p>
+            <p>
+              全面分析云资源使用情况，提供精准的成本优化建议和实施方案。通过智能监控和自动化管理，实现成本效益最大化。
+            </p>
             <div class="service-features">
               <span class="feature-tag">成本分析</span>
               <span class="feature-tag">资源优化</span>
               <span class="feature-tag">预算规划</span>
+              <span class="feature-tag">智能监控</span>
             </div>
           </div>
 
           <div class="service-card">
+            <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 22S8 18 8 13V6L12 4L16 6V13C16 18 12 22 12 22Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
             <h3>风险评估与治理</h3>
-            <p>识别潜在风险，制定完善的风险缓解策略和治理框架。</p>
+            <p>
+              识别潜在风险，制定完善的风险缓解策略和治理框架。确保云环境的安全性、合规性和业务连续性。
+            </p>
             <div class="service-features">
               <span class="feature-tag">风险识别</span>
               <span class="feature-tag">合规检查</span>
               <span class="feature-tag">治理框架</span>
+              <span class="feature-tag">应急预案</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M21 16V8A2 2 0 0 0 19 6H5A2 2 0 0 0 3 8V16A2 2 0 0 0 5 18H19A2 2 0 0 0 21 16Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M7 10L12 15L17 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>云迁移咨询</h3>
+            <p>
+              提供专业的云迁移策略和实施指导，确保业务系统平滑迁移到云端，最小化业务中断风险。
+            </p>
+            <div class="service-features">
+              <span class="feature-tag">迁移评估</span>
+              <span class="feature-tag">迁移策略</span>
+              <span class="feature-tag">数据迁移</span>
+              <span class="feature-tag">测试验证</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-header">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M16 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18V6A2 2 0 0 1 6 4H8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M15 2H9A1 1 0 0 0 8 3V5A1 1 0 0 0 9 6H15A1 1 0 0 0 16 5V3A1 1 0 0 0 15 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3>DevOps实施咨询</h3>
+            <p>
+              建立完善的DevOps流程和工具链，实现持续集成、持续部署，提升开发效率和产品质量。
+            </p>
+            <div class="service-features">
+              <span class="feature-tag">CI/CD流程</span>
+              <span class="feature-tag">自动化测试</span>
+              <span class="feature-tag">监控告警</span>
+              <span class="feature-tag">团队培训</span>
             </div>
           </div>
         </div>
@@ -231,17 +366,20 @@
             <div class="case-content">
               <h4>全面云化转型战略</h4>
               <p>
-                为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。
+                为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。项目涉及200+应用系统，服务3000万+用户。
               </p>
               <div class="case-highlights">
                 <div class="highlight-item">
-                  <span>系统性能提升85%</span>
+                  <span>✓ 系统性能提升85%</span>
                 </div>
                 <div class="highlight-item">
-                  <span>安全等级提升至金融级</span>
+                  <span>✓ 安全等级提升至金融级</span>
                 </div>
                 <div class="highlight-item">
-                  <span>业务响应速度提升3倍</span>
+                  <span>✓ 业务响应速度提升3倍</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 通过等保三级认证</span>
                 </div>
               </div>
             </div>
@@ -266,17 +404,20 @@
             <div class="case-content">
               <h4>智能制造云平台建设</h4>
               <p>
-                构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。
+                构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。整合50+工厂，连接10万+设备。
               </p>
               <div class="case-highlights">
                 <div class="highlight-item">
-                  <span>生产效率提升40%</span>
+                  <span>✓ 生产效率提升40%</span>
                 </div>
                 <div class="highlight-item">
-                  <span>库存周转率提升50%</span>
+                  <span>✓ 库存周转率提升50%</span>
                 </div>
                 <div class="highlight-item">
-                  <span>产品质量提升30%</span>
+                  <span>✓ 产品质量提升30%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 能耗降低25%</span>
                 </div>
               </div>
             </div>
@@ -301,17 +442,134 @@
             <div class="case-content">
               <h4>全渠道数字化平台</h4>
               <p>
-                打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。
+                打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。覆盖5000+门店，服务2000万+会员。
               </p>
               <div class="case-highlights">
                 <div class="highlight-item">
-                  <span>销售额增长200%</span>
+                  <span>✓ 销售额增长200%</span>
                 </div>
                 <div class="highlight-item">
-                  <span>客户满意度提升45%</span>
+                  <span>✓ 客户满意度提升45%</span>
                 </div>
                 <div class="highlight-item">
-                  <span>移动端转化率提升60%</span>
+                  <span>✓ 移动端转化率提升60%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 库存周转提升35%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">医疗集团</span>
+                </div>
+                <div class="company-info">
+                  <h3>某大型医疗集团</h3>
+                  <span class="industry-tag">医疗健康</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">99.9%</span>
+                <span class="result-label">系统可用性</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>医疗云平台建设</h4>
+              <p>
+                构建了安全可靠的医疗云平台，实现了医疗数据的统一管理和智能分析。连接300+医院，服务1000万+患者。
+              </p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>✓ 诊疗效率提升50%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 数据安全等级AAA</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 远程诊疗覆盖率90%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 医疗成本降低30%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">教育集团</span>
+                </div>
+                <div class="company-info">
+                  <h3>某知名教育集团</h3>
+                  <span class="industry-tag">在线教育</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">300%</span>
+                <span class="result-label">用户增长</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>在线教育云平台</h4>
+              <p>
+                打造了智能化的在线教育云平台，支持大规模并发学习，提供个性化学习体验。服务500万+学员，覆盖全球50+国家。
+              </p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>✓ 并发用户数100万+</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 学习完成率提升80%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 系统响应时间<100ms</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ AI推荐准确率95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card">
+            <div class="case-header">
+              <div class="case-company">
+                <div class="company-logo">
+                  <span class="logo-text">物流企业</span>
+                </div>
+                <div class="company-info">
+                  <h3>某国际物流企业</h3>
+                  <span class="industry-tag">智慧物流</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="result-value">70%</span>
+                <span class="result-label">运营效率提升</span>
+              </div>
+            </div>
+            <div class="case-content">
+              <h4>智慧物流云平台</h4>
+              <p>
+                构建了全球化的智慧物流云平台，实现了供应链的可视化管理和智能调度。覆盖200+城市，管理10万+车辆。
+              </p>
+              <div class="case-highlights">
+                <div class="highlight-item">
+                  <span>✓ 配送时效提升40%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 运输成本降低35%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 客户满意度98%</span>
+                </div>
+                <div class="highlight-item">
+                  <span>✓ 碳排放减少20%</span>
                 </div>
               </div>
             </div>
@@ -338,19 +596,25 @@
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Kubernetes</h4>
-                  <p>容器编排与管理</p>
+                  <p>容器编排与管理，支持大规模集群部署</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Docker</h4>
-                  <p>应用容器化</p>
+                  <p>应用容器化，提升部署效率和一致性</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Helm</h4>
-                  <p>应用包管理</p>
+                  <p>Kubernetes应用包管理工具</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Istio</h4>
+                  <p>服务网格，微服务通信管理</p>
                 </div>
               </div>
             </div>
@@ -362,19 +626,25 @@
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Jenkins</h4>
-                  <p>持续集成/部署</p>
+                  <p>持续集成/部署，自动化构建流水线</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>GitLab</h4>
-                  <p>代码管理与CI/CD</p>
+                  <h4>GitLab CI/CD</h4>
+                  <p>代码管理与自动化部署一体化</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Terraform</h4>
-                  <p>基础设施即代码</p>
+                  <p>基础设施即代码，云资源自动化管理</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Ansible</h4>
+                  <p>配置管理和应用部署自动化</p>
                 </div>
               </div>
             </div>
@@ -386,19 +656,115 @@
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Prometheus</h4>
-                  <p>系统监控</p>
+                  <p>云原生监控系统，实时指标采集</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Grafana</h4>
-                  <p>数据可视化</p>
+                  <p>数据可视化平台，丰富的监控仪表板</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>ELK Stack</h4>
-                  <p>日志分析</p>
+                  <p>日志收集、分析和可视化解决方案</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Jaeger</h4>
+                  <p>分布式链路追踪，性能分析</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3>云平台服务</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>AWS</h4>
+                  <p>亚马逊云服务，全球领先的云平台</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Microsoft Azure</h4>
+                  <p>微软云平台，企业级混合云解决方案</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>阿里云</h4>
+                  <p>国内领先的云计算服务提供商</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>腾讯云</h4>
+                  <p>腾讯云计算平台，游戏和社交领域优势</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3>大数据与AI</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Apache Spark</h4>
+                  <p>大数据处理引擎，支持批处理和流处理</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Apache Kafka</h4>
+                  <p>分布式流处理平台，实时数据管道</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>TensorFlow</h4>
+                  <p>机器学习框架，AI模型训练和部署</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>Elasticsearch</h4>
+                  <p>分布式搜索和分析引擎</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3>安全与合规</h3>
+            <div class="tech-items">
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>零信任架构</h4>
+                  <p>基于身份验证的安全模型</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>端到端加密</h4>
+                  <p>数据传输和存储全程加密保护</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>身份认证IAM</h4>
+                  <p>统一身份管理和访问控制</p>
+                </div>
+              </div>
+              <div class="tech-item">
+                <div class="tech-info">
+                  <h4>合规审计</h4>
+                  <p>满足等保、SOX、GDPR等合规要求</p>
                 </div>
               </div>
             </div>
@@ -427,12 +793,18 @@
               <h3>张云峰</h3>
               <p class="expert-title">云战略首席架构师</p>
               <p class="expert-desc">
-                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目。
+                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目，服务客户包括金融、制造、零售等多个行业的头部企业。
               </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ AWS解决方案架构师认证</div>
+                <div class="achievement-item">✓ 阿里云MVP专家</div>
+                <div class="achievement-item">✓ 《企业云战略实践》作者</div>
+              </div>
               <div class="expert-skills">
                 <span class="skill-tag">云架构设计</span>
                 <span class="skill-tag">数字化转型</span>
                 <span class="skill-tag">企业咨询</span>
+                <span class="skill-tag">成本优化</span>
               </div>
             </div>
           </div>
@@ -448,12 +820,18 @@
               <h3>李明华</h3>
               <p class="expert-title">云原生技术专家</p>
               <p class="expert-desc">
-                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计。
+                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计，曾帮助多家企业实现云原生转型。
               </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ CKA/CKS认证专家</div>
+                <div class="achievement-item">✓ CNCF技术委员会成员</div>
+                <div class="achievement-item">✓ KubeCon演讲嘉宾</div>
+              </div>
               <div class="expert-skills">
                 <span class="skill-tag">Kubernetes</span>
                 <span class="skill-tag">微服务</span>
                 <span class="skill-tag">DevOps</span>
+                <span class="skill-tag">容器化</span>
               </div>
             </div>
           </div>
@@ -469,12 +847,99 @@
               <h3>王安全</h3>
               <p class="expert-title">云安全架构师</p>
               <p class="expert-desc">
-                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估。
+                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估，在金融、医疗等高安全要求行业有丰富实践。
               </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ CISSP/CISM双认证</div>
+                <div class="achievement-item">✓ 等保测评师资质</div>
+                <div class="achievement-item">✓ ISO27001主任审核员</div>
+              </div>
               <div class="expert-skills">
                 <span class="skill-tag">云安全</span>
                 <span class="skill-tag">合规评估</span>
                 <span class="skill-tag">风险管理</span>
+                <span class="skill-tag">零信任</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">陈</span>
+              </div>
+              <div class="expert-badge">数据专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>陈数据</h3>
+              <p class="expert-title">大数据与AI架构师</p>
+              <p class="expert-desc">
+                8年大数据和人工智能领域经验，曾在BAT等互联网公司负责大数据平台建设，擅长数据湖、数据中台和AI平台架构设计。
+              </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ 大数据技术专家认证</div>
+                <div class="achievement-item">✓ TensorFlow开发者认证</div>
+                <div class="achievement-item">✓ Spark贡献者</div>
+              </div>
+              <div class="expert-skills">
+                <span class="skill-tag">大数据</span>
+                <span class="skill-tag">机器学习</span>
+                <span class="skill-tag">数据湖</span>
+                <span class="skill-tag">实时计算</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">刘</span>
+              </div>
+              <div class="expert-badge">业务专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>刘业务</h3>
+              <p class="expert-title">数字化转型顾问</p>
+              <p class="expert-desc">
+                13年企业数字化转型咨询经验，曾在麦肯锡、德勤等知名咨询公司任职，深度参与多个行业的数字化转型项目，具备丰富的业务洞察力。
+              </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ PMP项目管理认证</div>
+                <div class="achievement-item">✓ 数字化转型专家</div>
+                <div class="achievement-item">✓ 行业白皮书主编</div>
+              </div>
+              <div class="expert-skills">
+                <span class="skill-tag">业务分析</span>
+                <span class="skill-tag">流程优化</span>
+                <span class="skill-tag">变革管理</span>
+                <span class="skill-tag">ROI评估</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="expert-card">
+            <div class="expert-avatar">
+              <div class="avatar-placeholder">
+                <span class="avatar-initial">赵</span>
+              </div>
+              <div class="expert-badge">运维专家</div>
+            </div>
+            <div class="expert-info">
+              <h3>赵运维</h3>
+              <p class="expert-title">SRE与运维架构师</p>
+              <p class="expert-desc">
+                11年运维和SRE经验，曾在Google、Netflix等公司工作，专注于大规模分布式系统的可靠性工程，在高可用架构设计方面有深厚造诣。
+              </p>
+              <div class="expert-achievements">
+                <div class="achievement-item">✓ Google SRE认证</div>
+                <div class="achievement-item">✓ 高可用系统设计专家</div>
+                <div class="achievement-item">✓ 《SRE实践指南》译者</div>
+              </div>
+              <div class="expert-skills">
+                <span class="skill-tag">SRE</span>
+                <span class="skill-tag">高可用</span>
+                <span class="skill-tag">性能优化</span>
+                <span class="skill-tag">故障处理</span>
               </div>
             </div>
           </div>
@@ -1633,6 +2098,27 @@ const toggleFaq = (index) => {
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+.expert-achievements {
+  background: var(--bg-color);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.achievement-item {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.achievement-item:last-child {
+  margin-bottom: 0;
 }
 
 .expert-skills {

@@ -35,7 +35,11 @@
       <div class="partners-section">
         <h3 class="partners-title">Industry Giants We Are Trusted By</h3>
         <div class="partners-grid">
-          <div class="partner-logo" v-for="partner in partners" :key="partner.id">
+          <div
+            class="partner-logo"
+            v-for="partner in partners"
+            :key="partner.id"
+          >
             <div class="logo-placeholder">
               <img
                 :src="partner.logo"
@@ -58,156 +62,156 @@
 <script setup>
 // 图片加载错误处理
 const handleImageError = (event) => {
-  event.target.style.display = 'none';
-  event.target.nextElementSibling.style.display = 'block';
+  event.target.style.display = "none";
+  event.target.nextElementSibling.style.display = "block";
 };
 
 // 合作伙伴数据
 const partners = [
   {
     id: 1,
-    name: 'Amazon Web Services',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
-    category: 'Cloud Provider'
+    name: "Amazon Web Services",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    category: "Cloud Provider",
   },
   {
     id: 2,
-    name: 'Microsoft Azure',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg',
-    category: 'Cloud Provider'
+    name: "Microsoft Azure",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+    category: "Cloud Provider",
   },
   {
     id: 3,
-    name: 'Google Cloud',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg',
-    category: 'Cloud Provider'
+    name: "Google Cloud",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
+    category: "Cloud Provider",
   },
   {
     id: 4,
-    name: 'Docker',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg',
-    category: 'Container Platform'
+    name: "Docker",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+    category: "Container Platform",
   },
   {
     id: 5,
-    name: 'Kubernetes',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg',
-    category: 'Orchestration'
+    name: "Kubernetes",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+    category: "Orchestration",
   },
   {
     id: 6,
-    name: 'Terraform',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg',
-    category: 'Infrastructure as Code'
+    name: "Terraform",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg",
+    category: "Infrastructure as Code",
   },
   {
     id: 7,
-    name: 'Jenkins',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg',
-    category: 'CI/CD'
+    name: "Jenkins",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg",
+    category: "CI/CD",
   },
   {
     id: 8,
-    name: 'GitLab',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg',
-    category: 'DevOps Platform'
+    name: "GitLab",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg",
+    category: "DevOps Platform",
   },
   {
     id: 9,
-    name: 'MongoDB',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg',
-    category: 'Database'
+    name: "MongoDB",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    category: "Database",
   },
   {
     id: 10,
-    name: 'Redis',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Logo-redis.svg',
-    category: 'Cache & Database'
+    name: "Redis",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Logo-redis.svg",
+    category: "Cache & Database",
   },
   {
     id: 11,
-    name: 'Elasticsearch',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg',
-    category: 'Search Engine'
+    name: "Elasticsearch",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg",
+    category: "Search Engine",
   },
   {
     id: 12,
-    name: 'Grafana',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg',
-    category: 'Monitoring'
+    name: "Grafana",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg",
+    category: "Monitoring",
   },
   {
     id: 13,
-    name: 'Prometheus',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg',
-    category: 'Monitoring'
+    name: "Prometheus",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg",
+    category: "Monitoring",
   },
   {
     id: 14,
-    name: 'NGINX',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg',
-    category: 'Web Server'
+    name: "NGINX",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+    category: "Web Server",
   },
   {
     id: 15,
-    name: 'Apache Kafka',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka.svg',
-    category: 'Message Broker'
+    name: "Apache Kafka",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka.svg",
+    category: "Message Broker",
   },
   {
     id: 16,
-    name: 'Istio',
-    logo: 'https://landscape.cncf.io/logos/istio.svg',
-    category: 'Service Mesh'
+    name: "Istio",
+    logo: "https://landscape.cncf.io/logos/istio.svg",
+    category: "Service Mesh",
   },
   {
     id: 17,
-    name: 'Helm',
-    logo: 'https://landscape.cncf.io/logos/helm.svg',
-    category: 'Package Manager'
+    name: "Helm",
+    logo: "https://landscape.cncf.io/logos/helm.svg",
+    category: "Package Manager",
   },
   {
     id: 18,
-    name: 'Consul',
-    logo: 'https://landscape.cncf.io/logos/consul.svg',
-    category: 'Service Discovery'
+    name: "Consul",
+    logo: "https://landscape.cncf.io/logos/consul.svg",
+    category: "Service Discovery",
   },
   {
     id: 19,
-    name: 'Vault',
-    logo: 'https://landscape.cncf.io/logos/vault.svg',
-    category: 'Secret Management'
+    name: "Vault",
+    logo: "https://landscape.cncf.io/logos/vault.svg",
+    category: "Secret Management",
   },
   {
     id: 20,
-    name: 'Datadog',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Datadog_logo.svg',
-    category: 'Monitoring'
+    name: "Datadog",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Datadog_logo.svg",
+    category: "Monitoring",
   },
   {
     id: 21,
-    name: 'Splunk',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Splunk-Logo.svg',
-    category: 'Analytics'
+    name: "Splunk",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Splunk-Logo.svg",
+    category: "Analytics",
   },
   {
     id: 22,
-    name: 'Snowflake',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg',
-    category: 'Data Warehouse'
+    name: "Snowflake",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg",
+    category: "Data Warehouse",
   },
   {
     id: 23,
-    name: 'Tableau',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png',
-    category: 'Business Intelligence'
+    name: "Tableau",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+    category: "Business Intelligence",
   },
   {
     id: 24,
-    name: 'Slack',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg',
-    category: 'Communication'
-  }
+    name: "Slack",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+    category: "Communication",
+  },
 ];
 </script>
 

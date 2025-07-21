@@ -249,6 +249,7 @@
     }
   },
   "navbar": {
+    "home": "Home",
     "solutions": "Solutions",
     "cloudServices": "Cloud Services",
     "community": "Community",

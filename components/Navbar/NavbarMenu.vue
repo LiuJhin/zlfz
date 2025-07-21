@@ -48,6 +48,14 @@ const toggleDropdown = (item) => {
 // 菜单数据，使用计算属性实现响应式多语言
 const menuItems = computed(() => [
   {
+    title: t("navbar.home"),
+    link: "/",
+    get isOpen() {
+      return false; // 首页没有下拉菜单
+    },
+    dropdownItems: [],
+  },
+  {
     title: t("navbar.menu.cloudServices.title"),
     link: "#",
     get isOpen() {

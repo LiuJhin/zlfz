@@ -146,6 +146,12 @@ const { t } = useI18n();
 // 菜单数据
 const menuItems = computed(() => [
   {
+    title: t("navbar.home"),
+    link: "/",
+    isOpen: false,
+    dropdownItems: [],
+  },
+  {
     title: t("navbar.solutions"),
     link: "#",
     isOpen: false,
