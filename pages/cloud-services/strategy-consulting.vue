@@ -11,40 +11,39 @@
           <div class="content-wrapper">
             <div class="hero-text">
               <div class="hero-badge">
-                <span class="badge-text">企业云战略</span>
+                <span class="badge-text">{{ $t("strategyConsulting.hero.tag") }}</span>
               </div>
 
               <h1 class="hero-title">
-                智能云战略
-                <span class="highlight-text">咨询规划</span>
+                {{ $t("strategyConsulting.hero.title") }}
+                <span class="highlight-text">{{ $t("strategyConsulting.hero.titleMini") }}</span>
               </h1>
 
               <p class="hero-description">
-                基于前沿技术和丰富经验，为企业量身定制云计算战略蓝图，
-                助力数字化转型升级，构建面向未来的智能化IT架构。
+                {{ $t("strategyConsulting.hero.content") }}
               </p>
 
               <div class="hero-stats">
                 <div class="stat-item">
                   <div class="stat-number">500+</div>
-                  <div class="stat-label">成功案例</div>
+                  <div class="stat-label"> {{ $t("strategyConsulting.hero.SuccessStories") }}</div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-number">98%</div>
-                  <div class="stat-label">客户满意度</div>
+                  <div class="stat-label">{{ $t("strategyConsulting.hero.CustomerSatisfaction") }}</div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-number">60%</div>
-                  <div class="stat-label">平均成本节省</div>
+                  <div class="stat-label">{{ $t("strategyConsulting.hero.AverageCostSavings") }}</div>
                 </div>
               </div>
 
               <div class="hero-actions">
                 <a href="/contact" class="btn-primary">
-                  <span>免费咨询</span>
+                  <span>{{ $t("strategyConsulting.hero.FreeConsultation") }}</span>
                 </a>
                 <a href="#services" class="btn-outline">
-                  <span>服务详情</span>
+                  <span>{{ $t("strategyConsulting.hero.ServiceDetails") }}</span>
                 </a>
               </div>
             </div>
@@ -52,37 +51,37 @@
             <div class="hero-visual">
               <div class="strategy-overview">
                 <div class="overview-header">
-                  <h3>云战略概览</h3>
+                  <h3>{{ $t("strategyConsulting.hero.CardTitle") }}</h3>
                 </div>
 
                 <div class="overview-content">
                   <div class="metrics-simple">
                     <div class="metric-item">
                       <div class="metric-value">85%</div>
-                      <div class="metric-label">效率提升</div>
+                      <div class="metric-label">{{ $t("strategyConsulting.hero.EfficiencyImprovement") }}</div>
                     </div>
                     <div class="metric-item">
                       <div class="metric-value">99.9%</div>
-                      <div class="metric-label">可用性</div>
+                      <div class="metric-label">{{ $t("strategyConsulting.hero.usability") }}</div>
                     </div>
                     <div class="metric-item">
                       <div class="metric-value">60%</div>
-                      <div class="metric-label">成本节省</div>
+                      <div class="metric-label">{{ $t("strategyConsulting.hero.CostSavings") }}</div>
                     </div>
                   </div>
 
                   <div class="key-benefits">
                     <div class="benefit-item">
-                      <span>✓ 云原生架构设计</span>
+                      <span>✓ {{ $t("strategyConsulting.hero.cloudNativeArchitectureDesign") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ 成本优化策略</span>
+                      <span>✓ {{ $t("strategyConsulting.hero.costOptimizationStrategy") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ 安全合规保障</span>
+                      <span>✓ {{ $t("strategyConsulting.hero.securityComplianceAssurance") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ 持续运维支持</span>
+                      <span>✓ {{ $t("strategyConsulting.hero.continuousOpsSupport") }}</span>
                     </div>
                   </div>
                 </div>
@@ -98,10 +97,10 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-text">核心服务</span>
+            <span class="badge-text">{{ $t("strategyConsulting.project.tag") }}</span>
           </div>
-          <h2>全方位云战略咨询服务</h2>
-          <p>从战略规划到落地实施，提供端到端的专业咨询服务</p>
+          <h2>{{ $t("strategyConsulting.project.title") }}</h2>
+          <p>{{ $t("strategyConsulting.project.subtitle") }}</p>
         </div>
 
         <div class="services-grid">
@@ -121,17 +120,17 @@
                   />
                 </svg>
               </div>
-              <div class="featured-badge">推荐</div>
+<!--              <div class="featured-badge">推荐</div>-->
             </div>
-            <h3>云战略评估与规划</h3>
+            <h3>{{ $t("strategyConsulting.project.itemOne.title") }}</h3>
             <p>
-              深度分析企业现状，制定个性化云战略路线图，确保数字化转型成功。包含业务需求分析、技术现状评估、竞争对手分析和未来发展规划。
+              {{ $t("strategyConsulting.project.itemOne.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">现状评估</span>
-              <span class="feature-tag">战略规划</span>
-              <span class="feature-tag">路线图制定</span>
-              <span class="feature-tag">ROI分析</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagFour") }}</span>
             </div>
           </div>
 
@@ -157,15 +156,15 @@
                 </svg>
               </div>
             </div>
-            <h3>云架构设计优化</h3>
+            <h3>{{ $t("strategyConsulting.project.itemTwo.title") }}</h3>
             <p>
-              设计高可用、可扩展的云技术架构，确保系统性能和安全性。采用微服务架构、容器化部署和自动化运维最佳实践。
+              {{ $t("strategyConsulting.project.itemTwo.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">架构设计</span>
-              <span class="feature-tag">性能优化</span>
-              <span class="feature-tag">安全加固</span>
-              <span class="feature-tag">容灾备份</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagFour") }}</span>
             </div>
           </div>
 
@@ -181,15 +180,15 @@
                 </svg>
               </div>
             </div>
-            <h3>成本优化分析</h3>
+            <h3>{{ $t("strategyConsulting.project.itemThree.title") }}</h3>
             <p>
-              全面分析云资源使用情况，提供精准的成本优化建议和实施方案。通过智能监控和自动化管理，实现成本效益最大化。
+              {{ $t("strategyConsulting.project.itemThree.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">成本分析</span>
-              <span class="feature-tag">资源优化</span>
-              <span class="feature-tag">预算规划</span>
-              <span class="feature-tag">智能监控</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagFour") }}</span>
             </div>
           </div>
 
@@ -210,15 +209,15 @@
                 </svg>
               </div>
             </div>
-            <h3>风险评估与治理</h3>
+            <h3>{{ $t("strategyConsulting.project.itemFour.title") }}</h3>
             <p>
-              识别潜在风险，制定完善的风险缓解策略和治理框架。确保云环境的安全性、合规性和业务连续性。
+              {{ $t("strategyConsulting.project.itemFour.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">风险识别</span>
-              <span class="feature-tag">合规检查</span>
-              <span class="feature-tag">治理框架</span>
-              <span class="feature-tag">应急预案</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagFour") }}</span>
             </div>
           </div>
 
@@ -239,15 +238,15 @@
                 </svg>
               </div>
             </div>
-            <h3>云迁移咨询</h3>
+            <h3>{{ $t("strategyConsulting.project.itemFive.title") }}</h3>
             <p>
-              提供专业的云迁移策略和实施指导，确保业务系统平滑迁移到云端，最小化业务中断风险。
+              {{ $t("strategyConsulting.project.itemFive.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">迁移评估</span>
-              <span class="feature-tag">迁移策略</span>
-              <span class="feature-tag">数据迁移</span>
-              <span class="feature-tag">测试验证</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagFour") }}</span>
             </div>
           </div>
 
@@ -273,15 +272,15 @@
                 </svg>
               </div>
             </div>
-            <h3>DevOps实施咨询</h3>
+            <h3>{{ $t("strategyConsulting.project.itemSix.title") }}</h3>
             <p>
-              建立完善的DevOps流程和工具链，实现持续集成、持续部署，提升开发效率和产品质量。
+              {{ $t("strategyConsulting.project.itemSix.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">CI/CD流程</span>
-              <span class="feature-tag">自动化测试</span>
-              <span class="feature-tag">监控告警</span>
-              <span class="feature-tag">团队培训</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagOne") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagTwo") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagThree") }}</span>
+              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagFour") }}</span>
             </div>
           </div>
         </div>
@@ -293,10 +292,10 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-text">服务流程</span>
+            <span class="badge-text">{{ $t("strategyConsulting.processSection.badgeText") }}</span>
           </div>
-          <h2>标准化咨询流程</h2>
-          <p>采用成熟的方法论，确保项目高质量交付</p>
+          <h2>{{ $t("strategyConsulting.processSection.title") }}</h2>
+          <p>{{ $t("strategyConsulting.processSection.subtitle") }}</p>
         </div>
 
         <div class="process-flow">
@@ -774,178 +773,178 @@
     </section>
 
     <!-- Expert Team Section -->
-    <section class="expert-team-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>资深云战略专家</h2>
-          <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>
-        </div>
+<!--    <section class="expert-team-section">-->
+<!--      <div class="container">-->
+<!--        <div class="section-header">-->
+<!--          <h2>资深云战略专家</h2>-->
+<!--          <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>-->
+<!--        </div>-->
 
-        <div class="experts-grid">
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">张</span>
-              </div>
-              <div class="expert-badge">首席专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>张云峰</h3>
-              <p class="expert-title">云战略首席架构师</p>
-              <p class="expert-desc">
-                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目，服务客户包括金融、制造、零售等多个行业的头部企业。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ AWS解决方案架构师认证</div>
-                <div class="achievement-item">✓ 阿里云MVP专家</div>
-                <div class="achievement-item">✓ 《企业云战略实践》作者</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">云架构设计</span>
-                <span class="skill-tag">数字化转型</span>
-                <span class="skill-tag">企业咨询</span>
-                <span class="skill-tag">成本优化</span>
-              </div>
-            </div>
-          </div>
+<!--        <div class="experts-grid">-->
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">张</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">首席专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>张云峰</h3>-->
+<!--              <p class="expert-title">云战略首席架构师</p>-->
+<!--              <p class="expert-desc">-->
+<!--                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目，服务客户包括金融、制造、零售等多个行业的头部企业。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ AWS解决方案架构师认证</div>-->
+<!--                <div class="achievement-item">✓ 阿里云MVP专家</div>-->
+<!--                <div class="achievement-item">✓ 《企业云战略实践》作者</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">云架构设计</span>-->
+<!--                <span class="skill-tag">数字化转型</span>-->
+<!--                <span class="skill-tag">企业咨询</span>-->
+<!--                <span class="skill-tag">成本优化</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">李</span>
-              </div>
-              <div class="expert-badge">技术专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>李明华</h3>
-              <p class="expert-title">云原生技术专家</p>
-              <p class="expert-desc">
-                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计，曾帮助多家企业实现云原生转型。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ CKA/CKS认证专家</div>
-                <div class="achievement-item">✓ CNCF技术委员会成员</div>
-                <div class="achievement-item">✓ KubeCon演讲嘉宾</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">Kubernetes</span>
-                <span class="skill-tag">微服务</span>
-                <span class="skill-tag">DevOps</span>
-                <span class="skill-tag">容器化</span>
-              </div>
-            </div>
-          </div>
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">李</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">技术专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>李明华</h3>-->
+<!--              <p class="expert-title">云原生技术专家</p>-->
+<!--              <p class="expert-desc">-->
+<!--                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计，曾帮助多家企业实现云原生转型。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ CKA/CKS认证专家</div>-->
+<!--                <div class="achievement-item">✓ CNCF技术委员会成员</div>-->
+<!--                <div class="achievement-item">✓ KubeCon演讲嘉宾</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">Kubernetes</span>-->
+<!--                <span class="skill-tag">微服务</span>-->
+<!--                <span class="skill-tag">DevOps</span>-->
+<!--                <span class="skill-tag">容器化</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">王</span>
-              </div>
-              <div class="expert-badge">安全专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>王安全</h3>
-              <p class="expert-title">云安全架构师</p>
-              <p class="expert-desc">
-                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估，在金融、医疗等高安全要求行业有丰富实践。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ CISSP/CISM双认证</div>
-                <div class="achievement-item">✓ 等保测评师资质</div>
-                <div class="achievement-item">✓ ISO27001主任审核员</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">云安全</span>
-                <span class="skill-tag">合规评估</span>
-                <span class="skill-tag">风险管理</span>
-                <span class="skill-tag">零信任</span>
-              </div>
-            </div>
-          </div>
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">王</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">安全专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>王安全</h3>-->
+<!--              <p class="expert-title">云安全架构师</p>-->
+<!--              <p class="expert-desc">-->
+<!--                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估，在金融、医疗等高安全要求行业有丰富实践。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ CISSP/CISM双认证</div>-->
+<!--                <div class="achievement-item">✓ 等保测评师资质</div>-->
+<!--                <div class="achievement-item">✓ ISO27001主任审核员</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">云安全</span>-->
+<!--                <span class="skill-tag">合规评估</span>-->
+<!--                <span class="skill-tag">风险管理</span>-->
+<!--                <span class="skill-tag">零信任</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">陈</span>
-              </div>
-              <div class="expert-badge">数据专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>陈数据</h3>
-              <p class="expert-title">大数据与AI架构师</p>
-              <p class="expert-desc">
-                8年大数据和人工智能领域经验，曾在BAT等互联网公司负责大数据平台建设，擅长数据湖、数据中台和AI平台架构设计。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ 大数据技术专家认证</div>
-                <div class="achievement-item">✓ TensorFlow开发者认证</div>
-                <div class="achievement-item">✓ Spark贡献者</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">大数据</span>
-                <span class="skill-tag">机器学习</span>
-                <span class="skill-tag">数据湖</span>
-                <span class="skill-tag">实时计算</span>
-              </div>
-            </div>
-          </div>
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">陈</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">数据专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>陈数据</h3>-->
+<!--              <p class="expert-title">大数据与AI架构师</p>-->
+<!--              <p class="expert-desc">-->
+<!--                8年大数据和人工智能领域经验，曾在BAT等互联网公司负责大数据平台建设，擅长数据湖、数据中台和AI平台架构设计。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ 大数据技术专家认证</div>-->
+<!--                <div class="achievement-item">✓ TensorFlow开发者认证</div>-->
+<!--                <div class="achievement-item">✓ Spark贡献者</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">大数据</span>-->
+<!--                <span class="skill-tag">机器学习</span>-->
+<!--                <span class="skill-tag">数据湖</span>-->
+<!--                <span class="skill-tag">实时计算</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">刘</span>
-              </div>
-              <div class="expert-badge">业务专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>刘业务</h3>
-              <p class="expert-title">数字化转型顾问</p>
-              <p class="expert-desc">
-                13年企业数字化转型咨询经验，曾在麦肯锡、德勤等知名咨询公司任职，深度参与多个行业的数字化转型项目，具备丰富的业务洞察力。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ PMP项目管理认证</div>
-                <div class="achievement-item">✓ 数字化转型专家</div>
-                <div class="achievement-item">✓ 行业白皮书主编</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">业务分析</span>
-                <span class="skill-tag">流程优化</span>
-                <span class="skill-tag">变革管理</span>
-                <span class="skill-tag">ROI评估</span>
-              </div>
-            </div>
-          </div>
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">刘</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">业务专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>刘业务</h3>-->
+<!--              <p class="expert-title">数字化转型顾问</p>-->
+<!--              <p class="expert-desc">-->
+<!--                13年企业数字化转型咨询经验，曾在麦肯锡、德勤等知名咨询公司任职，深度参与多个行业的数字化转型项目，具备丰富的业务洞察力。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ PMP项目管理认证</div>-->
+<!--                <div class="achievement-item">✓ 数字化转型专家</div>-->
+<!--                <div class="achievement-item">✓ 行业白皮书主编</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">业务分析</span>-->
+<!--                <span class="skill-tag">流程优化</span>-->
+<!--                <span class="skill-tag">变革管理</span>-->
+<!--                <span class="skill-tag">ROI评估</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
 
-          <div class="expert-card">
-            <div class="expert-avatar">
-              <div class="avatar-placeholder">
-                <span class="avatar-initial">赵</span>
-              </div>
-              <div class="expert-badge">运维专家</div>
-            </div>
-            <div class="expert-info">
-              <h3>赵运维</h3>
-              <p class="expert-title">SRE与运维架构师</p>
-              <p class="expert-desc">
-                11年运维和SRE经验，曾在Google、Netflix等公司工作，专注于大规模分布式系统的可靠性工程，在高可用架构设计方面有深厚造诣。
-              </p>
-              <div class="expert-achievements">
-                <div class="achievement-item">✓ Google SRE认证</div>
-                <div class="achievement-item">✓ 高可用系统设计专家</div>
-                <div class="achievement-item">✓ 《SRE实践指南》译者</div>
-              </div>
-              <div class="expert-skills">
-                <span class="skill-tag">SRE</span>
-                <span class="skill-tag">高可用</span>
-                <span class="skill-tag">性能优化</span>
-                <span class="skill-tag">故障处理</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!--          <div class="expert-card">-->
+<!--            <div class="expert-avatar">-->
+<!--              <div class="avatar-placeholder">-->
+<!--                <span class="avatar-initial">赵</span>-->
+<!--              </div>-->
+<!--              <div class="expert-badge">运维专家</div>-->
+<!--            </div>-->
+<!--            <div class="expert-info">-->
+<!--              <h3>赵运维</h3>-->
+<!--              <p class="expert-title">SRE与运维架构师</p>-->
+<!--              <p class="expert-desc">-->
+<!--                11年运维和SRE经验，曾在Google、Netflix等公司工作，专注于大规模分布式系统的可靠性工程，在高可用架构设计方面有深厚造诣。-->
+<!--              </p>-->
+<!--              <div class="expert-achievements">-->
+<!--                <div class="achievement-item">✓ Google SRE认证</div>-->
+<!--                <div class="achievement-item">✓ 高可用系统设计专家</div>-->
+<!--                <div class="achievement-item">✓ 《SRE实践指南》译者</div>-->
+<!--              </div>-->
+<!--              <div class="expert-skills">-->
+<!--                <span class="skill-tag">SRE</span>-->
+<!--                <span class="skill-tag">高可用</span>-->
+<!--                <span class="skill-tag">性能优化</span>-->
+<!--                <span class="skill-tag">故障处理</span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
 
     <!-- FAQ Section -->
     <section class="faq-section">

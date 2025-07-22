@@ -147,36 +147,37 @@ const isDarkMode = ref(false);
 
 // 检查当前颜色模式
 const checkColorMode = () => {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     // 检查 HTML 元素上的 class 或者 localStorage
     const htmlEl = document.documentElement;
-    isDarkMode.value = htmlEl.classList.contains('dark') || 
-                      localStorage.getItem('nuxt-color-mode') === 'dark';
+    isDarkMode.value =
+      htmlEl.classList.contains("dark") ||
+      localStorage.getItem("nuxt-color-mode") === "dark";
   }
 };
 
 // 监听颜色模式变化
 const setupColorModeObserver = () => {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     // 使用 MutationObserver 监听 HTML 元素的 class 变化
     const htmlEl = document.documentElement;
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
-        if (mutation.attributeName === 'class') {
-          isDarkMode.value = htmlEl.classList.contains('dark');
+        if (mutation.attributeName === "class") {
+          isDarkMode.value = htmlEl.classList.contains("dark");
         }
       });
     });
-    
+
     observer.observe(htmlEl, { attributes: true });
-    
+
     // 监听 localStorage 变化
-    window.addEventListener('storage', (event) => {
-      if (event.key === 'nuxt-color-mode') {
-        isDarkMode.value = event.newValue === 'dark';
+    window.addEventListener("storage", (event) => {
+      if (event.key === "nuxt-color-mode") {
+        isDarkMode.value = event.newValue === "dark";
       }
     });
-    
+
     return observer;
   }
   return null;
@@ -497,23 +498,23 @@ watch(
 );
 
 onMounted(() => {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     // 检查当前颜色模式
     checkColorMode();
     const observer = setupColorModeObserver();
-    
+
     // 初始化动画
     initAnimations();
-    
+
     // 组件卸载时清理
     onUnmounted(() => {
       // 清理ScrollTrigger实例
       scrollTriggers.forEach((trigger) => trigger.kill());
       scrollTriggers = [];
-      
+
       // 清理颜色模式观察器
       if (observer) observer.disconnect();
-      window.removeEventListener('storage', () => {});
+      window.removeEventListener("storage", () => {});
     });
   }
 });

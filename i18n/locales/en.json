@@ -2,6 +2,46 @@
   "welcome": "Welcome",
   "hello": "Hello",
   "about": "About",
+  "homePage": {
+    "project": {
+      "tagOne": {
+        "CloudNative": "Cloud Native",
+        "Completed": "Completed",
+        "title": "Enterprise Microservices Container Migration Platform",
+        "Content": "An enterprise-grade microservices architecture built on AWS EKS, enabling seamless migration from monolithic applications to cloud-native architecture. Utilizing Docker containerization, Kubernetes orchestration, and AWS Lambda serverless computing to reduce customer infrastructure costs by 60%.",
+        "CostSavings": "Cost Savings",
+        "nusability": "Availability",
+        "ViewCaseDetails": "View Case Details"
+      },
+      "tagTwo": {
+        "CloudNative": "Data Analytics",
+        "Completed": "In Progress",
+        "title": "Real-time Big Data Processing and AI Analytics Platform",
+        "Content": "A real-time data processing platform built with AWS Kinesis, Redshift, and SageMaker, supporting PB-scale data analysis and machine learning model training. Provides financial clients with real-time risk management and intelligent advisory services, improving processing efficiency by 300%.",
+        "CostSavings": "Efficiency Improvement",
+        "nusability": "Data Processing",
+        "ViewCaseDetails": "View Case Details"
+      },
+      "tagThree": {
+        "CloudNative": "Security & Compliance",
+        "Completed": "Completed",
+        "title": "Multi-cloud Security Governance and Compliance Management System",
+        "Content": "Enterprise security governance platform based on AWS Security Hub, GuardDuty, and Config. Enables unified security monitoring, automated compliance checks, and threat detection in multi-cloud environments, helping customers achieve SOC2, ISO27001, and other certifications.",
+        "CostSavings": "Compliance Achievement",
+        "nusability": "Security Monitoring",
+        "ViewCaseDetails": "View Case Details"
+      },
+      "tagFour": {
+        "CloudNative": "DevOps",
+        "Completed": "Completed",
+        "title": "CI/CD Automated Deployment and Operations Platform",
+        "Content": "Fully automated DevOps platform using AWS CodePipeline, CodeBuild, and CodeDeploy. Implements end-to-end automation from code commit to production deployment, increasing deployment frequency by 500% and reducing failure recovery time to minutes.",
+        "CostSavings": "Deployment Improvement",
+        "nusability": "Failure Recovery",
+        "ViewCaseDetails": "View Case Details"
+      }
+    }
+  },
   "contact": "Contact Us",
   "home": "Home",
   "language": "Language",
@@ -20,8 +60,8 @@
     "save": "Save"
   },
   "hero": {
-    "title": "Building Blockchain Solutions for the Future",
-    "description": "We provide enterprise-grade blockchain technology services to empower your digital transformation journey. From consulting and planning to technical implementation, we create secure, efficient, and scalable blockchain applications for you.",
+    "title": "Building future-proof AWS cloud solutions",
+    "description": "Through enterprise-level AWS cloud services, we help customers significantly reduce infrastructure costs while building highly available and scalable cloud architectures. We accompany customers throughout the entire process from consulting to deployment to promote efficient enterprise transformation.",
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "stats": {
@@ -37,11 +77,11 @@
     "items": {
       "polygonPos": {
         "title": "Polygon PoS",
-        "description": "Supports the most widely used Ethereum scaling ecosystem, offering EVM compatibility and ultimate user experience with fast transactions and near-zero gas fees."
+        "description": "Supports the most widely used Ethereum scaling ecosystem, providing EVM compatibility and ultimate user experience with fast transactions and near-zero Gas fees."
       },
       "polygonZkEvm": {
         "title": "Polygon zkEVM",
-        "description": "Unlocks Ethereum scalability while maintaining security. The first ZK-rollup providing EVM equivalence for fast transactions and near-zero gas costs."
+        "description": "Unlocks Ethereum scalability while maintaining security. The first ZK-rollup offering EVM equivalence, enabling fast transactions and near-zero Gas costs."
       },
       "miden": {
         "title": "Miden",
@@ -49,7 +89,7 @@
       },
       "agglayerCdk": {
         "title": "Agglayer CDK",
-        "description": "Build Ethereum Layer 2 solutions using industry-leading ZK technology and ecosystems."
+        "description": "Build Ethereum Layer 2 using industry-leading ZK technology and ecosystems."
       }
     }
   },
@@ -57,15 +97,15 @@
     "hero": {
       "title": "About Us",
       "subtitle": "Global Intelligent Technology Solutions Provider",
-      "description": "ZHILING ARK TECHNOLOGY PTE. LTD. is a Singapore-based global intelligent technology solutions provider dedicated to delivering next-generation digital transformation and intelligent automation solutions through advanced cloud computing and AI integration. We build enterprise-grade AI aggregation platforms and smart middleware solutions that unify disparate systems, simplify cross-platform data collaboration, and enable large-scale intelligent automated operations."
+      "description": "ZHILING ARK TECHNOLOGY PTE. LTD. is a Singapore-based global intelligent technology solutions provider dedicated to delivering next-generation digital transformation and intelligent automation solutions through advanced cloud computing and AI integration technologies. We build enterprise AI aggregation platforms and intelligent middleware solutions that unify disparate systems, simplify cross-platform data collaboration, and enable large-scale intelligent automated operations."
     },
     "contact": {
       "title": "Contact Us",
-      "subtitle": "Reach out to us anytime",
+      "subtitle": "Get in touch anytime",
       "address": {
         "title": "Company Address",
         "headquarters": "Singapore HQ: Singapore Innovation Hub",
-        "regional": "Asia-Pacific Regional Offices: Branches in multiple cities"
+        "regional": "APAC Regional Offices: Branch offices in multiple cities"
       },
       "phone": {
         "title": "Phone",
@@ -85,7 +125,7 @@
       },
       "form": {
         "title": "Send Message",
-        "description": "If you have any questions or suggestions, please feel free to contact us. We will respond as soon as possible.",
+        "description": "If you have any questions or suggestions, please contact us. We will reply as soon as possible.",
         "name": "Name",
         "namePlaceholder": "Please enter your name",
         "email": "Email",
@@ -103,11 +143,11 @@
       "items": {
         "aws": {
           "name": "AWS",
-          "description": "Global leading cloud platform. We build enterprise-grade AI aggregation platforms on AWS to deliver scalable intelligent solutions."
+          "description": "The world's leading cloud computing platform. We build enterprise AI aggregation platforms on AWS, delivering scalable intelligent solutions to customers."
         },
         "azure": {
           "name": "Microsoft Azure",
-          "description": "Microsoft's cloud platform. We leverage Azure's AI services and cloud infrastructure to provide smart middleware and automation solutions."
+          "description": "Microsoft's cloud platform. We leverage Azure's AI services and cloud infrastructure to provide intelligent middleware and automation solutions to enterprises."
         },
         "googleCloud": {
           "name": "Google Cloud",
@@ -115,28 +155,28 @@
         },
         "oracle": {
           "name": "Oracle",
-          "description": "Enterprise database and cloud services provider. We collaborate with Oracle to deliver reliable data management and intelligent analytics solutions."
+          "description": "Enterprise database and cloud service provider. We collaborate with Oracle to deliver stable and reliable data management and intelligent analytics solutions."
         },
         "singapore": {
           "name": "Singapore Government Agencies",
-          "description": "Singapore government technology departments. We provide smart technology solutions for government digital transformation projects to enhance public service efficiency."
+          "description": "Singapore government technology departments. We provide intelligent technology solutions for government digital transformation projects to enhance public service efficiency."
         },
         "multinational": {
-          "name": "Multinational Corporations",
-          "description": "We partner with multinational enterprises to enable global digital transformation and intelligent operations through our AI aggregation platforms and smart middleware."
+          "name": "Multinational Enterprise Groups",
+          "description": "Multiple multinational corporations partner with us to achieve digital transformation and intelligent operations of global business through our AI aggregation platforms and intelligent middleware."
         },
         "education": {
-          "name": "Educational Institutions",
-          "description": "Leading universities and research institutions. We collaborate on blockchain technology research, talent development, and innovation."
+          "name": "Education & Research Institutions",
+          "description": "Prestigious universities and research institutions. We jointly conduct blockchain technology research, cultivate professionals, and drive technological innovation and application."
         },
         "retail": {
-          "name": "Retail Groups",
+          "name": "Retail Business Groups",
           "description": "Major retail enterprises. We co-developed blockchain loyalty programs and anti-counterfeiting traceability systems to enhance customer experience and brand value."
         }
       },
       "cta": {
         "title": "Become Our Partner",
-        "description": "We welcome enterprises and organizations from all industries to collaborate with us in exploring smart technology applications for digital transformation. Whether you need AI aggregation solutions or seek strategic partnerships, we look forward to connecting with you.",
+        "description": "We welcome partnerships with businesses and organizations across all industries to jointly explore application scenarios and business value of intelligent technologies in digital transformation. Whether you're seeking AI aggregation platform solutions or looking to establish strategic partnerships, we look forward to connecting with you.",
         "button": "Contact Us"
       }
     },
@@ -147,100 +187,100 @@
         "zhangwei": {
           "name": "Zhang Wei",
           "position": "Founder & CEO",
-          "description": "10+ years in smart technology industry. Former tech leadership roles at renowned companies. Focuses on commercial applications of AI aggregation platforms and intelligent ecosystem development."
+          "description": "10+ years in intelligent technology industry, previously held technical leadership positions at renowned tech companies. Focuses on commercial applications of AI aggregation platforms and intelligent ecosystem development."
         },
         "liming": {
           "name": "Li Ming",
-          "position": "CTO",
-          "description": "15+ years in cloud and AI R&D. Former technical lead at top tech firms. Specializes in enterprise AI platform architecture and smart middleware solutions."
+          "position": "Chief Technology Officer",
+          "description": "15+ years in cloud computing and AI technology R&D, former technical lead at multiple leading tech companies. Specializes in architecture design for enterprise AI aggregation platforms and intelligent middleware solutions."
         },
         "wangfang": {
           "name": "Wang Fang",
           "position": "Product Director",
-          "description": "Senior product manager with deep understanding of enterprise digitalization needs. Excels at transforming complex tech concepts into user-friendly intelligent solutions."
+          "description": "Senior product manager with deep understanding of enterprise digital transformation needs and AI application scenarios. Expert at translating complex technical concepts into user-friendly intelligent product solutions."
         },
         "zhaoqiang": {
           "name": "Zhao Qiang",
           "position": "R&D Lead",
-          "description": "Full-stack expert proficient in cloud-native architecture and AI middleware. Contributed to core development of multiple enterprise intelligent platforms."
+          "description": "Full-stack development expert proficient in cloud-native architecture and AI middleware development. Contributed to core development of multiple large-scale enterprise intelligent platforms."
         },
         "chenjing": {
           "name": "Chen Jing",
           "position": "Solutions Architect",
-          "description": "Specializes in enterprise intelligent solution design. Expert in analyzing business requirements and delivering optimal cloud-AI integration strategies."
+          "description": "Specializes in enterprise intelligent solution design, skilled in analyzing business requirements and providing optimal cloud and AI integration solutions. Extensive experience in digital transformation consulting and implementation."
         },
         "liuyang": {
           "name": "Liu Yang",
           "position": "Security Specialist",
-          "description": "Cloud security and data governance expert. Focuses on enterprise security architecture design and compliance. Veteran of multiple digital transformation security assessments."
+          "description": "Cloud security and data governance expert focused on enterprise security architecture design and compliance assessment. Contributed to security evaluations for multiple critical digital transformation projects."
         }
       },
       "join": {
         "title": "Join Our Team",
-        "description": "We're always seeking exceptional talent. If you're passionate about blockchain and want to develop cutting-edge technologies, join us!",
+        "description": "We're always seeking exceptional talent to join our team. If you're passionate about blockchain technology and want to participate in developing cutting-edge applications, we welcome you!",
         "button": "View Open Positions"
       }
     },
     "qualifications": {
       "title": "Corporate Qualifications",
-      "subtitle": "Our Professional Certifications & Industry Credentials",
+      "subtitle": "Our Professional Certifications & Industry Qualifications",
       "certifications": {
         "title": "Industry Certifications"
       },
       "items": {
         "highTech": {
           "title": "High-Tech Enterprise Certification",
-          "description": "Nationally certified high-tech enterprise with core proprietary IP"
+          "description": "Nationally recognized high-tech enterprise with core independent intellectual property rights"
         },
         "software": {
           "title": "Software Enterprise Certification",
           "description": "Meets national software enterprise certification standards"
         },
         "iso9001": {
-          "title": "ISO 9001 Quality Management Certification",
-          "description": "ISO Quality Management System Certification"
+          "title": "ISO 9001 Quality Management System Certification",
+          "description": "International Organization for Standardization Quality Management System Certification"
         },
         "iso27001": {
-          "title": "ISO 27001 Information Security Certification",
-          "description": "ISO Information Security Management System Certification"
+          "title": "ISO 27001 Information Security Management System Certification",
+          "description": "International Organization for Standardization Information Security Management System Certification"
         }
       },
       "certificationItems": {
         "bsn": {
           "name": "Blockchain Service Network Certification",
-          "description": "Officially certified provider for Blockchain Service Network"
+          "description": "Official certified service provider for Blockchain Service Network"
         },
         "tcbp": {
           "name": "Trusted Blockchain Promotion Plan Member",
-          "description": "Member unit of CAICT's Trusted Blockchain Promotion Plan"
+          "description": "Member unit of China Academy of Information and Communications Technology's Trusted Blockchain Promotion Plan"
         },
         "mlps": {
           "name": "Multi-Level Protection Scheme",
-          "description": "Certified Level 3 in National Cybersecurity Protection"
+          "description": "Achieved National Cybersecurity Level Protection Tier 3 certification"
         },
         "ccss": {
           "name": "Cloud Computing Service Security Assessment",
-          "description": "Passed National Cloud Service Security Assessment"
+          "description": "Passed National Cloud Computing Service Security Assessment"
         }
       },
       "labels": {
-        "certNumber": "Cert No.:",
-        "issueDate": "Issued:",
+        "certNumber": "Certificate No.:",
+        "issueDate": "Issue Date:",
         "validUntil": "Valid Until:"
       }
     }
   },
   "projects": {
-    "title": "Projects Built on Polygon",
+    "title": "Projects Built on ZHILING ARK",
     "learnMore": "Learn More",
     "items": {
       "unstoppableDomains": {
         "title": "Unstoppable Domains",
-        "description": "Own your Web3 domain in the digital world, control your digital identity"
+        "description": "Own your Web3 domain in the digital world and control your digital identity"
       },
       "aave": {
         "title": "Aave",
-        "description": "Open-source, non-custodial liquidity protocol for earning interest and borrowing assets"
+        "description": "Open source, non-custodial liquidity protocol for earning interest and borrowing assets"
       },
       "uniswap": {
         "title": "Uniswap",
@@ -251,12 +291,12 @@
   "navbar": {
     "home": "Home",
     "solutions": "Solutions",
-    "cloudServices": "Cloud Services",
+    "cloudServices": "Cloud Managed Services",
     "community": "Community",
     "industrySolutions": "Industry Solutions",
     "caseStudies": "Case Studies",
     "aboutUs": "About Us",
-    "docs": "Documentation",
+    "docs": "Documentation Center",
     "menu": {
       "solutions": {
         "title": "Solutions",
@@ -266,7 +306,7 @@
         },
         "devTools": {
           "title": "Developer Tools",
-          "description": "Powerful toolkit for rapid application development"
+          "description": "Powerful toolset for rapid application development"
         },
         "blockchain": {
           "title": "Blockchain Services",
@@ -274,10 +314,10 @@
         }
       },
       "cloudServices": {
-        "title": "Cloud Services",
+        "title": "Cloud Managed Services",
         "strategy": {
           "title": "Cloud Strategy Consulting",
-          "description": "Professional cloud strategy planning and advisory"
+          "description": "Professional cloud strategy planning and consulting"
         },
         "technical": {
           "title": "Cloud Technical Services",
@@ -285,10 +325,10 @@
         },
         "operations": {
           "title": "Cloud Operations Management",
-          "description": "Efficient cloud platform operation and management"
+          "description": "Efficient cloud platform operations and management"
         },
         "security": {
-          "title": "Cloud Security Services",
+          "title": "Cloud Security Protection",
           "description": "Comprehensive cloud security protection and threat detection"
         },
         "costOptimization": {
@@ -311,8 +351,8 @@
           "description": "Participate in online/offline tech exchange events"
         },
         "opensource": {
-          "title": "Open Source Contributions",
-          "description": "Contribute code and ideas to open-source projects"
+          "title": "Open Source Contribution",
+          "description": "Contribute code and ideas to open source projects"
         },
         "forum": {
           "title": "Technical Forum",
@@ -322,8 +362,8 @@
       "industry": {
         "title": "Industry Solutions",
         "fintech": {
-          "title": "Fintech Solutions",
-          "description": "Innovative technology solutions for finance industry"
+          "title": "FinTech Solutions",
+          "description": "Innovative tech solutions for financial industry"
         },
         "supplyChain": {
           "title": "Supply Chain Management",
@@ -331,57 +371,57 @@
         },
         "digitalIdentity": {
           "title": "Digital Identity",
-          "description": "Secure and reliable digital identity authentication"
+          "description": "Secure and reliable digital identity systems"
         },
         "dataSecurity": {
           "title": "Data Security & Privacy",
-          "description": "Solutions for data security and user privacy protection"
+          "description": "Solutions for data security and user privacy"
         }
       },
       "cases": {
         "title": "Case Studies",
         "successStories": {
           "title": "Success Stories",
-          "description": "Browse our successful customer cases"
+          "description": "Browse our successful client cases"
         },
         "financial": {
           "title": "Financial Industry",
-          "description": "Innovative applications in fintech"
+          "description": "FinTech innovation applications"
         },
         "supplyChain": {
-          "title": "Supply Chain",
-          "description": "Blockchain applications in supply chain management"
+          "title": "Supply Chain Industry",
+          "description": "Blockchain applications in supply chain"
         },
         "healthcare": {
           "title": "Healthcare",
-          "description": "Medical data management and sharing solutions"
+          "description": "Medical data management solutions"
         },
         "government": {
           "title": "Government Services",
-          "description": "Blockchain applications for efficient public services"
+          "description": "Blockchain applications for public services"
         }
       },
       "about": {
         "title": "About Us",
         "company": {
           "title": "Company Profile",
-          "description": "Learn about our mission and vision"
+          "description": "Our mission and vision"
         },
         "qualifications": {
           "title": "Qualifications",
-          "description": "View our professional certifications"
+          "description": "Our professional certifications"
         },
         "team": {
           "title": "Technical Team",
-          "description": "Meet our expert technical team"
+          "description": "Meet our expert team"
         },
         "partners": {
           "title": "Partners",
-          "description": "Explore our partner network"
+          "description": "Our partner network"
         },
         "careers": {
           "title": "Careers",
-          "description": "Discover exciting career opportunities"
+          "description": "Explore exciting opportunities"
         },
         "contact": {
           "title": "Contact",
@@ -423,14 +463,14 @@
       "phone": "Phone",
       "message": "Message",
       "placeholders": {
-        "enterName": "Please enter your name",
-        "enterEmail": "Please enter your email",
-        "enterPhone": "Please enter your phone number",
-        "enterMessage": "Please enter your message"
+        "enterName": "Enter your name",
+        "enterEmail": "Enter your email",
+        "enterPhone": "Enter your phone",
+        "enterMessage": "Enter your message"
       },
       "validation": {
         "required": "This field is required",
-        "invalidEmail": "Please enter a valid email address",
+        "invalidEmail": "Please enter a valid email",
         "minLength": "Minimum {min} characters required"
       }
     },
@@ -439,8 +479,8 @@
       "loading": "Loading...",
       "success": "Operation successful",
       "error": "Operation failed",
-      "warning": "Warning",
-      "info": "Information"
+      "warning": "Warning message",
+      "info": "Information message"
     },
     "navigation": {
       "title": "Navigation Elements",
@@ -449,7 +489,87 @@
       "first": "First",
       "last": "Last",
       "goBack": "Go Back",
-      "goHome": "Go Home"
+      "goHome": "Go to Home"
+    }
+  },
+  "strategyConsulting": {
+    "hero": {
+      "tag": "Enterprise Cloud Strategy",
+      "title": "Intelligent Cloud Strategy",
+      "titleMini": "Consulting Planning",
+      "content": "Leveraging cutting-edge technologies and extensive experience, we deliver tailored cloud computing strategy blueprints that drive digital transformation and build future-ready intelligent IT architectures.",
+      "SuccessStories": "Success Stories",
+      "CustomerSatisfaction": "Customer Satisfaction",
+      "AverageCostSavings": "Average Cost Savings",
+      "FreeConsultation": "Free Consultation",
+      "ServiceDetails": "Service Details",
+      "CardTitle": "Cloud Strategy Overview",
+      "EfficiencyImprovement": "Efficiency Improvement",
+      "usability": "Usability",
+      "CostSavings": "Cost Savings",
+      "cloudNativeArchitectureDesign": "Cloud-Native Architecture Design",
+      "costOptimizationStrategy": "Cost Optimization Strategy",
+      "securityComplianceAssurance": "Security & Compliance Assurance",
+      "continuousOpsSupport": "Continuous Operations & Maintenance Support"
+    },
+    "project": {
+      "tag": "Core Services",
+      "title": "Comprehensive Cloud Strategy Consulting Services",
+      "subtitle": "End-to-end expert consulting from strategic planning to implementation",
+      "itemOne": {
+        "title": "Cloud Strategy Assessment & Planning",
+        "content": "We thoroughly analyze your current state and develop a customized cloud strategy roadmap to ensure digital transformation success. Includes business needs analysis, technology assessment, competitive analysis, and future planning.",
+        "tagOne": "Current State Assessment",
+        "tagTwo": "Strategic Planning",
+        "tagThree": "Roadmap Development",
+        "tagFour": "ROI Analysis"
+      },
+      "itemTwo": {
+        "title": "Cloud Architecture Design & Optimization",
+        "content": "Design high-availability and scalable cloud technology architectures to ensure system performance and security. Adopts best practices such as microservices architecture, containerized deployment, and automated operations management.",
+        "tagOne": "Architecture Design",
+        "tagTwo": "Performance Optimization",
+        "tagThree": "Enhanced Security",
+        "tagFour": "Disaster Recovery & Backup"
+      },
+      "itemThree": {
+        "title": "Cost Optimization Analysis",
+        "content": "Conduct comprehensive analysis of cloud resource usage and provide precise cost optimization recommendations and implementation plans. Maximize cost efficiency through intelligent monitoring and automation.",
+        "tagOne": "Cost Analysis",
+        "tagTwo": "Resource Optimization",
+        "tagThree": "Budget Planning",
+        "tagFour": "Intelligent Monitoring"
+      },
+      "itemFour": {
+        "title": "Risk Assessment & Governance",
+        "content": "Identify potential risks and develop comprehensive risk mitigation strategies and governance frameworks to ensure security, compliance, and business continuity in the cloud environment.",
+        "tagOne": "Risk Identification",
+        "tagTwo": "Compliance Review",
+        "tagThree": "Governance Framework",
+        "tagFour": "Incident Response Plan"
+      },
+      "itemFive": {
+        "title": "Cloud Migration Consulting",
+        "content": "Provide professional cloud migration strategies and implementation guidance to ensure smooth migration of business systems with minimal disruption.",
+        "tagOne": "Migration Assessment",
+        "tagTwo": "Migration Strategy",
+        "tagThree": "Data Migration",
+        "tagFour": "Testing & Validation"
+      },
+      "itemSix": {
+        "title": "DevOps Adoption Consulting",
+        "content": "Build comprehensive DevOps processes and toolchains to enable continuous integration (CI) and continuous deployment (CD), enhancing development efficiency and product quality.",
+        "tagOne": "CI/CD Process",
+        "tagTwo": "Automated Testing",
+        "tagThree": "Monitoring & Alerts",
+        "tagFour": "Team Training"
+      }
+    },
+    "processSection": {
+      "badgeText": "Service Process",
+      "title": "Standardized Consulting Process",
+      "subtitle": "Applying proven methodologies to ensure high-quality project delivery"
     }
   }
+
 }

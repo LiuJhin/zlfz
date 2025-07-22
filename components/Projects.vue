@@ -13,14 +13,12 @@
           <div class="project-number">01</div>
           <div class="project-content">
             <div class="project-meta">
-              <span class="project-category">云原生架构</span>
-              <span class="project-status">已完成</span>
+              <span class="project-category">{{ $t("homePage.project.tagOne.CloudNative") }}</span>
+              <span class="project-status">{{ $t("homePage.project.tagOne.Completed")}}</span>
             </div>
-            <h3 class="project-title">企业级微服务容器化迁移平台</h3>
+            <h3 class="project-title">{{ $t("homePage.project.tagOne.title")}}</h3>
             <p class="project-description">
-              基于AWS
-              EKS构建的企业级微服务架构，实现传统单体应用向云原生架构的平滑迁移。采用Docker容器化、Kubernetes编排，结合AWS
-              Lambda无服务器计算，为客户节省60%的基础设施成本。
+              {{ $t("homePage.project.tagOne.Content")}}
             </p>
             <div class="project-tech-stack">
               <span class="tech-tag">AWS EKS</span>
@@ -31,15 +29,15 @@
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">60%</span>
-                <span class="metric-label">成本节省</span>
+                <span class="metric-label">{{ $t("homePage.project.tagOne.CostSavings")}}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">99.9%</span>
-                <span class="metric-label">可用性</span>
+                <span class="metric-label">{{ $t("homePage.project.tagOne.nusability")}}</span>
               </div>
             </div>
             <a href="#" class="project-link">
-              查看案例详情
+              {{ $t("homePage.project.tagOne.ViewCaseDetails")}}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M7 17L17 7M17 7H7M17 7V17"
@@ -109,13 +107,12 @@
           <div class="project-number">02</div>
           <div class="project-content">
             <div class="project-meta">
-              <span class="project-category">数据分析</span>
-              <span class="project-status">进行中</span>
+              <span class="project-category">{{ $t("homePage.project.tagTwo.CloudNative")}}</span>
+              <span class="project-status">{{ $t("homePage.project.tagTwo.Completed")}}</span>
             </div>
-            <h3 class="project-title">实时大数据处理与AI智能分析平台</h3>
+            <h3 class="project-title">{{ $t("homePage.project.tagTwo.title")}}</h3>
             <p class="project-description">
-              利用AWS
-              Kinesis、Redshift和SageMaker构建的实时数据处理平台，支持PB级数据分析和机器学习模型训练。为金融客户提供实时风控和智能投顾服务，处理效率提升300%。
+              {{ $t("homePage.project.tagTwo.Content")}}
             </p>
             <div class="project-tech-stack">
               <span class="tech-tag">Kinesis</span>
@@ -126,15 +123,15 @@
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">300%</span>
-                <span class="metric-label">效率提升</span>
+                <span class="metric-label">{{ $t("homePage.project.tagTwo.CostSavings")}}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">PB级</span>
-                <span class="metric-label">数据处理</span>
+                <span class="metric-label">{{ $t("homePage.project.tagTwo.nusability")}}</span>
               </div>
             </div>
             <a href="#" class="project-link">
-              查看案例详情
+              {{ $t("homePage.project.tagTwo.ViewCaseDetails")}}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M7 17L17 7M17 7H7M17 7V17"
@@ -215,13 +212,12 @@
           <div class="project-number">03</div>
           <div class="project-content">
             <div class="project-meta">
-              <span class="project-category">安全合规</span>
-              <span class="project-status">已完成</span>
+              <span class="project-category"> {{ $t("homePage.project.tagThree.CloudNative")}} </span>
+              <span class="project-status">{{ $t("homePage.project.tagThree.Completed")}}</span>
             </div>
-            <h3 class="project-title">多云安全治理与合规管理系统</h3>
+            <h3 class="project-title">{{ $t("homePage.project.tagThree.title")}}</h3>
             <p class="project-description">
-              基于AWS Security
-              Hub、GuardDuty和Config构建的企业级安全治理平台，实现多云环境统一安全监控、自动化合规检查和威胁检测，帮助客户通过SOC2、ISO27001等认证。
+              {{ $t("homePage.project.tagThree.Content")}}
             </p>
             <div class="project-tech-stack">
               <span class="tech-tag">Security Hub</span>
@@ -232,15 +228,15 @@
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">100%</span>
-                <span class="metric-label">合规达标</span>
+                <span class="metric-label">{{ $t("homePage.project.tagThree.CostSavings")}}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">24/7</span>
-                <span class="metric-label">安全监控</span>
+                <span class="metric-label">{{ $t("homePage.project.tagThree.nusability")}}</span>
               </div>
             </div>
             <a href="#" class="project-link">
-              查看案例详情
+              {{ $t("homePage.project.tagThree.ViewCaseDetails")}}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M7 17L17 7M17 7H7M17 7V17"
@@ -283,13 +279,12 @@
           <div class="project-number">04</div>
           <div class="project-content">
             <div class="project-meta">
-              <span class="project-category">DevOps</span>
-              <span class="project-status">已完成</span>
+              <span class="project-category">{{ $t("homePage.project.tagFour.CloudNative")}}</span>
+              <span class="project-status">{{ $t("homePage.project.tagFour.Completed")}}</span>
             </div>
-            <h3 class="project-title">CI/CD自动化部署与运维平台</h3>
+            <h3 class="project-title">{{ $t("homePage.project.tagFour.title")}}</h3>
             <p class="project-description">
-              采用AWS
-              CodePipeline、CodeBuild和CodeDeploy构建的全自动化DevOps平台，实现从代码提交到生产部署的全流程自动化，部署频率提升500%，故障恢复时间缩短至分钟级。
+              {{ $t("homePage.project.tagFour.Content")}}
             </p>
             <div class="project-tech-stack">
               <span class="tech-tag">CodePipeline</span>
@@ -300,15 +295,15 @@
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">500%</span>
-                <span class="metric-label">部署提升</span>
+                <span class="metric-label">{{ $t("homePage.project.tagFour.CostSavings")}}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">< 5min</span>
-                <span class="metric-label">故障恢复</span>
+                <span class="metric-label">{{ $t("homePage.project.tagFour.nusability")}}</span>
               </div>
             </div>
             <a href="#" class="project-link">
-              查看案例详情
+              {{ $t("homePage.project.tagFour.ViewCaseDetails")}}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M7 17L17 7M17 7H7M17 7V17"

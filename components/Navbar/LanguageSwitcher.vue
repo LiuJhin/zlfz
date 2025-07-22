@@ -77,12 +77,12 @@ const languages = [
   {
     code: "zh",
     name: "Chinese",
-    flag: "🇨",
+    flag: "🇨🇳",
   },
   {
     code: "en",
     name: "English",
-    flag: "🇺",
+    flag: "🇺🇸",
   },
   {
     code: "jp",
