@@ -4,13 +4,19 @@
     <section class="hero-section">
       <div class="hero-background">
         <div class="gradient-overlay"></div>
+        <div class="animated-particles"></div>
       </div>
 
       <div class="hero-content">
         <div class="container">
           <div class="content-wrapper">
-            <div class="hero-text">
+            <div class="hero-text animate-on-scroll fadeInLeft">
               <div class="hero-badge">
+                <span class="badge-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                </span>
                 <span class="badge-text">{{ $t("strategyConsulting.hero.tag") }}</span>
               </div>
 
@@ -24,64 +30,101 @@
               </p>
 
               <div class="hero-stats">
-                <div class="stat-item">
-                  <div class="stat-number">500+</div>
-                  <div class="stat-label"> {{ $t("strategyConsulting.hero.SuccessStories") }}</div>
+                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
+                  <div class="stat-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M16 6l2 2-10 10-6-6 2-2 4 4 8-8z" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </div>
+                  <div class="stat-content">
+                    <div class="stat-number">500<span class="stat-plus">+</span></div>
+                    <div class="stat-label"> {{ $t("strategyConsulting.hero.SuccessStories") }}</div>
+                  </div>
                 </div>
-                <div class="stat-item">
-                  <div class="stat-number">98%</div>
-                  <div class="stat-label">{{ $t("strategyConsulting.hero.CustomerSatisfaction") }}</div>
+                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
+                  <div class="stat-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </div>
+                  <div class="stat-content">
+                    <div class="stat-number">98<span class="stat-plus">%</span></div>
+                    <div class="stat-label">{{ $t("strategyConsulting.hero.CustomerSatisfaction") }}</div>
+                  </div>
                 </div>
-                <div class="stat-item">
-                  <div class="stat-number">60%</div>
-                  <div class="stat-label">{{ $t("strategyConsulting.hero.AverageCostSavings") }}</div>
+                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
+                  <div class="stat-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </div>
+                  <div class="stat-content">
+                    <div class="stat-number">60<span class="stat-plus">%</span></div>
+                    <div class="stat-label">{{ $t("strategyConsulting.hero.AverageCostSavings") }}</div>
+                  </div>
                 </div>
               </div>
 
-              <div class="hero-actions">
+              <div class="hero-actions animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
                 <a href="/contact" class="btn-primary">
                   <span>{{ $t("strategyConsulting.hero.FreeConsultation") }}</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h14M19 12l-7-7m7 7l-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
                 </a>
                 <a href="#services" class="btn-outline">
                   <span>{{ $t("strategyConsulting.hero.ServiceDetails") }}</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M7 10l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
                 </a>
               </div>
             </div>
 
-            <div class="hero-visual">
+            <div class="hero-visual animate-on-scroll fadeInRight">
               <div class="strategy-overview">
                 <div class="overview-header">
+                  <div class="overview-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                      <path d="M12 8V16M8 10L16 14M8 14L16 10" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </div>
                   <h3>{{ $t("strategyConsulting.hero.CardTitle") }}</h3>
                 </div>
 
                 <div class="overview-content">
                   <div class="metrics-simple">
                     <div class="metric-item">
-                      <div class="metric-value">85%</div>
+                      <div class="metric-value">85<span class="metric-percent">%</span></div>
                       <div class="metric-label">{{ $t("strategyConsulting.hero.EfficiencyImprovement") }}</div>
                     </div>
                     <div class="metric-item">
-                      <div class="metric-value">99.9%</div>
+                      <div class="metric-value">99.9<span class="metric-percent">%</span></div>
                       <div class="metric-label">{{ $t("strategyConsulting.hero.usability") }}</div>
                     </div>
                     <div class="metric-item">
-                      <div class="metric-value">60%</div>
+                      <div class="metric-value">60<span class="metric-percent">%</span></div>
                       <div class="metric-label">{{ $t("strategyConsulting.hero.CostSavings") }}</div>
                     </div>
                   </div>
 
                   <div class="key-benefits">
                     <div class="benefit-item">
-                      <span>✓ {{ $t("strategyConsulting.hero.cloudNativeArchitectureDesign") }}</span>
+                      <span class="benefit-icon">✓</span>
+                      <span>{{ $t("strategyConsulting.hero.cloudNativeArchitectureDesign") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ {{ $t("strategyConsulting.hero.costOptimizationStrategy") }}</span>
+                      <span class="benefit-icon">✓</span>
+                      <span>{{ $t("strategyConsulting.hero.costOptimizationStrategy") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ {{ $t("strategyConsulting.hero.securityComplianceAssurance") }}</span>
+                      <span class="benefit-icon">✓</span>
+                      <span>{{ $t("strategyConsulting.hero.securityComplianceAssurance") }}</span>
                     </div>
                     <div class="benefit-item">
-                      <span>✓ {{ $t("strategyConsulting.hero.continuousOpsSupport") }}</span>
+                      <span class="benefit-icon">✓</span>
+                      <span>{{ $t("strategyConsulting.hero.continuousOpsSupport") }}</span>
                     </div>
                   </div>
                 </div>
@@ -95,8 +138,12 @@
     <!-- Services Section -->
     <section id="services" class="services-section">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+            </svg>
             <span class="badge-text">{{ $t("strategyConsulting.project.tag") }}</span>
           </div>
           <h2>{{ $t("strategyConsulting.project.title") }}</h2>
@@ -104,9 +151,9 @@
         </div>
 
         <div class="services-grid">
-          <div class="service-card featured">
+          <div class="service-card featured animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
@@ -120,23 +167,43 @@
                   />
                 </svg>
               </div>
-<!--              <div class="featured-badge">推荐</div>-->
+              <div class="featured-badge">推荐</div>
             </div>
             <h3>{{ $t("strategyConsulting.project.itemOne.title") }}</h3>
             <p>
               {{ $t("strategyConsulting.project.itemOne.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemOne.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemOne.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemOne.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemOne.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemOne.tagFour") }}
+              </span>
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M4 4H20V20H4V4Z"
@@ -161,16 +228,36 @@
               {{ $t("strategyConsulting.project.itemTwo.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemTwo.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemTwo.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemTwo.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemTwo.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemTwo.tagFour") }}
+              </span>
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12 1V23M17 5H9.5A3.5 3.5 0 0 0 6 8.5V8.5A3.5 3.5 0 0 0 9.5 12H14.5A3.5 3.5 0 0 1 18 15.5V15.5A3.5 3.5 0 0 1 14.5 19H6"
@@ -185,16 +272,36 @@
               {{ $t("strategyConsulting.project.itemThree.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemThree.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemThree.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemThree.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemThree.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemThree.tagFour") }}
+              </span>
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12 22S8 18 8 13V6L12 4L16 6V13C16 18 12 22 12 22Z"
@@ -214,16 +321,36 @@
               {{ $t("strategyConsulting.project.itemFour.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFour.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFour.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFour.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFour.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFour.tagFour") }}
+              </span>
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.5s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M21 16V8A2 2 0 0 0 19 6H5A2 2 0 0 0 3 8V16A2 2 0 0 0 5 18H19A2 2 0 0 0 21 16Z"
@@ -243,16 +370,36 @@
               {{ $t("strategyConsulting.project.itemFive.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemFive.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFive.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFive.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFive.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemFive.tagFour") }}
+              </span>
             </div>
           </div>
 
-          <div class="service-card">
+          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.6s">
             <div class="card-header">
-              <div class="service-icon">
+              <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M16 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18V6A2 2 0 0 1 6 4H8"
@@ -277,10 +424,30 @@
               {{ $t("strategyConsulting.project.itemSix.content") }}
             </p>
             <div class="service-features">
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagOne") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagTwo") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagThree") }}</span>
-              <span class="feature-tag">{{ $t("strategyConsulting.project.itemSix.tagFour") }}</span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemSix.tagOne") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemSix.tagTwo") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemSix.tagThree") }}
+              </span>
+              <span class="feature-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                </svg>
+                {{ $t("strategyConsulting.project.itemSix.tagFour") }}
+              </span>
             </div>
           </div>
         </div>
@@ -290,42 +457,66 @@
     <!-- Process Section -->
     <section class="process-section">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="badge-icon">
+              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+            </svg>
             <span class="badge-text">{{ $t("strategyConsulting.processSection.badgeText") }}</span>
           </div>
-          <h2>{{ $t("strategyConsulting.processSection.title") }}</h2>
-          <p>{{ $t("strategyConsulting.processSection.subtitle") }}</p>
+          <h2 class="section-title">{{ $t("strategyConsulting.processSection.title") }}</h2>
+          <p class="section-subtitle">{{ $t("strategyConsulting.processSection.subtitle") }}</p>
         </div>
 
-        <div class="process-flow">
-          <div class="flow-container">
+        <div class="process-timeline">
+          <div class="timeline-track"></div>
+          <div class="process-steps">
             <div
-              class="process-step"
+              class="process-step animate-on-scroll fadeInUp"
               v-for="(step, index) in processSteps"
               :key="index"
+              :style="`animation-delay: ${0.1 * (index + 1)}s`"
+              :class="{'step-right': index % 2 !== 0}"
             >
-              <div
-                class="step-connector"
-                v-if="index < processSteps.length - 1"
-              ></div>
-              <div class="step-circle">
-                <span class="step-number">{{
-                  String(index + 1).padStart(2, "0")
-                }}</span>
+              <div class="step-connector" v-if="index < processSteps.length - 1"></div>
+              
+              <div class="step-circle animate-on-scroll bounceIn" :style="`animation-delay: ${0.15 * (index + 1)}s`">
+                <span class="step-number">{{ String(index + 1).padStart(2, "0") }}</span>
+                <div class="pulse-ring"></div>
               </div>
-              <div class="step-content">
-                <h3>{{ step.title }}</h3>
-                <p>{{ step.description }}</p>
+              
+              <div class="step-card">
+                <div class="step-header">
+                  <h3 class="animate-on-scroll fadeInDown" :style="`animation-delay: ${0.2 * (index + 1)}s`">{{ step.title }}</h3>
+                  <div class="step-icon animate-on-scroll rotateIn" :style="`animation-delay: ${0.25 * (index + 1)}s`">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <p class="animate-on-scroll fadeIn" :style="`animation-delay: ${0.3 * (index + 1)}s`">{{ step.description }}</p>
+                
                 <div class="step-details">
                   <div
-                    class="detail-item"
-                    v-for="detail in step.details"
+                    class="detail-item animate-on-scroll slideInRight"
+                    v-for="(detail, detailIndex) in step.details"
                     :key="detail"
+                    :style="`animation-delay: ${0.1 * (detailIndex + 1) + 0.3}s`"
                   >
-                    <span class="detail-icon">✓</span>
+                    <span class="detail-icon">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                      </svg>
+                    </span>
                     <span class="detail-text">{{ detail }}</span>
                   </div>
+                </div>
+                
+                <div class="step-progress-bar animate-on-scroll scaleInX" :style="`animation-delay: ${0.4 * (index + 1)}s`">
+                  <div class="progress-fill" :style="`width: ${(index + 1) / processSteps.length * 100}%`"></div>
                 </div>
               </div>
             </div>
@@ -337,8 +528,12 @@
     <!-- Case Studies Section -->
     <section id="case-studies" class="case-studies-section">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+            </svg>
             <span class="badge-text">成功案例</span>
           </div>
           <h2>客户成功案例</h2>
@@ -346,18 +541,18 @@
         </div>
 
         <div class="cases-grid">
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
                   <span class="logo-text">金融集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某大型金融集团</h3>
-                  <span class="industry-tag">金融服务</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">金融服务</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
                 <span class="result-value">60%</span>
                 <span class="result-label">成本节省</span>
               </div>
@@ -368,34 +563,50 @@
                 为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。项目涉及200+应用系统，服务3000万+用户。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 系统性能提升85%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>系统性能提升85%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 安全等级提升至金融级</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>安全等级提升至金融级</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 业务响应速度提升3倍</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>业务响应速度提升3倍</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 通过等保三级认证</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>通过等保三级认证</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
                   <span class="logo-text">制造企业</span>
                 </div>
                 <div class="company-info">
                   <h3>某制造业龙头企业</h3>
-                  <span class="industry-tag">智能制造</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">智能制造</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
                 <span class="result-value">40%</span>
                 <span class="result-label">效率提升</span>
               </div>
@@ -406,34 +617,50 @@
                 构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。整合50+工厂，连接10万+设备。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 生产效率提升40%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>生产效率提升40%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 库存周转率提升50%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>库存周转率提升50%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 产品质量提升30%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>产品质量提升30%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 能耗降低25%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>能耗降低25%</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
                   <span class="logo-text">零售集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某新零售集团</h3>
-                  <span class="industry-tag">新零售</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">新零售</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
                 <span class="result-value">200%</span>
                 <span class="result-label">业务增长</span>
               </div>
@@ -444,34 +671,50 @@
                 打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。覆盖5000+门店，服务2000万+会员。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 销售额增长200%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>销售额增长200%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 客户满意度提升45%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>客户满意度提升45%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 移动端转化率提升60%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>移动端转化率提升60%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 库存周转提升35%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>库存周转提升35%</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.4s">
                   <span class="logo-text">医疗集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某大型医疗集团</h3>
-                  <span class="industry-tag">医疗健康</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.5s">医疗健康</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.3s">
                 <span class="result-value">99.9%</span>
                 <span class="result-label">系统可用性</span>
               </div>
@@ -482,34 +725,50 @@
                 构建了安全可靠的医疗云平台，实现了医疗数据的统一管理和智能分析。连接300+医院，服务1000万+患者。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 诊疗效率提升50%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>诊疗效率提升50%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 数据安全等级AAA</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>数据安全等级AAA</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 远程诊疗覆盖率90%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>远程诊疗覆盖率90%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 医疗成本降低30%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>医疗成本降低30%</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.5s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.5s">
                   <span class="logo-text">教育集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某知名教育集团</h3>
-                  <span class="industry-tag">在线教育</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.6s">在线教育</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.4s">
                 <span class="result-value">300%</span>
                 <span class="result-label">用户增长</span>
               </div>
@@ -520,34 +779,50 @@
                 打造了智能化的在线教育云平台，支持大规模并发学习，提供个性化学习体验。服务500万+学员，覆盖全球50+国家。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 并发用户数100万+</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>并发用户数100万+</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 学习完成率提升80%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>学习完成率提升80%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 系统响应时间<100ms</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>系统响应时间<100ms</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ AI推荐准确率95%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.6s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>AI推荐准确率95%</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="case-card">
+          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.6s">
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo">
+                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.6s">
                   <span class="logo-text">物流企业</span>
                 </div>
                 <div class="company-info">
                   <h3>某国际物流企业</h3>
-                  <span class="industry-tag">智慧物流</span>
+                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.7s">智慧物流</span>
                 </div>
               </div>
-              <div class="case-result">
+              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.5s">
                 <span class="result-value">70%</span>
                 <span class="result-label">运营效率提升</span>
               </div>
@@ -558,17 +833,33 @@
                 构建了全球化的智慧物流云平台，实现了供应链的可视化管理和智能调度。覆盖200+城市，管理10万+车辆。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item">
-                  <span>✓ 配送时效提升40%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>配送时效提升40%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 运输成本降低35%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>运输成本降低35%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 客户满意度98%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.6s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>客户满意度98%</span>
                 </div>
-                <div class="highlight-item">
-                  <span>✓ 碳排放减少20%</span>
+                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.7s">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                  <span>碳排放减少20%</span>
                 </div>
               </div>
             </div>
@@ -1061,6 +1352,8 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue';
+
 // 页面元数据
 definePageMeta({
   layout: "default",
@@ -1148,9 +1441,180 @@ const faqList = ref([
 const toggleFaq = (index) => {
   faqList.value[index].isOpen = !faqList.value[index].isOpen;
 };
+
+// 滚动动画系统
+let observers = [];
+
+const initScrollAnimations = () => {
+  const animatedElements = document.querySelectorAll('.animate-on-scroll');
+  
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+  };
+  
+  const observerCallback = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+  
+  animatedElements.forEach(element => {
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    observer.observe(element);
+    observers.push(observer);
+  });
+};
+
+onMounted(() => {
+  // 初始化滚动动画
+  setTimeout(() => {
+    initScrollAnimations();
+  }, 100);
+});
+
+onUnmounted(() => {
+  // 清理所有观察者
+  observers.forEach(observer => observer.disconnect());
+  observers = [];
+});
 </script>
 
 <style scoped>
+/* 添加页面滚动动画系统 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-on-scroll.fadeInUp {
+  transform: translateY(30px);
+}
+
+.animate-on-scroll.fadeInLeft {
+  transform: translateX(-30px);
+}
+
+.animate-on-scroll.fadeInRight {
+  transform: translateX(30px);
+}
+
+.animate-on-scroll.scaleIn {
+  transform: scale(0.9);
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+.animate-on-scroll.pulse.visible {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.animate-on-scroll.float.visible {
+  animation: float 3s infinite ease-in-out;
+}
+
+.shimmer-effect {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
 .strategy-consulting-page {
   min-height: 100vh;
 }
@@ -1735,38 +2199,111 @@ const toggleFaq = (index) => {
 
 /* Process Section */
 .process-section {
-  padding: 100px 0;
+  padding: 120px 0;
   background: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
 }
 
-.process-flow {
-  max-width: 1000px;
-  margin: 0 auto;
+.process-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+                    radial-gradient(circle at 90% 80%, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
+  z-index: 0;
 }
 
-.flow-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+.process-section .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.process-section .section-subtitle {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: var(--text-secondary);
+}
+
+.process-section .header-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.process-section .badge-icon {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.process-timeline {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-track {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color-dark));
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.3);
+}
+
+.process-steps {
+  position: relative;
+  z-index: 2;
 }
 
 .process-step {
+  display: flex;
+  margin-bottom: 80px;
   position: relative;
-  background: var(--card-bg);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border: 1px solid var(--border-color);
+  z-index: 2;
+}
+
+.process-step:last-child {
+  margin-bottom: 0;
+}
+
+.step-right {
+  flex-direction: row-reverse;
 }
 
 .step-connector {
   position: absolute;
-  top: 50%;
-  right: -20px;
-  width: 40px;
-  height: 2px;
-  background: var(--primary-color);
+  top: 30px;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color-light), var(--primary-color));
   z-index: 1;
+}
+
+.process-step:not(.step-right) .step-connector {
+  left: 60px;
+}
+
+.step-right .step-connector {
+  right: 60px;
 }
 
 .step-circle {
@@ -1781,57 +2318,293 @@ const toggleFaq = (index) => {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  position: relative;
+  z-index: 3;
   box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+  margin: 0 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.5);
+}
+
+.pulse-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(99, 102, 241, 0.3);
+  z-index: -1;
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
 }
 
 .step-number {
   color: white;
   font-size: 1.2rem;
   font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.step-content h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 10px;
+.step-card {
+  flex: 1;
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  max-width: 500px;
 }
 
-.step-content p {
-  color: var(--text-secondary);
-  line-height: 1.6;
+.step-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-color-dark));
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 15px;
+}
+
+.step-header h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.step-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.step-card:hover .step-icon {
+  transform: rotate(45deg);
+}
+
+.step-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .step-details {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: var(--bg-secondary);
+  border-radius: 12px;
 }
 
 .detail-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.detail-item:hover {
+  background: rgba(99, 102, 241, 0.1);
+  transform: translateX(5px);
 }
 
 .detail-icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   background: var(--primary-color);
   color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.detail-item:hover .detail-icon {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
 }
 
 .detail-text {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.detail-item:hover .detail-text {
+  color: var(--text-primary);
+}
+
+.step-progress-bar {
+  height: 6px;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color-light), var(--primary-color));
+  border-radius: 3px;
+  transition: width 1s ease;
+}
+
+/* Animation for scaleInX */
+@keyframes scaleInX {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.scaleInX {
+  animation-name: scaleInX;
+  transform-origin: left;
+}
+
+/* Animation for bounceIn */
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-name: bounceIn;
+  animation-duration: 0.75s;
+}
+
+/* Animation for rotateIn */
+@keyframes rotateIn {
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: center;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  animation-name: rotateIn;
+}
+
+/* Animation for slideInRight */
+@keyframes slideInRight {
+  from {
+    transform: translate3d(50px, 0, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .timeline-track {
+    left: 30px;
+  }
+  
+  .process-step, .step-right {
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  
+  .step-circle {
+    margin: 0 20px 0 0;
+  }
+  
+  .step-card {
+    max-width: 100%;
+  }
+  
+  .step-connector {
+    display: none;
+  }
 }
 
 /* Case Studies Section */
@@ -1854,11 +2627,25 @@ const toggleFaq = (index) => {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
 }
 
 .case-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.case-card:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  z-index: 1;
+  animation: shimmer 1.5s forwards;
 }
 
 .case-header {
@@ -1889,6 +2676,30 @@ const toggleFaq = (index) => {
   color: white;
   font-weight: 600;
   font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
+}
+
+.company-logo.float.visible {
+  animation: float 3s infinite ease-in-out;
+}
+
+.company-logo::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: inherit;
+  filter: blur(10px);
+  opacity: 0.5;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.company-logo:hover::after {
+  opacity: 0.8;
+  filter: blur(15px);
 }
 
 .company-info h3 {
@@ -1905,6 +2716,19 @@ const toggleFaq = (index) => {
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.industry-tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.industry-tag.scaleIn.visible {
+  animation: scaleIn 0.5s ease-out forwards;
 }
 
 .case-result {
@@ -1917,6 +2741,27 @@ const toggleFaq = (index) => {
   color: var(--primary-color);
   display: block;
   line-height: 1;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.result-value::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--primary-color);
+  transition: width 0.5s ease;
+}
+
+.case-result:hover .result-value::after {
+  width: 100%;
+}
+
+.case-result.fadeInRight.visible .result-value {
+  animation: fadeInRight 0.5s ease-out forwards, pulse 3s infinite ease-in-out 0.5s;
 }
 
 .result-label {
@@ -1950,6 +2795,31 @@ const toggleFaq = (index) => {
   gap: 10px;
   font-size: 0.95rem;
   color: var(--text-secondary);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight-item:hover {
+  background: rgba(var(--primary-color-rgb), 0.05);
+  transform: translateX(5px);
+  color: var(--text-primary);
+}
+
+.highlight-item svg {
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.highlight-item:hover svg {
+  transform: scale(1.2);
+  color: var(--primary-color);
+}
+
+.highlight-item.fadeInLeft.visible {
+  animation: fadeInLeft 0.5s ease-out forwards;
 }
 
 .highlight-icon {
