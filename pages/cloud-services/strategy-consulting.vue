@@ -2473,7 +2473,9 @@
                   </svg>
                 </div>
                 <div class="benefit-text">
-                  <h4>{{ $t("strategyConsulting.FAQ.continuousImprovement") }}</h4>
+                  <h4>
+                    {{ $t("strategyConsulting.FAQ.continuousImprovement") }}
+                  </h4>
                   <p>{{ $t("strategyConsulting.FAQ.longTermValue") }}</p>
                 </div>
               </div>
@@ -2486,7 +2488,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, computed } from "vue";
 const { t } = useI18n();
 // 页面元数据
 definePageMeta({
@@ -2513,8 +2515,8 @@ useHead({
   ],
 });
 
-// 流程步骤数据
-const processSteps = [
+// 流程步骤数据 - 使用计算属性使其响应式
+const processSteps = computed(() => [
   {
     title: t("strategyConsulting.processSection.processSteps.one.title"),
     description: t(
@@ -2559,63 +2561,65 @@ const processSteps = [
       t("strategyConsulting.processSection.processSteps.four.detailsC"),
     ],
   },
-];
+]);
 
-// FAQ数据
-const faqList = ref([
+// FAQ数据 - 使用计算属性结合ref使其响应式
+const faqOpenState = ref(Array(8).fill(false));
+const faqList = computed(() => [
   {
     question: t("strategyConsulting.FAQ.faqList.questionA"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerA"),
+    answer: t("strategyConsulting.FAQ.faqList.answerA"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoA"),
-    isOpen: false,
+    isOpen: faqOpenState.value[0],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionB"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerB"),
+    answer: t("strategyConsulting.FAQ.faqList.answerB"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoC"),
-    isOpen: false,
+    isOpen: faqOpenState.value[1],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionC"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerC"),
+    answer: t("strategyConsulting.FAQ.faqList.answerC"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoC"),
-    isOpen: false,
+    isOpen: faqOpenState.value[2],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionD"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerD"),
+    answer: t("strategyConsulting.FAQ.faqList.answerD"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoD"),
-    isOpen: false,
+    isOpen: faqOpenState.value[3],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionE"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerE"),
+    answer: t("strategyConsulting.FAQ.faqList.answerE"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoE"),
-    isOpen: false,
+    isOpen: faqOpenState.value[4],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionF"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerF"),
+    answer: t("strategyConsulting.FAQ.faqList.answerF"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoF"),
-    isOpen: false,
+    isOpen: faqOpenState.value[5],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionG"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerG"),
+    answer: t("strategyConsulting.FAQ.faqList.answerG"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoG"),
-    isOpen: false,
+    isOpen: faqOpenState.value[6],
   },
   {
     question: t("strategyConsulting.FAQ.faqList.questionH"),
-    answer:  t("strategyConsulting.FAQ.faqList.answerH"),
+    answer: t("strategyConsulting.FAQ.faqList.answerH"),
     additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoH"),
-    isOpen: false,
+    isOpen: faqOpenState.value[7],
   },
 ]);
 
 // FAQ交互方法
 const toggleFaq = (index) => {
-  faqList.value[index].isOpen = !faqList.value[index].isOpen;
+  // 更新 faqOpenState 而不是 faqList
+  faqOpenState.value[index] = !faqOpenState.value[index];
 };
 
 // 滚动动画系统
