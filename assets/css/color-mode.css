@@ -13,6 +13,8 @@
   --card-bg: #ffffff;
   --card-bg-secondary: #f8f9fa;
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --card-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.1);
   --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
 
@@ -20,6 +22,9 @@
   --primary-color: #8247e5;
   --primary-color-light: #a47ef5;
   --primary-color-dark: #6b38c1;
+  --primary-color-rgb: 130, 71, 229;
+  --primary-color-transparent: rgba(130, 71, 229, 0.2);
+  --primary-color-light-transparent: rgba(164, 126, 245, 0.15);
   --accent-color: #ff6b35;
   --navbar-bg: #ffffff;
   --navbar-text: #333333;
@@ -34,25 +39,31 @@
 .dark-mode {
   /* 暗黑模式变量 */
   --bg-color: #121212;
-  --bg-gradient: #1a1a2e;
+  --bg-gradient: #1a1a1a;
   --text-color: #e0e0e0;
   --text-secondary: #a0a0a0;
+  --text-primary: #ffffff;
   --link-color: #a47ef5;
   --border-color: #333333;
-  --button-bg: #2e7d32;
-  --button-hover-bg: #388e3c;
+  --button-bg: #8247e5;
+  --button-hover-bg: #6b38c1;
   --button-text: #ffffff;
   --header-bg: #1e1e1e;
   --card-bg: #1e1e1e;
-  --card-bg-secondary: #2a2a2a;
+  --card-bg-secondary: #252525;
   --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --card-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --card-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.4);
   --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.3);
-  --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.5);
 
-  /* Polygon暗黑模式主题变量 */
+  /* 暗黑模式Polygon主题变量 */
   --primary-color: #a47ef5;
   --primary-color-light: #c4a9f5;
   --primary-color-dark: #8247e5;
+  --primary-color-rgb: 164, 126, 245;
+  --primary-color-transparent: rgba(164, 126, 245, 0.2);
+  --primary-color-light-transparent: rgba(196, 169, 245, 0.15);
   --accent-color: #ff8a65;
   --navbar-bg: #121212;
   --navbar-text: #e0e0e0;
@@ -120,11 +131,18 @@ button:hover {
   --card-bg: #f5ecd9;
   --card-bg-secondary: #f0e3c6;
   --card-shadow: 0 2px 4px rgba(101, 84, 58, 0.2);
+  --card-shadow-sm: 0 1px 3px rgba(101, 84, 58, 0.15);
+  --card-shadow-hover: 0 5px 15px rgba(101, 84, 58, 0.25);
   --shadow-light: 0 4px 6px rgba(101, 84, 58, 0.2);
   --shadow-hover: 0 8px 25px rgba(101, 84, 58, 0.3);
 
   /* 导航栏棕褐色模式变量 */
   --primary-color: #6b5b95;
+  --primary-color-light: #8a7ab5;
+  --primary-color-dark: #574a7b;
+  --primary-color-rgb: 107, 91, 149;
+  --primary-color-transparent: rgba(107, 91, 149, 0.2);
+  --primary-color-light-transparent: rgba(138, 122, 181, 0.15);
   --accent-color: #d4a574;
   --navbar-bg: #f1e7d0;
   --navbar-text: #433422;

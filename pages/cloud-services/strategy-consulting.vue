@@ -14,15 +14,23 @@
               <div class="hero-badge">
                 <span class="badge-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                    <path
+                      d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                 </span>
-                <span class="badge-text">{{ $t("strategyConsulting.hero.tag") }}</span>
+                <span class="badge-text">{{
+                  $t("strategyConsulting.hero.tag")
+                }}</span>
               </div>
 
               <h1 class="hero-title">
                 {{ $t("strategyConsulting.hero.title") }}
-                <span class="highlight-text">{{ $t("strategyConsulting.hero.titleMini") }}</span>
+                <span class="highlight-text">{{
+                  $t("strategyConsulting.hero.titleMini")
+                }}</span>
               </h1>
 
               <p class="hero-description">
@@ -30,52 +38,104 @@
               </p>
 
               <div class="hero-stats">
-                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
+                <div
+                  class="stat-item animate-on-scroll fadeInUp"
+                  style="animation-delay: 0.1s"
+                >
                   <div class="stat-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M16 6l2 2-10 10-6-6 2-2 4 4 8-8z" stroke="currentColor" stroke-width="2" />
+                      <path
+                        d="M16 6l2 2-10 10-6-6 2-2 4 4 8-8z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
                     </svg>
                   </div>
                   <div class="stat-content">
-                    <div class="stat-number">500<span class="stat-plus">+</span></div>
-                    <div class="stat-label"> {{ $t("strategyConsulting.hero.SuccessStories") }}</div>
+                    <div class="stat-number">
+                      500<span class="stat-plus">+</span>
+                    </div>
+                    <div class="stat-label">
+                      {{ $t("strategyConsulting.hero.SuccessStories") }}
+                    </div>
                   </div>
                 </div>
-                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
+                <div
+                  class="stat-item animate-on-scroll fadeInUp"
+                  style="animation-delay: 0.2s"
+                >
                   <div class="stat-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" stroke="currentColor" stroke-width="2" />
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
                     </svg>
                   </div>
                   <div class="stat-content">
-                    <div class="stat-number">98<span class="stat-plus">%</span></div>
-                    <div class="stat-label">{{ $t("strategyConsulting.hero.CustomerSatisfaction") }}</div>
+                    <div class="stat-number">
+                      98<span class="stat-plus">%</span>
+                    </div>
+                    <div class="stat-label">
+                      {{ $t("strategyConsulting.hero.CustomerSatisfaction") }}
+                    </div>
                   </div>
                 </div>
-                <div class="stat-item animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
+                <div
+                  class="stat-item animate-on-scroll fadeInUp"
+                  style="animation-delay: 0.3s"
+                >
                   <div class="stat-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" stroke="currentColor" stroke-width="2" />
+                      <path
+                        d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3A8.994 8.994 0 0 0 13 3.06V1h-2v2.06A8.994 8.994 0 0 0 3.06 11H1v2h2.06A8.994 8.994 0 0 0 11 20.94V23h2v-2.06A8.994 8.994 0 0 0 20.94 13H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
                     </svg>
                   </div>
                   <div class="stat-content">
-                    <div class="stat-number">60<span class="stat-plus">%</span></div>
-                    <div class="stat-label">{{ $t("strategyConsulting.hero.AverageCostSavings") }}</div>
+                    <div class="stat-number">
+                      60<span class="stat-plus">%</span>
+                    </div>
+                    <div class="stat-label">
+                      {{ $t("strategyConsulting.hero.AverageCostSavings") }}
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div class="hero-actions animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
+              <div
+                class="hero-actions animate-on-scroll fadeInUp"
+                style="animation-delay: 0.4s"
+              >
                 <a href="/contact" class="btn-primary">
-                  <span>{{ $t("strategyConsulting.hero.FreeConsultation") }}</span>
+                  <span>{{
+                    $t("strategyConsulting.hero.FreeConsultation")
+                  }}</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M5 12h14M19 12l-7-7m7 7l-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M5 12h14M19 12l-7-7m7 7l-7 7"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
                 </a>
                 <a href="#services" class="btn-outline">
-                  <span>{{ $t("strategyConsulting.hero.ServiceDetails") }}</span>
+                  <span>{{
+                    $t("strategyConsulting.hero.ServiceDetails")
+                  }}</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M7 10l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M7 10l5 5 5-5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
                 </a>
               </div>
@@ -86,8 +146,16 @@
                 <div class="overview-header">
                   <div class="overview-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
-                      <path d="M12 8V16M8 10L16 14M8 14L16 10" stroke="currentColor" stroke-width="2" />
+                      <path
+                        d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
+                      <path
+                        d="M12 8V16M8 10L16 14M8 14L16 10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
                     </svg>
                   </div>
                   <h3>{{ $t("strategyConsulting.hero.CardTitle") }}</h3>
@@ -96,35 +164,61 @@
                 <div class="overview-content">
                   <div class="metrics-simple">
                     <div class="metric-item">
-                      <div class="metric-value">85<span class="metric-percent">%</span></div>
-                      <div class="metric-label">{{ $t("strategyConsulting.hero.EfficiencyImprovement") }}</div>
+                      <div class="metric-value">
+                        85<span class="metric-percent">%</span>
+                      </div>
+                      <div class="metric-label">
+                        {{
+                          $t("strategyConsulting.hero.EfficiencyImprovement")
+                        }}
+                      </div>
                     </div>
                     <div class="metric-item">
-                      <div class="metric-value">99.9<span class="metric-percent">%</span></div>
-                      <div class="metric-label">{{ $t("strategyConsulting.hero.usability") }}</div>
+                      <div class="metric-value">
+                        99.9<span class="metric-percent">%</span>
+                      </div>
+                      <div class="metric-label">
+                        {{ $t("strategyConsulting.hero.usability") }}
+                      </div>
                     </div>
                     <div class="metric-item">
-                      <div class="metric-value">60<span class="metric-percent">%</span></div>
-                      <div class="metric-label">{{ $t("strategyConsulting.hero.CostSavings") }}</div>
+                      <div class="metric-value">
+                        60<span class="metric-percent">%</span>
+                      </div>
+                      <div class="metric-label">
+                        {{ $t("strategyConsulting.hero.CostSavings") }}
+                      </div>
                     </div>
                   </div>
 
                   <div class="key-benefits">
                     <div class="benefit-item">
                       <span class="benefit-icon">✓</span>
-                      <span>{{ $t("strategyConsulting.hero.cloudNativeArchitectureDesign") }}</span>
+                      <span>{{
+                        $t(
+                          "strategyConsulting.hero.cloudNativeArchitectureDesign"
+                        )
+                      }}</span>
                     </div>
                     <div class="benefit-item">
                       <span class="benefit-icon">✓</span>
-                      <span>{{ $t("strategyConsulting.hero.costOptimizationStrategy") }}</span>
+                      <span>{{
+                        $t("strategyConsulting.hero.costOptimizationStrategy")
+                      }}</span>
                     </div>
                     <div class="benefit-item">
                       <span class="benefit-icon">✓</span>
-                      <span>{{ $t("strategyConsulting.hero.securityComplianceAssurance") }}</span>
+                      <span>{{
+                        $t(
+                          "strategyConsulting.hero.securityComplianceAssurance"
+                        )
+                      }}</span>
                     </div>
                     <div class="benefit-item">
                       <span class="benefit-icon">✓</span>
-                      <span>{{ $t("strategyConsulting.hero.continuousOpsSupport") }}</span>
+                      <span>{{
+                        $t("strategyConsulting.hero.continuousOpsSupport")
+                      }}</span>
                     </div>
                   </div>
                 </div>
@@ -141,17 +235,30 @@
         <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
-              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+              <path
+                d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
             </svg>
-            <span class="badge-text">{{ $t("strategyConsulting.project.tag") }}</span>
+            <span class="badge-text">{{
+              $t("strategyConsulting.project.tag")
+            }}</span>
           </div>
           <h2>{{ $t("strategyConsulting.project.title") }}</h2>
           <p>{{ $t("strategyConsulting.project.subtitle") }}</p>
         </div>
 
         <div class="services-grid">
-          <div class="service-card featured animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
+          <div
+            class="service-card featured animate-on-scroll fadeInUp"
+            style="animation-delay: 0.1s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -176,32 +283,51 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemOne.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemOne.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemOne.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemOne.tagFour") }}
               </span>
             </div>
           </div>
 
-          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
+          <div
+            class="service-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.2s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -230,32 +356,51 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemTwo.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemTwo.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemTwo.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemTwo.tagFour") }}
               </span>
             </div>
           </div>
 
-          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
+          <div
+            class="service-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.3s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -274,32 +419,51 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemThree.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemThree.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemThree.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemThree.tagFour") }}
               </span>
             </div>
           </div>
 
-          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
+          <div
+            class="service-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.4s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -323,32 +487,51 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFour.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFour.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFour.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFour.tagFour") }}
               </span>
             </div>
           </div>
 
-          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.5s">
+          <div
+            class="service-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.5s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -372,32 +555,51 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFive.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFive.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFive.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemFive.tagFour") }}
               </span>
             </div>
           </div>
 
-          <div class="service-card animate-on-scroll fadeInUp" style="animation-delay: 0.6s">
+          <div
+            class="service-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.6s"
+          >
             <div class="card-header">
               <div class="service-icon animate-on-scroll pulse">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -426,25 +628,41 @@
             <div class="service-features">
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemSix.tagOne") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemSix.tagTwo") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemSix.tagThree") }}
               </span>
               <span class="feature-tag">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                  <path
+                    d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 {{ $t("strategyConsulting.project.itemSix.tagFour") }}
               </span>
@@ -459,14 +677,34 @@
       <div class="container">
         <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="badge-icon">
-              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
-              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="badge-icon"
+            >
+              <path
+                d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
             </svg>
-            <span class="badge-text">{{ $t("strategyConsulting.processSection.badgeText") }}</span>
+            <span class="badge-text">{{
+              $t("strategyConsulting.processSection.badgeText")
+            }}</span>
           </div>
-          <h2 class="section-title">{{ $t("strategyConsulting.processSection.title") }}</h2>
-          <p class="section-subtitle">{{ $t("strategyConsulting.processSection.subtitle") }}</p>
+          <h2 class="section-title">
+            {{ $t("strategyConsulting.processSection.title") }}
+          </h2>
+          <p class="section-subtitle">
+            {{ $t("strategyConsulting.processSection.subtitle") }}
+          </p>
         </div>
 
         <div class="process-timeline">
@@ -477,46 +715,94 @@
               v-for="(step, index) in processSteps"
               :key="index"
               :style="`animation-delay: ${0.1 * (index + 1)}s`"
-              :class="{'step-right': index % 2 !== 0}"
+              :class="{ 'step-right': index % 2 !== 0 }"
             >
-              <div class="step-connector" v-if="index < processSteps.length - 1"></div>
-              
-              <div class="step-circle animate-on-scroll bounceIn" :style="`animation-delay: ${0.15 * (index + 1)}s`">
-                <span class="step-number">{{ String(index + 1).padStart(2, "0") }}</span>
+              <div
+                class="step-connector"
+                v-if="index < processSteps.length - 1"
+              ></div>
+
+              <div
+                class="step-circle animate-on-scroll bounceIn"
+                :style="`animation-delay: ${0.15 * (index + 1)}s`"
+              >
+                <span class="step-number">{{
+                  String(index + 1).padStart(2, "0")
+                }}</span>
                 <div class="pulse-ring"></div>
               </div>
-              
+
               <div class="step-card">
                 <div class="step-header">
-                  <h3 class="animate-on-scroll fadeInDown" :style="`animation-delay: ${0.2 * (index + 1)}s`">{{ step.title }}</h3>
-                  <div class="step-icon animate-on-scroll rotateIn" :style="`animation-delay: ${0.25 * (index + 1)}s`">
+                  <h3
+                    class="animate-on-scroll fadeInDown"
+                    :style="`animation-delay: ${0.2 * (index + 1)}s`"
+                  >
+                    {{ step.title }}
+                  </h3>
+                  <div
+                    class="step-icon animate-on-scroll rotateIn"
+                    :style="`animation-delay: ${0.25 * (index + 1)}s`"
+                  >
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
+                      <path
+                        d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
                     </svg>
                   </div>
                 </div>
-                
-                <p class="animate-on-scroll fadeIn" :style="`animation-delay: ${0.3 * (index + 1)}s`">{{ step.description }}</p>
-                
+
+                <p
+                  class="animate-on-scroll fadeIn"
+                  :style="`animation-delay: ${0.3 * (index + 1)}s`"
+                >
+                  {{ step.description }}
+                </p>
+
                 <div class="step-details">
                   <div
                     class="detail-item animate-on-scroll slideInRight"
                     v-for="(detail, detailIndex) in step.details"
                     :key="detail"
-                    :style="`animation-delay: ${0.1 * (detailIndex + 1) + 0.3}s`"
+                    :style="`animation-delay: ${
+                      0.1 * (detailIndex + 1) + 0.3
+                    }s`"
                   >
                     <span class="detail-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                        <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        />
+                        <path
+                          d="M8 12L11 15L16 9"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        />
                       </svg>
                     </span>
                     <span class="detail-text">{{ detail }}</span>
                   </div>
                 </div>
-                
-                <div class="step-progress-bar animate-on-scroll scaleInX" :style="`animation-delay: ${0.4 * (index + 1)}s`">
-                  <div class="progress-fill" :style="`width: ${(index + 1) / processSteps.length * 100}%`"></div>
+
+                <div
+                  class="step-progress-bar animate-on-scroll scaleInX"
+                  :style="`animation-delay: ${0.4 * (index + 1)}s`"
+                >
+                  <div
+                    class="progress-fill"
+                    :style="`width: ${
+                      ((index + 1) / processSteps.length) * 100
+                    }%`"
+                  ></div>
                 </div>
               </div>
             </div>
@@ -531,28 +817,49 @@
         <div class="section-header animate-on-scroll fadeInUp">
           <div class="header-badge">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" />
-              <path d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z" stroke="currentColor" stroke-width="2" />
+              <path
+                d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M12 6L16 8.5V13.5L12 16L8 13.5V8.5L12 6Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
             </svg>
             <span class="badge-text">成功案例</span>
           </div>
-          <h2>客户成功案例</h2>
+          <h2 class="gradient-heading">客户成功案例</h2>
           <p>真实案例见证我们的专业实力和服务质量</p>
         </div>
 
         <div class="cases-grid">
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.1s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.1s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.3s"
+                >
                   <span class="logo-text">金融集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某大型金融集团</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">金融服务</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.4s"
+                    >金融服务</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.2s"
+              >
                 <span class="result-value">60%</span>
                 <span class="result-label">成本节省</span>
               </div>
@@ -563,31 +870,75 @@
                 为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。项目涉及200+应用系统，服务3000万+用户。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.1s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>系统性能提升85%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.2s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>安全等级提升至金融级</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.3s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>业务响应速度提升3倍</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>通过等保三级认证</span>
                 </div>
@@ -595,18 +946,31 @@
             </div>
           </div>
 
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.2s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.2s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.3s"
+                >
                   <span class="logo-text">制造企业</span>
                 </div>
                 <div class="company-info">
                   <h3>某制造业龙头企业</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">智能制造</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.4s"
+                    >智能制造</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.2s"
+              >
                 <span class="result-value">40%</span>
                 <span class="result-label">效率提升</span>
               </div>
@@ -617,31 +981,75 @@
                 构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。整合50+工厂，连接10万+设备。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.1s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>生产效率提升40%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.2s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>库存周转率提升50%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.3s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>产品质量提升30%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>能耗降低25%</span>
                 </div>
@@ -649,18 +1057,31 @@
             </div>
           </div>
 
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.3s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.3s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.3s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.3s"
+                >
                   <span class="logo-text">零售集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某新零售集团</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.4s">新零售</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.4s"
+                    >新零售</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.2s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.2s"
+              >
                 <span class="result-value">200%</span>
                 <span class="result-label">业务增长</span>
               </div>
@@ -671,31 +1092,75 @@
                 打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。覆盖5000+门店，服务2000万+会员。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.1s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.1s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>销售额增长200%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.2s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>客户满意度提升45%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.3s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>移动端转化率提升60%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>库存周转提升35%</span>
                 </div>
@@ -703,18 +1168,31 @@
             </div>
           </div>
 
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.4s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.4s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.4s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.4s"
+                >
                   <span class="logo-text">医疗集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某大型医疗集团</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.5s">医疗健康</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.5s"
+                    >医疗健康</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.3s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.3s"
+              >
                 <span class="result-value">99.9%</span>
                 <span class="result-label">系统可用性</span>
               </div>
@@ -725,31 +1203,75 @@
                 构建了安全可靠的医疗云平台，实现了医疗数据的统一管理和智能分析。连接300+医院，服务1000万+患者。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.2s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.2s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>诊疗效率提升50%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.3s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>数据安全等级AAA</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>远程诊疗覆盖率90%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.5s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>医疗成本降低30%</span>
                 </div>
@@ -757,18 +1279,31 @@
             </div>
           </div>
 
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.5s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.5s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.5s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.5s"
+                >
                   <span class="logo-text">教育集团</span>
                 </div>
                 <div class="company-info">
                   <h3>某知名教育集团</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.6s">在线教育</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.6s"
+                    >在线教育</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.4s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.4s"
+              >
                 <span class="result-value">300%</span>
                 <span class="result-label">用户增长</span>
               </div>
@@ -779,31 +1314,75 @@
                 打造了智能化的在线教育云平台，支持大规模并发学习，提供个性化学习体验。服务500万+学员，覆盖全球50+国家。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.3s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.3s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>并发用户数100万+</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>学习完成率提升80%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.5s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>系统响应时间<100ms</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.6s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.6s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>AI推荐准确率95%</span>
                 </div>
@@ -811,18 +1390,31 @@
             </div>
           </div>
 
-          <div class="case-card animate-on-scroll fadeInUp" style="animation-delay: 0.6s">
+          <div
+            class="case-card animate-on-scroll fadeInUp"
+            style="animation-delay: 0.6s"
+          >
             <div class="case-header">
               <div class="case-company">
-                <div class="company-logo animate-on-scroll pulse" style="animation-delay: 0.6s">
+                <div
+                  class="company-logo animate-on-scroll pulse"
+                  style="animation-delay: 0.6s"
+                >
                   <span class="logo-text">物流企业</span>
                 </div>
                 <div class="company-info">
                   <h3>某国际物流企业</h3>
-                  <span class="industry-tag animate-on-scroll scaleIn" style="animation-delay: 0.7s">智慧物流</span>
+                  <span
+                    class="industry-tag animate-on-scroll scaleIn"
+                    style="animation-delay: 0.7s"
+                    >智慧物流</span
+                  >
                 </div>
               </div>
-              <div class="case-result animate-on-scroll fadeInRight" style="animation-delay: 0.5s">
+              <div
+                class="case-result animate-on-scroll fadeInRight"
+                style="animation-delay: 0.5s"
+              >
                 <span class="result-value">70%</span>
                 <span class="result-label">运营效率提升</span>
               </div>
@@ -833,31 +1425,75 @@
                 构建了全球化的智慧物流云平台，实现了供应链的可视化管理和智能调度。覆盖200+城市，管理10万+车辆。
               </p>
               <div class="case-highlights">
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.4s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.4s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>配送时效提升40%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.5s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.5s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>运输成本降低35%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.6s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.6s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>客户满意度98%</span>
                 </div>
-                <div class="highlight-item animate-on-scroll fadeInLeft" style="animation-delay: 0.7s">
+                <div
+                  class="highlight-item animate-on-scroll fadeInLeft"
+                  style="animation-delay: 0.7s"
+                >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
-                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M8 12L11 15L16 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
                   </svg>
                   <span>碳排放减少20%</span>
                 </div>
@@ -875,7 +1511,7 @@
           <div class="header-badge">
             <span class="badge-text">技术优势</span>
           </div>
-          <h2>领先的技术实力</h2>
+          <h2 class="gradient-heading">领先的技术实力</h2>
           <p>基于前沿技术栈，提供企业级云战略解决方案</p>
         </div>
 
@@ -1064,190 +1700,210 @@
     </section>
 
     <!-- Expert Team Section -->
-<!--    <section class="expert-team-section">-->
-<!--      <div class="container">-->
-<!--        <div class="section-header">-->
-<!--          <h2>资深云战略专家</h2>-->
-<!--          <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>-->
-<!--        </div>-->
+    <!--    <section class="expert-team-section">-->
+    <!--      <div class="container">-->
+    <!--        <div class="section-header">-->
+    <!--          <h2>资深云战略专家</h2>-->
+    <!--          <p>汇聚行业顶尖人才，为您提供专业的云战略咨询服务</p>-->
+    <!--        </div>-->
 
-<!--        <div class="experts-grid">-->
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">张</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">首席专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>张云峰</h3>-->
-<!--              <p class="expert-title">云战略首席架构师</p>-->
-<!--              <p class="expert-desc">-->
-<!--                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目，服务客户包括金融、制造、零售等多个行业的头部企业。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ AWS解决方案架构师认证</div>-->
-<!--                <div class="achievement-item">✓ 阿里云MVP专家</div>-->
-<!--                <div class="achievement-item">✓ 《企业云战略实践》作者</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">云架构设计</span>-->
-<!--                <span class="skill-tag">数字化转型</span>-->
-<!--                <span class="skill-tag">企业咨询</span>-->
-<!--                <span class="skill-tag">成本优化</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--        <div class="experts-grid">-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">张</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">首席专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>张云峰</h3>-->
+    <!--              <p class="expert-title">云战略首席架构师</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                15年云计算行业经验，曾任职于AWS、阿里云等知名云服务商，主导过100+大型企业云化项目，服务客户包括金融、制造、零售等多个行业的头部企业。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ AWS解决方案架构师认证</div>-->
+    <!--                <div class="achievement-item">✓ 阿里云MVP专家</div>-->
+    <!--                <div class="achievement-item">✓ 《企业云战略实践》作者</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">云架构设计</span>-->
+    <!--                <span class="skill-tag">数字化转型</span>-->
+    <!--                <span class="skill-tag">企业咨询</span>-->
+    <!--                <span class="skill-tag">成本优化</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">李</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">技术专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>李明华</h3>-->
-<!--              <p class="expert-title">云原生技术专家</p>-->
-<!--              <p class="expert-desc">-->
-<!--                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计，曾帮助多家企业实现云原生转型。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ CKA/CKS认证专家</div>-->
-<!--                <div class="achievement-item">✓ CNCF技术委员会成员</div>-->
-<!--                <div class="achievement-item">✓ KubeCon演讲嘉宾</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">Kubernetes</span>-->
-<!--                <span class="skill-tag">微服务</span>-->
-<!--                <span class="skill-tag">DevOps</span>-->
-<!--                <span class="skill-tag">容器化</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">李</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">技术专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>李明华</h3>-->
+    <!--              <p class="expert-title">云原生技术专家</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                12年DevOps和云原生技术经验，Kubernetes认证专家，专注于容器化和微服务架构设计，曾帮助多家企业实现云原生转型。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ CKA/CKS认证专家</div>-->
+    <!--                <div class="achievement-item">✓ CNCF技术委员会成员</div>-->
+    <!--                <div class="achievement-item">✓ KubeCon演讲嘉宾</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">Kubernetes</span>-->
+    <!--                <span class="skill-tag">微服务</span>-->
+    <!--                <span class="skill-tag">DevOps</span>-->
+    <!--                <span class="skill-tag">容器化</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">王</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">安全专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>王安全</h3>-->
-<!--              <p class="expert-title">云安全架构师</p>-->
-<!--              <p class="expert-desc">-->
-<!--                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估，在金融、医疗等高安全要求行业有丰富实践。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ CISSP/CISM双认证</div>-->
-<!--                <div class="achievement-item">✓ 等保测评师资质</div>-->
-<!--                <div class="achievement-item">✓ ISO27001主任审核员</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">云安全</span>-->
-<!--                <span class="skill-tag">合规评估</span>-->
-<!--                <span class="skill-tag">风险管理</span>-->
-<!--                <span class="skill-tag">零信任</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">王</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">安全专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>王安全</h3>-->
+    <!--              <p class="expert-title">云安全架构师</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                10年网络安全和云安全经验，CISSP认证专家，专注于企业级云安全架构设计和合规性评估，在金融、医疗等高安全要求行业有丰富实践。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ CISSP/CISM双认证</div>-->
+    <!--                <div class="achievement-item">✓ 等保测评师资质</div>-->
+    <!--                <div class="achievement-item">✓ ISO27001主任审核员</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">云安全</span>-->
+    <!--                <span class="skill-tag">合规评估</span>-->
+    <!--                <span class="skill-tag">风险管理</span>-->
+    <!--                <span class="skill-tag">零信任</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">陈</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">数据专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>陈数据</h3>-->
-<!--              <p class="expert-title">大数据与AI架构师</p>-->
-<!--              <p class="expert-desc">-->
-<!--                8年大数据和人工智能领域经验，曾在BAT等互联网公司负责大数据平台建设，擅长数据湖、数据中台和AI平台架构设计。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ 大数据技术专家认证</div>-->
-<!--                <div class="achievement-item">✓ TensorFlow开发者认证</div>-->
-<!--                <div class="achievement-item">✓ Spark贡献者</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">大数据</span>-->
-<!--                <span class="skill-tag">机器学习</span>-->
-<!--                <span class="skill-tag">数据湖</span>-->
-<!--                <span class="skill-tag">实时计算</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">陈</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">数据专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>陈数据</h3>-->
+    <!--              <p class="expert-title">大数据与AI架构师</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                8年大数据和人工智能领域经验，曾在BAT等互联网公司负责大数据平台建设，擅长数据湖、数据中台和AI平台架构设计。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ 大数据技术专家认证</div>-->
+    <!--                <div class="achievement-item">✓ TensorFlow开发者认证</div>-->
+    <!--                <div class="achievement-item">✓ Spark贡献者</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">大数据</span>-->
+    <!--                <span class="skill-tag">机器学习</span>-->
+    <!--                <span class="skill-tag">数据湖</span>-->
+    <!--                <span class="skill-tag">实时计算</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">刘</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">业务专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>刘业务</h3>-->
-<!--              <p class="expert-title">数字化转型顾问</p>-->
-<!--              <p class="expert-desc">-->
-<!--                13年企业数字化转型咨询经验，曾在麦肯锡、德勤等知名咨询公司任职，深度参与多个行业的数字化转型项目，具备丰富的业务洞察力。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ PMP项目管理认证</div>-->
-<!--                <div class="achievement-item">✓ 数字化转型专家</div>-->
-<!--                <div class="achievement-item">✓ 行业白皮书主编</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">业务分析</span>-->
-<!--                <span class="skill-tag">流程优化</span>-->
-<!--                <span class="skill-tag">变革管理</span>-->
-<!--                <span class="skill-tag">ROI评估</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">刘</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">业务专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>刘业务</h3>-->
+    <!--              <p class="expert-title">数字化转型顾问</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                13年企业数字化转型咨询经验，曾在麦肯锡、德勤等知名咨询公司任职，深度参与多个行业的数字化转型项目，具备丰富的业务洞察力。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ PMP项目管理认证</div>-->
+    <!--                <div class="achievement-item">✓ 数字化转型专家</div>-->
+    <!--                <div class="achievement-item">✓ 行业白皮书主编</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">业务分析</span>-->
+    <!--                <span class="skill-tag">流程优化</span>-->
+    <!--                <span class="skill-tag">变革管理</span>-->
+    <!--                <span class="skill-tag">ROI评估</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="expert-card">-->
-<!--            <div class="expert-avatar">-->
-<!--              <div class="avatar-placeholder">-->
-<!--                <span class="avatar-initial">赵</span>-->
-<!--              </div>-->
-<!--              <div class="expert-badge">运维专家</div>-->
-<!--            </div>-->
-<!--            <div class="expert-info">-->
-<!--              <h3>赵运维</h3>-->
-<!--              <p class="expert-title">SRE与运维架构师</p>-->
-<!--              <p class="expert-desc">-->
-<!--                11年运维和SRE经验，曾在Google、Netflix等公司工作，专注于大规模分布式系统的可靠性工程，在高可用架构设计方面有深厚造诣。-->
-<!--              </p>-->
-<!--              <div class="expert-achievements">-->
-<!--                <div class="achievement-item">✓ Google SRE认证</div>-->
-<!--                <div class="achievement-item">✓ 高可用系统设计专家</div>-->
-<!--                <div class="achievement-item">✓ 《SRE实践指南》译者</div>-->
-<!--              </div>-->
-<!--              <div class="expert-skills">-->
-<!--                <span class="skill-tag">SRE</span>-->
-<!--                <span class="skill-tag">高可用</span>-->
-<!--                <span class="skill-tag">性能优化</span>-->
-<!--                <span class="skill-tag">故障处理</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
+    <!--          <div class="expert-card">-->
+    <!--            <div class="expert-avatar">-->
+    <!--              <div class="avatar-placeholder">-->
+    <!--                <span class="avatar-initial">赵</span>-->
+    <!--              </div>-->
+    <!--              <div class="expert-badge">运维专家</div>-->
+    <!--            </div>-->
+    <!--            <div class="expert-info">-->
+    <!--              <h3>赵运维</h3>-->
+    <!--              <p class="expert-title">SRE与运维架构师</p>-->
+    <!--              <p class="expert-desc">-->
+    <!--                11年运维和SRE经验，曾在Google、Netflix等公司工作，专注于大规模分布式系统的可靠性工程，在高可用架构设计方面有深厚造诣。-->
+    <!--              </p>-->
+    <!--              <div class="expert-achievements">-->
+    <!--                <div class="achievement-item">✓ Google SRE认证</div>-->
+    <!--                <div class="achievement-item">✓ 高可用系统设计专家</div>-->
+    <!--                <div class="achievement-item">✓ 《SRE实践指南》译者</div>-->
+    <!--              </div>-->
+    <!--              <div class="expert-skills">-->
+    <!--                <span class="skill-tag">SRE</span>-->
+    <!--                <span class="skill-tag">高可用</span>-->
+    <!--                <span class="skill-tag">性能优化</span>-->
+    <!--                <span class="skill-tag">故障处理</span>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
 
     <!-- FAQ Section -->
     <section class="faq-section">
       <div class="container">
         <div class="section-header">
-          <h2>常见问题解答</h2>
+          <div class="header-badge">
+            <span class="badge-text">解疑解惑</span>
+          </div>
+          <h2 class="gradient-heading">常见问题解答</h2>
           <p>解答您在云战略规划过程中的疑问</p>
         </div>
 
         <div class="faq-container">
-          <div class="faq-item" v-for="(faq, index) in faqList" :key="index">
+          <div
+            class="faq-item animate-on-scroll fadeInUp"
+            v-for="(faq, index) in faqList"
+            :key="index"
+            :style="{ 'animation-delay': 0.1 * index + 's' }"
+          >
             <div class="faq-question" @click="toggleFaq(index)">
+              <div class="question-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M11 10.98c0-.437.059-.806.176-1.104.117-.299.303-.562.557-.79.303-.248.65-.437 1.04-.565.39-.129.781-.193 1.172-.193.498 0 .947.064 1.348.193.4.128.738.32 1.016.574.278.254.493.565.645.934.151.369.227.798.227 1.289 0 .39-.044.732-.131 1.025a3.09 3.09 0 01-.344.777 3.67 3.67 0 01-.474.63 8.554 8.554 0 01-.498.548l-.643.643a7.181 7.181 0 00-.401.435 1.903 1.903 0 00-.268.392 1.546 1.546 0 00-.149.435c-.029.156-.044.339-.044.548v.263H11v-.351c0-.323.034-.603.105-.84.07-.237.168-.452.294-.643.127-.19.274-.368.442-.533.169-.166.34-.332.516-.5.176-.17.342-.337.498-.505.156-.168.293-.341.41-.52.117-.18.21-.371.277-.574.068-.203.102-.434.102-.695 0-.49-.146-.871-.44-1.143-.293-.273-.693-.409-1.198-.409-.254 0-.484.044-.69.131a1.66 1.66 0 00-.533.366 1.642 1.642 0 00-.344.556 1.983 1.983 0 00-.123.703H11zm1.84 8.147c-.303 0-.552-.098-.747-.293a.959.959 0 01-.293-.704c0-.274.098-.51.293-.704a.959.959 0 01.704-.293c.274 0 .51.098.704.293a.959.959 0 01.293.704.959.959 0 01-.293.704.959.959 0 01-.704.293h.044z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
               <h3>{{ faq.question }}</h3>
               <div class="faq-toggle" :class="{ active: faq.isOpen }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -1262,9 +1918,31 @@
               </div>
             </div>
             <div class="faq-answer" :class="{ active: faq.isOpen }">
-              <p>{{ faq.answer }}</p>
+              <div class="answer-content">
+                <p>{{ faq.answer }}</p>
+                <div v-if="faq.additionalInfo" class="additional-info">
+                  <div class="info-tag">延伸阅读</div>
+                  <p>{{ faq.additionalInfo }}</p>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+
+        <div class="faq-more-help">
+          <p>还有其他问题？</p>
+          <a href="/contact" class="btn-outline">
+            <span>联系我们获取更多帮助</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M5 12h14M19 12l-7-7m7 7l-7 7"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
@@ -1352,7 +2030,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from "vue";
 
 // 页面元数据
 definePageMeta({
@@ -1408,31 +2086,65 @@ const faqList = ref([
   {
     question: "云战略咨询服务包含哪些内容？",
     answer:
-      "我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。",
+      "我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。我们会根据企业的具体情况，定制专属的云战略规划，确保云转型的顺利进行。",
+    additionalInfo:
+      "我们的咨询团队平均拥有10年以上云计算领域经验，曾服务于金融、制造、零售、医疗等多个行业的头部企业，具备丰富的实战经验和行业洞察力。",
     isOpen: false,
   },
   {
     question: "云化转型需要多长时间？",
     answer:
-      "云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划。",
+      "云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划，并提供分阶段实施方案，确保业务连续性的同时，逐步完成云化转型。",
+    additionalInfo:
+      "我们采用敏捷方法论，将大型转型项目拆分为多个小型迭代，每2-4周交付一个可用的成果，让您能够更快地看到云转型带来的价值。",
     isOpen: false,
   },
   {
     question: "如何保证数据安全和合规性？",
     answer:
-      "我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。",
+      "我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。我们的安全团队会定期进行安全评估和渗透测试，及时发现并修复潜在的安全风险。",
+    additionalInfo:
+      "我们的安全解决方案符合ISO 27001、GDPR、等保2.0、SOC 2等多项国内外安全标准和法规要求，可以帮助企业轻松应对各类合规审计。",
     isOpen: false,
   },
   {
     question: "云化后的成本如何控制？",
     answer:
-      "我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。",
+      "我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。我们还会定期进行成本审计，确保您的云资源使用始终处于最优状态。",
+    additionalInfo:
+      "我们开发了专有的云成本分析工具，可以精确到每个业务部门、每个应用的成本分摊，帮助企业实现精细化的成本管理和预算控制。",
     isOpen: false,
   },
   {
     question: "是否提供后续的技术支持？",
     answer:
-      "是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。",
+      "是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。我们的支持团队平均响应时间不超过15分钟，关键问题解决时间不超过2小时。",
+    additionalInfo:
+      "我们采用多级支持模式，一线支持解决常见问题，二线支持处理复杂技术问题，三线支持由架构师和专家团队提供顶级技术支持，确保各类问题都能得到及时有效的解决。",
+    isOpen: false,
+  },
+  {
+    question: "如何评估企业是否适合上云？",
+    answer:
+      "我们会从业务需求、技术架构、成本效益、安全合规等多个维度进行全面评估，为企业提供客观的上云建议。评估过程包括现状调研、需求分析、技术评估、风险分析、成本测算等环节，最终形成详细的评估报告和上云建议。",
+    additionalInfo:
+      "我们开发了专有的云就绪度评估模型，包含超过200个评估指标，覆盖技术、流程、组织、安全等各个方面，可以帮助企业全面了解自身的云就绪度状况。",
+    isOpen: false,
+  },
+  {
+    question: "如何选择合适的云服务提供商？",
+    answer:
+      "选择云服务提供商需要考虑服务类型、性能稳定性、安全合规、成本效益、技术支持等多个因素。我们会根据企业的具体需求，对比分析各大云服务提供商的优劣势，帮助企业选择最适合的云服务提供商和服务类型。",
+    additionalInfo:
+      "我们与AWS、Azure、阿里云、腾讯云等主流云服务提供商保持紧密合作，拥有丰富的多云实施经验，可以为企业提供客观公正的选型建议。",
+    isOpen: false,
+  },
+  {
+    question: "混合云和多云策略有什么区别？",
+    answer:
+      "混合云是指同时使用私有云和公有云，并在两者之间实现无缝集成和数据流动；多云策略是指同时使用多个公有云服务提供商的服务。混合云适合对数据安全和合规有高要求的企业，多云策略则适合需要利用不同云服务提供商优势的企业。",
+    additionalInfo:
+      "根据Gartner的调研，到2025年，超过90%的企业将采用混合云或多云策略。我们可以帮助企业设计和实施最适合自身需求的混合云或多云架构。",
     isOpen: false,
   },
 ]);
@@ -1446,25 +2158,28 @@ const toggleFaq = (index) => {
 let observers = [];
 
 const initScrollAnimations = () => {
-  const animatedElements = document.querySelectorAll('.animate-on-scroll');
-  
+  const animatedElements = document.querySelectorAll(".animate-on-scroll");
+
   const observerOptions = {
     root: null,
-    rootMargin: '0px',
-    threshold: 0.1
+    rootMargin: "0px",
+    threshold: 0.1,
   };
-  
+
   const observerCallback = (entries, observer) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
+        entry.target.classList.add("visible");
         observer.unobserve(entry.target);
       }
     });
   };
-  
-  animatedElements.forEach(element => {
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+  animatedElements.forEach((element) => {
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
     observer.observe(element);
     observers.push(observer);
   });
@@ -1479,7 +2194,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   // 清理所有观察者
-  observers.forEach(observer => observer.disconnect());
+  observers.forEach((observer) => observer.disconnect());
   observers = [];
 });
 </script>
@@ -1610,7 +2325,12 @@ onUnmounted(() => {
 }
 
 .shimmer-effect {
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
 }
@@ -2206,14 +2926,22 @@ onUnmounted(() => {
 }
 
 .process-section::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
-                    radial-gradient(circle at 90% 80%, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
+  background-image: radial-gradient(
+      circle at 10% 20%,
+      rgba(99, 102, 241, 0.05) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(99, 102, 241, 0.05) 0%,
+      transparent 50%
+    );
   z-index: 0;
 }
 
@@ -2221,7 +2949,11 @@ onUnmounted(() => {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2245,8 +2977,12 @@ onUnmounted(() => {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .process-timeline {
@@ -2262,7 +2998,11 @@ onUnmounted(() => {
   left: 50%;
   width: 4px;
   height: 100%;
-  background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color-dark));
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color-light),
+    var(--primary-color-dark)
+  );
   transform: translateX(-50%);
   z-index: 1;
   border-radius: 4px;
@@ -2294,7 +3034,11 @@ onUnmounted(() => {
   top: 30px;
   width: 100px;
   height: 3px;
-  background: linear-gradient(90deg, var(--primary-color-light), var(--primary-color));
+  background: linear-gradient(
+    90deg,
+    var(--primary-color-light),
+    var(--primary-color)
+  );
   z-index: 1;
 }
 
@@ -2378,13 +3122,17 @@ onUnmounted(() => {
 }
 
 .step-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(90deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
 }
 
 .step-card:hover {
@@ -2470,7 +3218,11 @@ onUnmounted(() => {
 
 .detail-item:hover .detail-icon {
   transform: scale(1.1);
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-dark)
+  );
 }
 
 .detail-text {
@@ -2494,7 +3246,11 @@ onUnmounted(() => {
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--primary-color-light), var(--primary-color));
+  background: linear-gradient(
+    90deg,
+    var(--primary-color-light),
+    var(--primary-color)
+  );
   border-radius: 3px;
   transition: width 1s ease;
 }
@@ -2518,8 +3274,13 @@ onUnmounted(() => {
 
 /* Animation for bounceIn */
 @keyframes bounceIn {
-  0%, 20%, 40%, 60%, 80%, 100% {
-    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   0% {
     opacity: 0;
@@ -2588,20 +3349,21 @@ onUnmounted(() => {
   .timeline-track {
     left: 30px;
   }
-  
-  .process-step, .step-right {
+
+  .process-step,
+  .step-right {
     flex-direction: row;
     margin-left: 30px;
   }
-  
+
   .step-circle {
     margin: 0 20px 0 0;
   }
-  
+
   .step-card {
     max-width: 100%;
   }
-  
+
   .step-connector {
     display: none;
   }
@@ -2611,6 +3373,41 @@ onUnmounted(() => {
 .case-studies-section {
   padding: 120px 0;
   background: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.case-studies-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+      circle at 10% 10%,
+      rgba(var(--primary-color-rgb), 0.05) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 90%,
+      rgba(var(--primary-color-rgb), 0.05) 0%,
+      transparent 30%
+    );
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.gradient-heading {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
 }
 
 .cases-grid {
@@ -2618,32 +3415,51 @@ onUnmounted(() => {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   margin-top: 60px;
+  position: relative;
+  z-index: 1;
 }
 
 .case-card {
-  background: white;
+  background: var(--card-bg);
   border-radius: 20px;
   padding: 40px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
   position: relative;
   overflow: hidden;
 }
 
-.case-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+.case-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  opacity: 0.8;
 }
 
-.case-card:hover::before {
-  content: '';
+.case-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--primary-color-light);
+}
+
+.case-card:hover::after {
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--primary-color-rgb), 0) 0%,
+    rgba(var(--primary-color-rgb), 0.1) 50%,
+    rgba(var(--primary-color-rgb), 0) 100%
+  );
   z-index: 1;
   animation: shimmer 1.5s forwards;
 }
@@ -2678,6 +3494,7 @@ onUnmounted(() => {
   font-size: 0.9rem;
   position: relative;
   z-index: 2;
+  box-shadow: 0 5px 15px rgba(var(--primary-color-rgb), 0.3);
 }
 
 .company-logo.float.visible {
@@ -2685,7 +3502,7 @@ onUnmounted(() => {
 }
 
 .company-logo::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2710,7 +3527,7 @@ onUnmounted(() => {
 }
 
 .industry-tag {
-  background: var(--primary-color-light);
+  background: var(--primary-color-light-transparent);
   color: var(--primary-color);
   padding: 4px 12px;
   border-radius: 20px;
@@ -2720,11 +3537,14 @@ onUnmounted(() => {
   overflow: hidden;
   display: inline-block;
   transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .industry-tag:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 15px rgba(var(--primary-color-rgb), 0.3);
+  background: var(--primary-color-light);
+  color: white;
 }
 
 .industry-tag.scaleIn.visible {
@@ -2733,12 +3553,21 @@ onUnmounted(() => {
 
 .case-result {
   text-align: right;
+  position: relative;
+  z-index: 2;
 }
 
 .result-value {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--primary-color);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   display: block;
   line-height: 1;
   position: relative;
@@ -2746,13 +3575,13 @@ onUnmounted(() => {
 }
 
 .result-value::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0;
   height: 3px;
-  background: var(--primary-color);
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
   transition: width 0.5s ease;
 }
 
@@ -2761,7 +3590,8 @@ onUnmounted(() => {
 }
 
 .case-result.fadeInRight.visible .result-value {
-  animation: fadeInRight 0.5s ease-out forwards, pulse 3s infinite ease-in-out 0.5s;
+  animation: fadeInRight 0.5s ease-out forwards,
+    pulse 3s infinite ease-in-out 0.5s;
 }
 
 .result-label {
@@ -2774,7 +3604,9 @@ onUnmounted(() => {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 15px;
-  color: var(--text-color);
+  color: var(--text-primary);
+  position: relative;
+  display: inline-block;
 }
 
 .case-content p {
@@ -2787,6 +3619,10 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  background: var(--card-bg-secondary);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
 }
 
 .highlight-item {
@@ -2798,24 +3634,29 @@ onUnmounted(() => {
   padding: 8px 12px;
   border-radius: 8px;
   transition: all 0.3s ease;
+  background: var(--card-bg);
   position: relative;
   overflow: hidden;
+  border: 1px solid transparent;
 }
 
 .highlight-item:hover {
-  background: rgba(var(--primary-color-rgb), 0.05);
+  background: var(--primary-color-light-transparent);
   transform: translateX(5px);
   color: var(--text-primary);
+  border-color: var(--primary-color-light);
+  box-shadow: var(--shadow-light);
 }
 
 .highlight-item svg {
   transition: all 0.3s ease;
   flex-shrink: 0;
+  color: var(--primary-color);
 }
 
 .highlight-item:hover svg {
   transform: scale(1.2);
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .highlight-item.fadeInLeft.visible {
@@ -2830,6 +3671,24 @@ onUnmounted(() => {
 .tech-advantages-section {
   padding: 120px 0;
   background: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-advantages-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 20% 30%,
+    var(--primary-color-transparent) 0%,
+    transparent 70%
+  );
+  opacity: 0.4;
+  z-index: 0;
 }
 
 .tech-grid {
@@ -2837,14 +3696,30 @@ onUnmounted(() => {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 50px;
   margin-top: 60px;
+  position: relative;
+  z-index: 1;
 }
 
 .tech-category {
-  background: white;
+  background: var(--card-bg);
   border-radius: 20px;
   padding: 40px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
   border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-category::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  opacity: 0.8;
 }
 
 .tech-category h3 {
@@ -2853,6 +3728,25 @@ onUnmounted(() => {
   margin-bottom: 30px;
   color: var(--text-color);
   text-align: center;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tech-category h3::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
 }
 
 .tech-items {
@@ -2866,11 +3760,36 @@ onUnmounted(() => {
   background: var(--bg-color);
   border-radius: 12px;
   transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--card-shadow-sm);
 }
 
 .tech-item:hover {
-  background: var(--primary-color-light);
+  background: var(--primary-color-light-transparent);
   transform: translateX(5px);
+  border-color: var(--primary-color);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.tech-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--accent-color)
+  );
+  transition: height 0.3s ease;
+}
+
+.tech-item:hover::before {
+  height: 100%;
 }
 
 .tech-info h4 {
@@ -2878,12 +3797,26 @@ onUnmounted(() => {
   font-weight: 600;
   margin-bottom: 5px;
   color: var(--text-color);
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.tech-item:hover .tech-info h4 {
+  color: var(--primary-color);
+  transform: translateX(2px);
 }
 
 .tech-info p {
   font-size: 0.95rem;
   color: var(--text-secondary);
   margin: 0;
+  transition: all 0.3s ease;
+  line-height: 1.5;
+}
+
+.tech-item:hover .tech-info p {
+  color: var(--text-primary);
 }
 
 /* Expert Team Section */
@@ -3010,20 +3943,48 @@ onUnmounted(() => {
 .faq-section {
   padding: 120px 0;
   background: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 80% 20%,
+    var(--primary-color-transparent) 0%,
+    transparent 70%
+  );
+  opacity: 0.4;
+  z-index: 0;
 }
 
 .faq-container {
   max-width: 800px;
   margin: 60px auto 0;
+  position: relative;
+  z-index: 1;
 }
 
 .faq-item {
-  background: white;
+  background: var(--card-bg);
   border-radius: 16px;
   margin-bottom: 20px;
   overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
   border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.faq-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary-color-light-transparent);
 }
 
 .faq-question {
@@ -3033,6 +3994,21 @@ onUnmounted(() => {
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.question-icon {
+  margin-right: 15px;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover .question-icon {
+  transform: scale(1.1);
 }
 
 .faq-question:hover {
@@ -3045,41 +4021,116 @@ onUnmounted(() => {
   color: var(--text-color);
   margin: 0;
   flex: 1;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover .faq-question h3 {
+  color: var(--primary-color);
+  transform: translateX(3px);
 }
 
 .faq-toggle {
   width: 30px;
   height: 30px;
-  background: var(--primary-color-light);
+  background: var(--primary-color-light-transparent);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   color: var(--primary-color);
+  margin-left: 15px;
+  backdrop-filter: blur(5px);
 }
 
 .faq-toggle.active {
   background: var(--primary-color);
   color: white;
   transform: rotate(180deg);
+  box-shadow: 0 0 15px var(--primary-color-transparent);
 }
 
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
+  opacity: 0;
 }
 
 .faq-answer.active {
-  max-height: 200px;
+  max-height: 500px;
+  opacity: 1;
+}
+
+.answer-content {
+  padding: 0 30px 25px 65px;
+  position: relative;
 }
 
 .faq-answer p {
-  padding: 0 30px 25px;
   color: var(--text-secondary);
   line-height: 1.6;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.additional-info {
+  background: var(--card-bg-secondary);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 3px solid var(--primary-color);
+  position: relative;
+}
+
+.info-tag {
+  display: inline-block;
+  background: var(--primary-color-light-transparent);
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  backdrop-filter: blur(5px);
+}
+
+.additional-info p {
+  font-size: 0.9rem;
   margin: 0;
+}
+
+.faq-more-help {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  background: var(--card-bg-secondary);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow-sm);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  border: 1px solid var(--border-color);
+}
+
+.faq-more-help p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.faq-more-help .btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.faq-more-help .btn-outline:hover {
+  transform: translateX(5px);
 }
 
 /* CTA Section */
