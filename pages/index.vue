@@ -1,8 +1,8 @@
 <template>
   <div class="home-page">
     <Hero />
+    <ServiceProvision />
     <Features />
-    <ServiceProvision/>
     <Projects />
     <Ecosystem />
     <Contact />

@@ -72,25 +72,25 @@
     }
   },
   "features": {
-    "title": "最も人気なスケーリング技術",
+    "title": "戦略コンサルティングサービス",
+    "description": "当社は専門的な戦略コンサルティングサービスを提供し、企業のクラウド戦略の策定と実施をサポートします。",
     "learnMore": "詳細を見る",
     "items": {
-      "polygonPos": {
-        "title": "Polygon PoS",
-        "title": "Polygon PoS",
-        "description": "最も広く使用されているイーサリアムスケーリングエコシステムをサポート。EVM互換性と究極のユーザー体験を提供し、高速取引とほぼゼロのGas手数料を実現。"
+      "businessStrategy": {
+        "title": "ビジネスコンサルティング/技術コンサルティング",
+        "description": "戦略分析と製品ポジショニング，アプリケーションアーキテクチャのクラウド評価，IT構造計画と最適化，アジャイル開発，コンテナシステム，顧客ニーズの調査分析"
       },
-      "polygonZkEvm": {
-        "title": "Polygon zkEVM",
-        "description": "セキュリティを維持しながらイーサリアムのスケーラビリティを解放。EVM等価性を提供する初のZKロールアップを実現し、高速取引とほぼゼロのGasコストを提供。"
+      "solutionDesign": {
+        "title": "ソリューション設計",
+        "description": "クラウド技術アーキテクチャの評価と計画設計，ITシステムアーキテクチャと統合ソリューション，マイクロサービスアーキテクチャソリューション"
       },
-      "miden": {
-        "title": "Miden",
-        "description": "プライベートデータストレージとローカルトランザクション実行を活用した分散型ロールアップ。プライバシーはより良いスケールを実現するからです。"
+      "cloudPlanning": {
+        "title": "クラウドアーキテクチャ計画",
+        "description": "クラウド移行評価と分析，インフラストラクチャ計画設計，パフォーマンス，安定性，TCO分析，アーキテクチャのクラウド化設計"
       },
-      "agglayerCdk": {
-        "title": "Agglayer CDK",
-        "description": "業界をリードするZK技術とエコシステムを使用してイーサリアムレイヤー2を構築。"
+      "cloudMigration": {
+        "title": "クラウド移行管理",
+        "description": "クラウド移行ロードマップの構築，クラウド移行計画の策定，クラウドリソース計画，クラウド移行管理サービス"
       }
     }
   },
@@ -600,7 +600,6 @@
           "detailsC": "継続的なサポートサービス"
         }
       }
-
     },
     "caseStudiesSection": {
       "caseStudies": "成功事例",
@@ -626,7 +625,7 @@
       "manufacturingContent": "生産・サプライチェーン・販売全体をカバーするスマート製造クラウドプラットフォームを構築し、データ駆動型のリーンマネジメントを実現。50以上の工場と10万台以上の設備を統合。",
       "productionEfficiencyImproved": "生産効率向上",
       "inventoryTurnoverImproved": "在庫回転率向上",
-      "productQualityImprovement":"製品品質の向上",
+      "productQualityImprovement": "製品品質の向上",
       "energyConsumptionReduced": "エネルギー消費削減",
 
       "retailGroup": "小売グループ",
@@ -659,7 +658,7 @@
       "educationContent": "大規模同時接続とパーソナライズされた学習体験をサポートするスマートオンライン教育プラットフォームを構築。500万人以上の学習者、50カ国以上に対応。",
       "concurrentUsers": "同時接続ユーザー数",
       "learningCompletionRate": "学習完了率向上",
-      "thousand":"万",
+      "thousand": "万",
       "systemResponseTime": "システム応答時間改善",
       "aiRecommendationAccuracy": "AI推薦精度向上",
 
@@ -774,7 +773,18 @@
       "continuousImprovement": "継続的な最適化",
       "longTermValue": "長期的な価値向上"
     }
-
+  },
+  "technicalServices": {
+    "hero": {
+      "advanced_tech_services": "高度な技術サービス",
+      "cloud_technology": "クラウド技術",
+      "professional_services": "プロフェッショナルサービス",
+      "cloud_native_description": "最先端のクラウドネイティブ技術スタックに基づき、エンタープライズ向けのクラウド導入および最適化サービスを提供し、高性能かつ高可用性のモダンなITアーキテクチャの構築を支援します。",
+      "system_availability": "システム可用性",
+      "deployment_efficiency": "デプロイ効率の向上",
+      "cost_optimization": "コスト最適化",
+      "start_consultation": "相談を始める",
+      "technical_architecture": "技術アーキテクチャ"
+    }
   }
-
 }

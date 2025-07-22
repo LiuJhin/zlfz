@@ -17,10 +17,28 @@
         <div class="hero-visual">
           <div class="service-icon">
             <svg width="120" height="120" viewBox="0 0 24 24" fill="none">
-              <path d="M7 16L12 21L17 16M7 8L12 3L17 8" stroke="currentColor" stroke-width="2" fill="none"/>
-              <path d="M12 21V3" stroke="currentColor" stroke-width="2"/>
-              <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1" fill="none" opacity="0.3"/>
-              <path d="M4 12H20" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <path
+                d="M7 16L12 21L17 16M7 8L12 3L17 8"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+              <path d="M12 21V3" stroke="currentColor" stroke-width="2" />
+              <circle
+                cx="12"
+                cy="12"
+                r="8"
+                stroke="currentColor"
+                stroke-width="1"
+                fill="none"
+                opacity="0.3"
+              />
+              <path
+                d="M4 12H20"
+                stroke="currentColor"
+                stroke-width="1"
+                opacity="0.5"
+              />
             </svg>
           </div>
         </div>
@@ -33,66 +51,105 @@
           <h2>迁移服务详情</h2>
           <p>全方位的云迁移解决方案</p>
         </div>
-        
+
         <div class="features-grid">
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>迁移评估</h3>
             <p>全面评估现有IT环境，制定最适合的迁移策略和计划。</p>
           </div>
-          
+
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M7 10H17M7 14H13" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M7 10H17M7 14H13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>应用迁移</h3>
             <p>专业的应用系统迁移，确保功能完整性和性能优化。</p>
           </div>
-          
+
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20" stroke="currentColor" stroke-width="2"/>
-                <circle cx="12" cy="14" r="2" fill="currentColor"/>
+                <path
+                  d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="14" r="2" fill="currentColor" />
               </svg>
             </div>
             <h3>数据迁移</h3>
             <p>安全可靠的数据迁移服务，保证数据完整性和一致性。</p>
           </div>
-          
+
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 2L2 7L12 12L22 7L12 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M2 17L12 22L22 17M2 12L12 17L22 12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>基础设施迁移</h3>
             <p>完整的基础设施迁移，包括网络、存储和计算资源。</p>
           </div>
-          
+
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
             <h3>性能优化</h3>
             <p>迁移后的性能调优，确保系统在云环境中的最佳表现。</p>
           </div>
-          
+
           <div class="feature-card">
             <div class="feature-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>安全保障</h3>
@@ -108,13 +165,18 @@
           <h2>迁移策略</h2>
           <p>多种迁移策略，满足不同业务需求</p>
         </div>
-        
+
         <div class="strategies-grid">
           <div class="strategy-card">
             <div class="strategy-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M7 16L12 21L17 16M7 8L12 3L17 8" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M12 21V3" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M7 16L12 21L17 16M7 8L12 3L17 8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path d="M12 21V3" stroke="currentColor" stroke-width="2" />
               </svg>
             </div>
             <h3>Lift and Shift</h3>
@@ -125,12 +187,22 @@
               <span class="benefit-tag">成本低</span>
             </div>
           </div>
-          
+
           <div class="strategy-card">
             <div class="strategy-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36" stroke="currentColor" stroke-width="2"/>
-                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>重新平台化</h3>
@@ -141,12 +213,20 @@
               <span class="benefit-tag">可扩展</span>
             </div>
           </div>
-          
+
           <div class="strategy-card">
             <div class="strategy-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M7 10H17M7 14H13" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M7 10H17M7 14H13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
             <h3>重新架构</h3>
@@ -167,7 +247,7 @@
           <h2>迁移流程</h2>
           <p>标准化的迁移流程，确保项目成功</p>
         </div>
-        
+
         <div class="process-timeline">
           <div class="process-step">
             <div class="step-number">01</div>
@@ -181,7 +261,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="process-step">
             <div class="step-number">02</div>
             <div class="step-content">
@@ -194,7 +274,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="process-step">
             <div class="step-number">03</div>
             <div class="step-content">
@@ -207,7 +287,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="process-step">
             <div class="step-number">04</div>
             <div class="step-content">
@@ -220,7 +300,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="process-step">
             <div class="step-number">05</div>
             <div class="step-content">
@@ -233,7 +313,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="process-step">
             <div class="step-number">06</div>
             <div class="step-content">
@@ -256,7 +336,7 @@
           <h2>迁移工具与技术</h2>
           <p>专业的迁移工具和技术栈</p>
         </div>
-        
+
         <div class="tools-categories">
           <div class="tool-category">
             <h3>评估工具</h3>
@@ -267,7 +347,7 @@
               <div class="tool-item">CloudEndure</div>
             </div>
           </div>
-          
+
           <div class="tool-category">
             <h3>迁移工具</h3>
             <div class="tool-items">
@@ -277,7 +357,7 @@
               <div class="tool-item">Carbonite Migrate</div>
             </div>
           </div>
-          
+
           <div class="tool-category">
             <h3>数据迁移</h3>
             <div class="tool-items">
@@ -287,7 +367,7 @@
               <div class="tool-item">Attunity Replicate</div>
             </div>
           </div>
-          
+
           <div class="tool-category">
             <h3>容器化</h3>
             <div class="tool-items">
@@ -307,26 +387,26 @@
           <h2>成功指标</h2>
           <p>我们的迁移项目成功率和客户满意度</p>
         </div>
-        
+
         <div class="metrics-grid">
           <div class="metric-item">
             <div class="metric-number">98%</div>
             <div class="metric-label">迁移成功率</div>
             <div class="metric-description">零数据丢失，业务连续性保障</div>
           </div>
-          
+
           <div class="metric-item">
             <div class="metric-number">< 4小时</div>
             <div class="metric-label">平均停机时间</div>
             <div class="metric-description">最小化业务中断影响</div>
           </div>
-          
+
           <div class="metric-item">
             <div class="metric-number">30%</div>
             <div class="metric-label">性能提升</div>
             <div class="metric-description">迁移后平均性能改善</div>
           </div>
-          
+
           <div class="metric-item">
             <div class="metric-number">95%</div>
             <div class="metric-label">客户满意度</div>
@@ -342,74 +422,110 @@
           <h2>迁移准备清单</h2>
           <p>确保迁移项目顺利进行的关键要素</p>
         </div>
-        
+
         <div class="checklist-grid">
           <div class="checklist-category">
             <h3>技术准备</h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>应用架构文档</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>依赖关系梳理</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>性能基线测试</span>
               </div>
             </div>
           </div>
-          
+
           <div class="checklist-category">
             <h3>业务准备</h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>业务影响评估</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>用户培训计划</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>回滚方案制定</span>
               </div>
             </div>
           </div>
-          
+
           <div class="checklist-category">
             <h3>安全合规</h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>数据分类标识</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>合规要求确认</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
                 <span>安全策略配置</span>
               </div>
@@ -434,19 +550,26 @@
 <script setup>
 // 页面元数据
 definePageMeta({
-  layout: 'default',
-  title: '云迁移服务 - ZHILING ARK TECHNOLOGY',
-  description: '安全、高效的云迁移解决方案，端到端的云迁移服务'
-})
+  layout: "default",
+  title: "云迁移服务 - ZHILING ARK TECHNOLOGY",
+  description: "安全、高效的云迁移解决方案，端到端的云迁移服务",
+});
 
 // SEO 头部信息
 useHead({
-  title: '云迁移服务 - ZHILING ARK TECHNOLOGY',
+  title: "云迁移服务 - ZHILING ARK TECHNOLOGY",
   meta: [
-    { name: 'description', content: '提供端到端的云迁移服务，帮助企业将传统IT基础设施和应用系统安全、平滑地迁移到云平台' },
-    { name: 'keywords', content: '云迁移,应用迁移,数据迁移,基础设施迁移,云化改造' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        "提供端到端的云迁移服务，帮助企业将传统IT基础设施和应用系统安全、平滑地迁移到云平台",
+    },
+    {
+      name: "keywords",
+      content: "云迁移,应用迁移,数据迁移,基础设施迁移,云化改造",
+    },
+  ],
+});
 </script>
 
 <style scoped>
@@ -455,7 +578,11 @@ useHead({
 }
 
 .service-hero {
-  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-color) 0%,
+    var(--bg-secondary) 100%
+  );
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
@@ -503,7 +630,8 @@ useHead({
   flex-wrap: wrap;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -542,19 +670,28 @@ useHead({
 .service-icon {
   width: 200px;
   height: 200px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-color-light)
+  );
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   animation: migrate-flow 4s ease-in-out infinite;
 }
 
 @keyframes migrate-flow {
-  0%, 100% { transform: translateY(0px) scale(1); }
-  50% { transform: translateY(-10px) scale(1.02); }
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.02);
+  }
 }
 
 .service-details {
@@ -595,7 +732,7 @@ useHead({
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -641,7 +778,7 @@ useHead({
   background: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -703,7 +840,7 @@ useHead({
   background: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
@@ -774,7 +911,7 @@ useHead({
   border-radius: 8px;
   color: var(--text-secondary);
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
 
@@ -799,7 +936,7 @@ useHead({
   padding: 40px 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .metric-number {
@@ -837,7 +974,7 @@ useHead({
   background: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .checklist-category h3 {
@@ -899,31 +1036,31 @@ useHead({
     gap: 40px;
     text-align: center;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .features-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .strategies-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .process-timeline {
     grid-template-columns: 1fr;
   }
-  
+
   .tools-categories {
     grid-template-columns: 1fr;
   }
-  
+
   .metrics-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .checklist-grid {
     grid-template-columns: 1fr;
   }

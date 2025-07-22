@@ -60,8 +60,8 @@
     "save": "保存"
   },
   "hero": {
-    "title": "构建面向未来的 AWS 云服务解决方案",
-    "description": "通过企业级 AWS 云服务，我们帮助客户显著降低基础设施成本，同时构建高可用、可扩展的云端架构，从咨询到部署全程陪伴，推动企业高效转型。",
+    "title": "全球云厂商MSP解决方案提供商  开放免费测试账号",
+    "description": "全球云厂商Top级MSP合作伙伴，专享政策与资源加持",
     "getStarted": "立即开始",
     "learnMore": "了解更多",
     "stats": {
@@ -72,24 +72,45 @@
     }
   },
   "features": {
-    "title": "最受欢迎的扩容技术",
+    "title": "战略咨询服务",
+    "description": "我们提供专业的战略咨询服务，帮助企业制定和实施云战略。",
     "learnMore": "了解更多",
     "items": {
-      "polygonPos": {
-        "title": "Polygon PoS",
-        "description": "支持最广泛使用的以太坊扩容生态系统，提供EVM兼容性和极致用户体验，实现快速交易和接近零的Gas费用。"
+      "businessStrategy": {
+        "title": "业务咨询/技术咨询",
+        "subtitle": "专业的业务分析和技术咨询服务，帮助企业明确数字化转型方向",
+        "description": "战略分析和产品定位，应用架构上云评估，IT架构规划和优化，敏捷开发，容器系统，调研分析客户需求",
+        "card1": "战略规划",
+        "card2": "架构评估",
+        "card3": "敏捷转型",
+        "card4": "需求分析"
       },
-      "polygonZkEvm": {
-        "title": "Polygon zkEVM",
-        "description": "在保持安全性的同时解锁以太坊可扩展性，首个提供EVM等效性的ZK-rollup，实现快速交易和接近零的Gas成本。"
+      "solutionDesign": {
+        "title": "解决方案设计",
+        "subtitle": "量身定制的云解决方案，满足企业特定业务需求和技术挑战",
+        "description": "云技术架构评估和规划设计，IT系统架构和集成方案，微服务架构解决方案",
+        "card1": "架构设计",
+        "card2": "系统集成",
+        "card3": "微服务方案",
+        "card4": "技术选型"
       },
-      "miden": {
-        "title": "Miden",
-        "description": "利用私有数据存储和本地交易执行的去中心化rollup。因为隐私能更好地扩展。"
+      "cloudPlanning": {
+        "title": "云端架构规划",
+        "subtitle": "全面的云架构规划，确保企业云基础设施的高效、安全和可扩展",
+        "description": "迁云评估和分析，基础架构规划设计，性能，稳定性，TCO分析，架构云端化设计",
+        "card1": "迁云评估",
+        "card2": "架构设计",
+        "card3": "性能优化",
+        "card4": "成本分析"
       },
-      "agglayerCdk": {
-        "title": "Agglayer CDK",
-        "description": "使用行业领先的ZK技术和生态系统构建以太坊Layer 2。"
+      "cloudMigration": {
+        "title": "云端迁移管理",
+        "subtitle": "专业的云迁移服务，确保业务系统平稳过渡到云环境",
+        "description": "建立云端迁移路线图，制定云端迁移方案，云上资源规划，云端迁移管理服务",
+        "card1": "迁移路线图",
+        "card2": "迁移方案",
+        "card3": "资源规划",
+        "card4": "迁移管理"
       }
     }
   },
@@ -769,6 +790,19 @@
       "enterpriseProtection": "企业级安全防护",
       "continuousImprovement": "持续优化",
       "longTermValue": "长期价值提升"
+    }
+  },
+  "technicalServices": {
+    "hero": {
+      "advanced_tech_services": "高级技术服务",
+      "cloud_technology": "云技术",
+      "professional_services": "专业服务",
+      "cloud_native_description": "基于前沿云原生技术栈，提供企业级云技术实施与优化服务， 助力企业构建高性能、高可用的现代化IT架构。",
+      "system_availability": "系统可用性",
+      "deployment_efficiency": "部署效率提升",
+      "cost_optimization": "成本优化",
+      "start_consultation": "开始咨询",
+      "technical_architecture": "技术架构"
     }
   }
 }

@@ -32,7 +32,7 @@
         </h2>
         <div class="subtitle-container">
           <div class="subtitle-line"></div>
-          <p class="premium-subtitle">与全球顶尖科技巨头建立战略合作关系</p>
+          <p class="premium-subtitle">与全球顶尖科技厂商建立战略合作关系</p>
           <div class="subtitle-line"></div>
         </div>
       </div>

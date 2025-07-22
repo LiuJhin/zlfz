@@ -72,24 +72,25 @@
     }
   },
   "features": {
-    "title": "Most Popular Scaling Technologies",
+    "title": "Strategic Consulting Services",
+    "description": "We provide professional strategic consulting services to help enterprises formulate and implement cloud strategies.",
     "learnMore": "Learn More",
     "items": {
-      "polygonPos": {
-        "title": "Polygon PoS",
-        "description": "Supports the most widely used Ethereum scaling ecosystem, providing EVM compatibility and ultimate user experience with fast transactions and near-zero Gas fees."
+      "businessStrategy": {
+        "title": "Business/Technical Consulting",
+        "description": "Strategic analysis and product positioning, application architecture cloud assessment, IT architecture planning and optimization, agile development, container systems, research and analysis of customer needs"
       },
-      "polygonZkEvm": {
-        "title": "Polygon zkEVM",
-        "description": "Unlocks Ethereum scalability while maintaining security. The first ZK-rollup offering EVM equivalence, enabling fast transactions and near-zero Gas costs."
+      "solutionDesign": {
+        "title": "Solution Design",
+        "description": "Cloud technology architecture assessment and planning design, IT system architecture and integration solutions, microservice architecture solutions"
       },
-      "miden": {
-        "title": "Miden",
-        "description": "A decentralized rollup leveraging private data storage and local transaction execution. Scaling better with privacy."
+      "cloudPlanning": {
+        "title": "Cloud Architecture Planning",
+        "description": "Cloud migration assessment and analysis, infrastructure planning design, performance, stability, TCO analysis, cloud architecture design"
       },
-      "agglayerCdk": {
-        "title": "Agglayer CDK",
-        "description": "Build Ethereum Layer 2 using industry-leading ZK technology and ecosystems."
+      "cloudMigration": {
+        "title": "Cloud Migration Management",
+        "description": "Establish cloud migration roadmap, develop cloud migration solutions, cloud resource planning, cloud migration management services"
       }
     }
   },
@@ -771,6 +772,18 @@
       "longTermValue": "Long-Term Value Enhancement"
     }
 
+  },
+  "technicalServices": {
+    "hero": {
+      "advanced_tech_services": "Advanced Technical Services",
+      "cloud_technology": "Cloud Technology",
+      "professional_services": "Professional Services",
+      "cloud_native_description": "Leveraging cutting-edge cloud-native technologies, we provide enterprise-level cloud implementation and optimization services to help businesses build high-performance, highly available modern IT architectures.",
+      "system_availability": "System Availability",
+      "deployment_efficiency": "Deployment Efficiency",
+      "cost_optimization": "Cost Optimization",
+      "start_consultation": "Start Consultation",
+      "technical_architecture": "Technical Architecture"
+    }
   }
-
 }
