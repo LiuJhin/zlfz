@@ -828,10 +828,16 @@
                 stroke-width="2"
               />
             </svg>
-            <span class="badge-text">{{$t("strategyConsulting.caseStudiesSection.caseStudies")}}</span>
+            <span class="badge-text">{{
+              $t("strategyConsulting.caseStudiesSection.caseStudies")
+            }}</span>
           </div>
-          <h2 class="gradient-heading">{{$t("strategyConsulting.caseStudiesSection.customerSuccessCases")}}</h2>
-          <p>{{$t("strategyConsulting.caseStudiesSection.caseIntro")}}</p>
+          <h2 class="gradient-heading">
+            {{
+              $t("strategyConsulting.caseStudiesSection.customerSuccessCases")
+            }}
+          </h2>
+          <p>{{ $t("strategyConsulting.caseStudiesSection.caseIntro") }}</p>
         </div>
 
         <div class="cases-grid">
@@ -845,14 +851,24 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.caseStudies")}}</span>
+                  <span class="logo-text">{{
+                    $t("strategyConsulting.caseStudiesSection.caseStudies")
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.customerSuccessCases")}}</h3>
+                  <h3>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.customerSuccessCases"
+                      )
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >{{$t("strategyConsulting.caseStudiesSection.caseIntro")}}</span
+                    >{{
+                      $t("strategyConsulting.caseStudiesSection.caseIntro")
+                    }}</span
                   >
                 </div>
               </div>
@@ -861,14 +877,18 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">60%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.costSavings")}}</span>
+                <span class="result-label">{{
+                  $t("strategyConsulting.caseStudiesSection.costSavings")
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.financeTitle")}}</h4>
+              <h4>
+                {{ $t("strategyConsulting.caseStudiesSection.financeTitle") }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.financeContent")}}
-             </p>
+                {{ $t("strategyConsulting.caseStudiesSection.financeContent") }}
+              </p>
               <div class="case-highlights">
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -886,7 +906,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.systemPerformanceImproved")}}85%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.systemPerformanceImproved"
+                      )
+                    }}85%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -904,7 +930,11 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.securityLevelUpgraded")}}</span>
+                  <span>{{
+                    $t(
+                      "strategyConsulting.caseStudiesSection.securityLevelUpgraded"
+                    )
+                  }}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -922,7 +952,11 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.responseSpeedTripled")}}</span>
+                  <span>{{
+                    $t(
+                      "strategyConsulting.caseStudiesSection.responseSpeedTripled"
+                    )
+                  }}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -940,7 +974,9 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.certifiedByMLPS")}}</span>
+                  <span>{{
+                    $t("strategyConsulting.caseStudiesSection.certifiedByMLPS")
+                  }}</span>
                 </div>
               </div>
             </div>
@@ -956,14 +992,28 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.manufacturingGroup")}}</span>
+                  <span class="logo-text">{{
+                    $t(
+                      "strategyConsulting.caseStudiesSection.manufacturingGroup"
+                    )
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.manufacturingClient")}}</h3>
+                  <h3>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.manufacturingClient"
+                      )
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >{{$t("strategyConsulting.caseStudiesSection.manufacturingIndustry")}}</span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.manufacturingIndustry"
+                      )
+                    }}</span
                   >
                 </div>
               </div>
@@ -972,13 +1022,23 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">40%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.efficiencyImproved")}}</span>
+                <span class="result-label">{{
+                  $t("strategyConsulting.caseStudiesSection.efficiencyImproved")
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.manufacturingTitle")}}</h4>
+              <h4>
+                {{
+                  $t("strategyConsulting.caseStudiesSection.manufacturingTitle")
+                }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.manufacturingContent")}}
+                {{
+                  $t(
+                    "strategyConsulting.caseStudiesSection.manufacturingContent"
+                  )
+                }}
               </p>
               <div class="case-highlights">
                 <div
@@ -997,7 +1057,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.productionEfficiencyImproved")}}40%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.productionEfficiencyImproved"
+                      )
+                    }}40%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1015,7 +1081,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.inventoryTurnoverImproved")}}50%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.inventoryTurnoverImproved"
+                      )
+                    }}50%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1033,7 +1105,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.ProductQualityImprovement")}}30%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.ProductQualityImprovement"
+                      )
+                    }}30%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1051,7 +1129,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.energyConsumptionReduced")}}25%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.energyConsumptionReduced"
+                      )
+                    }}25%</span
+                  >
                 </div>
               </div>
             </div>
@@ -1067,14 +1151,22 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.retailGroup")}}</span>
+                  <span class="logo-text">{{
+                    $t("strategyConsulting.caseStudiesSection.retailGroup")
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.retailClient")}}</h3>
+                  <h3>
+                    {{
+                      $t("strategyConsulting.caseStudiesSection.retailClient")
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >{{$t("strategyConsulting.caseStudiesSection.retailIndustry")}}</span
+                    >{{
+                      $t("strategyConsulting.caseStudiesSection.retailIndustry")
+                    }}</span
                   >
                 </div>
               </div>
@@ -1083,13 +1175,17 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">200%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.businessGrowth")}}</span>
+                <span class="result-label">{{
+                  $t("strategyConsulting.caseStudiesSection.businessGrowth")
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.retailTitle")}}</h4>
+              <h4>
+                {{ $t("strategyConsulting.caseStudiesSection.retailTitle") }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.retailContent")}}
+                {{ $t("strategyConsulting.caseStudiesSection.retailContent") }}
               </p>
               <div class="case-highlights">
                 <div
@@ -1108,7 +1204,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.salesIncreased")}}200%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.salesIncreased"
+                      )
+                    }}200%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1126,7 +1228,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.customerSatisfactionImproved")}}45%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.customerSatisfactionImproved"
+                      )
+                    }}45%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1144,7 +1252,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.mobileConversionImproved")}}60%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.mobileConversionImproved"
+                      )
+                    }}60%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1162,7 +1276,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.inventoryTurnoverImprovedRetail")}}35%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.inventoryTurnoverImprovedRetail"
+                      )
+                    }}35%</span
+                  >
                 </div>
               </div>
             </div>
@@ -1178,14 +1298,26 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.4s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.healthcareGroup")}}</span>
+                  <span class="logo-text">{{
+                    $t("strategyConsulting.caseStudiesSection.healthcareGroup")
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.healthcareClient")}}</h3>
+                  <h3>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.healthcareClient"
+                      )
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.5s"
-                    >{{$t("strategyConsulting.caseStudiesSection.healthcareIndustry")}}</span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.healthcareIndustry"
+                      )
+                    }}</span
                   >
                 </div>
               </div>
@@ -1194,13 +1326,21 @@
                 style="animation-delay: 0.3s"
               >
                 <span class="result-value">99.9%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.systemAvailability")}}</span>
+                <span class="result-label">{{
+                  $t("strategyConsulting.caseStudiesSection.systemAvailability")
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.healthcareTitle")}}</h4>
+              <h4>
+                {{
+                  $t("strategyConsulting.caseStudiesSection.healthcareTitle")
+                }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.healthcareContent")}}
+                {{
+                  $t("strategyConsulting.caseStudiesSection.healthcareContent")
+                }}
               </p>
               <div class="case-highlights">
                 <div
@@ -1219,7 +1359,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.diagnosisEfficiencyImproved")}}50%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.diagnosisEfficiencyImproved"
+                      )
+                    }}50%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1237,7 +1383,9 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.dataSecurityAAA")}}</span>
+                  <span>{{
+                    $t("strategyConsulting.caseStudiesSection.dataSecurityAAA")
+                  }}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1255,7 +1403,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.telemedicineCoverage")}}90%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.telemedicineCoverage"
+                      )
+                    }}90%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1273,7 +1427,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.healthcareCostReduced")}}30%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.healthcareCostReduced"
+                      )
+                    }}30%</span
+                  >
                 </div>
               </div>
             </div>
@@ -1289,14 +1449,26 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.5s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.educationGroup")}}</span>
+                  <span class="logo-text">{{
+                    $t("strategyConsulting.caseStudiesSection.educationGroup")
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.educationClient")}}</h3>
+                  <h3>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.educationClient"
+                      )
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.6s"
-                    >{{$t("strategyConsulting.caseStudiesSection.educationIndustry")}}</span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.educationIndustry"
+                      )
+                    }}</span
                   >
                 </div>
               </div>
@@ -1305,13 +1477,19 @@
                 style="animation-delay: 0.4s"
               >
                 <span class="result-value">300%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.userGrowth")}}</span>
+                <span class="result-label">{{
+                  $t("strategyConsulting.caseStudiesSection.userGrowth")
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.educationTitle")}}</h4>
+              <h4>
+                {{ $t("strategyConsulting.caseStudiesSection.educationTitle") }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.educationContent")}}
+                {{
+                  $t("strategyConsulting.caseStudiesSection.educationContent")
+                }}
               </p>
               <div class="case-highlights">
                 <div
@@ -1330,7 +1508,15 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.concurrentUsers")}}100{{$t("strategyConsulting.caseStudiesSection.thousand")}}+</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.concurrentUsers"
+                      )
+                    }}100{{
+                      $t("strategyConsulting.caseStudiesSection.thousand")
+                    }}+</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1348,7 +1534,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.learningCompletionRate")}}80%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.learningCompletionRate"
+                      )
+                    }}80%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1366,7 +1558,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.systemResponseTime")}}<100ms</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.systemResponseTime"
+                      )
+                    }}<100ms</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1384,7 +1582,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.aiRecommendationAccuracy")}}95%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.aiRecommendationAccuracy"
+                      )
+                    }}95%</span
+                  >
                 </div>
               </div>
             </div>
@@ -1400,14 +1604,26 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.6s"
                 >
-                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.logisticsGroup")}}</span>
+                  <span class="logo-text">{{
+                    $t("strategyConsulting.caseStudiesSection.logisticsGroup")
+                  }}</span>
                 </div>
                 <div class="company-info">
-                  <h3>{{$t("strategyConsulting.caseStudiesSection.logisticsClient")}}</h3>
+                  <h3>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.logisticsClient"
+                      )
+                    }}
+                  </h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.7s"
-                    >{{$t("strategyConsulting.caseStudiesSection.logisticsIndustry")}}</span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.logisticsIndustry"
+                      )
+                    }}</span
                   >
                 </div>
               </div>
@@ -1416,13 +1632,21 @@
                 style="animation-delay: 0.5s"
               >
                 <span class="result-value">70%</span>
-                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.operationEfficiencyImproved")}}</span>
+                <span class="result-label">{{
+                  $t(
+                    "strategyConsulting.caseStudiesSection.operationEfficiencyImproved"
+                  )
+                }}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>{{$t("strategyConsulting.caseStudiesSection.logisticsTitle")}}</h4>
+              <h4>
+                {{ $t("strategyConsulting.caseStudiesSection.logisticsTitle") }}
+              </h4>
               <p>
-                {{$t("strategyConsulting.caseStudiesSection.logisticsContent")}}
+                {{
+                  $t("strategyConsulting.caseStudiesSection.logisticsContent")
+                }}
               </p>
               <div class="case-highlights">
                 <div
@@ -1441,7 +1665,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span> {{$t("strategyConsulting.caseStudiesSection.deliveryTimeImproved")}}40%</span>
+                  <span>
+                    {{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.deliveryTimeImproved"
+                      )
+                    }}40%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1459,7 +1689,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.transportationCostReduced")}}35%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.transportationCostReduced"
+                      )
+                    }}35%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1477,7 +1713,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.customerSatisfaction")}}98%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.customerSatisfaction"
+                      )
+                    }}98%</span
+                  >
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1495,7 +1737,13 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>{{$t("strategyConsulting.caseStudiesSection.carbonEmissionsReduced")}}20%</span>
+                  <span
+                    >{{
+                      $t(
+                        "strategyConsulting.caseStudiesSection.carbonEmissionsReduced"
+                      )
+                    }}20%</span
+                  >
                 </div>
               </div>
             </div>
@@ -1509,188 +1757,344 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-text">{{$t("strategyConsulting.technologySection.badgeText")}}</span>
+            <span class="badge-text">{{
+              $t("strategyConsulting.technologySection.badgeText")
+            }}</span>
           </div>
-          <h2 class="gradient-heading">{{$t("strategyConsulting.technologySection.gradientHeading")}}</h2>
-          <p>{{$t("strategyConsulting.technologySection.gradientContent")}}</p>
+          <h2 class="gradient-heading">
+            {{ $t("strategyConsulting.technologySection.gradientHeading") }}
+          </h2>
+          <p>
+            {{ $t("strategyConsulting.technologySection.gradientContent") }}
+          </p>
         </div>
 
         <div class="tech-grid">
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.techCategory")}}</h3>
+            <h3>
+              {{ $t("strategyConsulting.technologySection.techCategory") }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Kubernetes</h4>
-                  <p>{{$t("strategyConsulting.technologySection.techInfo")}}</p>
+                  <p>
+                    {{ $t("strategyConsulting.technologySection.techInfo") }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Docker</h4>
-                  <p>{{$t("strategyConsulting.technologySection.techInfoDK")}}</p>
+                  <p>
+                    {{ $t("strategyConsulting.technologySection.techInfoDK") }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Helm</h4>
-                  <p>Kubernetes{{$t("strategyConsulting.technologySection.helm")}}</p>
+                  <p>
+                    Kubernetes{{
+                      $t("strategyConsulting.technologySection.helm")
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Istio</h4>
-                  <p>{{$t("strategyConsulting.technologySection.Istio")}}</p>
+                  <p>{{ $t("strategyConsulting.technologySection.Istio") }}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.devOpsToolchain")}}</h3>
+            <h3>
+              {{ $t("strategyConsulting.technologySection.devOpsToolchain") }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Jenkins</h4>
-                  <p>{{$t("strategyConsulting.technologySection.ciCdPipeline")}}</p>
+                  <p>
+                    {{
+                      $t("strategyConsulting.technologySection.ciCdPipeline")
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>GitLab CI/CD</h4>
-                  <p>{{$t("strategyConsulting.technologySection.codeDeployIntegration")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.codeDeployIntegration"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Terraform</h4>
-                  <p>{{$t("strategyConsulting.technologySection.infrastructureAsCode")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.infrastructureAsCode"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Ansible</h4>
-                  <p>{{$t("strategyConsulting.technologySection.configAndAppAutomation")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.configAndAppAutomation"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.monitoringAndOps")}}</h3>
+            <h3>
+              {{ $t("strategyConsulting.technologySection.monitoringAndOps") }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Prometheus</h4>
-                  <p>{{$t("strategyConsulting.technologySection.cloudNativeMonitoring")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.cloudNativeMonitoring"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Grafana</h4>
-                  <p>{{$t("strategyConsulting.technologySection.dataVisualizationPlatform")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.dataVisualizationPlatform"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>ELK Stack</h4>
-                  <p>{{$t("strategyConsulting.technologySection.logAnalysisSolution")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.logAnalysisSolution"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Jaeger</h4>
-                  <p>{{$t("strategyConsulting.technologySection.distributedTracing")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.distributedTracing"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.cloudPlatforms")}}</h3>
+            <h3>
+              {{ $t("strategyConsulting.technologySection.cloudPlatforms") }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>AWS</h4>
-                  <p>{{$t("strategyConsulting.technologySection.awsCloud")}}</p>
+                  <p>
+                    {{ $t("strategyConsulting.technologySection.awsCloud") }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Microsoft Azure</h4>
-                  <p>{{$t("strategyConsulting.technologySection.azureCloud")}}</p>
+                  <p>
+                    {{ $t("strategyConsulting.technologySection.azureCloud") }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.aliyun")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.aliyunDescription")}}</p>
+                  <h4>
+                    {{ $t("strategyConsulting.technologySection.aliyun") }}
+                  </h4>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.aliyunDescription"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.tencentCloud")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.tencentCloudDescription")}}</p>
+                  <h4>
+                    {{
+                      $t("strategyConsulting.technologySection.tencentCloud")
+                    }}
+                  </h4>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.tencentCloudDescription"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.bigDataAndAI")}}</h3>
+            <h3>
+              {{ $t("strategyConsulting.technologySection.bigDataAndAI") }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Apache Spark</h4>
-                  <p>{{$t("strategyConsulting.technologySection.bigDataEngines")}}</p>
+                  <p>
+                    {{
+                      $t("strategyConsulting.technologySection.bigDataEngines")
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Apache Kafka</h4>
-                  <p>{{$t("strategyConsulting.technologySection.streamProcessing")}}</p>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.streamProcessing"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>TensorFlow</h4>
-                  <p>{{$t("strategyConsulting.technologySection.mlFrameworks")}}</p>
+                  <p>
+                    {{
+                      $t("strategyConsulting.technologySection.mlFrameworks")
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Elasticsearch</h4>
-                  <p>{{$t("strategyConsulting.technologySection.searchAnalytics")}}</p>
+                  <p>
+                    {{
+                      $t("strategyConsulting.technologySection.searchAnalytics")
+                    }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>{{$t("strategyConsulting.technologySection.securityAndCompliance")}}</h3>
+            <h3>
+              {{
+                $t("strategyConsulting.technologySection.securityAndCompliance")
+              }}
+            </h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.zeroTrustArchitecture")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.identityBasedSecurity")}}</p>
+                  <h4>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.zeroTrustArchitecture"
+                      )
+                    }}
+                  </h4>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.identityBasedSecurity"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.endToEndEncryption")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.dataEncryption")}}</p>
+                  <h4>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.endToEndEncryption"
+                      )
+                    }}
+                  </h4>
+                  <p>
+                    {{
+                      $t("strategyConsulting.technologySection.dataEncryption")
+                    }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.identityAccessManagement")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.unifiedIAM")}}</p>
+                  <h4>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.identityAccessManagement"
+                      )
+                    }}
+                  </h4>
+                  <p>
+                    {{ $t("strategyConsulting.technologySection.unifiedIAM") }}
+                  </p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>{{$t("strategyConsulting.technologySection.complianceAuditing")}}</h4>
-                  <p>{{$t("strategyConsulting.technologySection.complianceStandards")}}</p>
+                  <h4>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.complianceAuditing"
+                      )
+                    }}
+                  </h4>
+                  <p>
+                    {{
+                      $t(
+                        "strategyConsulting.technologySection.complianceStandards"
+                      )
+                    }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -1878,10 +2282,14 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-text">解疑解惑</span>
+            <span class="badge-text">{{
+              $t("strategyConsulting.FAQ.faqSectionTitle")
+            }}</span>
           </div>
-          <h2 class="gradient-heading">常见问题解答</h2>
-          <p>解答您在云战略规划过程中的疑问</p>
+          <h2 class="gradient-heading">
+            {{ $t("strategyConsulting.FAQ.faqHeader") }}
+          </h2>
+          <p>{{ $t("strategyConsulting.FAQ.faqSubheading") }}</p>
         </div>
 
         <div class="faq-container">
@@ -1921,7 +2329,9 @@
               <div class="answer-content">
                 <p>{{ faq.answer }}</p>
                 <div v-if="faq.additionalInfo" class="additional-info">
-                  <div class="info-tag">延伸阅读</div>
+                  <div class="info-tag">
+                    {{ $t("strategyConsulting.FAQ.extendedReading") }}
+                  </div>
                   <p>{{ faq.additionalInfo }}</p>
                 </div>
               </div>
@@ -1930,9 +2340,9 @@
         </div>
 
         <div class="faq-more-help">
-          <p>还有其他问题？</p>
+          <p>{{ $t("strategyConsulting.FAQ.moreQuestionsPrompt") }}</p>
           <a href="/contact" class="btn-outline">
-            <span>联系我们获取更多帮助</span>
+            <span>{{ $t("strategyConsulting.FAQ.contactUsPrompt") }}</span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
               <path
                 d="M5 12h14M19 12l-7-7m7 7l-7 7"
@@ -1966,14 +2376,13 @@
                 />
               </svg>
             </div>
-            <h2>开启您的云战略转型之旅</h2>
+            <h2>{{ $t("strategyConsulting.FAQ.ctaTitle") }}</h2>
             <p>
-              与我们的专家团队合作，制定适合您企业的云战略规划，
-              加速数字化转型，抢占市场先机。
+              {{ $t("strategyConsulting.FAQ.ctaDescription") }}
             </p>
             <div class="cta-actions">
               <a href="/contact" class="btn-primary">
-                <span>立即咨询</span>
+                <span>{{ $t("strategyConsulting.FAQ.ctaButton") }}</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M5 12H19M19 12L12 5M19 12L12 19"
@@ -1983,7 +2392,7 @@
                 </svg>
               </a>
               <a href="#case-studies" class="btn-secondary">
-                <span>成功案例</span>
+                <span>{{ $t("strategyConsulting.FAQ.SuccessStories") }}</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M15 3H21V9M9 21H3V15M21 3L14 10M3 21L10 14"
@@ -1998,27 +2407,74 @@
           <div class="cta-benefits">
             <div class="benefit-grid">
               <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M15 9L9 15M9 9L15 15"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
                 <div class="benefit-text">
-                  <h4>精准定位</h4>
-                  <p>量身定制的战略方案</p>
+                  <h4>{{ $t("strategyConsulting.FAQ.valuePositioning") }}</h4>
+                  <p>{{ $t("strategyConsulting.FAQ.tailoredStrategy") }}</p>
                 </div>
               </div>
               <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
                 <div class="benefit-text">
-                  <h4>快速响应</h4>
-                  <p>7x24小时专家支持</p>
+                  <h4>{{ $t("strategyConsulting.FAQ.fastResponse") }}</h4>
+                  <p>{{ $t("strategyConsulting.FAQ.supportAvailability") }}</p>
                 </div>
               </div>
               <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M12 8V12M12 16H12.01"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
                 <div class="benefit-text">
-                  <h4>安全保障</h4>
-                  <p>企业级安全防护</p>
+                  <h4>{{ $t("strategyConsulting.FAQ.securityAssurance") }}</h4>
+                  <p>{{ $t("strategyConsulting.FAQ.enterpriseProtection") }}</p>
                 </div>
               </div>
               <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M16 3H21V8M16 21H21V16M3 8V3H8M3 16V21H8"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
                 <div class="benefit-text">
-                  <h4>持续优化</h4>
-                  <p>长期价值提升</p>
+                  <h4>{{ $t("strategyConsulting.FAQ.continuousImprovement") }}</h4>
+                  <p>{{ $t("strategyConsulting.FAQ.longTermValue") }}</p>
                 </div>
               </div>
             </div>
@@ -2061,90 +2517,98 @@ useHead({
 const processSteps = [
   {
     title: t("strategyConsulting.processSection.processSteps.one.title"),
-    description: t("strategyConsulting.processSection.processSteps.one.description"),
-    details: [ t("strategyConsulting.processSection.processSteps.one.detailsA"),  t("strategyConsulting.processSection.processSteps.one.detailsB"),  t("strategyConsulting.processSection.processSteps.one.detailsC")],
+    description: t(
+      "strategyConsulting.processSection.processSteps.one.description"
+    ),
+    details: [
+      t("strategyConsulting.processSection.processSteps.one.detailsA"),
+      t("strategyConsulting.processSection.processSteps.one.detailsB"),
+      t("strategyConsulting.processSection.processSteps.one.detailsC"),
+    ],
   },
   {
     title: t("strategyConsulting.processSection.processSteps.two.title"),
-    description: t("strategyConsulting.processSection.processSteps.two.description"),
-    details: [t("strategyConsulting.processSection.processSteps.two.detailsA"), t("strategyConsulting.processSection.processSteps.two.detailsB"), t("strategyConsulting.processSection.processSteps.two.detailsC")],
+    description: t(
+      "strategyConsulting.processSection.processSteps.two.description"
+    ),
+    details: [
+      t("strategyConsulting.processSection.processSteps.two.detailsA"),
+      t("strategyConsulting.processSection.processSteps.two.detailsB"),
+      t("strategyConsulting.processSection.processSteps.two.detailsC"),
+    ],
   },
   {
     title: t("strategyConsulting.processSection.processSteps.three.title"),
-    description: t("strategyConsulting.processSection.processSteps.three.description"),
-    details: [t("strategyConsulting.processSection.processSteps.three.detailsA"), t("strategyConsulting.processSection.processSteps.three.detailsB"), t("strategyConsulting.processSection.processSteps.three.detailsC")],
+    description: t(
+      "strategyConsulting.processSection.processSteps.three.description"
+    ),
+    details: [
+      t("strategyConsulting.processSection.processSteps.three.detailsA"),
+      t("strategyConsulting.processSection.processSteps.three.detailsB"),
+      t("strategyConsulting.processSection.processSteps.three.detailsC"),
+    ],
   },
   {
     title: t("strategyConsulting.processSection.processSteps.four.title"),
-    description: t("strategyConsulting.processSection.processSteps.four.description"),
-    details: [t("strategyConsulting.processSection.processSteps.four.detailsA"), t("strategyConsulting.processSection.processSteps.four.detailsB"), t("strategyConsulting.processSection.processSteps.four.detailsC")],
+    description: t(
+      "strategyConsulting.processSection.processSteps.four.description"
+    ),
+    details: [
+      t("strategyConsulting.processSection.processSteps.four.detailsA"),
+      t("strategyConsulting.processSection.processSteps.four.detailsB"),
+      t("strategyConsulting.processSection.processSteps.four.detailsC"),
+    ],
   },
 ];
 
 // FAQ数据
 const faqList = ref([
   {
-    question: "云战略咨询服务包含哪些内容？",
-    answer:
-      "我们的云战略咨询服务包括现状评估、需求分析、架构设计、迁移规划、安全合规、成本优化、人员培训等全方位服务，为企业提供从规划到实施的完整解决方案。我们会根据企业的具体情况，定制专属的云战略规划，确保云转型的顺利进行。",
-    additionalInfo:
-      "我们的咨询团队平均拥有10年以上云计算领域经验，曾服务于金融、制造、零售、医疗等多个行业的头部企业，具备丰富的实战经验和行业洞察力。",
+    question: t("strategyConsulting.FAQ.faqList.questionA"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerA"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoA"),
     isOpen: false,
   },
   {
-    question: "云化转型需要多长时间？",
-    answer:
-      "云化转型的时间因企业规模和复杂度而异。一般来说，中小企业需要3-6个月，大型企业可能需要6-18个月。我们会根据您的具体情况制定详细的时间规划，并提供分阶段实施方案，确保业务连续性的同时，逐步完成云化转型。",
-    additionalInfo:
-      "我们采用敏捷方法论，将大型转型项目拆分为多个小型迭代，每2-4周交付一个可用的成果，让您能够更快地看到云转型带来的价值。",
+    question: t("strategyConsulting.FAQ.faqList.questionB"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerB"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoC"),
     isOpen: false,
   },
   {
-    question: "如何保证数据安全和合规性？",
-    answer:
-      "我们严格遵循国际安全标准和行业最佳实践，提供多层次的安全防护体系，包括数据加密、访问控制、审计日志等，确保满足各行业的合规要求。我们的安全团队会定期进行安全评估和渗透测试，及时发现并修复潜在的安全风险。",
-    additionalInfo:
-      "我们的安全解决方案符合ISO 27001、GDPR、等保2.0、SOC 2等多项国内外安全标准和法规要求，可以帮助企业轻松应对各类合规审计。",
+    question: t("strategyConsulting.FAQ.faqList.questionC"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerC"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoC"),
     isOpen: false,
   },
   {
-    question: "云化后的成本如何控制？",
-    answer:
-      "我们提供专业的成本优化建议，包括资源右配、预留实例、自动伸缩等策略，通常可以帮助企业节省30-60%的IT成本，同时提升系统性能和可靠性。我们还会定期进行成本审计，确保您的云资源使用始终处于最优状态。",
-    additionalInfo:
-      "我们开发了专有的云成本分析工具，可以精确到每个业务部门、每个应用的成本分摊，帮助企业实现精细化的成本管理和预算控制。",
+    question: t("strategyConsulting.FAQ.faqList.questionD"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerD"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoD"),
     isOpen: false,
   },
   {
-    question: "是否提供后续的技术支持？",
-    answer:
-      "是的，我们提供7x24小时的技术支持服务，包括系统监控、故障处理、性能优化、安全更新等，确保您的云环境稳定高效运行。我们的支持团队平均响应时间不超过15分钟，关键问题解决时间不超过2小时。",
-    additionalInfo:
-      "我们采用多级支持模式，一线支持解决常见问题，二线支持处理复杂技术问题，三线支持由架构师和专家团队提供顶级技术支持，确保各类问题都能得到及时有效的解决。",
+    question: t("strategyConsulting.FAQ.faqList.questionE"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerE"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoE"),
     isOpen: false,
   },
   {
-    question: "如何评估企业是否适合上云？",
-    answer:
-      "我们会从业务需求、技术架构、成本效益、安全合规等多个维度进行全面评估，为企业提供客观的上云建议。评估过程包括现状调研、需求分析、技术评估、风险分析、成本测算等环节，最终形成详细的评估报告和上云建议。",
-    additionalInfo:
-      "我们开发了专有的云就绪度评估模型，包含超过200个评估指标，覆盖技术、流程、组织、安全等各个方面，可以帮助企业全面了解自身的云就绪度状况。",
+    question: t("strategyConsulting.FAQ.faqList.questionF"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerF"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoF"),
     isOpen: false,
   },
   {
-    question: "如何选择合适的云服务提供商？",
-    answer:
-      "选择云服务提供商需要考虑服务类型、性能稳定性、安全合规、成本效益、技术支持等多个因素。我们会根据企业的具体需求，对比分析各大云服务提供商的优劣势，帮助企业选择最适合的云服务提供商和服务类型。",
-    additionalInfo:
-      "我们与AWS、Azure、阿里云、腾讯云等主流云服务提供商保持紧密合作，拥有丰富的多云实施经验，可以为企业提供客观公正的选型建议。",
+    question: t("strategyConsulting.FAQ.faqList.questionG"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerG"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoG"),
     isOpen: false,
   },
   {
-    question: "混合云和多云策略有什么区别？",
-    answer:
-      "混合云是指同时使用私有云和公有云，并在两者之间实现无缝集成和数据流动；多云策略是指同时使用多个公有云服务提供商的服务。混合云适合对数据安全和合规有高要求的企业，多云策略则适合需要利用不同云服务提供商优势的企业。",
-    additionalInfo:
-      "根据Gartner的调研，到2025年，超过90%的企业将采用混合云或多云策略。我们可以帮助企业设计和实施最适合自身需求的混合云或多云架构。",
+    question: t("strategyConsulting.FAQ.faqList.questionH"),
+    answer:  t("strategyConsulting.FAQ.faqList.answerH"),
+    additionalInfo: t("strategyConsulting.FAQ.faqList.additionalInfoH"),
     isOpen: false,
   },
 ]);
@@ -4142,6 +4606,40 @@ onUnmounted(() => {
     var(--primary-color-dark)
   );
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle at 20% 30%,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.cta-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle at 80% 80%,
+    rgba(0, 0, 0, 0.1) 0%,
+    transparent 70%
+  );
+  opacity: 0.4;
+  z-index: 1;
 }
 
 .cta-wrapper {
@@ -4151,22 +4649,47 @@ onUnmounted(() => {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .cta-content {
   text-align: left;
+  position: relative;
 }
 
 .cta-icon {
   width: 80px;
   height: 80px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
   color: white;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cta-icon::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(15px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.cta-content:hover .cta-icon {
+  transform: scale(1.05) rotate(5deg);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .cta-content h2 {
@@ -4174,6 +4697,20 @@ onUnmounted(() => {
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
 }
 
 .cta-content p {
@@ -4181,31 +4718,80 @@ onUnmounted(() => {
   line-height: 1.6;
   margin-bottom: 30px;
   opacity: 0.9;
+  max-width: 90%;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .cta-actions {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
 }
 
 .cta-actions .btn-primary {
   background: white;
   color: var(--primary-color);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-actions .btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: all 0.6s ease;
 }
 
 .cta-actions .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cta-actions .btn-primary:hover::before {
+  left: 100%;
 }
 
 .cta-actions .btn-secondary {
   background: rgba(255, 255, 255, 0.1);
   color: white;
-  border-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .cta-actions .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .cta-benefits {
@@ -4219,6 +4805,20 @@ onUnmounted(() => {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   width: 100%;
+  position: relative;
+  z-index: 2;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .benefit-item {
@@ -4229,22 +4829,56 @@ onUnmounted(() => {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.benefit-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .benefit-icon {
-  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover .benefit-icon {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .benefit-text h4 {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 2px;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .benefit-text p {
   font-size: 0.8rem;
   opacity: 0.8;
   margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover .benefit-text h4 {
+  transform: translateX(2px);
+}
+
+.benefit-item:hover .benefit-text p {
+  opacity: 1;
 }
 
 /* Responsive Design */
@@ -4302,6 +4936,28 @@ onUnmounted(() => {
   .benefit-grid {
     grid-template-columns: 1fr;
   }
+
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .cta-content p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cta-actions .btn-primary,
+  .cta-actions .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* 其他响应式样式 */
 
   .case-card {
     padding: 30px 25px;

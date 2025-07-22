@@ -719,6 +719,56 @@
       "unifiedIAM": "Unified identity management and access control",
       "complianceAuditing": "Compliance auditing",
       "complianceStandards": "Meets requirements such as MLPS, SOX, and GDPR"
+    },
+    "FAQ": {
+      "faqSectionTitle": "Q&A",
+      "faqHeader": "Frequently Asked Questions",
+      "faqSubheading": "Answering your questions during cloud strategy planning",
+      "extendedReading": "Further Reading",
+      "moreQuestionsPrompt": "Still have questions?",
+      "contactUsPrompt": "Contact us for further assistance",
+      "ctaTitle": "Start your cloud transformation journey",
+      "faqList": {
+        "questionA": "What is included in your cloud strategy consulting services?",
+        "answerA": "Our cloud strategy consulting includes current state assessment, needs analysis, architecture design, migration planning, security and compliance, cost optimization, and talent enablement. We tailor strategies for each enterprise to ensure a smooth transition to the cloud.",
+        "additionalInfoA": "Our consulting team averages over 10 years of experience in cloud technologies, with successful projects across finance, manufacturing, retail, and healthcare industries.",
+
+        "questionB": "How long does a typical cloud migration take?",
+        "answerB": "The timeline depends on the size and complexity of your systems. For small to mid-sized businesses, it usually takes 3–6 months. For large enterprises, it can take 6–18 months. We use phased execution plans to ensure business continuity.",
+        "additionalInfoB": "We adopt agile methodologies to break large projects into sprints (typically 2–4 weeks), delivering incremental value and visibility throughout the migration process.",
+
+        "questionC": "How do you ensure data security and compliance during migration?",
+        "answerC": "We follow industry best practices and international security standards, implementing encryption, access controls, and audit logs. Regular assessments and penetration tests are conducted to proactively identify and mitigate risks.",
+        "additionalInfoC": "Our security solutions are compliant with ISO 27001, GDPR, MLPS 2.0, and SOC 2. We help customers pass compliance audits with minimal effort.",
+
+        "questionD": "How do you help control cloud costs after migration?",
+        "answerD": "We implement strategies like resource optimization, reserved instances, and auto-scaling to reduce cloud costs by 30–60% on average, while improving system performance. Regular cost reviews help maintain efficiency.",
+        "additionalInfoD": "Our proprietary cost analysis tools allow detailed cost breakdowns by department or application, aiding in budgeting and accountability.",
+
+        "questionE": "Do you offer technical support after migration?",
+        "answerE": "Yes. We provide 24/7 technical support, including system monitoring, incident response, performance tuning, and security patching. Our average response time is under 15 minutes, and critical issues are resolved within 2 hours.",
+        "additionalInfoE": "We offer a multi-tiered support structure: Tier 1 handles basic issues, Tier 2 addresses technical challenges, and Tier 3 involves senior architects for complex scenarios.",
+
+        "questionF": "How do I know if my company is ready for cloud adoption?",
+        "answerF": "We assess your business needs, technical architecture, cost structure, security, and compliance posture to determine cloud readiness. We deliver a tailored report covering analysis, risk evaluation, and cost modeling.",
+        "additionalInfoF": "We use our proprietary Cloud Readiness Assessment Model, which evaluates over 200 indicators across technology, processes, organization, and security.",
+
+        "questionG": "Which cloud provider should I choose?",
+        "answerG": "We evaluate cloud providers based on services, stability, security, compliance, cost-efficiency, and support. We provide objective comparisons and help you choose the right provider for your business.",
+        "additionalInfoG": "We work closely with AWS, Azure, Alibaba Cloud, and Tencent Cloud, and have extensive experience in multi-cloud deployments to offer unbiased guidance.",
+
+        "questionH": "What’s the difference between hybrid cloud and multi-cloud strategies?",
+        "answerH": "Hybrid cloud combines private and public cloud environments with seamless integration. Multi-cloud involves using multiple public cloud providers in parallel. Hybrid is best for data-sensitive or regulated workloads; multi-cloud offers flexibility and avoids vendor lock-in.",
+        "additionalInfoH": "According to Gartner, over 90% of enterprises will adopt hybrid or multi-cloud strategies by 2025. We help design and implement the optimal approach for your needs."
+      },
+      "valuePositioning": "Precise Positioning",
+      "tailoredStrategy": "Customized Strategic Planning",
+      "fastResponse": "Rapid Response",
+      "supportAvailability": "24/7 Expert Support",
+      "securityAssurance": "Security Assurance",
+      "enterpriseProtection": "Enterprise-Grade Security Protection",
+      "continuousImprovement": "Continuous Optimization",
+      "longTermValue": "Long-Term Value Enhancement"
     }
 
   }
