@@ -569,7 +569,158 @@
     "processSection": {
       "badgeText": "サービスプロセス",
       "title": "標準化されたコンサルティングプロセス",
-      "subtitle": "確立された方法論を活用し、高品質なプロジェクトの提供を実現"
+      "subtitle": "確立された方法論を活用し、高品質なプロジェクトの提供を実現",
+      "processSteps": {
+        "one": {
+          "title": "ニーズ調査と分析",
+          "description": "企業の業務ニーズ、技術現状、発展目標を深く理解",
+          "detailsA": "業務プロセス整理",
+          "detailsB": "技術アーキテクチャ評価",
+          "detailsC": "課題の特定"
+        },
+        "two": {
+          "title": "現状の包括的評価",
+          "description": "既存のITインフラ、アプリケーション、データアーキテクチャを評価",
+          "detailsA": "インフラ監査",
+          "detailsB": "アプリケーション分析",
+          "detailsC": "データアーキテクチャ評価"
+        },
+        "three": {
+          "title": "戦略策定",
+          "description": "詳細なクラウド戦略と実施ロードマップを策定",
+          "detailsA": "戦略目標の設定",
+          "detailsB": "技術ロードマップの設計",
+          "detailsC": "実施計画の作成"
+        },
+        "four": {
+          "title": "ソリューションの提供と実施",
+          "description": "コンサルティングレポートと導入支援を提供",
+          "detailsA": "詳細レポートの提出",
+          "detailsB": "導入トレーニング",
+          "detailsC": "継続的なサポートサービス"
+        }
+      }
+
+    },
+    "caseStudiesSection": {
+      "caseStudies": "成功事例",
+      "customerSuccessCases": "顧客成功事例",
+      "caseIntro": "実際の事例が当社の専門力とサービス品質を証明します",
+
+      "financeGroup": "金融グループ",
+      "financeClient": "ある大手金融グループ",
+      "financeIndustry": "金融サービス",
+      "costSavings": "コスト削減",
+      "financeTitle": "包括的なクラウド変革戦略",
+      "financeContent": "コア業務システムの移行、データセンターの統合、セキュリティおよびコンプライアンスフレームワーク構築を含む完全なクラウド戦略を策定。200以上のアプリケーション、3,000万以上のユーザーに対応。",
+      "systemPerformanceImproved": "システム性能向上",
+      "securityLevelUpgraded": "セキュリティレベルが金融等級に向上",
+      "responseSpeedTripled": "業務応答速度が3倍に向上",
+      "certifiedByMLPS": "MLPS第3級認証取得",
+
+      "manufacturingGroup": "製造企業",
+      "manufacturingClient": "ある製造業のリーディング企業",
+      "manufacturingIndustry": "スマート製造",
+      "efficiencyImproved": "効率向上",
+      "manufacturingTitle": "スマート製造クラウドプラットフォーム構築",
+      "manufacturingContent": "生産・サプライチェーン・販売全体をカバーするスマート製造クラウドプラットフォームを構築し、データ駆動型のリーンマネジメントを実現。50以上の工場と10万台以上の設備を統合。",
+      "productionEfficiencyImproved": "生産効率向上",
+      "inventoryTurnoverImproved": "在庫回転率向上",
+      "productQualityImprovement":"製品品質の向上",
+      "energyConsumptionReduced": "エネルギー消費削減",
+
+      "retailGroup": "小売グループ",
+      "retailClient": "ある新小売グループ",
+      "retailIndustry": "新小売",
+      "businessGrowth": "ビジネス成長",
+      "retailTitle": "全チャネル統合デジタルプラットフォーム",
+      "retailContent": "オンラインとオフラインを統合した新小売プラットフォームを構築し、全チャネルでの顧客体験最適化と精密マーケティングを実現。5,000以上の店舗、2,000万人以上の会員をカバー。",
+      "salesIncreased": "売上増加",
+      "customerSatisfactionImproved": "顧客満足度向上",
+      "mobileConversionImproved": "モバイルコンバージョン率向上",
+      "inventoryTurnoverImprovedRetail": "在庫回転率向上",
+
+      "healthcareGroup": "医療グループ",
+      "healthcareClient": "ある大手医療グループ",
+      "healthcareIndustry": "医療・ヘルスケア",
+      "systemAvailability": "システム可用性",
+      "healthcareTitle": "医療クラウドプラットフォーム構築",
+      "healthcareContent": "安全で信頼性の高い医療クラウドプラットフォームを構築し、医療データの統一管理とインテリジェント分析を実現。300以上の病院と1,000万人以上の患者を接続。",
+      "diagnosisEfficiencyImproved": "診療効率向上",
+      "dataSecurityAAA": "データセキュリティAAA等級",
+      "telemedicineCoverage": "遠隔医療カバレッジ向上",
+      "healthcareCostReduced": "医療コスト削減",
+
+      "educationGroup": "教育グループ",
+      "educationClient": "ある有名教育グループ",
+      "educationIndustry": "オンライン教育",
+      "userGrowth": "ユーザー増加",
+      "educationTitle": "オンライン教育クラウドプラットフォーム",
+      "educationContent": "大規模同時接続とパーソナライズされた学習体験をサポートするスマートオンライン教育プラットフォームを構築。500万人以上の学習者、50カ国以上に対応。",
+      "concurrentUsers": "同時接続ユーザー数",
+      "learningCompletionRate": "学習完了率向上",
+      "thousand":"万",
+      "systemResponseTime": "システム応答時間改善",
+      "aiRecommendationAccuracy": "AI推薦精度向上",
+
+      "logisticsGroup": "物流企業",
+      "logisticsClient": "ある国際物流企業",
+      "logisticsIndustry": "スマート物流",
+      "operationEfficiencyImproved": "運営効率向上",
+      "logisticsTitle": "スマート物流クラウドプラットフォーム",
+      "logisticsContent": "グローバルなスマート物流クラウドプラットフォームを構築し、サプライチェーンの可視化とインテリジェントな配送管理を実現。200以上の都市、10万台以上の車両を管理。",
+      "deliveryTimeImproved": "配送時間短縮",
+      "transportationCostReduced": "輸送コスト削減",
+      "customerSatisfaction": "顧客満足度",
+      "carbonEmissionsReduced": "二酸化炭素排出量削減"
+    },
+    "technologySection": {
+      "badgeText": "技術的優位性",
+      "gradientHeading": "先進的な技術力",
+      "gradientContent": "最先端の技術スタックに基づいたエンタープライズ向けクラウド戦略ソリューションを提供",
+
+      "techCategory": "クラウドネイティブ技術",
+      "techInfo": "コンテナのオーケストレーションと管理、大規模クラスターのデプロイに対応",
+      "techInfoDK": "アプリケーションのコンテナ化で、デプロイの効率と一貫性を向上",
+      "helm": "アプリケーションパッケージ管理ツール",
+      "Istio": "サービスメッシュによるマイクロサービス間の通信管理",
+
+      "devOpsToolchain": "DevOpsツールチェーン",
+      "ciCdPipeline": "CI/CDパイプラインによる自動化されたビルドとデプロイ",
+      "codeDeployIntegration": "コード管理と自動デプロイの統合",
+      "infrastructureAsCode": "IaC（Infrastructure as Code）、クラウドリソースの自動管理",
+      "configAndAppAutomation": "構成管理とアプリケーションデプロイの自動化",
+
+      "monitoringAndOps": "監視と運用",
+      "cloudNativeMonitoring": "クラウドネイティブな監視システム、リアルタイムメトリクス収集",
+      "dataVisualizationPlatform": "データ可視化プラットフォーム、豊富なダッシュボード",
+      "logAnalysisSolution": "ログ収集、分析、可視化ソリューション",
+      "distributedTracing": "分散トレースによるパフォーマンス解析",
+
+      "cloudPlatforms": "クラウドプラットフォームサービス",
+      "awsCloud": "Amazon Web Services、世界をリードするクラウドプラットフォーム",
+      "azureCloud": "Microsoft Azure、エンタープライズ向けハイブリッドクラウドソリューション",
+      "aliyun": "アリババクラウド",
+      "aliyunDescription": "先進的なクラウドコンピューティングサービスプロバイダー",
+      "tencentCloud": "テンセントクラウド",
+      "tencentCloudDescription": "ゲームやソーシャル分野に強みを持つクラウドプラットフォーム",
+
+      "bigDataAndAI": "ビッグデータとAI",
+      "bigDataEngines": "バッチ処理とストリーム処理に対応するビッグデータ処理エンジン",
+      "streamProcessing": "分散ストリーム処理プラットフォーム、リアルタイムデータパイプライン",
+      "mlFrameworks": "機械学習フレームワーク、AIモデルのトレーニングとデプロイ",
+      "searchAnalytics": "分散検索・分析エンジン",
+
+      "securityAndCompliance": "セキュリティとコンプライアンス",
+      "zeroTrustArchitecture": "ゼロトラストアーキテクチャ",
+      "identityBasedSecurity": "アイデンティティベースのセキュリティモデル",
+      "endToEndEncryption": "エンドツーエンド暗号化",
+      "dataEncryption": "データ転送および保存時の完全な暗号化保護",
+      "identityAccessManagement": "ID認証（IAM）",
+      "unifiedIAM": "統合されたID管理とアクセス制御",
+      "complianceAuditing": "コンプライアンス監査",
+      "complianceStandards": "等級保護、SOX、GDPRなどのコンプライアンス要件に準拠"
     }
+
   }
 }

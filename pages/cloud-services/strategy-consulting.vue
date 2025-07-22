@@ -828,10 +828,10 @@
                 stroke-width="2"
               />
             </svg>
-            <span class="badge-text">成功案例</span>
+            <span class="badge-text">{{$t("strategyConsulting.caseStudiesSection.caseStudies")}}</span>
           </div>
-          <h2 class="gradient-heading">客户成功案例</h2>
-          <p>真实案例见证我们的专业实力和服务质量</p>
+          <h2 class="gradient-heading">{{$t("strategyConsulting.caseStudiesSection.customerSuccessCases")}}</h2>
+          <p>{{$t("strategyConsulting.caseStudiesSection.caseIntro")}}</p>
         </div>
 
         <div class="cases-grid">
@@ -845,14 +845,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">金融集团</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.caseStudies")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某大型金融集团</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.customerSuccessCases")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >金融服务</span
+                    >{{$t("strategyConsulting.caseStudiesSection.caseIntro")}}</span
                   >
                 </div>
               </div>
@@ -861,14 +861,14 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">60%</span>
-                <span class="result-label">成本节省</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.costSavings")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>全面云化转型战略</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.financeTitle")}}</h4>
               <p>
-                为该金融集团制定了完整的云化转型战略，包括核心业务系统迁移、数据中心整合和安全合规框架建设。项目涉及200+应用系统，服务3000万+用户。
-              </p>
+                {{$t("strategyConsulting.caseStudiesSection.financeContent")}}
+             </p>
               <div class="case-highlights">
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -886,7 +886,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>系统性能提升85%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.systemPerformanceImproved")}}85%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -904,7 +904,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>安全等级提升至金融级</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.securityLevelUpgraded")}}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -922,7 +922,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>业务响应速度提升3倍</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.responseSpeedTripled")}}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -940,7 +940,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>通过等保三级认证</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.certifiedByMLPS")}}</span>
                 </div>
               </div>
             </div>
@@ -956,14 +956,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">制造企业</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.manufacturingGroup")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某制造业龙头企业</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.manufacturingClient")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >智能制造</span
+                    >{{$t("strategyConsulting.caseStudiesSection.manufacturingIndustry")}}</span
                   >
                 </div>
               </div>
@@ -972,13 +972,13 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">40%</span>
-                <span class="result-label">效率提升</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.efficiencyImproved")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>智能制造云平台建设</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.manufacturingTitle")}}</h4>
               <p>
-                构建了覆盖生产、供应链、销售全流程的智能制造云平台，实现了数据驱动的精益生产管理。整合50+工厂，连接10万+设备。
+                {{$t("strategyConsulting.caseStudiesSection.manufacturingContent")}}
               </p>
               <div class="case-highlights">
                 <div
@@ -997,7 +997,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>生产效率提升40%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.productionEfficiencyImproved")}}40%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1015,7 +1015,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>库存周转率提升50%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.inventoryTurnoverImproved")}}50%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1033,7 +1033,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>产品质量提升30%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.ProductQualityImprovement")}}30%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1051,7 +1051,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>能耗降低25%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.energyConsumptionReduced")}}25%</span>
                 </div>
               </div>
             </div>
@@ -1067,14 +1067,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.3s"
                 >
-                  <span class="logo-text">零售集团</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.retailGroup")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某新零售集团</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.retailClient")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.4s"
-                    >新零售</span
+                    >{{$t("strategyConsulting.caseStudiesSection.retailIndustry")}}</span
                   >
                 </div>
               </div>
@@ -1083,13 +1083,13 @@
                 style="animation-delay: 0.2s"
               >
                 <span class="result-value">200%</span>
-                <span class="result-label">业务增长</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.businessGrowth")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>全渠道数字化平台</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.retailTitle")}}</h4>
               <p>
-                打造了线上线下一体化的新零售平台，实现了全渠道客户体验优化和精准营销。覆盖5000+门店，服务2000万+会员。
+                {{$t("strategyConsulting.caseStudiesSection.retailContent")}}
               </p>
               <div class="case-highlights">
                 <div
@@ -1108,7 +1108,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>销售额增长200%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.salesIncreased")}}200%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1126,7 +1126,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>客户满意度提升45%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.customerSatisfactionImproved")}}45%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1144,7 +1144,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>移动端转化率提升60%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.mobileConversionImproved")}}60%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1162,7 +1162,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>库存周转提升35%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.inventoryTurnoverImprovedRetail")}}35%</span>
                 </div>
               </div>
             </div>
@@ -1178,14 +1178,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.4s"
                 >
-                  <span class="logo-text">医疗集团</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.healthcareGroup")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某大型医疗集团</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.healthcareClient")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.5s"
-                    >医疗健康</span
+                    >{{$t("strategyConsulting.caseStudiesSection.healthcareIndustry")}}</span
                   >
                 </div>
               </div>
@@ -1194,13 +1194,13 @@
                 style="animation-delay: 0.3s"
               >
                 <span class="result-value">99.9%</span>
-                <span class="result-label">系统可用性</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.systemAvailability")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>医疗云平台建设</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.healthcareTitle")}}</h4>
               <p>
-                构建了安全可靠的医疗云平台，实现了医疗数据的统一管理和智能分析。连接300+医院，服务1000万+患者。
+                {{$t("strategyConsulting.caseStudiesSection.healthcareContent")}}
               </p>
               <div class="case-highlights">
                 <div
@@ -1219,7 +1219,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>诊疗效率提升50%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.diagnosisEfficiencyImproved")}}50%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1237,7 +1237,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>数据安全等级AAA</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.dataSecurityAAA")}}</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1255,7 +1255,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>远程诊疗覆盖率90%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.telemedicineCoverage")}}90%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1273,7 +1273,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>医疗成本降低30%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.healthcareCostReduced")}}30%</span>
                 </div>
               </div>
             </div>
@@ -1289,14 +1289,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.5s"
                 >
-                  <span class="logo-text">教育集团</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.educationGroup")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某知名教育集团</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.educationClient")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.6s"
-                    >在线教育</span
+                    >{{$t("strategyConsulting.caseStudiesSection.educationIndustry")}}</span
                   >
                 </div>
               </div>
@@ -1305,13 +1305,13 @@
                 style="animation-delay: 0.4s"
               >
                 <span class="result-value">300%</span>
-                <span class="result-label">用户增长</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.userGrowth")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>在线教育云平台</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.educationTitle")}}</h4>
               <p>
-                打造了智能化的在线教育云平台，支持大规模并发学习，提供个性化学习体验。服务500万+学员，覆盖全球50+国家。
+                {{$t("strategyConsulting.caseStudiesSection.educationContent")}}
               </p>
               <div class="case-highlights">
                 <div
@@ -1330,7 +1330,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>并发用户数100万+</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.concurrentUsers")}}100{{$t("strategyConsulting.caseStudiesSection.thousand")}}+</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1348,7 +1348,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>学习完成率提升80%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.learningCompletionRate")}}80%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1366,7 +1366,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>系统响应时间<100ms</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.systemResponseTime")}}<100ms</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1384,7 +1384,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>AI推荐准确率95%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.aiRecommendationAccuracy")}}95%</span>
                 </div>
               </div>
             </div>
@@ -1400,14 +1400,14 @@
                   class="company-logo animate-on-scroll pulse"
                   style="animation-delay: 0.6s"
                 >
-                  <span class="logo-text">物流企业</span>
+                  <span class="logo-text">{{$t("strategyConsulting.caseStudiesSection.logisticsGroup")}}</span>
                 </div>
                 <div class="company-info">
-                  <h3>某国际物流企业</h3>
+                  <h3>{{$t("strategyConsulting.caseStudiesSection.logisticsClient")}}</h3>
                   <span
                     class="industry-tag animate-on-scroll scaleIn"
                     style="animation-delay: 0.7s"
-                    >智慧物流</span
+                    >{{$t("strategyConsulting.caseStudiesSection.logisticsIndustry")}}</span
                   >
                 </div>
               </div>
@@ -1416,13 +1416,13 @@
                 style="animation-delay: 0.5s"
               >
                 <span class="result-value">70%</span>
-                <span class="result-label">运营效率提升</span>
+                <span class="result-label">{{$t("strategyConsulting.caseStudiesSection.operationEfficiencyImproved")}}</span>
               </div>
             </div>
             <div class="case-content">
-              <h4>智慧物流云平台</h4>
+              <h4>{{$t("strategyConsulting.caseStudiesSection.logisticsTitle")}}</h4>
               <p>
-                构建了全球化的智慧物流云平台，实现了供应链的可视化管理和智能调度。覆盖200+城市，管理10万+车辆。
+                {{$t("strategyConsulting.caseStudiesSection.logisticsContent")}}
               </p>
               <div class="case-highlights">
                 <div
@@ -1441,7 +1441,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>配送时效提升40%</span>
+                  <span> {{$t("strategyConsulting.caseStudiesSection.deliveryTimeImproved")}}40%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1459,7 +1459,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>运输成本降低35%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.transportationCostReduced")}}35%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1477,7 +1477,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>客户满意度98%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.customerSatisfaction")}}98%</span>
                 </div>
                 <div
                   class="highlight-item animate-on-scroll fadeInLeft"
@@ -1495,7 +1495,7 @@
                       stroke-width="2"
                     />
                   </svg>
-                  <span>碳排放减少20%</span>
+                  <span>{{$t("strategyConsulting.caseStudiesSection.carbonEmissionsReduced")}}20%</span>
                 </div>
               </div>
             </div>
@@ -1509,188 +1509,188 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-text">技术优势</span>
+            <span class="badge-text">{{$t("strategyConsulting.technologySection.badgeText")}}</span>
           </div>
-          <h2 class="gradient-heading">领先的技术实力</h2>
-          <p>基于前沿技术栈，提供企业级云战略解决方案</p>
+          <h2 class="gradient-heading">{{$t("strategyConsulting.technologySection.gradientHeading")}}</h2>
+          <p>{{$t("strategyConsulting.technologySection.gradientContent")}}</p>
         </div>
 
         <div class="tech-grid">
           <div class="tech-category">
-            <h3>云原生技术</h3>
+            <h3>{{$t("strategyConsulting.technologySection.techCategory")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Kubernetes</h4>
-                  <p>容器编排与管理，支持大规模集群部署</p>
+                  <p>{{$t("strategyConsulting.technologySection.techInfo")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Docker</h4>
-                  <p>应用容器化，提升部署效率和一致性</p>
+                  <p>{{$t("strategyConsulting.technologySection.techInfoDK")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Helm</h4>
-                  <p>Kubernetes应用包管理工具</p>
+                  <p>Kubernetes{{$t("strategyConsulting.technologySection.helm")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Istio</h4>
-                  <p>服务网格，微服务通信管理</p>
+                  <p>{{$t("strategyConsulting.technologySection.Istio")}}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>DevOps工具链</h3>
+            <h3>{{$t("strategyConsulting.technologySection.devOpsToolchain")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Jenkins</h4>
-                  <p>持续集成/部署，自动化构建流水线</p>
+                  <p>{{$t("strategyConsulting.technologySection.ciCdPipeline")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>GitLab CI/CD</h4>
-                  <p>代码管理与自动化部署一体化</p>
+                  <p>{{$t("strategyConsulting.technologySection.codeDeployIntegration")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Terraform</h4>
-                  <p>基础设施即代码，云资源自动化管理</p>
+                  <p>{{$t("strategyConsulting.technologySection.infrastructureAsCode")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Ansible</h4>
-                  <p>配置管理和应用部署自动化</p>
+                  <p>{{$t("strategyConsulting.technologySection.configAndAppAutomation")}}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>监控与运维</h3>
+            <h3>{{$t("strategyConsulting.technologySection.monitoringAndOps")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Prometheus</h4>
-                  <p>云原生监控系统，实时指标采集</p>
+                  <p>{{$t("strategyConsulting.technologySection.cloudNativeMonitoring")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Grafana</h4>
-                  <p>数据可视化平台，丰富的监控仪表板</p>
+                  <p>{{$t("strategyConsulting.technologySection.dataVisualizationPlatform")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>ELK Stack</h4>
-                  <p>日志收集、分析和可视化解决方案</p>
+                  <p>{{$t("strategyConsulting.technologySection.logAnalysisSolution")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Jaeger</h4>
-                  <p>分布式链路追踪，性能分析</p>
+                  <p>{{$t("strategyConsulting.technologySection.distributedTracing")}}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>云平台服务</h3>
+            <h3>{{$t("strategyConsulting.technologySection.cloudPlatforms")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>AWS</h4>
-                  <p>亚马逊云服务，全球领先的云平台</p>
+                  <p>{{$t("strategyConsulting.technologySection.awsCloud")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Microsoft Azure</h4>
-                  <p>微软云平台，企业级混合云解决方案</p>
+                  <p>{{$t("strategyConsulting.technologySection.azureCloud")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>阿里云</h4>
-                  <p>国内领先的云计算服务提供商</p>
+                  <h4>{{$t("strategyConsulting.technologySection.aliyun")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.aliyunDescription")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>腾讯云</h4>
-                  <p>腾讯云计算平台，游戏和社交领域优势</p>
+                  <h4>{{$t("strategyConsulting.technologySection.tencentCloud")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.tencentCloudDescription")}}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>大数据与AI</h3>
+            <h3>{{$t("strategyConsulting.technologySection.bigDataAndAI")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Apache Spark</h4>
-                  <p>大数据处理引擎，支持批处理和流处理</p>
+                  <p>{{$t("strategyConsulting.technologySection.bigDataEngines")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Apache Kafka</h4>
-                  <p>分布式流处理平台，实时数据管道</p>
+                  <p>{{$t("strategyConsulting.technologySection.streamProcessing")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>TensorFlow</h4>
-                  <p>机器学习框架，AI模型训练和部署</p>
+                  <p>{{$t("strategyConsulting.technologySection.mlFrameworks")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
                   <h4>Elasticsearch</h4>
-                  <p>分布式搜索和分析引擎</p>
+                  <p>{{$t("strategyConsulting.technologySection.searchAnalytics")}}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>安全与合规</h3>
+            <h3>{{$t("strategyConsulting.technologySection.securityAndCompliance")}}</h3>
             <div class="tech-items">
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>零信任架构</h4>
-                  <p>基于身份验证的安全模型</p>
+                  <h4>{{$t("strategyConsulting.technologySection.zeroTrustArchitecture")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.identityBasedSecurity")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>端到端加密</h4>
-                  <p>数据传输和存储全程加密保护</p>
+                  <h4>{{$t("strategyConsulting.technologySection.endToEndEncryption")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.dataEncryption")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>身份认证IAM</h4>
-                  <p>统一身份管理和访问控制</p>
+                  <h4>{{$t("strategyConsulting.technologySection.identityAccessManagement")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.unifiedIAM")}}</p>
                 </div>
               </div>
               <div class="tech-item">
                 <div class="tech-info">
-                  <h4>合规审计</h4>
-                  <p>满足等保、SOX、GDPR等合规要求</p>
+                  <h4>{{$t("strategyConsulting.technologySection.complianceAuditing")}}</h4>
+                  <p>{{$t("strategyConsulting.technologySection.complianceStandards")}}</p>
                 </div>
               </div>
             </div>
@@ -2031,7 +2031,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
-
+const { t } = useI18n();
 // 页面元数据
 definePageMeta({
   layout: "default",
@@ -2060,24 +2060,24 @@ useHead({
 // 流程步骤数据
 const processSteps = [
   {
-    title: "需求调研分析",
-    description: "深入了解企业业务需求、技术现状和发展目标",
-    details: ["业务流程梳理", "技术架构评估", "痛点问题识别"],
+    title: t("strategyConsulting.processSection.processSteps.one.title"),
+    description: t("strategyConsulting.processSection.processSteps.one.description"),
+    details: [ t("strategyConsulting.processSection.processSteps.one.detailsA"),  t("strategyConsulting.processSection.processSteps.one.detailsB"),  t("strategyConsulting.processSection.processSteps.one.detailsC")],
   },
   {
-    title: "现状全面评估",
-    description: "评估现有IT基础设施、应用系统和数据架构",
-    details: ["基础设施审计", "应用系统分析", "数据架构评估"],
+    title: t("strategyConsulting.processSection.processSteps.two.title"),
+    description: t("strategyConsulting.processSection.processSteps.two.description"),
+    details: [t("strategyConsulting.processSection.processSteps.two.detailsA"), t("strategyConsulting.processSection.processSteps.two.detailsB"), t("strategyConsulting.processSection.processSteps.two.detailsC")],
   },
   {
-    title: "战略方案制定",
-    description: "制定详细的云战略规划和实施路线图",
-    details: ["战略目标设定", "技术路线规划", "实施计划制定"],
+    title: t("strategyConsulting.processSection.processSteps.three.title"),
+    description: t("strategyConsulting.processSection.processSteps.three.description"),
+    details: [t("strategyConsulting.processSection.processSteps.three.detailsA"), t("strategyConsulting.processSection.processSteps.three.detailsB"), t("strategyConsulting.processSection.processSteps.three.detailsC")],
   },
   {
-    title: "方案交付实施",
-    description: "提供完整的咨询报告和实施指导",
-    details: ["详细报告交付", "实施指导培训", "持续支持服务"],
+    title: t("strategyConsulting.processSection.processSteps.four.title"),
+    description: t("strategyConsulting.processSection.processSteps.four.description"),
+    details: [t("strategyConsulting.processSection.processSteps.four.detailsA"), t("strategyConsulting.processSection.processSteps.four.detailsB"), t("strategyConsulting.processSection.processSteps.four.detailsC")],
   },
 ];
 

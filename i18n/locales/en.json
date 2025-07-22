@@ -568,8 +568,159 @@
     "processSection": {
       "badgeText": "Service Process",
       "title": "Standardized Consulting Process",
-      "subtitle": "Applying proven methodologies to ensure high-quality project delivery"
+      "subtitle": "Applying proven methodologies to ensure high-quality project delivery",
+      "processSteps": {
+        "one": {
+          "title": "Needs Research & Analysis",
+          "description": "Gain deep insight into business needs, current technology status, and development goals",
+          "detailsA": "Business Process Mapping",
+          "detailsB": "Technology Architecture Evaluation",
+          "detailsC": "Pain Point Identification"
+        },
+        "two": {
+          "title": "Comprehensive Current-State Assessment",
+          "description": "Evaluate the existing IT infrastructure, application systems, and data architecture",
+          "detailsA": "Infrastructure Audit",
+          "detailsB": "Application System Analysis",
+          "detailsC": "Data Architecture Assessment"
+        },
+        "three": {
+          "title": "Strategic Planning",
+          "description": "Develop a detailed cloud strategy and implementation roadmap",
+          "detailsA": "Strategic Goal Setting",
+          "detailsB": "Technology Roadmap Planning",
+          "detailsC": "Implementation Plan Design"
+        },
+        "four": {
+          "title": "Solution Delivery & Implementation",
+          "description": "Provide a complete consulting report and implementation guidance",
+          "detailsA": "Detailed Report Delivery",
+          "detailsB": "Implementation Training",
+          "detailsC": "Ongoing Support Services"
+        }
+      }
+
+    },
+    "caseStudiesSection": {
+      "caseStudies": "Case Studies",
+      "customerSuccessCases": "Customer Success Cases",
+      "caseIntro": "Real-world cases that demonstrate our professional capabilities and service quality",
+
+      "financeGroup": "Financial Group",
+      "financeClient": "A Major Financial Group",
+      "financeIndustry": "Financial Services",
+      "costSavings": "Cost Savings",
+      "financeTitle": "Comprehensive Cloud Transformation Strategy",
+      "financeContent": "Developed a full-scale cloud transformation strategy including core system migration, data center integration, and security/compliance frameworks. Covered 200+ applications and served over 30 million users.",
+      "systemPerformanceImproved": "System Performance Improved",
+      "securityLevelUpgraded": "Security Level Upgraded to Financial Grade",
+      "responseSpeedTripled": "Business Response Speed Increased 3x",
+      "certifiedByMLPS": "Certified by MLPS Level 3",
+
+      "manufacturingGroup": "Manufacturing Enterprise",
+      "manufacturingClient": "A Leading Manufacturing Enterprise",
+      "manufacturingIndustry": "Smart Manufacturing",
+      "efficiencyImproved": "Efficiency Improved",
+      "manufacturingTitle": "Smart Manufacturing Cloud Platform",
+      "manufacturingContent": "Built a smart manufacturing cloud platform covering production, supply chain, and sales to enable data-driven lean management. Integrated 50+ factories and 100,000+ devices.",
+      "productionEfficiencyImproved": "Production Efficiency Increased",
+      "inventoryTurnoverImproved": "Inventory Turnover Rate Increased",
+      "ProductQualityImprovement": "Product Quality Improvement",
+      "energyConsumptionReduced": "Energy Consumption Reduced",
+
+      "retailGroup": "Retail Group",
+      "retailClient": "A New Retail Group",
+      "retailIndustry": "New Retail",
+      "businessGrowth": "Business Growth",
+      "retailTitle": "Omnichannel Digital Platform",
+      "retailContent": "Developed an integrated online-offline new retail platform, enabling optimized omnichannel customer experience and targeted marketing. Covered 5,000+ stores and served 20 million+ members.",
+      "salesIncreased": "Sales Increased",
+      "customerSatisfactionImproved": "Customer Satisfaction Improved",
+      "mobileConversionImproved": "Mobile Conversion Rate Increased",
+      "inventoryTurnoverImprovedRetail": "Inventory Turnover Improved",
+
+      "healthcareGroup": "Medical Group",
+      "healthcareClient": "A Major Healthcare Group",
+      "healthcareIndustry": "Healthcare",
+      "systemAvailability": "System Availability",
+      "healthcareTitle": "Healthcare Cloud Platform",
+      "healthcareContent": "Built a secure and reliable healthcare cloud platform for unified medical data management and intelligent analysis. Connected 300+ hospitals and served 10 million+ patients.",
+      "diagnosisEfficiencyImproved": "Diagnosis Efficiency Improved",
+      "dataSecurityAAA": "AAA Level Data Security",
+      "telemedicineCoverage": "Telemedicine Coverage Increased",
+      "healthcareCostReduced": "Medical Cost Reduced",
+
+      "educationGroup": "Education Group",
+      "educationClient": "A Well-known Education Group",
+      "educationIndustry": "Online Education",
+      "userGrowth": "User Growth",
+      "educationTitle": "Online Education Cloud Platform",
+      "educationContent": "Built an intelligent online education platform supporting massive concurrency and personalized learning experiences. Served 5 million+ learners across 50+ countries.",
+      "concurrentUsers": "Concurrent Users",
+      "learningCompletionRate": "Learning Completion Rate Increased",
+      "thousand":"ten thousand",
+      "systemResponseTime": "System Response Time Improved",
+      "aiRecommendationAccuracy": "AI Recommendation Accuracy Increased",
+
+      "logisticsGroup": "Logistics Enterprise",
+      "logisticsClient": "An International Logistics Company",
+      "logisticsIndustry": "Smart Logistics",
+      "operationEfficiencyImproved": "Operational Efficiency Improved",
+      "logisticsTitle": "Smart Logistics Cloud Platform",
+      "logisticsContent": "Developed a global smart logistics platform enabling supply chain visualization and intelligent dispatch. Covered 200+ cities and managed 100,000+ vehicles.",
+      "deliveryTimeImproved": "Delivery Timeliness Improved",
+      "transportationCostReduced": "Transportation Cost Reduced",
+      "customerSatisfaction": "Customer Satisfaction",
+      "carbonEmissionsReduced": "Carbon Emissions Reduced"
+    },
+    "technologySection": {
+      "badgeText": "Technical Advantages",
+      "gradientHeading": "Leading Technical Strength",
+      "gradientContent": "Enterprise-level cloud strategy solutions built on cutting-edge technology stacks",
+
+      "techCategory": "Cloud-Native Technologies",
+      "techInfo": "Container orchestration and management for large-scale cluster deployments",
+      "techInfoDK": "Application containerization to enhance deployment efficiency and consistency",
+      "helm": "Application package management tool",
+      "Istio": "Service mesh for managing microservices communication",
+
+      "devOpsToolchain": "DevOps Toolchain",
+      "ciCdPipeline": "Continuous integration and deployment with automated pipelines",
+      "codeDeployIntegration": "Integrated code management and automated deployment",
+      "infrastructureAsCode": "Infrastructure as Code (IaC) for automated cloud resource management",
+      "configAndAppAutomation": "Automated configuration management and application deployment",
+
+      "monitoringAndOps": "Monitoring & Operations",
+      "cloudNativeMonitoring": "Cloud-native monitoring system for real-time metrics collection",
+      "dataVisualizationPlatform": "Data visualization platform with rich monitoring dashboards",
+      "logAnalysisSolution": "Log collection, analysis, and visualization solution",
+      "distributedTracing": "Distributed tracing for performance analysis",
+
+      "cloudPlatforms": "Cloud Platform Services",
+      "awsCloud": "Amazon Web Services – a global leader in cloud platforms",
+      "azureCloud": "Microsoft Azure – enterprise-grade hybrid cloud solutions",
+      "aliyun": "Alibaba Cloud",
+      "aliyunDescription": "Leading cloud computing service provider",
+      "tencentCloud": "Tencent Cloud",
+      "tencentCloudDescription": "Cloud platform with strengths in gaming and social services",
+
+      "bigDataAndAI": "Big Data & AI",
+      "bigDataEngines": "Big data engines supporting batch and stream processing",
+      "streamProcessing": "Distributed stream processing platform for real-time data pipelines",
+      "mlFrameworks": "Machine learning frameworks for AI model training and deployment",
+      "searchAnalytics": "Distributed search and analytics engine",
+
+      "securityAndCompliance": "Security & Compliance",
+      "zeroTrustArchitecture": "Zero Trust Architecture",
+      "identityBasedSecurity": "Identity-based security model",
+      "endToEndEncryption": "End-to-end encryption",
+      "dataEncryption": "Comprehensive encryption for data transmission and storage",
+      "identityAccessManagement": "Identity and Access Management (IAM)",
+      "unifiedIAM": "Unified identity management and access control",
+      "complianceAuditing": "Compliance auditing",
+      "complianceStandards": "Meets requirements such as MLPS, SOX, and GDPR"
     }
+
   }
 
 }
