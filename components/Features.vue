@@ -3,7 +3,9 @@
     <div class="features-container">
       <div class="section-header">
         <h2 class="section-title">专业云服务</h2>
-        <p class="section-description">我们提供全方位的云服务解决方案，从战略咨询到迁移实施，从开发管理到运维管理，满足企业数字化转型的全生命周期需求</p>
+        <p class="section-description">
+          我们提供全方位的云服务解决方案，从战略咨询到迁移实施，从开发管理到运维管理，满足企业数字化转型的全生命周期需求
+        </p>
         <div class="section-badges">
           <span class="badge">AWS</span>
           <span class="badge">Azure</span>
@@ -102,7 +104,8 @@ const setActiveCard = (index) => {
 const featureItems = [
   {
     title: "战略咨询",
-    description: "业务战略分析，云架构评估，数字化转型规划，技术选型咨询，成本优化分析，合规性评估",
+    description:
+      "业务战略分析，云架构评估，数字化转型规划，技术选型咨询，成本优化分析，合规性评估",
     subtitle: "专业的战略咨询服务，帮助企业制定完整的云战略和数字化转型路线图",
     icon: "BusinessIcon",
     cardTitles: [
@@ -114,7 +117,8 @@ const featureItems = [
   },
   {
     title: "迁移实施",
-    description: "应用迁移评估，数据迁移方案，混合云架构设计，迁移风险管理，性能优化，迁移后验证",
+    description:
+      "应用迁移评估，数据迁移方案，混合云架构设计，迁移风险管理，性能优化，迁移后验证",
     subtitle: "专业的云迁移服务，确保业务系统平稳高效地迁移到云环境",
     icon: "MigrationIcon",
     cardTitles: [
@@ -126,7 +130,8 @@ const featureItems = [
   },
   {
     title: "开发管理",
-    description: "DevOps流程实施，CI/CD管道构建，微服务架构开发，容器化应用开发，API管理，自动化测试",
+    description:
+      "DevOps流程实施，CI/CD管道构建，微服务架构开发，容器化应用开发，API管理，自动化测试",
     subtitle: "现代化的开发管理服务，提升开发效率和软件质量",
     icon: "SolutionIcon",
     cardTitles: [
@@ -138,15 +143,11 @@ const featureItems = [
   },
   {
     title: "运维管理",
-    description: "云资源监控，自动化运维，安全合规管理，成本优化，灾备方案，性能调优，日志分析",
+    description:
+      "云资源监控，自动化运维，安全合规管理，成本优化，灾备方案，性能调优，日志分析",
     subtitle: "全面的云运维管理服务，确保系统稳定运行和业务连续性",
     icon: "ArchitectureIcon",
-    cardTitles: [
-      "云资源监控",
-      "自动化运维",
-      "安全合规管理",
-      "成本优化",
-    ],
+    cardTitles: ["云资源监控", "自动化运维", "安全合规管理", "成本优化"],
   },
 ];
 

@@ -3,6 +3,7 @@
     <Hero />
     <ServiceProvision />
     <Features />
+    <ImageGallery />
     <Projects />
     <Ecosystem />
     <Contact />
@@ -13,6 +14,7 @@
 import Hero from "@/components/Hero.vue";
 import Features from "@/components/Features.vue";
 import ServiceProvision from "@/components/ServiceProvision.vue";
+import ImageGallery from "@/components/ImageGallery.vue";
 import Projects from "@/components/Projects.vue";
 import Ecosystem from "@/components/Ecosystem.vue";
 import Contact from "@/components/Contact.vue";

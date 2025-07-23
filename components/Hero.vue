@@ -24,20 +24,24 @@
     </div>
     <div class="hero-stats">
       <div class="stat-item">
-        <div class="stat-value">28K+</div>
-        <div class="stat-label">{{ $t("hero.stats.contractCreators") }}</div>
+        <div class="stat-value">30%</div>
+        <div class="stat-label">成本节省</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">219.11M+</div>
-        <div class="stat-label">{{ $t("hero.stats.uniqueAddresses") }}</div>
+        <div class="stat-value">免费</div>
+        <div class="stat-label">POC测试</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">2.44B+</div>
-        <div class="stat-label">{{ $t("hero.stats.transactions") }}</div>
+        <div class="stat-value">7x24</div>
+        <div class="stat-label">技术支持</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">~$0.015</div>
-        <div class="stat-label">{{ $t("hero.stats.avgCost") }}</div>
+        <div class="stat-value">专属</div>
+        <div class="stat-label">优惠政策</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">3天</div>
+        <div class="stat-label">快速响应</div>
       </div>
     </div>
   </section>
@@ -165,18 +169,28 @@ import HeroCube from "./HeroCube.vue";
 
 .hero-stats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 60px auto 0;
   padding: 30px 20px;
   background-color: var(--card-bg);
   border-radius: 16px;
   box-shadow: var(--card-shadow);
+  gap: 10px;
 }
 
 .stat-item {
   text-align: center;
-  padding: 0 20px;
+  padding: 10px 15px;
+  min-width: 100px;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background-color: rgba(130, 71, 229, 0.1);
+  border-radius: 8px;
 }
 
 .stat-value {
@@ -197,6 +211,15 @@ import HeroCube from "./HeroCube.vue";
   .hero-container {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero-stats {
+    padding: 20px 10px;
+  }
+
+  .stat-item {
+    padding: 8px 10px;
+    min-width: 80px;
   }
 
   .hero-content {
@@ -220,11 +243,22 @@ import HeroCube from "./HeroCube.vue";
 @media (max-width: 768px) {
   .hero-stats {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
+    padding: 15px 10px;
   }
 
   .stat-item {
-    width: calc(50% - 40px);
+    width: calc(33% - 15px);
+    padding: 8px 5px;
+    min-width: 0;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
   }
 
   .hero-graphic {
@@ -244,6 +278,25 @@ import HeroCube from "./HeroCube.vue";
 
   .hero-buttons {
     flex-direction: column;
+  }
+
+  .hero-stats {
+    padding: 12px 8px;
+    gap: 8px;
+  }
+
+  .stat-item {
+    width: calc(50% - 10px);
+    padding: 6px 4px;
+  }
+
+  .stat-value {
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
   }
 
   .hero-graphic {

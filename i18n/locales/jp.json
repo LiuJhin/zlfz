@@ -3,6 +3,10 @@
   "hello": "こんにちは",
   "about": "会社概要",
   "homePage": {
+    "imageGallery": {
+      "title": "プロジェクトショーケース",
+      "description": "当社は様々な業界のクライアントに専門的なクラウドサービスソリューションを提供しています。以下は当社の主要プロジェクトの一部です"
+    },
     "project": {
       "tagOne": {
         "CloudNative": "クラウドネイティブ",

@@ -3,6 +3,10 @@
   "hello": "Hello",
   "about": "About",
   "homePage": {
+    "imageGallery": {
+      "title": "Project Showcase",
+      "description": "We provide professional cloud service solutions for clients across various industries. Here are some of our featured projects"
+    },
     "project": {
       "tagOne": {
         "CloudNative": "Cloud Native",
@@ -600,7 +604,6 @@
           "detailsC": "Ongoing Support Services"
         }
       }
-
     },
     "caseStudiesSection": {
       "caseStudies": "Case Studies",
@@ -659,7 +662,7 @@
       "educationContent": "Built an intelligent online education platform supporting massive concurrency and personalized learning experiences. Served 5 million+ learners across 50+ countries.",
       "concurrentUsers": "Concurrent Users",
       "learningCompletionRate": "Learning Completion Rate Increased",
-      "thousand":"ten thousand",
+      "thousand": "ten thousand",
       "systemResponseTime": "System Response Time Improved",
       "aiRecommendationAccuracy": "AI Recommendation Accuracy Increased",
 
@@ -771,7 +774,6 @@
       "continuousImprovement": "Continuous Optimization",
       "longTermValue": "Long-Term Value Enhancement"
     }
-
   },
   "technicalServices": {
     "hero": {
