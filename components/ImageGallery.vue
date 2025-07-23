@@ -11,10 +11,22 @@
           v-for="(image, index) in galleryImages"
           :key="index"
           class="gallery-item"
-          :class="`gallery-item-${index + 1}`"
+          :class="[
+            `gallery-item-${index + 1}`,
+            image.orientation ? `orientation-${image.orientation}` : '',
+          ]"
         >
-          <!-- 这里使用色块代替图片，后续可以替换为实际图片 -->
+          <!-- 根据是否有图片路径或颜色来决定显示方式 -->
+          <div v-if="image.src" class="image-container">
+            <img :src="image.src" :alt="image.title" />
+            <div class="image-overlay">
+              <h3>{{ image.title }}</h3>
+              <p>{{ image.description }}</p>
+            </div>
+          </div>
+
           <div
+            v-else
             class="placeholder-block"
             :style="{ backgroundColor: image.color }"
           >
@@ -30,66 +42,42 @@
 </template>
 
 <script setup>
+import aws from "../assets/image/credential/aws.jpg";
+import Azure from "../assets/image/credential/Azure.jpg";
+import GCP from "../assets/image/credential/GCP.jpg";
+import oci from "../assets/image/credential/oci.jpg";
+import Tencent from "../assets/image/credential/Tencent.jpg";
+
 const galleryImages = [
   {
-    title: "云计算解决方案",
-    description: "企业级云基础设施与应用",
-    color: "#3498db", // 蓝色
+    title: "AWS",
+    description: "亚马逊云服务合作伙伴",
+    src: aws,
+    orientation: "portrait", // 竖向图片
   },
   {
-    title: "数据安全服务",
-    description: "全方位数据保护与合规",
-    color: "#2ecc71", // 绿色
+    title: "腾讯云",
+    description: "腾讯云服务合作伙伴",
+    src: Tencent,
+    orientation: "portrait", // 竖向图片
   },
   {
-    title: "数字化转型",
-    description: "业务流程优化与创新",
-    color: "#9b59b6", // 紫色
+    title: "Oracle Cloud",
+    description: "甲骨文云服务合作伙伴",
+    src: oci,
+    orientation: "landscape", // 横向图片
   },
   {
-    title: "技术咨询服务",
-    description: "专业技术团队支持",
-    color: "#e74c3c", // 红色
+    title: "Microsoft Azure",
+    description: "微软云服务合作伙伴",
+    src: Azure,
+    orientation: "landscape", // 横向图片
   },
   {
-    title: "行业解决方案",
-    description: "针对不同行业的定制服务",
-    color: "#f39c12", // 橙色
-  },
-  {
-    title: "客户成功案例",
-    description: "我们的成功项目展示",
-    color: "#1abc9c", // 青绿色
-  },
-  {
-    title: "金融科技应用",
-    description: "金融行业数字化解决方案",
-    color: "#34495e", // 深蓝色
-  },
-  {
-    title: "医疗健康平台",
-    description: "医疗数据安全与分析系统",
-    color: "#16a085", // 深绿色
-  },
-  {
-    title: "智慧零售系统",
-    description: "零售行业数字化转型方案",
-    color: "#8e44ad", // 深紫色
-  },
-  {
-    title: "供应链管理",
-    description: "全球供应链优化与追踪",
-    color: "#c0392b", // 深红色
-  },
-  {
-    title: "智能制造平台",
-    description: "工业4.0数字化工厂方案",
-    color: "#d35400", // 深橙色
-  },
-  {
-    title: "政务云服务",
-    description: "政府数字化转型解决方案",
-    color: "#27ae60", // 深绿色
+    title: "Google Cloud",
+    description: "谷歌云服务合作伙伴",
+    src: GCP,
+    orientation: "landscape", // 横向图片
   },
 ];
 </script>
@@ -124,9 +112,10 @@ const galleryImages = [
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 500px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 250px);
   gap: 20px;
+  grid-auto-flow: dense; /* 自动填充空白区域 */
 }
 
 .gallery-item {
@@ -134,6 +123,24 @@ const galleryImages = [
   overflow: hidden;
   border-radius: 10px;
   transition: transform 0.3s ease;
+}
+
+/* 横向图片占据2列2行 */
+.orientation-landscape {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+/* 纵向图片占据1列2行 */
+.orientation-portrait {
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
+/* 默认图片占据1列1行 */
+.gallery-item:not(.orientation-landscape):not(.orientation-portrait) {
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
 .gallery-item:hover {
@@ -147,6 +154,22 @@ const galleryImages = [
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持图片比例并填充容器 */
 }
 
 .image-overlay {
@@ -182,6 +205,17 @@ const galleryImages = [
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 180px);
   }
+
+  /* 在平板上调整布局 */
+  .orientation-landscape {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .orientation-portrait {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
 }
 
 @media (max-width: 768px) {
@@ -197,12 +231,35 @@ const galleryImages = [
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 160px);
   }
+
+  /* 在中等手机上调整布局 */
+  .orientation-landscape {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .orientation-portrait {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
 }
 
 @media (max-width: 480px) {
   .gallery-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 180px);
+    grid-template-rows: auto;
+  }
+
+  /* 在小屏幕上所有图片都占满宽度 */
+  .orientation-landscape,
+  .orientation-portrait {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+  }
+
+  .gallery-item {
+    height: 200px;
   }
 
   .section-title {
