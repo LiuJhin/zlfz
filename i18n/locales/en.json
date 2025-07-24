@@ -1,7 +1,19 @@
 {
   "welcome": "Welcome",
   "hello": "Hello",
+  "partner": "Establish strategic partnerships with the world's top technology companies",
   "about": "About",
+  "costSaving": "Cost Saving",
+  "pocTesting": "POC Testing",
+  "free": "Free",
+  "technicalSupport": "Technical Support",
+  "exclusive": "Exclusive",
+  "preferentialPolicy": "Preferential Policy",
+  "day": "Day",
+  "fastResponse": "Fast Response",
+  "partnertitle": "Partner",
+  "successfulProjects": "Successful Projects",
+  "customerSatisfaction": "Customer Satisfaction",
   "homePage": {
     "imageGallery": {
       "title": "Our Partners",
@@ -46,6 +58,66 @@
       }
     }
   },
+  "Features": {
+    "title": "Professional Cloud Services",
+    "description": "We provide comprehensive cloud service solutions, from strategic consulting to migration implementation, development management, and operation and maintenance management, covering the entire lifecycle of enterprise digital transformation.",
+    "aliyun": "Alibaba Cloud",
+    "tencentCloud": "Tencent Cloud",
+    "huaweiCloud": "Huawei Cloud",
+    "learnMore": "Learn More",
+    "yearExperience": "Years of Experience",
+    "successfulCases": "Successful Cases",
+    "professionalConsultant": "Professional Consultant",
+    "costSaving": "Cost Saving",
+    "serviceAvailability": "Service Availability",
+    "featureItems": {
+      "one": {
+        "title": "Strategic Consulting",
+        "description": "Business strategy analysis, cloud architecture assessment, digital transformation planning, technology selection consulting, cost optimization analysis, compliance assessment.",
+        "subtitle": "Professional strategic consulting services to help enterprises formulate comprehensive cloud strategies and digital transformation roadmaps.",
+        "businessStrategyAnalysis": "Business Strategy Analysis",
+        "cloudArchitectureAssessment": "Cloud Architecture Assessment",
+        "digitalTransformationPlanning": "Digital Transformation Planning",
+        "technologySelectionConsulting": "Technology Selection Consulting"
+      },
+      "two": {
+        "title": "Migration Implementation",
+        "description": "Enterprise application migration, data center migration, cloud platform migration, containerization migration, serverless migration.",
+        "subtitle": "Professional cloud migration services to ensure smooth and efficient transition of business systems to the cloud environment.",
+        "applicationMigrationAssessment": "Application Migration Assessment",
+        "dataCenterMigration": "Data Center Migration",
+        "cloudPlatformMigration": "Cloud Platform Migration",
+        "containerizationMigration": "Containerization Migration"
+      },
+      "three": {
+        "title": "Development Management",
+        "description": "DevOps process implementation, CI/CD pipeline construction, microservices architecture development, containerized application development, API management, automated testing.",
+        "subtitle": "Modern development management services to enhance development efficiency and software quality.",
+        "devOpsProcessImplementation": "DevOps Process Implementation",
+        "ciCdPipelineBuilding": "CI/CD Pipeline Building",
+        "microserviceArchitectureDevelopment": "Microservices Architecture Development",
+        "containerizedApplicationDevelopment": "Containerized Application Development"
+      },
+      "four": {
+        "title": "Operation & Maintenance",
+        "description": "Cloud resource monitoring, automated operations, security compliance management, cost optimization, disaster recovery planning, performance tuning, log analysis.",
+        "subtitle": "Comprehensive cloud operation and maintenance services to ensure system stability and business continuity.",
+        "cloudResourceMonitoring": "Cloud Resource Monitoring",
+        "automatedOperations": "Automated Operations",
+        "securityComplianceManagement": "Security & Compliance Management",
+        "costOptimization": "Cost Optimization"
+      },
+      "five": {
+        "title": "Security Management",
+        "description": "Cloud platform security, container security, serverless security, database security, middleware security, application security.",
+        "subtitle": "Professional security management services to ensure business system security and data privacy.",
+        "cloudPlatformSecurity": "Cloud Platform Security",
+        "containerizedSecurity": "Container Security",
+        "serverlessSecurity": "Serverless Security",
+        "databaseSecurity": "Database Security"
+      }
+    }
+  },
   "contact": "Contact Us",
   "home": "Home",
   "language": "Language",
@@ -64,8 +136,8 @@
     "save": "Save"
   },
   "hero": {
-    "title": "Building future-proof AWS cloud solutions",
-    "description": "Through enterprise-level AWS cloud services, we help customers significantly reduce infrastructure costs while building highly available and scalable cloud architectures. We accompany customers throughout the entire process from consulting to deployment to promote efficient enterprise transformation.",
+    "title": "Global cloud vendor MSP solution provider opens free test account",
+    "description": "Top MSP partner of global cloud vendors, with exclusive policies and resources",
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "stats": {

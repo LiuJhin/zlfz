@@ -1,7 +1,19 @@
 {
   "welcome": "ようこそ",
   "hello": "こんにちは",
+  "partner": "世界トップクラスのテクノロジー企業との戦略的パートナーシップの構築",
   "about": "会社概要",
+  "costSaving": "コスト削減",
+  "pocTesting": "POCテスト",
+  "free": "無料",
+  "technicalSupport": "技術サポート",
+  "exclusive": "専属",
+  "preferentialPolicy": "優遇ポリシー",
+  "day": "日",
+  "fastResponse": "迅速な対応",
+  "partnertitle": "パートナー",
+  "successfulProjects": "成功したプロジェクト",
+  "customerSatisfaction": "顧客満足度",
   "homePage": {
     "imageGallery": {
       "title": "パートナー企業",
@@ -46,6 +58,66 @@
       }
     }
   },
+  "Features": {
+    "title": "プロフェッショナルクラウドサービス",
+    "description": "戦略コンサルティングから移行実装、開発管理、運用管理まで、企業のデジタルトランスフォーメーションの全ライフサイクルに対応する包括的なクラウドサービスソリューションを提供します。",
+    "aliyun": "アリババクラウド",
+    "tencentCloud": "テンセントクラウド",
+    "huaweiCloud": "ファーウェイクラウド",
+    "learnMore": "詳細を見る",
+    "yearExperience": "年の業界経験",
+    "successfulCases": "成功事例",
+    "professionalConsultant": "プロフェッショナルコンサルタント",
+    "costSaving": "コスト削減",
+    "serviceAvailability": "サービス可用性",
+    "featureItems": {
+      "one": {
+        "title": "戦略コンサルティング",
+        "description": "ビジネス戦略分析、クラウドアーキテクチャ評価、デジタル変革計画、技術選定コンサルティング、コスト最適化分析、コンプライアンス評価",
+        "subtitle": "企業が完全なクラウド戦略とデジタルトランスフォーメーションのロードマップを策定するのを支援する専門的な戦略コンサルティングサービス",
+        "businessStrategyAnalysis": "ビジネス戦略分析",
+        "cloudArchitectureAssessment": "クラウドアーキテクチャ評価",
+        "digitalTransformationPlanning": "デジタルトランスフォーメーション計画",
+        "technologySelectionConsulting": "技術選定コンサルティング"
+      },
+      "two": {
+        "title": "移行実装",
+        "description": "企業向けアプリケーション移行、データセンター移行、クラウドプラットフォーム移行、コンテナ化移行、サーバーレス移行",
+        "subtitle": "ビジネスシステムがクラウド環境へスムーズかつ効率的に移行できるよう支援する専門的なクラウド移行サービス",
+        "applicationMigrationAssessment": "アプリケーション移行評価",
+        "dataCenterMigration": "データセンター移行",
+        "cloudPlatformMigration": "クラウドプラットフォーム移行",
+        "containerizationMigration": "コンテナ化移行"
+      },
+      "three": {
+        "title": "開発管理",
+        "description": "DevOpsプロセス実装、CI/CDパイプライン構築、マイクロサービスアーキテクチャ開発、コンテナ化アプリケーション開発、API管理、自動テスト",
+        "subtitle": "開発効率とソフトウェア品質を向上させるための最新の開発管理サービス",
+        "devOpsProcessImplementation": "DevOpsプロセス実装",
+        "ciCdPipelineBuilding": "CI/CDパイプライン構築",
+        "microserviceArchitectureDevelopment": "マイクロサービスアーキテクチャ開発",
+        "containerizedApplicationDevelopment": "コンテナ化アプリケーション開発"
+      },
+      "four": {
+        "title": "運用管理",
+        "description": "クラウドリソース監視、自動運用、セキュリティとコンプライアンス管理、コスト最適化、災害復旧計画、パフォーマンスチューニング、ログ分析",
+        "subtitle": "システムの安定運用と業務継続性を確保するための包括的なクラウド運用管理サービス",
+        "cloudResourceMonitoring": "クラウドリソース監視",
+        "automatedOperations": "自動運用",
+        "securityComplianceManagement": "セキュリティとコンプライアンス管理",
+        "costOptimization": "コスト最適化"
+      },
+      "five": {
+        "title": "セキュリティ管理",
+        "description": "クラウドプラットフォームセキュリティ、コンテナセキュリティ、サーバーレスセキュリティ、データベースセキュリティ、ミドルウェアセキュリティ、アプリケーションセキュリティ",
+        "subtitle": "業務システムのセキュリティとデータプライバシーを確保する専門的なセキュリティ管理サービス",
+        "cloudPlatformSecurity": "クラウドプラットフォームセキュリティ",
+        "containerizedSecurity": "コンテナセキュリティ",
+        "serverlessSecurity": "サーバーレスセキュリティ",
+        "databaseSecurity": "データベースセキュリティ"
+      }
+    }
+  },
   "contact": "お問い合わせ",
   "home": "ホーム",
   "language": "言語",
@@ -64,8 +136,8 @@
     "save": "保存"
   },
   "hero": {
-    "title": "将来を見据えたAWSクラウドソリューションの構築",
-    "description": "エンタープライズレベルの AWS クラウドサービスを通じて、当社はお客様がインフラストラクチャコストを大幅に削減しながら、可用性と拡張性に優れたクラウドアーキテクチャを構築できるよう支援します。当社はコンサルティングから導入までの全プロセスを通じてお客様に寄り添い、効率的な企業変革を推進します。",
+    "title": "グローバルクラウドベンダーMSPソリューションプロバイダーが無料テストアカウントを開設",
+    "description": "独自のポリシーとリソースを備えた、グローバルクラウドベンダーのトップMSPパートナー",
     "getStarted": "今すぐ始める",
     "learnMore": "詳細を見る",
     "stats": {

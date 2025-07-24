@@ -2,21 +2,21 @@
   <section class="features-section">
     <div class="features-container">
       <div class="section-header">
-        <h2 class="section-title">专业云服务</h2>
+        <h2 class="section-title">{{ $t("Features.title") }}</h2>
         <p class="section-description">
-          我们提供全方位的云服务解决方案，从战略咨询到迁移实施，从开发管理到运维管理，满足企业数字化转型的全生命周期需求
+          {{ $t("Features.description") }}
         </p>
         <div class="section-badges">
           <span class="badge">AWS</span>
           <span class="badge">Azure</span>
           <span class="badge">Google Cloud</span>
           <span class="badge">Oracle</span>
-          <span class="badge">阿里云</span>
-          <span class="badge">腾讯云</span>
-          <span class="badge">华为云</span>
+          <span class="badge">{{ $t("Features.aliyun") }}</span>
+          <span class="badge">{{ $t("Features.tencentCloud") }}</span>
+          <span class="badge">{{ $t("Features.huaweiCloud") }}</span>
         </div>
         <div class="learn-more-btn">
-          <a href="#" class="btn-primary">了解更多</a>
+          <a href="#" class="btn-primary"> {{ $t("Features.learnMore") }}</a>
         </div>
       </div>
 
@@ -41,7 +41,7 @@
         <div class="features-content">
           <div class="feature-header">
             <h3 class="feature-title">
-              {{ featureItems[activeCard].title }}
+              {{ featureItems[activeCard]?.title || '' }}
             </h3>
             <p class="feature-subtitle">{{ getSubtitle(activeCard) }}</p>
           </div>
@@ -64,23 +64,31 @@
             <div class="feature-stats">
               <div class="stat-item">
                 <span class="stat-number">10+</span>
-                <span class="stat-label">年行业经验</span>
+                <span class="stat-label">{{
+                  $t("Features.yearExperience")
+                }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-number">200+</span>
-                <span class="stat-label">成功案例</span>
+                <span class="stat-label">{{
+                  $t("Features.successfulCases")
+                }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-number">50+</span>
-                <span class="stat-label">专业顾问</span>
+                <span class="stat-label">{{
+                  $t("Features.professionalConsultant")
+                }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-number">30%</span>
-                <span class="stat-label">成本节省</span>
+                <span class="stat-label">{{ $t("Features.costSaving") }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-number">99.9%</span>
-                <span class="stat-label">服务可用性</span>
+                <span class="stat-label">{{
+                  $t("Features.serviceAvailability")
+                }}</span>
               </div>
             </div>
           </div>
@@ -91,7 +99,10 @@
 </template>
 
 <script setup>
-import { ref, h } from "vue";
+import { ref, h, computed } from "vue";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 
 // 设置当前激活的卡片
 const activeCard = ref(0);
@@ -101,71 +112,92 @@ const setActiveCard = (index) => {
 };
 
 // 特性项目数据
-const featureItems = [
+const featureItems = computed(() => [
   {
-    title: "战略咨询",
-    description:
-      "业务战略分析，云架构评估，数字化转型规划，技术选型咨询，成本优化分析，合规性评估",
-    subtitle: "专业的战略咨询服务，帮助企业制定完整的云战略和数字化转型路线图",
+    title: t("Features.featureItems.one.title"),
+    description: t("Features.featureItems.one.description"),
+    subtitle: t("Features.featureItems.one.subtitle"),
     icon: "BusinessIcon",
     cardTitles: [
-      "业务战略分析",
-      "云架构评估",
-      "数字化转型规划",
-      "技术选型咨询",
+      t("Features.featureItems.one.businessStrategyAnalysis"),
+      t("Features.featureItems.one.cloudArchitectureAssessment"),
+      t("Features.featureItems.one.digitalTransformationPlanning"),
+      t("Features.featureItems.one.technologySelectionConsulting"),
     ],
   },
   {
-    title: "迁移实施",
-    description:
-      "应用迁移评估，数据迁移方案，混合云架构设计，迁移风险管理，性能优化，迁移后验证",
-    subtitle: "专业的云迁移服务，确保业务系统平稳高效地迁移到云环境",
+    title: t("Features.featureItems.two.title"),
+    description: t("Features.featureItems.two.description"),
+    subtitle: t("Features.featureItems.two.subtitle"),
     icon: "MigrationIcon",
     cardTitles: [
-      "应用迁移评估",
-      "数据迁移方案",
-      "混合云架构设计",
-      "迁移风险管理",
+      t("Features.featureItems.two.applicationMigrationAssessment"),
+      t("Features.featureItems.two.dataCenterMigration"),
+      t("Features.featureItems.two.cloudPlatformMigration"),
+      t("Features.featureItems.two.containerizationMigration"),
     ],
   },
   {
-    title: "开发管理",
-    description:
-      "DevOps流程实施，CI/CD管道构建，微服务架构开发，容器化应用开发，API管理，自动化测试",
-    subtitle: "现代化的开发管理服务，提升开发效率和软件质量",
+    title: t("Features.featureItems.three.title"),
+    description: t("Features.featureItems.three.description"),
+    subtitle: t("Features.featureItems.three.subtitle"),
     icon: "SolutionIcon",
     cardTitles: [
-      "DevOps流程实施",
-      "CI/CD管道构建",
-      "微服务架构开发",
-      "容器化应用开发",
+      t("Features.featureItems.three.devOpsProcessImplementation"),
+      t("Features.featureItems.three.ciCdPipelineBuilding"),
+      t("Features.featureItems.three.microserviceArchitectureDevelopment"),
+      t("Features.featureItems.three.containerizedApplicationDevelopment"),
     ],
   },
   {
-    title: "运维管理",
-    description:
-      "云资源监控，自动化运维，安全合规管理，成本优化，灾备方案，性能调优，日志分析",
-    subtitle: "全面的云运维管理服务，确保系统稳定运行和业务连续性",
+    title: t("Features.featureItems.four.title"),
+    description: t("Features.featureItems.four.description"),
+    subtitle: t("Features.featureItems.four.subtitle"),
     icon: "ArchitectureIcon",
-    cardTitles: ["云资源监控", "自动化运维", "安全合规管理", "成本优化"],
+    cardTitles: [
+      t("Features.featureItems.four.cloudResourceMonitoring"),
+      t("Features.featureItems.four.automatedOperations"),
+      t("Features.featureItems.four.securityComplianceManagement"),
+      t("Features.featureItems.four.costOptimization"),
+    ],
   },
-];
+  {
+    title: t("Features.featureItems.five.title"),
+    description: t("Features.featureItems.five.description"),
+    subtitle: t("Features.featureItems.five.subtitle"),
+    icon: "SecurityIcon",
+    cardTitles: [
+      t("Features.featureItems.five.cloudPlatformSecurity"),
+      t("Features.featureItems.five.containerizedSecurity"),
+      t("Features.featureItems.five.serverlessSecurity"),
+      t("Features.featureItems.five.databaseSecurity"),
+    ],
+  },
+]);
 
 // 获取子标题
 const getSubtitle = (index) => {
-  return featureItems[index].subtitle || "";
-  // 直接返回中文内容，不再使用国际化字符串
+  if (!featureItems.value || !featureItems.value[index]) {
+    return "";
+  }
+  return featureItems.value[index].subtitle || "";
 };
 
 // 获取描述列表
 const getDescriptions = (index) => {
-  const description = featureItems[index].description;
+  if (!featureItems.value || !featureItems.value[index]) {
+    return [];
+  }
+  const description = featureItems.value[index].description;
   return description ? description.split("，") : [];
 };
 
 // 获取卡片标题
 const getCardTitle = (cardIndex, itemIndex) => {
-  const titles = featureItems[cardIndex].cardTitles;
+  if (!featureItems.value || !featureItems.value[cardIndex]) {
+    return "";
+  }
+  const titles = featureItems.value[cardIndex].cardTitles;
   return titles && titles[itemIndex] ? titles[itemIndex] : "";
 };
 

@@ -32,7 +32,7 @@
         </h2>
         <div class="subtitle-container">
           <div class="subtitle-line"></div>
-          <p class="premium-subtitle">与全球顶尖科技厂商建立战略合作关系</p>
+          <p class="premium-subtitle">{{ $t("partner") }}</p>
           <div class="subtitle-line"></div>
         </div>
       </div>
@@ -117,17 +117,17 @@
       <div class="partnership-stats">
         <div class="stat-item">
           <div class="stat-number">{{ animatedStats.partners }}</div>
-          <div class="stat-label">合作伙伴</div>
+          <div class="stat-label">{{ $t("partnertitle") }}</div>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
           <div class="stat-number">{{ animatedStats.projects }}</div>
-          <div class="stat-label">成功项目</div>
+          <div class="stat-label">{{ $t("successfulProjects") }}</div>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
           <div class="stat-number">{{ animatedStats.satisfaction }}</div>
-          <div class="stat-label">客户满意度</div>
+          <div class="stat-label">{{ $t("customerSatisfaction") }}</div>
         </div>
       </div>
     </div>

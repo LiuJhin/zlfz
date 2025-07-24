@@ -25,23 +25,23 @@
     <div class="hero-stats">
       <div class="stat-item">
         <div class="stat-value">30%</div>
-        <div class="stat-label">成本节省</div>
+        <div class="stat-label">{{ $t("costSaving") }}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">免费</div>
-        <div class="stat-label">POC测试</div>
+        <div class="stat-value">{{ $t("free") }}</div>
+        <div class="stat-label">{{ $t("pocTesting") }}</div>
       </div>
       <div class="stat-item">
         <div class="stat-value">7x24</div>
-        <div class="stat-label">技术支持</div>
+        <div class="stat-label">{{ $t("technicalSupport") }}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">专属</div>
-        <div class="stat-label">优惠政策</div>
+        <div class="stat-value">{{ $t("exclusive") }}</div>
+        <div class="stat-label">{{ $t("preferentialPolicy") }}</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value">3天</div>
-        <div class="stat-label">快速响应</div>
+        <div class="stat-value">3{{ $t("day") }}</div>
+        <div class="stat-label">{{ $t("fastResponse") }}</div>
       </div>
     </div>
   </section>
