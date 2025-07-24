@@ -7,6 +7,10 @@
 <script setup></script>
 
 <style>
+/* 引入主题CSS */
+@import '~/assets/css/theme.css';
+@import '~/assets/css/color-mode.css';
+
 /* 全局样式 */
 body {
   margin: 0;

@@ -14,9 +14,40 @@
   --primary-color-light: #9B6FF6;
   --primary-color-dark: #6B38C1;
   --bg-gradient: #f8f9fa;
+  
+  /* Web3解决方案页面专用变量 - 浅色主题 */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #e2e8f0;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-color-web3: rgba(30, 41, 59, 0.2);
+  --card-bg-web3: rgba(248, 250, 252, 0.8);
+  
+  /* RGB变量用于rgba()函数 */
+  --text-primary-rgb: 30, 41, 59;
+  --wallet-accent-primary-rgb: 34, 197, 94;
+  --wallet-accent-secondary-rgb: 59, 130, 246;
+  --exchange-accent-primary-rgb: 59, 130, 246;
+  --exchange-accent-secondary-rgb: 139, 92, 246;
+  --trading-accent-primary-rgb: 139, 92, 246;
+  --trading-accent-secondary-rgb: 59, 130, 246;
+  --streaming-accent-primary-rgb: 239, 68, 68;
+  --streaming-accent-secondary-rgb: 168, 85, 247;
+  
+  /* 各页面特色主题色 */
+  --wallet-accent-primary: #22c55e;
+  --wallet-accent-secondary: #3b82f6;
+  --exchange-accent-primary: #3b82f6;
+  --exchange-accent-secondary: #8b5cf6;
+  --trading-accent-primary: #8b5cf6;
+  --trading-accent-secondary: #3b82f6;
+  --streaming-accent-primary: #ef4444;
+  --streaming-accent-secondary: #a855f7;
 }
 
-.dark-theme {
+.dark-mode {
   /* 暗黑模式变量 */
   --bg-color: #121212;
   --text-color: #e0e0e0;
@@ -32,6 +63,37 @@
   --primary-color-light: #9B6FF6;
   --primary-color-dark: #6B38C1;
   --bg-gradient: #1a1a1a;
+  
+  /* Web3解决方案页面专用变量 - 深色主题 */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color-web3: rgba(226, 232, 240, 0.2);
+  --card-bg-web3: rgba(30, 41, 59, 0.8);
+  
+  /* RGB变量用于rgba()函数 */
+  --text-primary-rgb: 255, 255, 255;
+  --wallet-accent-primary-rgb: 34, 197, 94;
+  --wallet-accent-secondary-rgb: 59, 130, 246;
+  --exchange-accent-primary-rgb: 59, 130, 246;
+  --exchange-accent-secondary-rgb: 139, 92, 246;
+  --trading-accent-primary-rgb: 139, 92, 246;
+  --trading-accent-secondary-rgb: 59, 130, 246;
+  --streaming-accent-primary-rgb: 239, 68, 68;
+  --streaming-accent-secondary-rgb: 168, 85, 247;
+  
+  /* 各页面特色主题色保持不变 */
+  --wallet-accent-primary: #22c55e;
+  --wallet-accent-secondary: #3b82f6;
+  --exchange-accent-primary: #3b82f6;
+  --exchange-accent-secondary: #8b5cf6;
+  --trading-accent-primary: #8b5cf6;
+  --trading-accent-secondary: #3b82f6;
+  --streaming-accent-primary: #ef4444;
+  --streaming-accent-secondary: #a855f7;
 }
 
 /* 应用主题变量到元素 */

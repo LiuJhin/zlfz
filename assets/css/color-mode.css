@@ -152,4 +152,35 @@ button:hover {
   --cta-button-bg: #6b5b95;
   --cta-button-text: #ffffff;
   --cta-button-hover: #574a7b;
+  
+  /* Web3解决方案页面专用变量 - 护眼模式 */
+  --bg-primary: #f1e7d0;
+  --bg-secondary: #f5ecd9;
+  --bg-tertiary: #e6d9bc;
+  --text-primary: #433422;
+  --text-secondary: #6b5b47;
+  --text-muted: #8b7355;
+  --border-color-web3: rgba(67, 52, 34, 0.2);
+  --card-bg-web3: rgba(245, 236, 217, 0.8);
+  
+  /* RGB变量用于rgba()函数 - 护眼模式 */
+  --text-primary-rgb: 67, 52, 34;
+  --wallet-accent-primary-rgb: 107, 91, 149;
+  --wallet-accent-secondary-rgb: 138, 122, 181;
+  --exchange-accent-primary-rgb: 138, 122, 181;
+  --exchange-accent-secondary-rgb: 107, 91, 149;
+  --trading-accent-primary-rgb: 107, 91, 149;
+  --trading-accent-secondary-rgb: 138, 122, 181;
+  --streaming-accent-primary-rgb: 212, 165, 116;
+  --streaming-accent-secondary-rgb: 107, 91, 149;
+  
+  /* 各页面特色主题色 - 护眼模式 */
+  --wallet-accent-primary: #6b5b95;
+  --wallet-accent-secondary: #8a7ab5;
+  --exchange-accent-primary: #8a7ab5;
+  --exchange-accent-secondary: #6b5b95;
+  --trading-accent-primary: #6b5b95;
+  --trading-accent-secondary: #8a7ab5;
+  --streaming-accent-primary: #d4a574;
+  --streaming-accent-secondary: #6b5b95;
 }
