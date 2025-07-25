@@ -3,15 +3,18 @@
     <div class="service-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">云迁移服务</h1>
-          <p class="hero-subtitle">安全、高效的云迁移解决方案</p>
+          <h1 class="hero-title">{{ $t("cloudMigration.hero.title") }}</h1>
+          <p class="hero-subtitle">{{ $t("cloudMigration.hero.subtitle") }}</p>
           <p class="hero-description">
-            提供端到端的云迁移服务，帮助企业将传统IT基础设施和应用系统
-            安全、平滑地迁移到云平台，最小化业务中断，最大化云价值。
+            {{ $t("cloudMigration.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">立即咨询</a>
-            <a href="#service-details" class="btn-secondary">了解详情</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("cloudMigration.hero.button")
+            }}</a>
+            <a href="#service-details" class="btn-secondary">{{
+              $t("cloudMigration.hero.learn_more")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -48,8 +51,8 @@
     <section id="service-details" class="service-details">
       <div class="container">
         <div class="section-header">
-          <h2>迁移服务详情</h2>
-          <p>全方位的云迁移解决方案</p>
+          <h2>{{ $t("cloudMigration.service_details.title") }}</h2>
+          <p>{{ $t("cloudMigration.service_details.subtitle") }}</p>
         </div>
 
         <div class="features-grid">
@@ -63,8 +66,10 @@
                 />
               </svg>
             </div>
-            <h3>迁移评估</h3>
-            <p>全面评估现有IT环境，制定最适合的迁移策略和计划。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.MigrationAssessment") }}
+            </h3>
+            <p>{{ $t("cloudMigration.service_details.MigrationPlan") }}</p>
           </div>
 
           <div class="feature-card">
@@ -82,8 +87,16 @@
                 />
               </svg>
             </div>
-            <h3>应用迁移</h3>
-            <p>专业的应用系统迁移，确保功能完整性和性能优化。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.MigrationExecution") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.MigrationExecutionDescription"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -97,8 +110,16 @@
                 <circle cx="12" cy="14" r="2" fill="currentColor" />
               </svg>
             </div>
-            <h3>数据迁移</h3>
-            <p>安全可靠的数据迁移服务，保证数据完整性和一致性。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.MigrationValidation") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.MigrationValidationDescription"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -117,8 +138,16 @@
                 />
               </svg>
             </div>
-            <h3>基础设施迁移</h3>
-            <p>完整的基础设施迁移，包括网络、存储和计算资源。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.InfrastructureMigration") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.InfrastructureMigrationDescription"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -132,8 +161,16 @@
                 />
               </svg>
             </div>
-            <h3>性能优化</h3>
-            <p>迁移后的性能调优，确保系统在云环境中的最佳表现。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.PostMigrationSupport") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.PostMigrationSupportDescription"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -152,8 +189,16 @@
                 />
               </svg>
             </div>
-            <h3>安全保障</h3>
-            <p>全程安全保障，确保迁移过程中的数据和系统安全。</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.SecurityAssurance") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.SecurityAssuranceDescription"
+                )
+              }}
+            </p>
           </div>
         </div>
       </div>
@@ -162,8 +207,12 @@
     <section class="migration-strategies">
       <div class="container">
         <div class="section-header">
-          <h2>迁移策略</h2>
-          <p>多种迁移策略，满足不同业务需求</p>
+          <h2>{{ $t("cloudMigration.service_details.MigrationStrategy") }}</h2>
+          <p>
+            {{
+              $t("cloudMigration.service_details.MigrationStrategyDescription")
+            }}
+          </p>
         </div>
 
         <div class="strategies-grid">
@@ -180,11 +229,19 @@
               </svg>
             </div>
             <h3>Lift and Shift</h3>
-            <p>快速迁移现有应用到云端，最小化修改，快速实现云化</p>
+            <p>
+              {{ $t("cloudMigration.service_details.FastMigration") }}
+            </p>
             <div class="strategy-benefits">
-              <span class="benefit-tag">快速</span>
-              <span class="benefit-tag">低风险</span>
-              <span class="benefit-tag">成本低</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.fast")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.low_risk")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.cost_low")
+              }}</span>
             </div>
           </div>
 
@@ -205,12 +262,26 @@
                 />
               </svg>
             </div>
-            <h3>重新平台化</h3>
-            <p>适度修改应用以充分利用云平台特性，提升性能和可扩展性</p>
+            <h3>
+              {{ $t("cloudMigration.service_details.replatformization") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudMigration.service_details.replatformizationDescription"
+                )
+              }}
+            </p>
             <div class="strategy-benefits">
-              <span class="benefit-tag">优化性能</span>
-              <span class="benefit-tag">云原生</span>
-              <span class="benefit-tag">可扩展</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.OptimizingPerformance")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.cloud_native")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.scalable")
+              }}</span>
             </div>
           </div>
 
@@ -229,12 +300,20 @@
                 />
               </svg>
             </div>
-            <h3>重新架构</h3>
-            <p>完全重新设计应用架构，采用微服务、容器等现代技术</p>
+            <h3>{{ $t("cloudMigration.service_details.ReArchitecting") }}</h3>
+            <p>
+              {{ $t("cloudMigration.service_details.RestructureDescription") }}
+            </p>
             <div class="strategy-benefits">
-              <span class="benefit-tag">现代化</span>
-              <span class="benefit-tag">高可用</span>
-              <span class="benefit-tag">敏捷</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.modernize")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.high_availability")
+              }}</span>
+              <span class="benefit-tag">{{
+                $t("cloudMigration.service_details.agile")
+              }}</span>
             </div>
           </div>
         </div>
@@ -244,20 +323,49 @@
     <section class="migration-process">
       <div class="container">
         <div class="section-header">
-          <h2>迁移流程</h2>
-          <p>标准化的迁移流程，确保项目成功</p>
+          <h2>{{ $t("cloudMigration.service_details.migration_process") }}</h2>
+          <p>
+            {{
+              $t("cloudMigration.service_details.migration_process_description")
+            }}
+          </p>
         </div>
 
         <div class="process-timeline">
           <div class="process-step">
             <div class="step-number">01</div>
             <div class="step-content">
-              <h3>评估与规划</h3>
-              <p>全面评估现有环境，制定迁移策略和详细计划</p>
+              <h3>
+                {{
+                  $t("cloudMigration.service_details.assessment_and_planning")
+                }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudMigration.service_details.assessment_and_planning_description"
+                  )
+                }}
+              </p>
               <div class="step-details">
-                <span>• 应用清单梳理</span>
-                <span>• 依赖关系分析</span>
-                <span>• 风险评估</span>
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.ApplicationListSorting")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.DependencyAnalysis")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.RiskAssessment")
+                  }}</span
+                >
               </div>
             </div>
           </div>
@@ -265,12 +373,30 @@
           <div class="process-step">
             <div class="step-number">02</div>
             <div class="step-content">
-              <h3>环境准备</h3>
-              <p>搭建目标云环境，配置网络和安全策略</p>
+              <h3>
+                {{
+                  $t("cloudMigration.service_details.environmentPreparation")
+                }}
+              </h3>
+              <p>
+                {{ $t("cloudMigration.service_details.cloudEnvironmentSetup") }}
+              </p>
               <div class="step-details">
-                <span>• 云环境搭建</span>
-                <span>• 网络配置</span>
-                <span>• 安全设置</span>
+                <span
+                  >• {{ $t("cloudMigration.service_details.cloudSetup") }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.networkConfiguration")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.securitySettings")
+                  }}</span
+                >
               </div>
             </div>
           </div>
@@ -278,12 +404,29 @@
           <div class="process-step">
             <div class="step-number">03</div>
             <div class="step-content">
-              <h3>试点迁移</h3>
-              <p>选择低风险应用进行试点迁移，验证方案可行性</p>
+              <h3>{{ $t("cloudMigration.service_details.pilotMigration") }}</h3>
+              <p>
+                {{ $t("cloudMigration.service_details.pilotAppSelection") }}
+              </p>
               <div class="step-details">
-                <span>• 试点应用选择</span>
-                <span>• 迁移执行</span>
-                <span>• 结果验证</span>
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.pilotApplication")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.migrationExecution")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.resultVerification")
+                  }}</span
+                >
               </div>
             </div>
           </div>
@@ -291,12 +434,25 @@
           <div class="process-step">
             <div class="step-number">04</div>
             <div class="step-content">
-              <h3>批量迁移</h3>
-              <p>按照制定的计划分批次进行应用迁移</p>
+              <h3>{{ $t("cloudMigration.service_details.batchMigration") }}</h3>
+              <p>{{ $t("cloudMigration.service_details.phasedMigration") }}</p>
               <div class="step-details">
-                <span>• 分批迁移</span>
-                <span>• 实时监控</span>
-                <span>• 问题处理</span>
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.stepByStepMigration")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.realTimeMonitoring")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{ $t("cloudMigration.service_details.issueHandling") }}</span
+                >
               </div>
             </div>
           </div>
@@ -304,12 +460,29 @@
           <div class="process-step">
             <div class="step-number">05</div>
             <div class="step-content">
-              <h3>测试验证</h3>
-              <p>全面测试迁移后的系统功能和性能</p>
+              <h3>{{ $t("cloudMigration.service_details.testValidation") }}</h3>
+              <p>
+                {{ $t("cloudMigration.service_details.fullSystemTesting") }}
+              </p>
               <div class="step-details">
-                <span>• 功能测试</span>
-                <span>• 性能测试</span>
-                <span>• 安全测试</span>
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.functionalTesting")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.performanceTesting")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.securityTesting")
+                  }}</span
+                >
               </div>
             </div>
           </div>
@@ -317,12 +490,29 @@
           <div class="process-step">
             <div class="step-number">06</div>
             <div class="step-content">
-              <h3>上线与优化</h3>
-              <p>正式切换到云环境，持续优化性能</p>
+              <h3>
+                {{ $t("cloudMigration.service_details.goLiveAndOptimization") }}
+              </h3>
+              <p>
+                {{ $t("cloudMigration.service_details.productionCutover") }}
+              </p>
               <div class="step-details">
-                <span>• 生产切换</span>
-                <span>• 性能调优</span>
-                <span>• 运维交接</span>
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.performanceTuning")
+                  }}</span
+                >
+                <span
+                  >•
+                  {{ $t("cloudMigration.service_details.opsHandover") }}</span
+                >
+                <span
+                  >•
+                  {{
+                    $t("cloudMigration.service_details.migrationToolsAndTech")
+                  }}</span
+                >
               </div>
             </div>
           </div>
@@ -333,13 +523,15 @@
     <section class="migration-tools">
       <div class="container">
         <div class="section-header">
-          <h2>迁移工具与技术</h2>
-          <p>专业的迁移工具和技术栈</p>
+          <h2>
+            {{ $t("cloudMigration.service_details.migrationToolsAndTech") }}
+          </h2>
+          <p>{{ $t("cloudMigration.service_details.toolsStack") }}</p>
         </div>
 
         <div class="tools-categories">
           <div class="tool-category">
-            <h3>评估工具</h3>
+            <h3>{{ $t("cloudMigration.service_details.assessmentTools") }}</h3>
             <div class="tool-items">
               <div class="tool-item">AWS Application Discovery Service</div>
               <div class="tool-item">Azure Migrate</div>
@@ -349,7 +541,7 @@
           </div>
 
           <div class="tool-category">
-            <h3>迁移工具</h3>
+            <h3>{{ $t("cloudMigration.service_details.migrationTools") }}</h3>
             <div class="tool-items">
               <div class="tool-item">AWS Server Migration Service</div>
               <div class="tool-item">Azure Site Recovery</div>
@@ -359,7 +551,7 @@
           </div>
 
           <div class="tool-category">
-            <h3>数据迁移</h3>
+            <h3>{{ $t("cloudMigration.service_details.dataMigration") }}</h3>
             <div class="tool-items">
               <div class="tool-item">AWS Database Migration Service</div>
               <div class="tool-item">Azure Database Migration Service</div>
@@ -369,7 +561,7 @@
           </div>
 
           <div class="tool-category">
-            <h3>容器化</h3>
+            <h3>{{ $t("cloudMigration.service_details.containerization") }}</h3>
             <div class="tool-items">
               <div class="tool-item">Docker</div>
               <div class="tool-item">Kubernetes</div>
@@ -384,33 +576,53 @@
     <section class="success-metrics">
       <div class="container">
         <div class="section-header">
-          <h2>成功指标</h2>
-          <p>我们的迁移项目成功率和客户满意度</p>
+          <h2>{{ $t("cloudMigration.service_details.successMetrics") }}</h2>
+          <p>{{ $t("cloudMigration.service_details.migrationSuccessRate") }}</p>
         </div>
 
         <div class="metrics-grid">
           <div class="metric-item">
             <div class="metric-number">98%</div>
-            <div class="metric-label">迁移成功率</div>
-            <div class="metric-description">零数据丢失，业务连续性保障</div>
+            <div class="metric-label">
+              {{ $t("cloudMigration.service_details.migrationSuccessRates") }}
+            </div>
+            <div class="metric-description">
+              {{ $t("cloudMigration.service_details.zeroDataLoss") }}
+            </div>
           </div>
 
           <div class="metric-item">
-            <div class="metric-number">< 4小时</div>
-            <div class="metric-label">平均停机时间</div>
-            <div class="metric-description">最小化业务中断影响</div>
+            <div class="metric-number">
+              < 4{{ $t("cloudMigration.service_details.downtimeHours") }}
+            </div>
+            <div class="metric-label">
+              {{ $t("cloudMigration.service_details.averageDowntime") }}
+            </div>
+            <div class="metric-description">
+              {{ $t("cloudMigration.service_details.minimizedDisruption") }}
+            </div>
           </div>
 
           <div class="metric-item">
             <div class="metric-number">30%</div>
-            <div class="metric-label">性能提升</div>
-            <div class="metric-description">迁移后平均性能改善</div>
+            <div class="metric-label">
+              {{ $t("cloudMigration.service_details.performanceImprovement") }}
+            </div>
+            <div class="metric-description">
+              {{
+                $t("cloudMigration.service_details.postMigrationPerformance")
+              }}
+            </div>
           </div>
 
           <div class="metric-item">
             <div class="metric-number">95%</div>
-            <div class="metric-label">客户满意度</div>
-            <div class="metric-description">客户对迁移服务的满意评价</div>
+            <div class="metric-label">
+              {{ $t("cloudMigration.service_details.customerSatisfaction") }}
+            </div>
+            <div class="metric-description">
+              {{ $t("cloudMigration.service_details.positiveFeedback") }}
+            </div>
           </div>
         </div>
       </div>
@@ -419,13 +631,15 @@
     <section class="migration-checklist">
       <div class="container">
         <div class="section-header">
-          <h2>迁移准备清单</h2>
-          <p>确保迁移项目顺利进行的关键要素</p>
+          <h2>{{ $t("cloudMigration.service_details.migrationChecklist") }}</h2>
+          <p>{{ $t("cloudMigration.service_details.keyReadinessItems") }}</p>
         </div>
 
         <div class="checklist-grid">
           <div class="checklist-category">
-            <h3>技术准备</h3>
+            <h3>
+              {{ $t("cloudMigration.service_details.technicalReadiness") }}
+            </h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -435,7 +649,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>应用架构文档</span>
+                <span>{{
+                  $t("cloudMigration.service_details.appArchitectureDocs")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -445,7 +661,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>依赖关系梳理</span>
+                <span>{{
+                  $t("cloudMigration.service_details.dependencyMapping")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -455,13 +673,19 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>性能基线测试</span>
+                <span>{{
+                  $t(
+                    "cloudMigration.service_details.performanceBaselineTesting"
+                  )
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="checklist-category">
-            <h3>业务准备</h3>
+            <h3>
+              {{ $t("cloudMigration.service_details.businessReadiness") }}
+            </h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -471,7 +695,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>业务影响评估</span>
+                <span>{{
+                  $t("cloudMigration.service_details.businessImpactAssessment")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -481,7 +707,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>用户培训计划</span>
+                <span>{{
+                  $t("cloudMigration.service_details.userTrainingPlan")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -491,13 +719,17 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>回滚方案制定</span>
+                <span>{{
+                  $t("cloudMigration.service_details.rollbackPlan")
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="checklist-category">
-            <h3>安全合规</h3>
+            <h3>
+              {{ $t("cloudMigration.service_details.securityCompliance") }}
+            </h3>
             <div class="checklist-items">
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -507,7 +739,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>数据分类标识</span>
+                <span>{{
+                  $t("cloudMigration.service_details.dataClassification")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -517,7 +751,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>合规要求确认</span>
+                <span>{{
+                  $t("cloudMigration.service_details.complianceRequirements")
+                }}</span>
               </div>
               <div class="checklist-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -527,7 +763,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>安全策略配置</span>
+                <span>{{
+                  $t("cloudMigration.service_details.securityPolicyConfig")
+                }}</span>
               </div>
             </div>
           </div>
@@ -538,9 +776,15 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>开始您的云迁移之旅</h2>
-          <p>联系我们的迁移专家，获取免费的迁移评估和方案设计</p>
-          <a href="/contact" class="btn-primary">免费评估</a>
+          <h2>
+            {{ $t("cloudMigration.service_details.startCloudMigration") }}
+          </h2>
+          <p>
+            {{ $t("cloudMigration.service_details.contactMigrationExperts") }}
+          </p>
+          <a href="/contact" class="btn-primary">{{
+            $t("cloudMigration.service_details.freeAssessment")
+          }}</a>
         </div>
       </div>
     </section>
