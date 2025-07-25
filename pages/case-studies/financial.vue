@@ -3,16 +3,20 @@
     <div class="case-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">金融行业案例</h1>
-          <p class="hero-subtitle">引领金融科技创新，赋能数字化转型</p>
+          <h1 class="hero-title">{{ $t("financial.hero.title") }}</h1>
+          <p class="hero-subtitle">
+            {{ $t("financial.hero.leading_financial_innovation") }}
+          </p>
           <p class="hero-description">
-            我们为全球金融机构提供先进的技术解决方案，
-            助力银行、保险、证券等金融企业实现数字化转型，
-            提升服务效率，降低运营成本，增强风险管控能力。
+            {{ $t("financial.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">咨询方案</a>
-            <a href="#case-details" class="btn-secondary">查看案例</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("financial.hero.consultation_scheme")
+            }}</a>
+            <a href="#case-details" class="btn-secondary">{{
+              $t("financial.hero.view")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -40,8 +44,8 @@
     <section id="case-details" class="industry-overview">
       <div class="container">
         <div class="section-header">
-          <h2>金融行业解决方案</h2>
-          <p>全方位的金融科技服务</p>
+          <h2>{{ $t("financial.section.FinancialIndustry") }}</h2>
+          <p>{{ $t("financial.section.Comprehensive") }}</p>
         </div>
 
         <div class="solutions-grid">
@@ -60,8 +64,8 @@
                 />
               </svg>
             </div>
-            <h3>数字银行平台</h3>
-            <p>构建完整的数字银行生态系统，提供全渠道客户服务体验</p>
+            <h3>{{ $t("financial.section.DigitalBankPlatform") }}</h3>
+            <p>{{ $t("financial.section.DigitalBankPlatformDesc") }}</p>
           </div>
 
           <div class="solution-card">
@@ -80,8 +84,8 @@
                 />
               </svg>
             </div>
-            <h3>风险管理系统</h3>
-            <p>智能风控平台，实时监控交易风险，保障资金安全</p>
+            <h3>{{ $t("financial.section.RiskManagementSystem") }}</h3>
+            <p>{{ $t("financial.section.RiskManagementSystemDesc") }}</p>
           </div>
 
           <div class="solution-card">
@@ -95,8 +99,8 @@
                 />
               </svg>
             </div>
-            <h3>支付清算系统</h3>
-            <p>高性能支付处理平台，支持大规模并发交易处理</p>
+            <h3>{{ $t("financial.section.PaymentClearingSystem") }}</h3>
+            <p>{{ $t("financial.section.PaymentClearingSystemDesc") }}</p>
           </div>
 
           <div class="solution-card">
@@ -109,8 +113,10 @@
                 />
               </svg>
             </div>
-            <h3>合规监管平台</h3>
-            <p>自动化合规检查，确保业务操作符合监管要求</p>
+            <h3>{{ $t("financial.section.ComplianceRegulatoryPlatform") }}</h3>
+            <p>
+              {{ $t("financial.section.ComplianceRegulatoryPlatformDesc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -120,41 +126,67 @@
       <div class="container">
         <div class="case-spotlight">
           <div class="case-content">
-            <div class="case-badge">重点案例</div>
-            <h2>全球银行数字化转型项目</h2>
+            <div class="case-badge">{{ $t("financial.section.KeyCases") }}</div>
+            <h2>
+              {{
+                $t("financial.section.GlobalBankDigitalTransformationProject")
+              }}
+            </h2>
             <p class="case-description">
-              为某国际知名银行打造的全方位数字化银行平台，
-              涵盖核心银行系统、移动银行应用、风险管理系统等多个模块，
-              实现了银行业务的全面数字化升级。
+              {{
+                $t(
+                  "financial.section.GlobalBankDigitalTransformationProjectDesc"
+                )
+              }}
             </p>
 
             <div class="case-highlights">
               <div class="highlight-item">
                 <div class="highlight-number">300%</div>
-                <div class="highlight-label">客户服务效率提升</div>
+                <div class="highlight-label">
+                  {{ $t("financial.section.CustomerServiceEfficiencyUpgrade") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">500%</div>
-                <div class="highlight-label">交易处理速度提升</div>
+                <div class="highlight-label">
+                  {{
+                    $t("financial.section.TransactionProcessingSpeedUpgrade")
+                  }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">99.9%</div>
-                <div class="highlight-label">系统可用性</div>
+                <div class="highlight-label">
+                  {{ $t("financial.section.SystemAvailability") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">60%</div>
-                <div class="highlight-label">运营成本降低</div>
+                <div class="highlight-label">
+                  {{ $t("financial.section.OperationalCostReduction") }}
+                </div>
               </div>
             </div>
 
             <div class="case-technologies">
-              <h4>核心技术</h4>
+              <h4>{{ $t("financial.section.CoreTechnologies") }}</h4>
               <div class="tech-tags">
-                <span class="tech-tag">微服务架构</span>
-                <span class="tech-tag">区块链技术</span>
-                <span class="tech-tag">AI风控</span>
-                <span class="tech-tag">云原生</span>
-                <span class="tech-tag">大数据分析</span>
+                <span class="tech-tag">{{
+                  $t("financial.section.MicroserviceArchitecture")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("financial.section.BlockchainTechnology")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("financial.section.AIRiskControl")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("financial.section.CloudNative")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("financial.section.BigDataAnalysis")
+                }}</span>
               </div>
             </div>
           </div>
@@ -191,8 +223,8 @@
     <section class="case-studies">
       <div class="container">
         <div class="section-header">
-          <h2>更多金融案例</h2>
-          <p>我们在金融领域的丰富实践经验</p>
+          <h2>{{ $t("financial.section.MoreFinancialCases") }}</h2>
+          <p>{{ $t("financial.section.RichPracticeExperience") }}</p>
         </div>
 
         <div class="cases-grid">
@@ -208,26 +240,40 @@
                   <circle cx="12" cy="14" r="2" fill="currentColor" />
                 </svg>
               </div>
-              <div class="case-category">保险科技</div>
+              <div class="case-category">
+                {{ $t("financial.section.InsuranceTechnology") }}
+              </div>
             </div>
-            <h3>智能保险理赔系统</h3>
+            <h3>
+              {{ $t("financial.section.IntelligentInsuranceClaimSystem") }}
+            </h3>
             <p>
-              为大型保险公司构建的AI驱动理赔系统，实现理赔流程自动化，提升理赔效率80%。
+              {{ $t("financial.section.IntelligentInsuranceClaimSystemDesc") }}
             </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">80%</span>
-                <span class="metric-label">效率提升</span>
+                <span class="metric-label">{{
+                  $t("financial.section.PerformanceUpgrade")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">24小时</span>
-                <span class="metric-label">理赔周期</span>
+                <span class="metric-label">{{
+                  $t("financial.section.ClaimCycle")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">AI识别</span>
-              <span class="feature-tag">自动审核</span>
-              <span class="feature-tag">风险评估</span>
+              <span class="feature-tag">{{
+                $t("financial.section.AIRecognition")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.AutomaticAudit")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.RiskAssessment")
+              }}</span>
             </div>
           </div>
 
@@ -243,26 +289,40 @@
                   />
                 </svg>
               </div>
-              <div class="case-category">证券交易</div>
+              <div class="case-category">
+                {{ $t("financial.section.SecuritiesTransaction") }}
+              </div>
             </div>
-            <h3>高频交易系统</h3>
+            <h3>{{ $t("financial.section.HighFrequencyTradingSystem") }}</h3>
             <p>
-              为证券公司打造的高性能交易系统，支持毫秒级交易执行，日处理交易量超过百万笔。
+              {{ $t("financial.section.HighFrequencyTradingSystemDesc") }}
             </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">< 1ms</span>
-                <span class="metric-label">交易延迟</span>
+                <span class="metric-label">{{
+                  $t("financial.section.TransactionDelay")
+                }}</span>
               </div>
               <div class="metric">
-                <span class="metric-value">100万+</span>
-                <span class="metric-label">日交易量</span>
+                <span class="metric-value"
+                  >100{{ $t("financial.section.Tenant") }}+</span
+                >
+                <span class="metric-label">{{
+                  $t("financial.section.DailyTransactionVolume")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">低延迟</span>
-              <span class="feature-tag">高并发</span>
-              <span class="feature-tag">实时监控</span>
+              <span class="feature-tag">{{
+                $t("financial.section.LowLatency")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.HighConcurrency")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.RealTimeMonitoring")
+              }}</span>
             </div>
           </div>
 
@@ -277,26 +337,42 @@
                   />
                 </svg>
               </div>
-              <div class="case-category">财富管理</div>
+              <div class="case-category">
+                {{ $t("financial.section.WealthManagement") }}
+              </div>
             </div>
-            <h3>智能投顾平台</h3>
+            <h3>
+              {{ $t("financial.section.IntelligentAdvisoryPlatform") }}
+            </h3>
             <p>
-              基于AI算法的智能投资顾问平台，为客户提供个性化投资建议，管理资产规模超过50亿。
+              {{ $t("financial.section.IntelligentAdvisoryPlatformDesc") }}
             </p>
             <div class="case-metrics">
               <div class="metric">
-                <span class="metric-value">50亿+</span>
-                <span class="metric-label">管理资产</span>
+                <span class="metric-value"
+                  >50{{ $t("financial.section.Billion") }}+</span
+                >
+                <span class="metric-label">{{
+                  $t("financial.section.ManageAssets")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">15%</span>
-                <span class="metric-label">年化收益</span>
+                <span class="metric-label">{{
+                  $t("financial.section.AnnualizedReturn")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">AI算法</span>
-              <span class="feature-tag">风险控制</span>
-              <span class="feature-tag">个性化</span>
+              <span class="feature-tag">{{
+                $t("financial.section.AIAlgorithm")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.RiskControl")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.Personalized")
+              }}</span>
             </div>
           </div>
 
@@ -311,26 +387,42 @@
                   />
                 </svg>
               </div>
-              <div class="case-category">支付系统</div>
+              <div class="case-category">
+                {{ $t("financial.section.PaymentSystem") }}
+              </div>
             </div>
-            <h3>跨境支付平台</h3>
+            <h3>
+              {{ $t("financial.section.CrossBorderPaymentPlatform") }}
+            </h3>
             <p>
-              构建的跨境支付解决方案，支持多币种实时汇率转换，为企业提供便捷的国际支付服务。
+              {{ $t("financial.section.CrossBorderPaymentPlatformDesc") }}
             </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">50+</span>
-                <span class="metric-label">支持币种</span>
+                <span class="metric-label">{{
+                  $t("financial.section.SupportedCurrencies")
+                }}</span>
               </div>
               <div class="metric">
-                <span class="metric-value">秒级</span>
-                <span class="metric-label">到账时间</span>
+                <span class="metric-value">{{
+                  $t("financial.section.SecondLevel")
+                }}</span>
+                <span class="metric-label">{{
+                  $t("financial.section.PaymentTime")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">多币种</span>
-              <span class="feature-tag">实时汇率</span>
-              <span class="feature-tag">合规安全</span>
+              <span class="feature-tag">{{
+                $t("financial.section.MultiCurrency")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.RealTimeExchangeRate")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("financial.section.ComplianceSecurity")
+              }}</span>
             </div>
           </div>
         </div>
@@ -340,48 +432,86 @@
     <section class="technology-stack">
       <div class="container">
         <div class="section-header">
-          <h2>金融科技栈</h2>
-          <p>我们在金融领域使用的核心技术</p>
+          <h2>
+            {{ $t("financial.section.FinancialTechStack") }}
+          </h2>
+          <p>
+            {{ $t("financial.section.CoreTechnologie") }}
+          </p>
         </div>
 
         <div class="tech-categories">
           <div class="tech-category">
-            <h3>核心架构</h3>
+            <h3>
+              {{ $t("financial.section.CoreArchitecture") }}
+            </h3>
             <div class="tech-items">
-              <div class="tech-item">微服务架构</div>
-              <div class="tech-item">分布式系统</div>
-              <div class="tech-item">容器化部署</div>
-              <div class="tech-item">服务网格</div>
+              <div class="tech-item">
+                {{ $t("financial.section.MicroserviceArchitecture") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.DistributedSystem") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.ContainerizedDeployment") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.ServiceMesh") }}
+              </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>数据处理</h3>
+            <h3>{{ $t("financial.section.DataProcessing") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">实时流处理</div>
-              <div class="tech-item">大数据分析</div>
-              <div class="tech-item">机器学习</div>
-              <div class="tech-item">数据湖</div>
+              <div class="tech-item">
+                {{ $t("financial.section.RealTimeStreamProcessing") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.BigDataAnalysis") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.MachineLearning") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.DataLake") }}
+              </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>安全技术</h3>
+            <h3>{{ $t("financial.section.SecurityTechnology") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">区块链</div>
-              <div class="tech-item">加密算法</div>
-              <div class="tech-item">身份认证</div>
-              <div class="tech-item">风险控制</div>
+              <div class="tech-item">
+                {{ $t("financial.section.Blockchain") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.EncryptionAlgorithm") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.IdentityAuthentication") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.RiskControl") }}
+              </div>
             </div>
           </div>
 
           <div class="tech-category">
-            <h3>云平台</h3>
+            <h3>{{ $t("financial.section.CloudPlatform") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">多云部署</div>
-              <div class="tech-item">弹性扩展</div>
-              <div class="tech-item">灾备恢复</div>
-              <div class="tech-item">监控运维</div>
+              <div class="tech-item">
+                {{ $t("financial.section.MultiCloudDeployment") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.ElasticScaling") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.DisasterRecovery") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("financial.section.MonitoringMaintenance") }}
+              </div>
             </div>
           </div>
         </div>
@@ -391,8 +521,8 @@
     <section class="industry-insights">
       <div class="container">
         <div class="section-header">
-          <h2>行业洞察</h2>
-          <p>金融科技发展趋势与挑战</p>
+          <h2>{{ $t("financial.section.IndustryInsights") }}</h2>
+          <p>{{ $t("financial.section.FinancialTechTrendsAndChallenges") }}</p>
         </div>
 
         <div class="insights-grid">
@@ -413,9 +543,9 @@
                 />
               </svg>
             </div>
-            <h3>数字化转型</h3>
+            <h3>{{ $t("financial.section.DigitalTransformation") }}</h3>
             <p>
-              传统金融机构加速数字化转型，构建全渠道客户服务体验，提升运营效率和竞争力。
+              {{ $t("financial.section.DigitalTransformationDesc") }}
             </p>
           </div>
 
@@ -435,9 +565,9 @@
                 />
               </svg>
             </div>
-            <h3>监管科技</h3>
+            <h3>{{ $t("financial.section.RegulatoryTechnology") }}</h3>
             <p>
-              RegTech技术帮助金融机构自动化合规流程，降低合规成本，提高监管报告的准确性。
+              {{ $t("financial.section.RegulatoryTechnologyDesc") }}
             </p>
           </div>
 
@@ -452,9 +582,9 @@
                 />
               </svg>
             </div>
-            <h3>开放银行</h3>
+            <h3>{{ $t("financial.section.OpenBanking") }}</h3>
             <p>
-              API经济推动开放银行发展，金融机构通过开放平台与第三方服务商合作，创新金融服务。
+              {{ $t("financial.section.OpenBankingDesc") }}
             </p>
           </div>
         </div>
@@ -464,9 +594,13 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>开启您的金融科技之旅</h2>
-          <p>让我们为您的金融业务提供专业的技术解决方案</p>
-          <a href="/contact" class="btn-primary">立即咨询</a>
+          <h2>{{ $t("financial.section.EnableYourFinancialTechJourney") }}</h2>
+          <p>
+            {{ $t("financial.section.EnableYourFinancialTechJourneyDesc") }}
+          </p>
+          <a href="/contact" class="btn-primary">{{
+            $t("financial.section.ContactUs")
+          }}</a>
         </div>
       </div>
     </section>
