@@ -1201,5 +1201,127 @@
       "letOurProfessionalTeam": "让我们的专业团队为您的云基础设施保驾护航",
       "contactUs": "立即联系我们"
     }
+  },
+  "technical_services": {
+    "hero": {
+      "tag": "先进的技术服务",
+      "title": "云技术",
+      "subtitle": "专业服务",
+      "description": " 基于前沿云原生技术栈，提供企业级云技术实施与优化服务，助力企业构建高性能、高可用的现代化IT架构。",
+      "system_availability": "系统可用性",
+      "deployment_efficiency_improvement": "部署效率提升",
+      "cost_optimization": "成本优化",
+      "start_consultation": "开始咨询",
+      "technical_architecture": "技术架构",
+      "professional_technical_services_matrix": "专业技术服务矩阵",
+      "professional_technical_services_matrix_desc": "基于云原生技术栈的全方位技术服务",
+      "technical_stack_ecosystem": "技术栈生态系统",
+      "building_modern_cloud_native_architecture": "构建现代化云原生技术架构",
+      "Implementation": "实施过程",
+      "implementation_process": "技术实施流程",
+      "standardized_devops_implementation_process": "标准化的DevOps实施流程",
+      "building_architecture": "构建下一代云原生架构",
+      "building_architecture_desc": "与我们的技术专家团队合作，基于最新的云原生技术栈，打造高性能、高可用、可扩展的企业级技术架构。",
+      "microservice_architecture_design": "微服务架构设计",
+      "containerized_deployment": "容器化部署",
+      "devsecops_process": "DevSecOps流程",
+      "observability_monitoring": "可观测性监控",
+      "start_technical_consultation": "开始技术咨询",
+      "view_architecture_cases": "查看架构案例",
+      "building_cloud_native_architecture": "构建云原生架构",
+      "implementing_microservice_governance": "实现微服务治理",
+      "optimizing_container_orchestration": "优化容器编排",
+      "improving_system_performance": "提升系统性能"
+    },
+    "service": {
+      "one": {
+        "title": "云迁移与架构",
+        "description": "基于Kubernetes的云原生架构设计，实现应用的容器化迁移和微服务改造"
+      },
+      "two": {
+        "title": "CD流水线",
+        "description": "构建自动化的持续集成和持续部署流水线，实现代码到生产的全自动化"
+      },
+      "three": {
+        "title": "可观测性平台",
+        "description": "建立全链路监控和可观测性平台，实现系统的实时监控和智能告警"
+      },
+      "four": {
+        "title": "DevSecOps安全",
+        "description": "集成安全扫描和合规检查到开发流程，实现安全左移和零信任架构"
+      },
+      "five": {
+        "title": "性能优化调优",
+        "description": "持续监控和优化系统性能，确保最佳的用户体验和资源利用率"
+      },
+      "six": {
+        "title": "数据平台建设",
+        "description": "构建现代化数据平台，实现数据的实时处理和智能分析"
+      }
+    },
+    "techStack": {
+      "one": {
+        "title": "容器编排层"
+      },
+      "two": {
+        "title": "服务网格层"
+      },
+      "three": {
+        "title": "可观测性层"
+      },
+      "four": {
+        "title": "基础设施层"
+      }
+    },
+    "processSteps": {
+      "one": {
+        "title": "需求分析与架构设计",
+        "description": "深度分析业务需求，设计云原生技术架构",
+        "business_requirement_survey": "业务需求调研",
+        "technical_architecture_design": "技术架构设计",
+        "technology_selection_evaluation": "技术选型评估",
+        "implementation_scheme": "实施方案制定"
+      },
+      "two": {
+        "title": "环境搭建与基础设施",
+        "description": "搭建云原生基础设施和开发环境",
+        "cluster_environment_setup": "集群环境搭建",
+        "infrastructure_setup": "网络配置优化",
+        "storage_scheme_deployment": "存储方案部署",
+        "security_policy_configuration": "安全策略配置"
+      },
+      "three": {
+        "title": "应用容器化与部署",
+        "description": "应用容器化改造和微服务部署",
+        "application_containerization": "应用容器化",
+        "microservice_deployment": "镜像构建优化",
+        "service_deployment_configuration": "服务部署配置",
+        "load_balancing_settings": "负载均衡设置"
+      },
+      "four": {
+        "title": "CD流水线建设",
+        "description": "构建自动化的持续集成和持续部署流水线",
+        "code_quality_check": "代码质量检查",
+        "automated_testing": "自动化测试",
+        "image_build_publish": "镜像构建发布",
+        "automated_deployment": "自动化部署"
+      },
+      "five": {
+        "title": "监控与可观测性",
+        "description": "建立全链路监控和可观测性平台",
+        "metric_monitoring_configuration": "指标监控配置",
+        "log_aggregation_analysis": "日志聚合分析",
+        "link_tracking_deployment": "链路追踪部署",
+        "alert_rule_configuration": "告警规则配置"
+      },
+      "six": {
+        "title": "性能优化与交付",
+        "description": "系统性能调优和项目交付",
+        "performance_monitoring": "性能基准测试",
+        "performance_optimization": "系统调优优化",
+        "user_experience_improvement": "文档交付培训",
+        "maintenance_support_services": "运维支持服务"
+      }
+    }
   }
 }

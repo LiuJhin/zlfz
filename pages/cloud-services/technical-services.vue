@@ -12,13 +12,16 @@
           <div class="content-wrapper">
             <div class="hero-text">
               <div class="hero-badge">
-                <span class="badge-icon">⚡</span>
-                <span class="badge-text">Advanced Technical Services</span>
+                <span class="badge-text">{{
+                  $t("technical_services.hero.tag")
+                }}</span>
               </div>
 
               <h1 class="hero-title">
-                云技术
-                <span class="highlight-text">专业服务</span>
+                {{ $t("technical_services.hero.title") }}
+                <span class="highlight-text">{{
+                  $t("technical_services.hero.subtitle")
+                }}</span>
               </h1>
 
               <div class="typing-text">
@@ -27,8 +30,7 @@
               </div>
 
               <p class="hero-description">
-                基于前沿云原生技术栈，提供企业级云技术实施与优化服务，
-                助力企业构建高性能、高可用的现代化IT架构。
+                {{ $t("technical_services.hero.description") }}
               </p>
 
               <div class="tech-stats">
@@ -44,7 +46,9 @@
                   </div>
                   <div class="stat-info">
                     <div class="stat-number">99.9%</div>
-                    <div class="stat-label">系统可用性</div>
+                    <div class="stat-label">
+                      {{ $t("technical_services.hero.system_availability") }}
+                    </div>
                   </div>
                 </div>
                 <div class="stat-item">
@@ -59,7 +63,13 @@
                   </div>
                   <div class="stat-info">
                     <div class="stat-number">10x</div>
-                    <div class="stat-label">部署效率提升</div>
+                    <div class="stat-label">
+                      {{
+                        $t(
+                          "technical_services.hero.deployment_efficiency_improvement"
+                        )
+                      }}
+                    </div>
                   </div>
                 </div>
                 <div class="stat-item">
@@ -79,14 +89,18 @@
                   </div>
                   <div class="stat-info">
                     <div class="stat-number">70%</div>
-                    <div class="stat-label">成本优化</div>
+                    <div class="stat-label">
+                      {{ $t("technical_services.hero.cost_optimization") }}
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="hero-actions">
                 <a href="/contact" class="btn-primary">
-                  <span>开始咨询</span>
+                  <span>{{
+                    $t("technical_services.hero.start_consultation")
+                  }}</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                     <path
                       d="M5 12H19M19 12L12 5M19 12L12 19"
@@ -96,7 +110,9 @@
                   </svg>
                 </a>
                 <a href="#services" class="btn-tech">
-                  <span>技术架构</span>
+                  <span>{{
+                    $t("technical_services.hero.technical_architecture")
+                  }}</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                     <path
                       d="M12 2L20 7V17L12 22L4 17V7L12 2Z"
@@ -165,8 +181,22 @@
             <span class="badge-icon">🔧</span>
             <span class="badge-text">Core Services</span>
           </div>
-          <h2>专业技术服务矩阵</h2>
-          <p>基于云原生技术栈的全方位技术服务</p>
+          <h2>
+            {{
+              $t(
+                "technical_services.hero.professional_technical_services_matrix"
+              )
+            }}
+          </h2>
+          {
+          <p>
+            {{
+              $t(
+                "technical_services.hero.professional_technical_services_matrix_desc"
+              )
+            }}
+          </p>
+          }
         </div>
 
         <div class="services-grid">
@@ -221,8 +251,16 @@
             <span class="badge-icon">🚀</span>
             <span class="badge-text">Technology Stack</span>
           </div>
-          <h2>技术栈生态系统</h2>
-          <p>构建现代化云原生技术架构</p>
+          <h2>
+            {{ $t("technical_services.hero.technical_stack_ecosystem") }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "technical_services.hero.building_modern_cloud_native_architecture"
+              )
+            }}
+          </p>
         </div>
 
         <div class="tech-visualization">
@@ -275,11 +313,20 @@
       <div class="container">
         <div class="section-header">
           <div class="header-badge">
-            <span class="badge-icon">⚙️</span>
-            <span class="badge-text">Implementation Process</span>
+            <span class="badge-text">{{
+              $t("technical_services.hero.Implementation")
+            }}</span>
           </div>
-          <h2>技术实施流程</h2>
-          <p>标准化的DevOps实施流程</p>
+          <h2>
+            {{ $t("technical_services.hero.implementation_process") }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "technical_services.hero.standardized_devops_implementation_process"
+              )
+            }}
+          </p>
         </div>
 
         <div class="process-timeline">
@@ -380,34 +427,39 @@
             </div>
           </div>
 
-          <h2>构建下一代云原生架构</h2>
+          <h2>{{ $t("technical_services.hero.building_architecture") }}</h2>
           <p>
-            与我们的技术专家团队合作，基于最新的云原生技术栈，
-            打造高性能、高可用、可扩展的企业级技术架构。
+            {{ $t("technical_services.hero.building_architecture_desc") }}
           </p>
 
           <div class="cta-features">
             <div class="feature-item">
-              <span class="feature-icon">🔥</span>
-              <span class="feature-text">微服务架构设计</span>
+              <span class="feature-text">{{
+                $t("technical_services.hero.microservice_architecture_design")
+              }}</span>
             </div>
             <div class="feature-item">
-              <span class="feature-icon">⚡</span>
-              <span class="feature-text">容器化部署</span>
+              <span class="feature-text">{{
+                $t("technical_services.hero.containerized_deployment")
+              }}</span>
             </div>
             <div class="feature-item">
-              <span class="feature-icon">🛡️</span>
-              <span class="feature-text">DevSecOps流程</span>
+              <span class="feature-text">{{
+                $t("technical_services.hero.devsecops_process")
+              }}</span>
             </div>
             <div class="feature-item">
-              <span class="feature-icon">📊</span>
-              <span class="feature-text">可观测性监控</span>
+              <span class="feature-text">{{
+                $t("technical_services.hero.observability_monitoring")
+              }}</span>
             </div>
           </div>
 
           <div class="cta-actions">
             <a href="/contact" class="btn-primary">
-              <span>开始技术咨询</span>
+              <span>{{
+                $t("technical_services.hero.start_technical_consultation")
+              }}</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M5 12H19M19 12L12 5M19 12L12 19"
@@ -417,7 +469,9 @@
               </svg>
             </a>
             <a href="#architecture" class="btn-outline">
-              <span>查看架构案例</span>
+              <span>{{
+                $t("technical_services.hero.view_architecture_cases")
+              }}</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M15 3H21V9M9 21H3V15M21 3L14 10M3 21L10 14"
@@ -434,10 +488,13 @@
 </template>
 
 <script setup>
+import { computed } from "vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useI18n } from "vue-i18n";
 import ThreeBackground from "~/components/About/ThreeBackground.vue";
 
+const { t } = useI18n();
 // 注册GSAP插件
 gsap.registerPlugin(ScrollTrigger);
 
@@ -522,21 +579,20 @@ function getConnectionPath(index) {
 }
 
 // 打字机文本
-const typingTexts = [
-  "构建云原生架构",
-  "实现微服务治理",
-  "优化容器编排",
-  "提升系统性能",
-];
+const typingTexts = computed(() => [
+  t("technical_services.hero.building_cloud_native_architecture"),
+  t("technical_services.hero.implementing_microservice_governance"),
+  t("technical_services.hero.optimizing_container_orchestration"),
+  t("technical_services.hero.improving_system_performance"),
+]);
 
 // 服务数据
-const services = [
+const services = computed(() => [
   {
     category: "Infrastructure",
     level: "Enterprise",
-    title: "云迁移与架构",
-    description:
-      "基于Kubernetes的云原生架构设计，实现应用的容器化迁移和微服务改造",
+    title: t("technical_services.service.one.title"),
+    description: t("technical_services.service.one.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["Kubernetes", "Docker", "Istio"],
     performance: "300%",
@@ -545,9 +601,8 @@ const services = [
   {
     category: "DevOps",
     level: "Advanced",
-    title: "CI/CD流水线",
-    description:
-      "构建自动化的持续集成和持续部署流水线，实现代码到生产的全自动化",
+    title: t("technical_services.service.two.title"),
+    description: t("technical_services.service.two.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["Jenkins", "GitLab CI", "ArgoCD"],
     performance: "500%",
@@ -556,8 +611,8 @@ const services = [
   {
     category: "Monitoring",
     level: "Professional",
-    title: "可观测性平台",
-    description: "建立全链路监控和可观测性平台，实现系统的实时监控和智能告警",
+    title: t("technical_services.service.three.title"),
+    description: t("technical_services.service.three.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M3 3V21H21" stroke="currentColor" stroke-width="2"/><path d="M7 12L12 7L16 11L21 6" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["Prometheus", "Grafana", "Jaeger"],
     performance: "200%",
@@ -566,8 +621,8 @@ const services = [
   {
     category: "Security",
     level: "Enterprise",
-    title: "DevSecOps安全",
-    description: "集成安全扫描和合规检查到开发流程，实现安全左移和零信任架构",
+    title: t("technical_services.service.four.title"),
+    description: t("technical_services.service.four.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["Falco", "OPA", "Vault"],
     performance: "150%",
@@ -576,8 +631,8 @@ const services = [
   {
     category: "Performance",
     level: "Expert",
-    title: "性能优化调优",
-    description: "深度性能分析和系统调优，优化应用响应时间和资源利用率",
+    title: t("technical_services.service.five.title"),
+    description: t("technical_services.service.five.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["eBPF", "Envoy", "Redis"],
     performance: "400%",
@@ -586,19 +641,19 @@ const services = [
   {
     category: "Data",
     level: "Advanced",
-    title: "数据平台建设",
-    description: "构建现代化数据平台，实现数据的实时处理和智能分析",
+    title: t("technical_services.service.six.title"),
+    description: t("technical_services.service.six.description"),
     icon: '<svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/><path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/></svg>',
     technologies: ["Kafka", "Spark", "Elasticsearch"],
     performance: "600%",
     reliability: "99.7%",
   },
-];
+]);
 
 // 技术栈数据
-const techStack = [
+const techStack = computed(() => [
   {
-    name: "容器编排层",
+    name: t("technical_services.techStack.one.title"),
     description: "Container Orchestration",
     technologies: [
       {
@@ -611,147 +666,168 @@ const techStack = [
       {
         name: "Docker",
         version: "v24.0",
-        icon: "🐳",
         featured: true,
         connections: 2,
       },
       {
         name: "Containerd",
         version: "v1.7",
-        icon: "📦",
         featured: false,
         connections: 1,
       },
     ],
   },
   {
-    name: "服务网格层",
+    name: t("technical_services.techStack.two.title"),
     description: "Service Mesh",
     technologies: [
       {
         name: "Istio",
         version: "v1.19",
-        icon: "🕸️",
         featured: true,
         connections: 4,
       },
       {
         name: "Envoy",
         version: "v1.27",
-        icon: "🚀",
         featured: true,
         connections: 3,
       },
       {
         name: "Linkerd",
         version: "v2.14",
-        icon: "🔗",
         featured: false,
         connections: 2,
       },
     ],
   },
   {
-    name: "可观测性层",
+    name: t("technical_services.techStack.three.title"),
     description: "Observability",
     technologies: [
       {
         name: "Prometheus",
         version: "v2.47",
-        icon: "📊",
         featured: true,
         connections: 5,
       },
       {
         name: "Grafana",
         version: "v10.1",
-        icon: "📈",
         featured: true,
         connections: 4,
       },
       {
         name: "Jaeger",
         version: "v1.49",
-        icon: "🔍",
         featured: true,
         connections: 3,
       },
     ],
   },
   {
-    name: "基础设施层",
+    name: t("technical_services.techStack.four.title"),
     description: "Infrastructure",
     technologies: [
       {
         name: "Terraform",
         version: "v1.6",
-        icon: "🏗️",
         featured: true,
         connections: 3,
       },
       {
         name: "Ansible",
         version: "v8.5",
-        icon: "⚙️",
         featured: true,
         connections: 2,
       },
       {
         name: "Helm",
         version: "v3.13",
-        icon: "⛵",
         featured: true,
         connections: 4,
       },
     ],
   },
-];
+]);
 
 // 流程步骤
-const processSteps = [
+const processSteps = computed(() => [
   {
-    title: "需求分析与架构设计",
-    description: "深度分析业务需求，设计云原生技术架构",
+    title: t("technical_services.processSteps.one.title"),
+    description: t("technical_services.processSteps.one.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 11H15M9 15H15M17 21H7C5.89543 21 5 20.1046 5 19V5C5 3.89543 5.89543 3 7 3H12.5858C12.851 3 13.1054 3.10536 13.2929 3.29289L19.7071 9.70711C19.8946 9.89464 20 10.149 20 10.4142V19C20 20.1046 19.1046 21 18 21H17Z" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["业务需求调研", "技术架构设计", "技术选型评估", "实施方案制定"],
+    details: [
+      t("technical_services.processSteps.one.business_requirement_survey"),
+      t("technical_services.processSteps.one.technical_architecture_design"),
+      t("technical_services.processSteps.one.technology_selection_evaluation"),
+      t("technical_services.processSteps.one.implementation_scheme"),
+    ],
     technologies: ["Kubernetes", "Microservices", "API Gateway"],
   },
   {
-    title: "环境搭建与基础设施",
-    description: "搭建云原生基础设施和开发环境",
+    title: t("technical_services.processSteps.two.title"),
+    description: t("technical_services.processSteps.two.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["集群环境搭建", "网络配置优化", "存储方案部署", "安全策略配置"],
+    details: [
+      t("technical_services.processSteps.two.cluster_environment_setup"),
+      t("technical_services.processSteps.two.infrastructure_setup"),
+      t("technical_services.processSteps.two.storage_scheme_deployment"),
+      t("technical_services.processSteps.two.security_policy_configuration"),
+    ],
     technologies: ["Terraform", "Ansible", "Helm"],
   },
   {
-    title: "应用容器化与部署",
-    description: "应用容器化改造和微服务部署",
+    title: t("technical_services.processSteps.three.title"),
+    description: t("technical_services.processSteps.three.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["应用容器化", "镜像构建优化", "服务部署配置", "负载均衡设置"],
+    details: [
+      t("technical_services.processSteps.three.application_containerization"),
+      t("technical_services.processSteps.three.microservice_deployment"),
+      t(
+        "technical_services.processSteps.three.service_deployment_configuration"
+      ),
+      t("technical_services.processSteps.three.load_balancing_settings"),
+    ],
     technologies: ["Docker", "Kubernetes", "Istio"],
   },
   {
-    title: "CI/CD流水线建设",
-    description: "构建自动化的持续集成和部署流水线",
+    title: t("technical_services.processSteps.four.title"),
+    description: t("technical_services.processSteps.four.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["代码质量检查", "自动化测试", "镜像构建发布", "自动化部署"],
+    details: [
+      t("technical_services.processSteps.four.code_quality_check"),
+      t("technical_services.processSteps.four.automated_testing"),
+      t("technical_services.processSteps.four.image_build_publish"),
+      t("technical_services.processSteps.four.automated_deployment"),
+    ],
     technologies: ["Jenkins", "GitLab CI", "ArgoCD"],
   },
   {
-    title: "监控与可观测性",
-    description: "建立全链路监控和可观测性平台",
+    title: t("technical_services.processSteps.five.title"),
+    description: t("technical_services.processSteps.five.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 3V21H21" stroke="currentColor" stroke-width="2"/><path d="M7 12L12 7L16 11L21 6" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["指标监控配置", "日志聚合分析", "链路追踪部署", "告警规则设置"],
+    details: [
+      t("technical_services.processSteps.five.metric_monitoring_configuration"),
+      t("technical_services.processSteps.five.log_aggregation_analysis"),
+      t("technical_services.processSteps.five.link_tracking_deployment"),
+      t("technical_services.processSteps.five.alert_rule_configuration"),
+    ],
     technologies: ["Prometheus", "Grafana", "Jaeger"],
   },
   {
-    title: "性能优化与交付",
-    description: "系统性能调优和项目交付",
+    title: t("technical_services.processSteps.six.title"),
+    description: t("technical_services.processSteps.six.description"),
     icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2"/></svg>',
-    details: ["性能基准测试", "系统调优优化", "文档交付培训", "运维支持服务"],
+    details: [
+      t("technical_services.processSteps.six.performance_monitoring"),
+      t("technical_services.processSteps.six.performance_optimization"),
+      t("technical_services.processSteps.six.user_experience_improvement"),
+      t("technical_services.processSteps.six.maintenance_support_services"),
+    ],
     technologies: ["eBPF", "APM", "Load Testing"],
   },
-];
+]);
 
 // 浮动代码
 const floatingCodes = [
@@ -789,7 +865,19 @@ function initTypingAnimation() {
   let isDeleting = false;
 
   function typeText() {
-    const currentText = typingTexts[currentTextIndex];
+    // 安全检查：确保 typingTexts 数组不为空且当前文本存在
+    if (!typingTexts.value || typingTexts.value.length === 0) {
+      setTimeout(typeText, 100); // 等待 i18n 加载完成
+      return;
+    }
+
+    const currentText = typingTexts.value[currentTextIndex];
+    
+    // 安全检查：确保 currentText 不为 undefined 或 null
+    if (!currentText || typeof currentText !== 'string') {
+      setTimeout(typeText, 100); // 等待翻译加载完成
+      return;
+    }
 
     if (isDeleting) {
       typingElement.value.textContent = currentText.substring(
@@ -812,7 +900,7 @@ function initTypingAnimation() {
       isDeleting = true;
     } else if (isDeleting && currentCharIndex === 0) {
       isDeleting = false;
-      currentTextIndex = (currentTextIndex + 1) % typingTexts.length;
+      currentTextIndex = (currentTextIndex + 1) % typingTexts.value.length;
       typeSpeed = 500;
     }
 

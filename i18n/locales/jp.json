@@ -1183,5 +1183,127 @@
       "letOurProfessionalTeam": "私たちの専門チームがクラウドインフラの運用をサポートします",
       "contactUs": "今すぐお問い合わせ"
     }
+  },
+  "technical_services": {
+    "hero": {
+      "tag": "先進的な技術サービス",
+      "title": "クラウド技術",
+      "subtitle": "プロフェッショナルサービス",
+      "description": "最新のクラウドネイティブ技術スタックに基づき、企業向けのクラウド技術導入および最適化サービスを提供。高性能・高可用性の現代的ITアーキテクチャの構築を支援します。",
+      "system_availability": "システム可用性",
+      "deployment_efficiency_improvement": "デプロイ効率の向上",
+      "cost_optimization": "コスト最適化",
+      "start_consultation": "コンサルティングを始める",
+      "technical_architecture": "技術アーキテクチャ",
+      "professional_technical_services_matrix": "プロフェッショナル技術サービスマトリックス",
+      "professional_technical_services_matrix_desc": "クラウドネイティブ技術スタックに基づく包括的な技術サービス",
+      "technical_stack_ecosystem": "技術スタック・エコシステム",
+      "building_modern_cloud_native_architecture": "モダンなクラウドネイティブアーキテクチャの構築",
+      "Implementation": "導入プロセス",
+      "implementation_process": "技術導入プロセス",
+      "standardized_devops_implementation_process": "標準化されたDevOps導入プロセス",
+      "building_architecture": "次世代クラウドネイティブアーキテクチャの構築",
+      "building_architecture_desc": "当社の技術専門チームと連携し、最新のクラウドネイティブ技術スタックを活用して高性能・高可用性・拡張性に優れた企業向け技術アーキテクチャを構築します。",
+      "microservice_architecture_design": "マイクロサービスアーキテクチャ設計",
+      "containerized_deployment": "コンテナ化デプロイ",
+      "devsecops_process": "DevSecOpsプロセス",
+      "observability_monitoring": "可観測性モニタリング",
+      "start_technical_consultation": "技術コンサルティングを開始",
+      "view_architecture_cases": "アーキテクチャ事例を見る",
+      "building_cloud_native_architecture": "クラウドネイティブアーキテクチャの構築",
+      "implementing_microservice_governance": "マイクロサービスガバナンスの実装",
+      "optimizing_container_orchestration": "コンテナオーケストレーションの最適化",
+      "improving_system_performance": "システムパフォーマンスの向上"
+    },
+    "service": {
+      "one": {
+        "title": "クラウド移行とアーキテクチャ",
+        "description": "Kubernetesベースのクラウドネイティブアーキテクチャ設計により、アプリケーションのコンテナ化移行とマイクロサービス化を実現"
+      },
+      "two": {
+        "title": "CDパイプライン",
+        "description": "自動化されたCI/CDパイプラインを構築し、コードから本番環境までの全自動化を実現"
+      },
+      "three": {
+        "title": "可観測性プラットフォーム",
+        "description": "エンドツーエンドのモニタリングおよび可観測性プラットフォームを構築し、リアルタイム監視とインテリジェントアラートを実現"
+      },
+      "four": {
+        "title": "DevSecOpsセキュリティ",
+        "description": "開発プロセスにセキュリティスキャンとコンプライアンスチェックを統合し、セキュリティの左シフトとゼロトラストアーキテクチャを実現"
+      },
+      "five": {
+        "title": "パフォーマンス最適化",
+        "description": "システムパフォーマンスを継続的に監視・最適化し、最適なユーザー体験とリソース利用率を確保"
+      },
+      "six": {
+        "title": "データプラットフォーム構築",
+        "description": "モダンなデータプラットフォームを構築し、リアルタイム処理とインテリジェントな分析を実現"
+      }
+    },
+    "techStack": {
+      "one": {
+        "title": "コンテナオーケストレーション層"
+      },
+      "two": {
+        "title": "サービスメッシュ層"
+      },
+      "three": {
+        "title": "可観測性層"
+      },
+      "four": {
+        "title": "インフラ層"
+      }
+    },
+    "processSteps": {
+      "one": {
+        "title": "要件分析とアーキテクチャ設計",
+        "description": "業務要件を深く分析し、クラウドネイティブ技術アーキテクチャを設計",
+        "business_requirement_survey": "業務要件調査",
+        "technical_architecture_design": "技術アーキテクチャ設計",
+        "technology_selection_evaluation": "技術選定評価",
+        "implementation_scheme": "導入計画策定"
+      },
+      "two": {
+        "title": "環境構築とインフラ整備",
+        "description": "クラウドネイティブインフラおよび開発環境を構築",
+        "cluster_environment_setup": "クラスタ環境構築",
+        "infrastructure_setup": "ネットワーク構成最適化",
+        "storage_scheme_deployment": "ストレージ構成導入",
+        "security_policy_configuration": "セキュリティポリシー設定"
+      },
+      "three": {
+        "title": "アプリのコンテナ化とデプロイ",
+        "description": "アプリのコンテナ化とマイクロサービスの導入",
+        "application_containerization": "アプリのコンテナ化",
+        "microservice_deployment": "イメージ構築の最適化",
+        "service_deployment_configuration": "サービスデプロイ設定",
+        "load_balancing_settings": "ロードバランシング設定"
+      },
+      "four": {
+        "title": "CDパイプライン構築",
+        "description": "自動化されたCI/CDパイプラインの構築",
+        "code_quality_check": "コード品質チェック",
+        "automated_testing": "自動テスト",
+        "image_build_publish": "イメージ構築と公開",
+        "automated_deployment": "自動デプロイ"
+      },
+      "five": {
+        "title": "監視と可観測性",
+        "description": "エンドツーエンド監視と可観測性プラットフォームの構築",
+        "metric_monitoring_configuration": "メトリック監視設定",
+        "log_aggregation_analysis": "ログ集約と分析",
+        "link_tracking_deployment": "トレーシング導入",
+        "alert_rule_configuration": "アラートルール設定"
+      },
+      "six": {
+        "title": "パフォーマンス最適化とデリバリー",
+        "description": "システムのパフォーマンスチューニングとプロジェクトの引き渡し",
+        "performance_monitoring": "パフォーマンスベンチマーク",
+        "performance_optimization": "システムチューニングと最適化",
+        "user_experience_improvement": "ドキュメント提供とトレーニング",
+        "maintenance_support_services": "運用保守サポート"
+      }
+    }
   }
 }

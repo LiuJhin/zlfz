@@ -1126,7 +1126,6 @@
       "contact_us_now": "Contact Us Now"
     }
   },
-
   "operations": {
     "hero": {
       "title": "Cloud Operations Management Service",
@@ -1180,6 +1179,128 @@
       "needProfessionalCloudOperationsService": "Need professional cloud operations services?",
       "letOurProfessionalTeam": "Let our professional team safeguard your cloud infrastructure",
       "contactUs": "Contact Us Now"
+    }
+  },
+  "technical_services": {
+    "hero": {
+      "tag": "Advanced Technical Services",
+      "title": "Cloud Technology",
+      "subtitle": "Professional Services",
+      "description": "Based on cutting-edge cloud-native technology stacks, we provide enterprise-level cloud implementation and optimization services to help build high-performance, high-availability modern IT architectures.",
+      "system_availability": "System Availability",
+      "deployment_efficiency_improvement": "Deployment Efficiency Improvement",
+      "cost_optimization": "Cost Optimization",
+      "start_consultation": "Start Consultation",
+      "technical_architecture": "Technical Architecture",
+      "professional_technical_services_matrix": "Professional Technical Services Matrix",
+      "professional_technical_services_matrix_desc": "Comprehensive technical services based on cloud-native tech stacks",
+      "technical_stack_ecosystem": "Technology Stack Ecosystem",
+      "building_modern_cloud_native_architecture": "Build Modern Cloud-Native Architecture",
+      "Implementation": "Implementation Process",
+      "implementation_process": "Technical Implementation Process",
+      "standardized_devops_implementation_process": "Standardized DevOps Implementation Process",
+      "building_architecture": "Building Next-Gen Cloud-Native Architecture",
+      "building_architecture_desc": "Collaborate with our technical experts to build enterprise-grade architectures based on the latest cloud-native stacks, ensuring high performance, availability, and scalability.",
+      "microservice_architecture_design": "Microservice Architecture Design",
+      "containerized_deployment": "Containerized Deployment",
+      "devsecops_process": "DevSecOps Process",
+      "observability_monitoring": "Observability & Monitoring",
+      "start_technical_consultation": "Start Technical Consultation",
+      "view_architecture_cases": "View Architecture Cases",
+      "building_cloud_native_architecture": "Building Cloud-Native Architecture",
+      "implementing_microservice_governance": "Implementing Microservice Governance",
+      "optimizing_container_orchestration": "Optimizing Container Orchestration",
+      "improving_system_performance": "Improving System Performance"
+    },
+    "service": {
+      "one": {
+        "title": "Cloud Migration & Architecture",
+        "description": "Cloud-native architecture based on Kubernetes, enabling container migration and microservice transformation"
+      },
+      "two": {
+        "title": "CD Pipelines",
+        "description": "Automated CI/CD pipelines to streamline the entire code-to-production process"
+      },
+      "three": {
+        "title": "Observability Platform",
+        "description": "End-to-end monitoring and observability platform for real-time system insights and alerts"
+      },
+      "four": {
+        "title": "DevSecOps Security",
+        "description": "Integrate security scanning and compliance into development for shift-left security and zero-trust architecture"
+      },
+      "five": {
+        "title": "Performance Optimization",
+        "description": "Continuous monitoring and system tuning to ensure optimal user experience and resource utilization"
+      },
+      "six": {
+        "title": "Data Platform",
+        "description": "Build modern data platforms for real-time data processing and intelligent analytics"
+      }
+    },
+    "techStack": {
+      "one": {
+        "title": "Container Orchestration Layer"
+      },
+      "two": {
+        "title": "Service Mesh Layer"
+      },
+      "three": {
+        "title": "Observability Layer"
+      },
+      "four": {
+        "title": "Infrastructure Layer"
+      }
+    },
+    "processSteps": {
+      "one": {
+        "title": "Requirement Analysis & Architecture Design",
+        "description": "In-depth business analysis and cloud-native architecture design",
+        "business_requirement_survey": "Business Requirement Survey",
+        "technical_architecture_design": "Technical Architecture Design",
+        "technology_selection_evaluation": "Technology Evaluation & Selection",
+        "implementation_scheme": "Implementation Planning"
+      },
+      "two": {
+        "title": "Environment Setup & Infrastructure",
+        "description": "Build cloud-native infrastructure and dev environments",
+        "cluster_environment_setup": "Cluster Environment Setup",
+        "infrastructure_setup": "Network Optimization",
+        "storage_scheme_deployment": "Storage Scheme Deployment",
+        "security_policy_configuration": "Security Policy Configuration"
+      },
+      "three": {
+        "title": "Application Containerization & Deployment",
+        "description": "Application refactoring and microservice deployment",
+        "application_containerization": "Application Containerization",
+        "microservice_deployment": "Optimized Image Build",
+        "service_deployment_configuration": "Service Deployment Configuration",
+        "load_balancing_settings": "Load Balancing Settings"
+      },
+      "four": {
+        "title": "CI/CD Pipeline Development",
+        "description": "Build automated CI/CD pipelines",
+        "code_quality_check": "Code Quality Check",
+        "automated_testing": "Automated Testing",
+        "image_build_publish": "Image Build & Publish",
+        "automated_deployment": "Automated Deployment"
+      },
+      "five": {
+        "title": "Monitoring & Observability",
+        "description": "Implement comprehensive monitoring and observability platforms",
+        "metric_monitoring_configuration": "Metric Monitoring Configuration",
+        "log_aggregation_analysis": "Log Aggregation & Analysis",
+        "link_tracking_deployment": "Distributed Tracing Deployment",
+        "alert_rule_configuration": "Alert Rule Configuration"
+      },
+      "six": {
+        "title": "Performance Optimization & Delivery",
+        "description": "System performance tuning and project delivery",
+        "performance_monitoring": "Performance Benchmarking",
+        "performance_optimization": "System Performance Tuning",
+        "user_experience_improvement": "Documentation & Training",
+        "maintenance_support_services": "Maintenance & Support Services"
+      }
     }
   }
 }
