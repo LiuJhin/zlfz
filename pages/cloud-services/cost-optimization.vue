@@ -3,15 +3,22 @@
     <div class="service-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">云成本优化服务</h1>
-          <p class="hero-subtitle">智能化云成本管理与优化</p>
+          <h1 class="hero-title">
+            {{ $t("cloudCostOptimization.hero.title") }}
+          </h1>
+          <p class="hero-subtitle">
+            {{ $t("cloudCostOptimization.hero.subtitle") }}
+          </p>
           <p class="hero-description">
-            通过专业的成本分析和优化策略，帮助企业降低云支出，
-            提升资源利用率，实现云投资回报最大化。
+            {{ $t("cloudCostOptimization.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">立即咨询</a>
-            <a href="#service-details" class="btn-secondary">了解详情</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("cloudCostOptimization.hero.button")
+            }}</a>
+            <a href="#service-details" class="btn-secondary">{{
+              $t("cloudCostOptimization.hero.learn_more")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -44,8 +51,16 @@
     <section id="service-details" class="service-details">
       <div class="container">
         <div class="section-header">
-          <h2>成本优化服务</h2>
-          <p>全方位的云成本管理和优化解决方案</p>
+          <h2>
+            {{ $t("cloudCostOptimization.section.costOptimizationService") }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "cloudCostOptimization.section.comprehensiveCloudCostManagement"
+              )
+            }}
+          </p>
         </div>
 
         <div class="features-grid">
@@ -65,8 +80,14 @@
                 />
               </svg>
             </div>
-            <h3>成本分析报告</h3>
-            <p>详细分析云资源使用情况和成本构成，识别优化机会。</p>
+            <h3>
+              {{ $t("cloudCostOptimization.section.costAnalysisReport") }}
+            </h3>
+            <p>
+              {{
+                $t("cloudCostOptimization.section.detailedCostUsageAnalysis")
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -86,8 +107,20 @@
                 />
               </svg>
             </div>
-            <h3>资源右调优化</h3>
-            <p>根据实际使用情况调整资源配置，避免过度配置和浪费。</p>
+            <h3>
+              {{
+                $t(
+                  "cloudCostOptimization.section.resourceRightsizingOptimization"
+                )
+              }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.adjustResourcesAccordingToUsage"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -101,8 +134,14 @@
                 />
               </svg>
             </div>
-            <h3>自动化调度</h3>
-            <p>基于业务需求自动调整资源，实现动态成本优化。</p>
+            <h3>
+              {{ $t("cloudCostOptimization.section.automatedScheduling") }}
+            </h3>
+            <p>
+              {{
+                $t("cloudCostOptimization.section.dynamicResourceAdjustment")
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -115,8 +154,18 @@
                 />
               </svg>
             </div>
-            <h3>预留实例管理</h3>
-            <p>优化预留实例购买策略，最大化折扣优惠。</p>
+            <h3>
+              {{
+                $t("cloudCostOptimization.section.reservedInstanceManagement")
+              }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.reservedInstancePurchaseOptimization"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -150,8 +199,16 @@
                 />
               </svg>
             </div>
-            <h3>成本监控告警</h3>
-            <p>实时监控成本变化，设置预算告警，防止超支。</p>
+            <h3>
+              {{ $t("cloudCostOptimization.section.costMonitoringAndAlerts") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.realTimeCostMonitoringAndBudgetAlert"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -169,8 +226,12 @@
                 />
               </svg>
             </div>
-            <h3>合规性检查</h3>
-            <p>确保成本优化措施符合企业政策和合规要求。</p>
+            <h3>{{ $t("cloudCostOptimization.section.complianceCheck") }}</h3>
+            <p>
+              {{
+                $t("cloudCostOptimization.section.ensureComplianceWithPolicies")
+              }}
+            </p>
           </div>
         </div>
       </div>
@@ -179,29 +240,41 @@
     <section class="cost-savings">
       <div class="container">
         <div class="section-header">
-          <h2>成本节省潜力</h2>
-          <p>通过我们的优化服务，客户平均节省30-50%的云成本</p>
+          <h2>{{ $t("cloudCostOptimization.section.costSavingPotential") }}</h2>
+          <p>
+            {{ $t("cloudCostOptimization.section.averageCustomerSavings") }}
+          </p>
         </div>
 
         <div class="savings-stats">
           <div class="stat-item">
             <div class="stat-number">30-50%</div>
-            <div class="stat-label">平均成本节省</div>
+            <div class="stat-label">
+              {{ $t("cloudCostOptimization.section.averageCostSavings") }}
+            </div>
           </div>
 
           <div class="stat-item">
-            <div class="stat-number">90天</div>
-            <div class="stat-label">优化周期</div>
+            <div class="stat-number">
+              90{{ $t("cloudCostOptimization.section.days") }}
+            </div>
+            <div class="stat-label">
+              {{ $t("cloudCostOptimization.section.optimizationCycle") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">24/7</div>
-            <div class="stat-label">持续监控</div>
+            <div class="stat-label">
+              {{ $t("cloudCostOptimization.section.continuousMonitoring") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">100+</div>
-            <div class="stat-label">成功案例</div>
+            <div class="stat-label">
+              {{ $t("cloudCostOptimization.section.successCases") }}
+            </div>
           </div>
         </div>
       </div>
@@ -210,8 +283,16 @@
     <section class="optimization-strategies">
       <div class="container">
         <div class="section-header">
-          <h2>优化策略</h2>
-          <p>多维度的成本优化方法</p>
+          <h2>
+            {{ $t("cloudCostOptimization.section.optimizationStrategy") }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "cloudCostOptimization.section.multiDimensionalCostOptimization"
+              )
+            }}
+          </p>
         </div>
 
         <div class="strategies-grid">
@@ -230,12 +311,34 @@
                 />
               </svg>
             </div>
-            <h3>资源配置优化</h3>
+            <h3>
+              {{
+                $t(
+                  "cloudCostOptimization.section.resourceConfigurationOptimization"
+                )
+              }}
+            </h3>
             <ul>
-              <li>实例类型选择优化</li>
-              <li>存储类型调整</li>
-              <li>网络配置优化</li>
-              <li>数据库性能调优</li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.instanceTypeOptimization")
+                }}
+              </li>
+              <li>
+                {{ $t("cloudCostOptimization.section.storageTypeAdjustment") }}
+              </li>
+              <li>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.networkConfigurationOptimization"
+                  )
+                }}
+              </li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.databasePerformanceTuning")
+                }}
+              </li>
             </ul>
           </div>
 
@@ -255,12 +358,26 @@
                 />
               </svg>
             </div>
-            <h3>自动化管理</h3>
+            <h3>
+              {{ $t("cloudCostOptimization.section.automationManagement") }}
+            </h3>
             <ul>
-              <li>自动扩缩容</li>
-              <li>定时启停</li>
-              <li>负载均衡优化</li>
-              <li>资源生命周期管理</li>
+              <li>{{ $t("cloudCostOptimization.section.autoScaling") }}</li>
+              <li>
+                {{ $t("cloudCostOptimization.section.scheduledStartStop") }}
+              </li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.loadBalancerOptimization")
+                }}
+              </li>
+              <li>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.resourceLifecycleManagement"
+                  )
+                }}
+              </li>
             </ul>
           </div>
 
@@ -273,12 +390,34 @@
                 />
               </svg>
             </div>
-            <h3>采购策略优化</h3>
+            <h3>
+              {{
+                $t(
+                  "cloudCostOptimization.section.procurementStrategyOptimization"
+                )
+              }}
+            </h3>
             <ul>
-              <li>预留实例规划</li>
-              <li>Spot实例利用</li>
-              <li>多云成本对比</li>
-              <li>合同谈判支持</li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.reservedInstancePlanning")
+                }}
+              </li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.spotInstanceUtilization")
+                }}
+              </li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.multiCloudCostComparison")
+                }}
+              </li>
+              <li>
+                {{
+                  $t("cloudCostOptimization.section.contractNegotiationSupport")
+                }}
+              </li>
             </ul>
           </div>
         </div>
@@ -288,8 +427,14 @@
     <section class="cost-monitoring">
       <div class="container">
         <div class="section-header">
-          <h2>成本监控平台</h2>
-          <p>实时可视化的成本管理仪表板</p>
+          <h2>
+            {{ $t("cloudCostOptimization.section.costMonitoringPlatform") }}
+          </h2>
+          <p>
+            {{
+              $t("cloudCostOptimization.section.realTimeVisualCostDashboard")
+            }}
+          </p>
         </div>
 
         <div class="monitoring-features">
@@ -309,8 +454,16 @@
                 />
               </svg>
             </div>
-            <h3>实时成本仪表板</h3>
-            <p>直观展示当前成本状况和趋势分析</p>
+            <h3>
+              {{ $t("cloudCostOptimization.section.realTimeCostDashboard") }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.intuitiveCostStatusAndTrendAnalysis"
+                )
+              }}
+            </p>
           </div>
 
           <div class="monitoring-item">
@@ -344,8 +497,14 @@
                 />
               </svg>
             </div>
-            <h3>预算管理</h3>
-            <p>设置预算限制，自动告警和控制</p>
+            <h3>{{ $t("cloudCostOptimization.section.budgetManagement") }}</h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.budgetLimitAndAutoAlertControl"
+                )
+              }}
+            </p>
           </div>
 
           <div class="monitoring-item">
@@ -364,8 +523,14 @@
                 />
               </svg>
             </div>
-            <h3>成本分摊</h3>
-            <p>按部门、项目或标签进行成本分摊</p>
+            <h3>{{ $t("cloudCostOptimization.section.costAllocation") }}</h3>
+            <p>
+              {{
+                $t(
+                  "cloudCostOptimization.section.costAllocationByDepartmentProjectOrTag"
+                )
+              }}
+            </p>
           </div>
         </div>
       </div>
@@ -374,56 +539,116 @@
     <section class="optimization-process">
       <div class="container">
         <div class="section-header">
-          <h2>优化流程</h2>
-          <p>系统化的成本优化实施流程</p>
+          <h2>{{ $t("cloudCostOptimization.section.optimizationProcess") }}</h2>
+          <p>
+            {{
+              $t(
+                "cloudCostOptimization.section.systematicCostOptimizationImplementationProcess"
+              )
+            }}
+          </p>
         </div>
 
         <div class="process-timeline">
           <div class="process-step">
             <div class="step-number">01</div>
             <div class="step-content">
-              <h3>现状评估</h3>
-              <p>全面分析当前云资源使用和成本情况</p>
+              <h3>
+                {{
+                  $t("cloudCostOptimization.section.currentStatusAssessment")
+                }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.comprehensiveAnalysisOfCurrentCloudResourceUsageAndCost"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">02</div>
             <div class="step-content">
-              <h3>机会识别</h3>
-              <p>识别成本优化机会和潜在节省空间</p>
+              <h3>
+                {{
+                  $t("cloudCostOptimization.section.opportunityIdentification")
+                }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.identifyCostOptimizationOpportunitiesAndPotentialSavings"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">03</div>
             <div class="step-content">
-              <h3>策略制定</h3>
-              <p>制定个性化的成本优化策略</p>
+              <h3>
+                {{ $t("cloudCostOptimization.section.strategyDevelopment") }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.developPersonalizedCostOptimizationStrategy"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">04</div>
             <div class="step-content">
-              <h3>实施优化</h3>
-              <p>执行优化措施并监控效果</p>
+              <h3>
+                {{
+                  $t("cloudCostOptimization.section.optimizationImplementation")
+                }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.executeOptimizationMeasuresAndMonitorEffect"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">05</div>
             <div class="step-content">
-              <h3>持续监控</h3>
-              <p>持续监控和调整优化策略</p>
+              <h3>
+                {{ $t("cloudCostOptimization.section.continuousMonitoring") }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.continuousMonitoringAndStrategyAdjustment"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">06</div>
             <div class="step-content">
-              <h3>效果评估</h3>
-              <p>定期评估优化效果和ROI</p>
+              <h3>
+                {{ $t("cloudCostOptimization.section.effectEvaluation") }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudCostOptimization.section.regularEvaluationOfOptimizationEffectAndROI"
+                  )
+                }}
+              </p>
             </div>
           </div>
         </div>
@@ -433,15 +658,23 @@
     <section class="pricing-models">
       <div class="container">
         <div class="section-header">
-          <h2>服务模式</h2>
-          <p>灵活的服务模式选择</p>
+          <h2>{{ $t("cloudCostOptimization.section.serviceModel") }}</h2>
+          <p>
+            {{
+              $t("cloudCostOptimization.section.flexibleServiceModelSelection")
+            }}
+          </p>
         </div>
 
         <div class="pricing-grid">
           <div class="pricing-card">
             <div class="pricing-header">
-              <h3>咨询服务</h3>
-              <div class="pricing-price">¥50,000起</div>
+              <h3>
+                {{ $t("cloudCostOptimization.section.consultingService") }}
+              </h3>
+              <div class="pricing-price">
+                {{ $t("cloudCostOptimization.section.startingAt50000Yuan") }}
+              </div>
             </div>
             <div class="pricing-features">
               <div class="feature-item">
@@ -452,7 +685,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>成本评估报告</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.costAssessmentReport")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -462,7 +697,11 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>优化建议方案</span>
+                <span>{{
+                  $t(
+                    "cloudCostOptimization.section.optimizationRecommendationPlan"
+                  )
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -472,16 +711,22 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>实施指导</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.implementationGuidance")
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="pricing-card featured">
             <div class="pricing-header">
-              <h3>托管服务</h3>
-              <div class="pricing-price">节省金额的20%</div>
-              <div class="pricing-badge">推荐</div>
+              <h3>{{ $t("cloudCostOptimization.section.managedService") }}</h3>
+              <div class="pricing-price">
+                {{ $t("cloudCostOptimization.section.amountOfSavings") }}20%
+              </div>
+              <div class="pricing-badge">
+                {{ $t("cloudCostOptimization.section.recommended") }}
+              </div>
             </div>
             <div class="pricing-features">
               <div class="feature-item">
@@ -492,7 +737,11 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>全托管优化服务</span>
+                <span>{{
+                  $t(
+                    "cloudCostOptimization.section.fullyManagedOptimizationService"
+                  )
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -502,7 +751,11 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>持续监控管理</span>
+                <span>{{
+                  $t(
+                    "cloudCostOptimization.section.continuousMonitoringManagement"
+                  )
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -512,7 +765,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>按效果付费</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.payPerPerformance")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -522,15 +777,23 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>专属客户经理</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.dedicatedAccountManager")
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="pricing-card">
             <div class="pricing-header">
-              <h3>平台授权</h3>
-              <div class="pricing-price">¥20,000/月起</div>
+              <h3>
+                {{ $t("cloudCostOptimization.section.platformAuthorization") }}
+              </h3>
+              <div class="pricing-price">
+                ¥20,000/{{
+                  $t("cloudCostOptimization.section.startingAtPerMonth")
+                }}
+              </div>
             </div>
             <div class="pricing-features">
               <div class="feature-item">
@@ -541,7 +804,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>成本管理平台</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.costManagementPlatform")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -551,7 +816,11 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>自助优化工具</span>
+                <span>{{
+                  $t(
+                    "cloudCostOptimization.section.selfServiceOptimizationTools"
+                  )
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -561,7 +830,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>技术支持</span>
+                <span>{{
+                  $t("cloudCostOptimization.section.technicalSupport")
+                }}</span>
               </div>
             </div>
           </div>
@@ -572,9 +843,21 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>开始优化您的云成本</h2>
-          <p>联系我们的成本优化专家，获取免费的成本评估报告</p>
-          <a href="/contact" class="btn-primary">免费评估</a>
+          <h2>
+            {{
+              $t("cloudCostOptimization.section.startOptimizingYourCloudCosts")
+            }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "cloudCostOptimization.section.contactOurCostOptimizationExpertsForFreeAssessment"
+              )
+            }}
+          </p>
+          <a href="/contact" class="btn-primary">{{
+            $t("cloudCostOptimization.section.freeAssessment")
+          }}</a>
         </div>
       </div>
     </section>
