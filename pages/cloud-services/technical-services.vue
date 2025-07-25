@@ -231,11 +231,15 @@
             <div class="service-metrics">
               <div class="metric">
                 <span class="metric-value">{{ service.performance }}</span>
-                <span class="metric-label">性能提升</span>
+                <span class="metric-label">{{
+                  $t("technical_services.performance_improvement")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">{{ service.reliability }}</span>
-                <span class="metric-label">可靠性</span>
+                <span class="metric-label">{{
+                  $t("technical_services.reliability")
+                }}</span>
               </div>
             </div>
           </div>
@@ -872,9 +876,9 @@ function initTypingAnimation() {
     }
 
     const currentText = typingTexts.value[currentTextIndex];
-    
+
     // 安全检查：确保 currentText 不为 undefined 或 null
-    if (!currentText || typeof currentText !== 'string') {
+    if (!currentText || typeof currentText !== "string") {
       setTimeout(typeText, 100); // 等待翻译加载完成
       return;
     }
