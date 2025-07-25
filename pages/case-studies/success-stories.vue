@@ -3,15 +3,18 @@
     <div class="case-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">成功案例集</h1>
-          <p class="hero-subtitle">见证ZHILING ARK TECHNOLOGY的创新成果</p>
+          <h1 class="hero-title">{{ $t("successStories.hero.title") }}</h1>
+          <p class="hero-subtitle">{{ $t("successStories.hero.subTitle") }}</p>
           <p class="hero-description">
-            我们为全球客户提供了卓越的智能技术解决方案，
-            帮助他们实现数字化转型，提升业务效率，创造更大价值。
+            {{ $t("successStories.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">合作咨询</a>
-            <a href="#case-overview" class="btn-secondary">查看案例</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("successStories.hero.consultation")
+            }}</a>
+            <a href="#case-overview" class="btn-secondary">{{
+              $t("successStories.hero.view")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -46,45 +49,69 @@
     <section id="case-overview" class="case-overview">
       <div class="container">
         <div class="section-header">
-          <h2>案例概览</h2>
-          <p>跨行业的成功实践与创新应用</p>
+          <h2>{{ $t("successStories.section.CaseOverview") }}</h2>
+          <p>{{ $t("successStories.section.CrossIndustrySuccess") }}</p>
         </div>
 
         <div class="stats-grid">
           <div class="stat-item">
             <div class="stat-number">250+</div>
-            <div class="stat-label">成功项目</div>
-            <div class="stat-description">覆盖全球12个国家和地区</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.SuccessfulProjects") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.GlobalCoverage") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">80+</div>
-            <div class="stat-label">合作客户</div>
-            <div class="stat-description">包括世界500强企业20家</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.Partners") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.IncludingTheworld") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">98%</div>
-            <div class="stat-label">客户满意度</div>
-            <div class="stat-description">连续5年保持行业最高水平</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.CustomerSatisfaction") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.Continuous5Year") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">24/7</div>
-            <div class="stat-label">技术支持</div>
-            <div class="stat-description">平均响应时间不超过15分钟</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.TechnicalSupport") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.AverageResponseTime") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">15+</div>
-            <div class="stat-label">行业解决方案</div>
-            <div class="stat-description">定制化解决方案覆盖主要行业</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.IndustrySolution") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.CustomizedSolution") }}
+            </div>
           </div>
 
           <div class="stat-item">
             <div class="stat-number">60%</div>
-            <div class="stat-label">平均ROI提升</div>
-            <div class="stat-description">客户投资回报率显著提高</div>
+            <div class="stat-label">
+              {{ $t("successStories.section.AverageROIUpgrade") }}
+            </div>
+            <div class="stat-description">
+              {{ $t("successStories.section.CustomerROIUpgrade") }}
+            </div>
           </div>
         </div>
       </div>
@@ -93,8 +120,8 @@
     <section class="featured-cases">
       <div class="container">
         <div class="section-header">
-          <h2>精选案例</h2>
-          <p>展示我们在不同行业的卓越表现</p>
+          <h2>{{ $t("successStories.section.SelectedCases") }}</h2>
+          <p>{{ $t("successStories.section.CaseStudy") }}</p>
         </div>
 
         <div class="cases-grid">
@@ -117,30 +144,46 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">金融科技</div>
-              <h3>全球银行数字化转型</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.FinancialTech") }}
+              </div>
+              <h3>
+                {{
+                  $t("successStories.section.GlobalBankDigitalTransformation")
+                }}
+              </h3>
               <p>
-                为某国际银行构建了完整的数字化银行平台，包括移动银行、智能客服和风控系统，实现了客户服务效率提升300%，交易处理速度提升500%，同时降低了运营成本45%。
+                {{ $t("successStories.section.Desc") }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">300%</span>
-                  <span class="metric-label">效率提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.EfficiencyUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">500%</span>
-                  <span class="metric-label">速度提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.SpeedUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">45%</span>
-                  <span class="metric-label">成本降低</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.CostReduction")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">99.9%</span>
-                  <span class="metric-label">系统可用性</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.SystemAvailability")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/financial" class="case-link">查看详情</a>
+              <a href="/case-studies/financial" class="case-link">{{
+                $t("successStories.section.ViewDetails")
+              }}</a>
             </div>
           </div>
 
@@ -162,28 +205,46 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">供应链管理</div>
-              <h3>智能供应链优化平台</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.SupplyChainManagement") }}
+              </div>
+              <h3>
+                {{
+                  $t(
+                    "successStories.section.IntelligentSupplyChainOptimizationPlatform"
+                  )
+                }}
+              </h3>
               <p>
-                为全球制造业巨头打造的智能供应链管理系统，整合了物联网、区块链和AI技术，实现了库存成本降低40%，供应链透明度提升至100%，物流效率提升65%。
+                {{
+                  $t(
+                    "successStories.section.IntelligentSupplyChainOptimizationPlatformDesc"
+                  )
+                }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">40%</span>
-                  <span class="metric-label">成本降低</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.CostReduction")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">100%</span>
-                  <span class="metric-label">透明度</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.transparency")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">65%</span>
-                  <span class="metric-label">物流效率</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.logisticsEfficiency")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/supply-chain" class="case-link"
-                >查看详情</a
-              >
+              <a href="/case-studies/supply-chain" class="case-link">{{
+                $t("successStories.section.viewDetails")
+              }}</a>
             </div>
           </div>
 
@@ -205,26 +266,38 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">医疗健康</div>
-              <h3>智慧医疗数据平台</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.medicalHealth") }}
+              </div>
+              <h3>
+                {{ $t("successStories.section.medicalHealthDataPlatform") }}
+              </h3>
               <p>
-                为亚太地区最大医疗集团构建的智慧医疗数据管理平台，集成电子病历、远程诊疗和AI辅助诊断，提升了诊疗效率60%，患者满意度达到98%，医疗资源利用率提高75%。
+                {{ $t("successStories.section.medicalHealthDataPlatformDesc") }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">60%</span>
-                  <span class="metric-label">效率提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.efficiencyUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">98%</span>
-                  <span class="metric-label">满意度</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.satisfaction")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">75%</span>
-                  <span class="metric-label">资源利用</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.resourceUtilization")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/healthcare" class="case-link">查看详情</a>
+              <a href="/case-studies/healthcare" class="case-link">{{
+                $t("successStories.section.viewDetails")
+              }}</a>
             </div>
           </div>
 
@@ -247,26 +320,38 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">政府服务</div>
-              <h3>智慧城市管理系统</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.governmentServices") }}
+              </div>
+              <h3>
+                {{ $t("successStories.section.smartCityManagementSystem") }}
+              </h3>
               <p>
-                为某省会城市政府打造的智慧城市综合管理平台，覆盖交通、环保、公共安全等多个领域，提升了政务服务效率80%，市民满意度达到96%，城市事件响应时间缩短70%。
+                {{ $t("successStories.section.smartCityManagementSystemDesc") }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">80%</span>
-                  <span class="metric-label">效率提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.efficiencyUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">96%</span>
-                  <span class="metric-label">满意度</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.satisfaction")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">70%</span>
-                  <span class="metric-label">响应提速</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.responseTimeUpgrade")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/government" class="case-link">查看详情</a>
+              <a href="/case-studies/government" class="case-link">{{
+                $t("successStories.section.viewDetails")
+              }}</a>
             </div>
           </div>
 
@@ -290,26 +375,38 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">零售电商</div>
-              <h3>全渠道零售解决方案</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.retailE-commerce") }}
+              </div>
+              <h3>
+                {{ $t("successStories.section.fullChannelRetailSolution") }}
+              </h3>
               <p>
-                为国内领先零售集团打造的全渠道零售平台，整合线上线下资源，实现了销售额增长85%，客户留存率提升50%，运营成本降低35%。
+                {{ $t("successStories.section.fullChannelRetailSolutionDesc") }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">85%</span>
-                  <span class="metric-label">销售增长</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.alesGrowth")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">50%</span>
-                  <span class="metric-label">留存提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.retentionUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">35%</span>
-                  <span class="metric-label">成本降低</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.costReduction")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/retail" class="case-link">查看详情</a>
+              <a href="/case-studies/retail" class="case-link">{{
+                $t("successStories.section.viewDetails")
+              }}</a>
             </div>
           </div>
 
@@ -331,26 +428,40 @@
               </div>
             </div>
             <div class="case-content">
-              <div class="case-category">教育科技</div>
-              <h3>智慧校园整体解决方案</h3>
+              <div class="case-category">
+                {{ $t("successStories.section.smartCampusOverallSolution") }}
+              </div>
+              <h3>
+                {{ $t("successStories.section.smartCampusOverallSolution") }}
+              </h3>
               <p>
-                为某知名高校打造的智慧校园平台，包括在线学习、校园管理和数据分析系统，提升了教学质量55%，管理效率提高70%，学生满意度达到92%。
+                {{
+                  $t("successStories.section.smartCampusOverallSolutionDesc")
+                }}
               </p>
               <div class="case-metrics">
                 <div class="metric">
                   <span class="metric-value">55%</span>
-                  <span class="metric-label">教学提升</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.teachingUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">70%</span>
-                  <span class="metric-label">效率提高</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.efficiencyUpgrade")
+                  }}</span>
                 </div>
                 <div class="metric">
                   <span class="metric-value">92%</span>
-                  <span class="metric-label">满意度</span>
+                  <span class="metric-label">{{
+                    $t("successStories.section.satisfaction")
+                  }}</span>
                 </div>
               </div>
-              <a href="/case-studies/education" class="case-link">查看详情</a>
+              <a href="/case-studies/education" class="case-link">{{
+                $t("successStories.section.viewDetails")
+              }}</a>
             </div>
           </div>
         </div>
@@ -360,8 +471,8 @@
     <section class="success-factors">
       <div class="container">
         <div class="section-header">
-          <h2>成功要素</h2>
-          <p>我们成功的关键因素</p>
+          <h2>{{ $t("successStories.section.successFactors") }}</h2>
+          <p>{{ $t("successStories.section.keyFactors") }}</p>
         </div>
 
         <div class="factors-grid">
@@ -382,9 +493,9 @@
                 />
               </svg>
             </div>
-            <h3>技术创新</h3>
+            <h3>{{ $t("successStories.section.technicalInnovation") }}</h3>
             <p>
-              持续的技术创新和研发投入，每年投入营收的15%用于新技术研发，拥有超过50项技术专利，确保我们始终处于行业前沿
+              {{ $t("successStories.section.technicalSupportDec") }}
             </p>
           </div>
 
@@ -398,9 +509,9 @@
                 />
               </svg>
             </div>
-            <h3>专业团队</h3>
+            <h3>{{ $t("successStories.section.professionalTeam") }}</h3>
             <p>
-              拥有来自全球顶尖科技公司的专业团队，平均行业经验超过10年，85%的团队成员拥有硕士及以上学位，为客户提供最优质的服务
+              {{ $t("successStories.section.professionalTeamDesc") }}
             </p>
           </div>
 
@@ -414,9 +525,9 @@
                 />
               </svg>
             </div>
-            <h3>质量保证</h3>
+            <h3>{{ $t("successStories.section.qualityAssurance") }}</h3>
             <p>
-              通过ISO9001、CMMI5等国际认证的质量管理体系，实施严格的质量控制流程和全面的测试方案，确保每个项目都达到最高标准
+              {{ $t("successStories.section.qualityAssuranceDesc") }}
             </p>
           </div>
 
@@ -431,9 +542,9 @@
                 />
               </svg>
             </div>
-            <h3>快速响应</h3>
+            <h3>{{ $t("successStories.section.fastResponse") }}</h3>
             <p>
-              采用敏捷开发和DevOps实践，平均响应时间不超过15分钟，95%的项目按时或提前交付，确保客户需求得到及时满足
+              {{ $t("successStories.section.fastResponseDesc") }}
             </p>
           </div>
 
@@ -452,9 +563,9 @@
                 />
               </svg>
             </div>
-            <h3>行业经验</h3>
+            <h3>{{ $t("successStories.section.industryExperience") }}</h3>
             <p>
-              在金融、医疗、零售、制造等多个行业拥有超过15年的深厚经验，深入理解各行业特点和痛点，提供真正符合行业需求的解决方案
+              {{ $t("successStories.section.industryExperienceDesc") }}
             </p>
           </div>
 
@@ -468,9 +579,9 @@
                 />
               </svg>
             </div>
-            <h3>持续创新</h3>
+            <h3>{{ $t("successStories.section.continuousInnovation") }}</h3>
             <p>
-              建立了创新实验室和技术孵化中心，每季度推出新的技术方案和产品更新，确保客户始终能够获得最前沿的技术支持
+              {{ $t("successStories.section.continuousInnovationDesc") }}
             </p>
           </div>
         </div>
@@ -480,8 +591,8 @@
     <section class="client-testimonials">
       <div class="container">
         <div class="section-header">
-          <h2>客户评价</h2>
-          <p>听听我们的客户怎么说</p>
+          <h2>{{ $t("successStories.section.customerReview") }}</h2>
+          <p>{{ $t("successStories.section.listenToCustomerReview") }}</p>
         </div>
 
         <div class="testimonials-grid">
@@ -502,129 +613,16 @@
                 </svg>
               </div>
               <p>
-                "ZHILING ARK
-                TECHNOLOGY为我们提供了卓越的数字银行解决方案，不仅提升了我们的业务效率300%，还帮助我们在竞争激烈的金融市场中保持领先地位。他们的技术团队对金融行业的深刻理解令人印象深刻。"
+                {{ $t("successStories.section.customerReviewDesc") }}
               </p>
               <div class="testimonial-author">
                 <div class="author-info">
-                  <div class="author-name">张志远</div>
-                  <div class="author-title">中国某大型银行 首席技术官</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-content">
-              <div class="quote-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-              </div>
-              <p>
-                "他们的专业团队和创新技术帮助我们实现了全面的数字化转型，大大提升了我们的供应链效率和透明度。特别是在疫情期间，他们的解决方案帮助我们维持了稳定的生产和供应，为我们赢得了市场优势。"
-              </p>
-              <div class="testimonial-author">
-                <div class="author-info">
-                  <div class="author-name">李明辉</div>
-                  <div class="author-title">全球制造业集团 首席执行官</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-content">
-              <div class="quote-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-              </div>
-              <p>
-                "与ZHILING ARK
-                TECHNOLOGY的合作让我们深刻体验到了什么是真正的专业服务，他们的智慧医疗解决方案完美契合我们的需求。他们不仅提供了技术支持，还帮助我们重新设计了整个医疗流程，大幅提升了患者体验和医疗效率。"
-              </p>
-              <div class="testimonial-author">
-                <div class="author-info">
-                  <div class="author-name">王健</div>
-                  <div class="author-title">亚太医疗集团 董事长</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-content">
-              <div class="quote-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-              </div>
-              <p>
-                "ZHILING ARK
-                TECHNOLOGY的智慧城市解决方案彻底改变了我们的城市管理方式。通过他们的平台，我们实现了城市资源的智能调配和高效管理，市民满意度显著提升。他们的团队不仅技术过硬，而且对政府业务有着深刻理解。"
-              </p>
-              <div class="testimonial-author">
-                <div class="author-info">
-                  <div class="author-name">陈国强</div>
-                  <div class="author-title">某省会城市 信息化办公室主任</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-content">
-              <div class="quote-icon">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-              </div>
-              <p>
-                "我们选择ZHILING ARK
-                TECHNOLOGY作为数字化转型合作伙伴是一个明智的决定。他们的全渠道零售解决方案帮助我们实现了线上线下的无缝整合，销售额增长了85%，顾客体验得到了显著提升。他们对零售行业的理解和技术能力令人印象深刻。"
-              </p>
-              <div class="testimonial-author">
-                <div class="author-info">
-                  <div class="author-name">赵丽娜</div>
+                  <div class="author-name">
+                    {{ $t("successStories.section.customerReviewName") }}
+                  </div>
                   <div class="author-title">
-                    国内领先零售集团 数字化转型负责人
+                    {{ $t("successStories.section.customerReviewTitle") }}
+                    首席技术官
                   </div>
                 </div>
               </div>
@@ -648,13 +646,156 @@
                 </svg>
               </div>
               <p>
-                "ZHILING ARK
-                TECHNOLOGY的智慧校园解决方案为我们的教育管理带来了革命性的变化。他们不仅提供了先进的技术平台，还帮助我们重新设计了教学流程和管理模式，使我们的教育质量和管理效率都得到了显著提升。"
+                {{ $t("successStories.section.customerReviewDescOne") }}
               </p>
               <div class="testimonial-author">
                 <div class="author-info">
-                  <div class="author-name">刘教授</div>
-                  <div class="author-title">某知名高校 信息化建设负责人</div>
+                  <div class="author-name">
+                    {{ $t("successStories.section.customerReviewDescTwo") }}
+                  </div>
+                  <div class="author-title">
+                    {{ $t("successStories.section.globalManufacturingGroup") }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <p>
+                {{ $t("successStories.section.customerReviewDescThree") }}
+              </p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">Jason</div>
+                  <div class="author-title">
+                    {{ $t("successStories.section.apacMedicalGroupChairman") }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <p>
+                {{
+                  $t(
+                    "successStories.section.zhilingArkTechnologySmartCitySolution"
+                  )
+                }}
+              </p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">
+                    {{ $t("successStories.section.chenGuoQiang") }}
+                  </div>
+                  <div class="author-title">
+                    {{
+                      $t("successStories.section.apacMedicalGroupChairmanTitle")
+                    }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <p>
+                {{
+                  $t(
+                    "successStories.section.zhilingArkTechnologySmartCitySolutionDesc"
+                  )
+                }}
+              </p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">
+                    {{ $t("successStories.zhaoLina") }}
+                  </div>
+                  <div class="author-title">
+                    {{ $t("successStories.section.apacMedicalGroup") }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 21C3 17.4735 4.10625 14.4467 6.31875 11.92C8.53125 9.39333 11.4687 7.73333 15.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 21C16 17.4735 17.1063 14.4467 19.3188 11.92C21.5313 9.39333 24.4687 7.73333 28.125 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <p>
+                {{
+                  $t(
+                    "successStories.section.zhilingArkTechnologySmartCampusSolution"
+                  )
+                }}
+              </p>
+              <div class="testimonial-author">
+                <div class="author-info">
+                  <div class="author-name">
+                    {{ $t("successStories.liUProfessor") }}
+                  </div>
+                  <div class="author-title">
+                    {{ $t("successStories.university") }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -666,8 +807,8 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>准备好创造您的成功案例了吗？</h2>
-          <p>联系我们，开启您的数字化转型之旅，成为下一个成功典范</p>
+          <h2>{{ $t("successStories.readyToCreateYourSuccessCase") }}</h2>
+          <p>{{ $t("successStories.contactUs") }}</p>
           <div class="cta-benefits">
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -681,7 +822,7 @@
                   />
                 </svg>
               </div>
-              <span>免费初步咨询评估</span>
+              <span>{{ $t("successStories.ConsultationAssessment") }}</span>
             </div>
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -695,7 +836,7 @@
                   />
                 </svg>
               </div>
-              <span>定制化解决方案</span>
+              <span>{{ $t("successStories.customizedSolution") }}</span>
             </div>
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -709,13 +850,19 @@
                   />
                 </svg>
               </div>
-              <span>专家团队全程支持</span>
+              <span>{{ $t("successStories.expertTeamSupport") }}</span>
             </div>
           </div>
           <div class="cta-buttons">
-            <a href="/contact" class="btn-primary">预约咨询</a>
-            <a href="/services" class="btn-secondary">探索服务方案</a>
-            <a href="/case-studies" class="btn-outline">查看更多案例</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("successStories.appointmentConsultation")
+            }}</a>
+            <a href="/services" class="btn-secondary">{{
+              $t("successStories.exploreServiceScheme")
+            }}</a>
+            <a href="/case-studies" class="btn-outline">{{
+              $t("successStories.viewMoreCases")
+            }}</a>
           </div>
         </div>
       </div>
