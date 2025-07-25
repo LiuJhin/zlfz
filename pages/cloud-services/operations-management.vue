@@ -3,15 +3,18 @@
     <div class="service-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">云运维管理服务</h1>
-          <p class="hero-subtitle">7x24小时专业云运维保障</p>
+          <h1 class="hero-title">{{ $t("operations.hero.title") }}</h1>
+          <p class="hero-subtitle">{{ $t("operations.hero.subtitle") }}</p>
           <p class="hero-description">
-            提供全天候的云基础设施运维管理服务，确保系统稳定运行，
-            通过智能监控、自动化运维和专业团队支持，为企业提供可靠的云服务保障。
+            {{ $t("operations.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">立即咨询</a>
-            <a href="#service-details" class="btn-secondary">了解详情</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("operations.hero.button")
+            }}</a>
+            <a href="#service-details" class="btn-secondary">{{
+              $t("operations.hero.learn_more")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -43,8 +46,8 @@
     <section id="service-details" class="service-details">
       <div class="container">
         <div class="section-header">
-          <h2>服务详情</h2>
-          <p>全方位的云运维管理服务，确保业务连续性</p>
+          <h2>{{ $t("operations.section.service_details_title") }}</h2>
+          <p>{{ $t("operations.section.service_details_subtitle") }}</p>
         </div>
 
         <div class="features-grid">
@@ -58,8 +61,8 @@
                 />
               </svg>
             </div>
-            <h3>实时监控</h3>
-            <p>7x24小时实时监控云基础设施状态，及时发现和处理异常情况。</p>
+            <h3>{{ $t("operations.section.real_time_monitoring") }}</h3>
+            <p>{{ $t("operations.section.real_time_monitoring_desc") }}</p>
           </div>
 
           <div class="feature-card">
@@ -73,8 +76,8 @@
                 />
               </svg>
             </div>
-            <h3>自动化运维</h3>
-            <p>基于AI和机器学习的自动化运维，提升运维效率，减少人为错误。</p>
+            <h3>{{ $t("operations.section.automated_operations") }}</h3>
+            <p>{{ $t("operations.section.automated_operations_desc") }}</p>
           </div>
 
           <div class="feature-card">
@@ -94,8 +97,8 @@
                 />
               </svg>
             </div>
-            <h3>性能优化</h3>
-            <p>持续监控和优化系统性能，确保最佳的用户体验和资源利用率。</p>
+            <h3>{{ $t("operations.section.professional_support") }}</h3>
+            <p>{{ $t("operations.section.professional_support_desc") }}</p>
           </div>
 
           <div class="feature-card">
@@ -113,8 +116,8 @@
                 />
               </svg>
             </div>
-            <h3>安全管理</h3>
-            <p>全面的安全监控和防护，保护企业数据和系统安全。</p>
+            <h3>{{ $t("operations.section.security_management") }}</h3>
+            <p>{{ $t("operations.section.security_management_desc") }}</p>
           </div>
 
           <div class="feature-card">
@@ -132,8 +135,8 @@
                 />
               </svg>
             </div>
-            <h3>备份恢复</h3>
-            <p>定期数据备份和灾难恢复方案，确保业务连续性。</p>
+            <h3>{{ $t("operations.section.backup_recovery") }}</h3>
+            <p>{{ $t("operations.section.backup_recovery_desc") }}</p>
           </div>
 
           <div class="feature-card">
@@ -151,8 +154,8 @@
                 />
               </svg>
             </div>
-            <h3>合规审计</h3>
-            <p>协助企业满足各种合规要求，提供详细的审计报告。</p>
+            <h3>{{ $t("operations.section.compliance_audit") }}</h3>
+            <p>{{ $t("operations.section.compliance_audit_desc") }}</p>
           </div>
         </div>
       </div>
@@ -161,8 +164,12 @@
     <section class="monitoring-dashboard">
       <div class="container">
         <div class="section-header">
-          <h2>智能监控平台</h2>
-          <p>全面的监控指标和可视化仪表板</p>
+          <h2>
+            {{ $t("operations.section.intelligent_monitoring_platform") }}
+          </h2>
+          <p>
+            {{ $t("operations.section.intelligent_monitoring_platform_desc") }}
+          </p>
         </div>
 
         <div class="dashboard-features">
@@ -182,8 +189,8 @@
                 />
               </svg>
             </div>
-            <h3>实时仪表板</h3>
-            <p>直观的可视化界面，实时展示系统状态和关键指标</p>
+            <h3>{{ $t("operations.section.real_time_dashboard") }}</h3>
+            <p>{{ $t("operations.section.real_time_dashboard_desc") }}</p>
           </div>
 
           <div class="dashboard-feature">
@@ -217,8 +224,8 @@
                 />
               </svg>
             </div>
-            <h3>智能告警</h3>
-            <p>基于机器学习的智能告警系统，减少误报提升效率</p>
+            <h3>{{ $t("operations.section.intelligent_alert") }}</h3>
+            <p>{{ $t("operations.section.intelligent_alert_desc") }}</p>
           </div>
 
           <div class="dashboard-feature">
@@ -237,8 +244,8 @@
                 />
               </svg>
             </div>
-            <h3>详细报告</h3>
-            <p>定期生成运维报告，提供性能分析和优化建议</p>
+            <h3>{{ $t("operations.section.detailed_report") }}</h3>
+            <p>{{ $t("operations.section.detailed_report_desc") }}</p>
           </div>
         </div>
       </div>
@@ -247,15 +254,17 @@
     <section class="service-levels">
       <div class="container">
         <div class="section-header">
-          <h2>服务等级</h2>
-          <p>灵活的服务等级选择，满足不同业务需求</p>
+          <h2>{{ $t("operations.section.service_level") }}</h2>
+          <p>{{ $t("operations.section.service_level_desc") }}</p>
         </div>
 
         <div class="service-tiers">
           <div class="service-tier">
             <div class="tier-header">
-              <h3>基础版</h3>
-              <div class="tier-price">¥5,000/月起</div>
+              <h3>{{ $t("operations.section.basic_version") }}</h3>
+              <div class="tier-price">
+                ¥5,000/{{ $t("operations.section.monthly_fee") }}
+              </div>
             </div>
             <div class="tier-features">
               <div class="feature-item">
@@ -266,7 +275,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>基础监控服务</span>
+                <span>{{
+                  $t("operations.section.basic_monitoring_service")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -276,7 +287,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>工作时间技术支持</span>
+                <span>{{
+                  $t("operations.section.work_time_technical_support")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -286,16 +299,22 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>月度运维报告</span>
+                <span>{{
+                  $t("operations.section.monthly_maintenance_report")
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="service-tier featured">
             <div class="tier-header">
-              <h3>专业版</h3>
-              <div class="tier-price">¥15,000/月起</div>
-              <div class="tier-badge">推荐</div>
+              <h3>{{ $t("operations.section.professional_version") }}</h3>
+              <div class="tier-price">
+                ¥15,000/{{ $t("operations.section.monthly_fee") }}
+              </div>
+              <div class="tier-badge">
+                {{ $t("operations.section.recommended") }}
+              </div>
             </div>
             <div class="tier-features">
               <div class="feature-item">
@@ -306,7 +325,7 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>7x24小时监控</span>
+                <span>{{ $t("operations.section.hourMonitoring") }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -316,7 +335,7 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>自动化运维</span>
+                <span>{{ $t("operations.section.automatedOperations") }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -326,7 +345,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>性能优化建议</span>
+                <span>{{
+                  $t("operations.section.performanceOptimization")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -336,15 +357,19 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>专属技术顾问</span>
+                <span>{{
+                  $t("operations.section.exclusiveTechnicalConsultant")
+                }}</span>
               </div>
             </div>
           </div>
 
           <div class="service-tier">
             <div class="tier-header">
-              <h3>企业版</h3>
-              <div class="tier-price">定制报价</div>
+              <h3>{{ $t("operations.section.enterpriseVersion") }}</h3>
+              <div class="tier-price">
+                {{ $t("operations.section.customQuote") }}
+              </div>
             </div>
             <div class="tier-features">
               <div class="feature-item">
@@ -355,7 +380,7 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>定制化解决方案</span>
+                <span>{{ $t("operations.section.customizedSolution") }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -365,7 +390,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>专属运维团队</span>
+                <span>{{
+                  $t("operations.section.exclusiveOperationsTeam")
+                }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -375,7 +402,7 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>SLA保障</span>
+                <span>{{ $t("operations.section.guarantee") }}</span>
               </div>
               <div class="feature-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -385,7 +412,9 @@
                     stroke-width="2"
                   />
                 </svg>
-                <span>优先技术支持</span>
+                <span>{{
+                  $t("operations.section.priorityTechnicalSupport")
+                }}</span>
               </div>
             </div>
           </div>
@@ -396,9 +425,15 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>需要专业的云运维服务？</h2>
-          <p>让我们的专业团队为您的云基础设施保驾护航</p>
-          <a href="/contact" class="btn-primary">立即联系我们</a>
+          <h2>
+            {{
+              $t("operations.section.needProfessionalCloudOperationsService")
+            }}
+          </h2>
+          <p>{{ $t("operations.section.letOurProfessionalTeam") }}</p>
+          <a href="/contact" class="btn-primary">{{
+            $t("contact.section.contactUs")
+          }}</a>
         </div>
       </div>
     </section>

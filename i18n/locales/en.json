@@ -1125,5 +1125,61 @@
       "cloud_security_contact": "Contact our security experts for a professional cloud security solution.",
       "contact_us_now": "Contact Us Now"
     }
+  },
+
+  "operations": {
+    "hero": {
+      "title": "Cloud Operations Management Service",
+      "subtitle": "24/7 Professional Cloud Operations Support",
+      "description": "Provides around-the-clock cloud infrastructure management to ensure system stability. Through intelligent monitoring, automated operations, and professional team support, we deliver reliable cloud service assurance for enterprises.",
+      "button": "Contact Now",
+      "learn_more": "Learn More"
+    },
+    "section": {
+      "service_details_title": "Service Details",
+      "service_details_subtitle": "Comprehensive cloud operations management to ensure business continuity and system stability",
+      "real_time_monitoring": "Real-Time Monitoring",
+      "real_time_monitoring_desc": "24/7 real-time monitoring of cloud infrastructure to detect and handle issues promptly.",
+      "automated_operations": "Automated Operations",
+      "automated_operations_desc": "AI- and ML-based automated operations improve efficiency and reduce human error.",
+      "professional_support": "Performance Optimization",
+      "professional_support_desc": "Continuously monitor and optimize system performance to ensure the best user experience and resource utilization.",
+      "security_management": "Security Management",
+      "security_management_desc": "Comprehensive security monitoring and protection to safeguard enterprise data and systems.",
+      "backup_recovery": "Backup & Recovery",
+      "backup_recovery_desc": "Regular data and configuration backups ensure data safety and business continuity.",
+      "compliance_audit": "Compliance Audit",
+      "compliance_audit_desc": "Assist enterprises in meeting various compliance requirements and provide detailed audit reports.",
+      "intelligent_monitoring_platform": "Intelligent Monitoring Platform",
+      "intelligent_monitoring_platform_desc": "Comprehensive monitoring metrics and visual dashboards",
+      "real_time_dashboard": "Real-Time Dashboard",
+      "real_time_dashboard_desc": "Intuitive visual interface displaying system status and key metrics in real time",
+      "intelligent_alert": "Intelligent Alert",
+      "intelligent_alert_desc": "Machine learning–based smart alert system reduces false alarms and improves efficiency",
+      "detailed_report": "Detailed Report",
+      "detailed_report_desc": "Periodic operations reports with performance analysis and optimization suggestions",
+      "service_level": "Service Level",
+      "service_level_desc": "Flexible service levels to meet diverse business needs",
+      "basic_version": "Basic Edition",
+      "monthly_fee": "From per month",
+      "basic_monitoring_service": "Basic Monitoring Service",
+      "work_time_technical_support": "Technical Support During Business Hours",
+      "monthly_maintenance_report": "Monthly Maintenance Report",
+      "professional_version": "Professional Edition",
+      "recommended": "Recommended",
+      "hourMonitoring": "24/7 Monitoring",
+      "automatedOperations": "Automated Operations",
+      "performanceOptimization": "Performance Optimization Suggestions",
+      "exclusiveTechnicalConsultant": "Dedicated Technical Consultant",
+      "enterpriseVersion": "Enterprise Edition",
+      "customQuote": "Custom Quote",
+      "customizedSolution": "Tailored Solutions",
+      "exclusiveOperationsTeam": "Dedicated Operations Team",
+      "guarantee": "SLA Guarantee",
+      "priorityTechnicalSupport": "Priority Technical Support",
+      "needProfessionalCloudOperationsService": "Need professional cloud operations services?",
+      "letOurProfessionalTeam": "Let our professional team safeguard your cloud infrastructure",
+      "contactUs": "Contact Us Now"
+    }
   }
 }
