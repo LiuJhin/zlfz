@@ -3,15 +3,22 @@
     <div class="service-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">云安全防护服务</h1>
-          <p class="hero-subtitle">全方位的云安全解决方案</p>
+          <h1 class="hero-title">
+            {{ $t("cloudSecurityProtection.hero.title") }}
+          </h1>
+          <p class="hero-subtitle">
+            {{ $t("cloudSecurityProtection.hero.subtitle") }}
+          </p>
           <p class="hero-description">
-            提供企业级云安全防护服务，包括威胁检测、数据保护、合规管理等，
-            构建多层次安全防护体系，保障企业云环境和数据安全。
+            {{ $t("cloudSecurityProtection.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">立即咨询</a>
-            <a href="#service-details" class="btn-secondary">了解详情</a>
+            <a href="/contact" class="btn-primary">
+              {{ $t("cloudSecurityProtection.hero.button") }}
+            </a>
+            <a href="#service-details" class="btn-secondary">
+              {{ $t("cloudSecurityProtection.hero.learn_more") }}
+            </a>
           </div>
         </div>
         <div class="hero-visual">
@@ -55,8 +62,14 @@
     <section id="service-details" class="service-details">
       <div class="container">
         <div class="section-header">
-          <h2>安全服务详情</h2>
-          <p>构建全面的云安全防护体系</p>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.security_service_title") }}
+          </h2>
+          <p>
+            {{
+              $t("cloudSecurityProtection.section.security_service_subtitle")
+            }}
+          </p>
         </div>
 
         <div class="features-grid">
@@ -76,8 +89,12 @@
                 />
               </svg>
             </div>
-            <h3>威胁检测与防护</h3>
-            <p>基于AI的实时威胁检测，主动识别和阻止各类网络攻击和恶意行为。</p>
+            <h3>
+              {{ $t("cloudSecurityProtection.section.threat_detection") }}
+            </h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.threat_detection_desc") }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -91,8 +108,10 @@
                 <circle cx="12" cy="16" r="2" fill="currentColor" />
               </svg>
             </div>
-            <h3>数据加密保护</h3>
-            <p>端到端数据加密，保护数据在传输和存储过程中的安全性。</p>
+            <h3>{{ $t("cloudSecurityProtection.section.data_encryption") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.data_encryption_desc") }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -111,8 +130,10 @@
                 <path d="M12 11V14" stroke="currentColor" stroke-width="2" />
               </svg>
             </div>
-            <h3>身份与访问管理</h3>
-            <p>完善的身份认证和权限管理体系，确保只有授权用户可以访问资源。</p>
+            <h3>{{ $t("cloudSecurityProtection.section.identity_access") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.identity_access_desc") }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -125,8 +146,10 @@
                 />
               </svg>
             </div>
-            <h3>合规性管理</h3>
-            <p>协助企业满足各种行业合规要求，如GDPR、SOX、PCI DSS等。</p>
+            <h3>{{ $t("cloudSecurityProtection.section.compliance_mgmt") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.compliance_mgmt_desc") }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -146,8 +169,18 @@
                 />
               </svg>
             </div>
-            <h3>安全监控中心</h3>
-            <p>7x24小时安全监控，实时分析安全事件并快速响应。</p>
+            <h3>
+              {{
+                $t("cloudSecurityProtection.section.security_monitoring_center")
+              }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudSecurityProtection.section.security_monitoring_center_desc"
+                )
+              }}
+            </p>
           </div>
 
           <div class="feature-card">
@@ -165,8 +198,8 @@
                 />
               </svg>
             </div>
-            <h3>安全审计报告</h3>
-            <p>定期生成详细的安全审计报告，提供安全状况分析和改进建议。</p>
+            <h3>{{ $t("cloudSecurityProtection.section.security_audit") }}</h3>
+            <p>{{ $t("cloudSecurityProtection.section.audit_report_desc") }}</p>
           </div>
         </div>
       </div>
@@ -175,8 +208,12 @@
     <section class="security-framework">
       <div class="container">
         <div class="section-header">
-          <h2>安全防护框架</h2>
-          <p>多层次、全方位的安全防护体系</p>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.security_framework") }}
+          </h2>
+          <p>
+            {{ $t("cloudSecurityProtection.section.security_framework_desc") }}
+          </p>
         </div>
 
         <div class="framework-layers">
@@ -197,8 +234,10 @@
                 />
               </svg>
             </div>
-            <h3>网络安全层</h3>
-            <p>防火墙、入侵检测、DDoS防护</p>
+            <h3>{{ $t("cloudSecurityProtection.section.network_layer") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.network_layer_desc") }}
+            </p>
           </div>
 
           <div class="security-layer">
@@ -216,8 +255,8 @@
                 />
               </svg>
             </div>
-            <h3>应用安全层</h3>
-            <p>代码审计、漏洞扫描、安全测试</p>
+            <h3>{{ $t("cloudSecurityProtection.section.app_layer") }}</h3>
+            <p>{{ $t("cloudSecurityProtection.section.app_layer_desc") }}</p>
           </div>
 
           <div class="security-layer">
@@ -231,8 +270,8 @@
                 <circle cx="12" cy="14" r="2" fill="currentColor" />
               </svg>
             </div>
-            <h3>数据安全层</h3>
-            <p>数据加密、备份恢复、隐私保护</p>
+            <h3>{{ $t("cloudSecurityProtection.section.data_layer") }}</h3>
+            <p>{{ $t("cloudSecurityProtection.section.data_layer_desc") }}</p>
           </div>
 
           <div class="security-layer">
@@ -250,8 +289,10 @@
                 />
               </svg>
             </div>
-            <h3>身份安全层</h3>
-            <p>多因子认证、单点登录、权限管理</p>
+            <h3>{{ $t("cloudSecurityProtection.section.identity_layer") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.identity_layer_desc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -260,8 +301,14 @@
     <section class="threat-intelligence">
       <div class="container">
         <div class="section-header">
-          <h2>威胁情报与响应</h2>
-          <p>基于AI的智能威胁检测与快速响应</p>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.threat_intel_response") }}
+          </h2>
+          <p>
+            {{
+              $t("cloudSecurityProtection.section.threat_intel_response_desc")
+            }}
+          </p>
         </div>
 
         <div class="intelligence-features">
@@ -281,8 +328,18 @@
                 />
               </svg>
             </div>
-            <h3>实时威胁检测</h3>
-            <p>基于机器学习的异常行为检测，实时识别潜在威胁</p>
+            <h3>
+              {{
+                $t("cloudSecurityProtection.section.realtime_threat_detection")
+              }}
+            </h3>
+            <p>
+              {{
+                $t(
+                  "cloudSecurityProtection.section.realtime_threat_detection_desc"
+                )
+              }}
+            </p>
           </div>
 
           <div class="intelligence-item">
@@ -296,8 +353,14 @@
                 />
               </svg>
             </div>
-            <h3>自动化响应</h3>
-            <p>预设响应策略，自动隔离威胁，最小化安全事件影响</p>
+            <h3>
+              {{ $t("cloudSecurityProtection.section.automated_response") }}
+            </h3>
+            <p>
+              {{
+                $t("cloudSecurityProtection.section.automated_response_desc")
+              }}
+            </p>
           </div>
 
           <div class="intelligence-item">
@@ -310,8 +373,10 @@
                 />
               </svg>
             </div>
-            <h3>威胁追踪</h3>
-            <p>深度分析攻击路径，追踪威胁来源，提供详细调查报告</p>
+            <h3>{{ $t("cloudSecurityProtection.section.threat_tracking") }}</h3>
+            <p>
+              {{ $t("cloudSecurityProtection.section.threat_tracking_desc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -320,39 +385,43 @@
     <section class="compliance-standards">
       <div class="container">
         <div class="section-header">
-          <h2>合规标准支持</h2>
-          <p>支持多种国际和行业安全合规标准</p>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.compliance_support") }}
+          </h2>
+          <p>
+            {{ $t("cloudSecurityProtection.section.compliance_support_desc") }}
+          </p>
         </div>
 
         <div class="standards-grid">
           <div class="standard-item">
             <div class="standard-logo">ISO 27001</div>
-            <p>信息安全管理体系国际标准</p>
+            <p>{{ $t("cloudSecurityProtection.section.iso27001") }}</p>
           </div>
 
           <div class="standard-item">
             <div class="standard-logo">SOC 2</div>
-            <p>服务组织控制报告标准</p>
+            <p>{{ $t("cloudSecurityProtection.section.soc") }}</p>
           </div>
 
           <div class="standard-item">
             <div class="standard-logo">GDPR</div>
-            <p>欧盟通用数据保护条例</p>
+            <p>{{ $t("cloudSecurityProtection.section.gdpr") }}</p>
           </div>
 
           <div class="standard-item">
             <div class="standard-logo">PCI DSS</div>
-            <p>支付卡行业数据安全标准</p>
+            <p>{{ $t("cloudSecurityProtection.section.pci_dss") }}</p>
           </div>
 
           <div class="standard-item">
             <div class="standard-logo">HIPAA</div>
-            <p>健康保险便携性和责任法案</p>
+            <p>{{ $t("cloudSecurityProtection.section.hipaa") }}</p>
           </div>
 
           <div class="standard-item">
             <div class="standard-logo">SOX</div>
-            <p>萨班斯-奥克斯利法案</p>
+            <p>{{ $t("cloudSecurityProtection.section.sox") }}</p>
           </div>
         </div>
       </div>
@@ -361,48 +430,86 @@
     <section class="security-assessment">
       <div class="container">
         <div class="section-header">
-          <h2>安全评估服务</h2>
-          <p>全面的安全风险评估和改进建议</p>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.security_assessment") }}
+          </h2>
+          <p>
+            {{ $t("cloudSecurityProtection.section.security_assessment_desc") }}
+          </p>
         </div>
 
         <div class="assessment-process">
           <div class="process-step">
             <div class="step-number">01</div>
             <div class="step-content">
-              <h3>安全现状评估</h3>
-              <p>全面评估当前安全状况和风险点</p>
+              <h3>
+                {{ $t("cloudSecurityProtection.section.security_status_eval") }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudSecurityProtection.section.security_status_eval_desc"
+                  )
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">02</div>
             <div class="step-content">
-              <h3>漏洞扫描测试</h3>
-              <p>深度扫描系统漏洞和安全隐患</p>
+              <h3>
+                {{ $t("cloudSecurityProtection.section.vulnerability_scan") }}
+              </h3>
+              <p>
+                {{
+                  $t("cloudSecurityProtection.section.vulnerability_scan_desc")
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">03</div>
             <div class="step-content">
-              <h3>风险分析报告</h3>
-              <p>生成详细的风险分析和评估报告</p>
+              <h3>{{ $t("cloudSecurityProtection.section.risk_report") }}</h3>
+              <p>
+                {{ $t("cloudSecurityProtection.section.risk_report_desc") }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">04</div>
             <div class="step-content">
-              <h3>改进方案制定</h3>
-              <p>制定针对性的安全改进方案</p>
+              <h3>
+                {{ $t("cloudSecurityProtection.section.improvement_plan") }}
+              </h3>
+              <p>
+                {{
+                  $t("cloudSecurityProtection.section.improvement_plan_desc")
+                }}
+              </p>
             </div>
           </div>
 
           <div class="process-step">
             <div class="step-number">05</div>
             <div class="step-content">
-              <h3>实施与验证</h3>
-              <p>协助实施安全措施并验证效果</p>
+              <h3>
+                {{
+                  $t(
+                    "cloudSecurityProtection.section.implementation_verification"
+                  )
+                }}
+              </h3>
+              <p>
+                {{
+                  $t(
+                    "cloudSecurityProtection.section.implementation_verification_desc"
+                  )
+                }}
+              </p>
             </div>
           </div>
         </div>
@@ -412,9 +519,15 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>保护您的云环境安全</h2>
-          <p>联系我们的安全专家，获取专业的云安全解决方案</p>
-          <a href="/contact" class="btn-primary">立即联系我们</a>
+          <h2>
+            {{ $t("cloudSecurityProtection.section.cloud_security_slogan") }}
+          </h2>
+          <p>
+            {{ $t("cloudSecurityProtection.section.cloud_security_contact") }}
+          </p>
+          <a href="/contact" class="btn-primary">{{
+            $t("cloudSecurityProtection.section.contact_us_now")
+          }}</a>
         </div>
       </div>
     </section>
