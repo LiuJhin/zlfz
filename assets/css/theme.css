@@ -45,6 +45,12 @@
   --trading-accent-secondary: #3b82f6;
   --streaming-accent-primary: #ef4444;
   --streaming-accent-secondary: #a855f7;
+  
+  /* AWS Web3架构图标题样式 - 明亮模式 */
+  --architecture-header-color: #1f2937;
+  --architecture-header-shadow: none;
+  --architecture-header-bg: transparent;
+  --architecture-header-border: none;
 }
 
 .dark-mode {
@@ -94,6 +100,12 @@
   --trading-accent-secondary: #3b82f6;
   --streaming-accent-primary: #ef4444;
   --streaming-accent-secondary: #a855f7;
+  
+  /* AWS Web3架构图标题样式 - 暗黑模式 */
+  --architecture-header-color: #ffffff;
+  --architecture-header-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3);
+  --architecture-header-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  --architecture-header-border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* 应用主题变量到元素 */

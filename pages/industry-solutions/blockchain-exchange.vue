@@ -124,167 +124,135 @@
     <section id="solutions" class="solutions-section">
       <div class="container">
         <div class="section-header">
-          <div class="section-badge">核心解决方案</div>
-          <h2 class="section-title">全方位区块链交易所服务</h2>
+          <div class="section-badge">Web3 愿景</div>
+          <h2 class="section-title">构建更好的互联网未来</h2>
           <p class="section-description">
-            从现货交易到衍生品，从DeFi集成到跨链互操作，
-            我们提供覆盖数字资产交易全生命周期的技术解决方案。
+            Web3 是新一代更好互联网的愿景。其核心是利用区块链技术，
+            以所有权的形式将权力交还给用户。
           </p>
         </div>
 
-        <div class="solutions-grid">
-          <div class="solution-card featured">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-header">
-                <div class="solution-icon">
-                  <div class="icon-bg"></div>
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M12 2L2 7L12 12L22 7L12 2Z"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                    <path
-                      d="M2 17L12 22L22 17"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                    <path
-                      d="M2 12L12 17L22 12"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </div>
-                <div class="solution-category">现货交易</div>
-              </div>
-              <h3>高性能现货交易引擎</h3>
-              <p>
-                支持百万级TPS的高频交易引擎，提供深度流动性和极低延迟的交易体验。
-              </p>
-              <div class="solution-features">
-                <div class="feature-item">
-                  <span class="feature-icon">⚡</span>
-                  <span>毫秒级撮合</span>
-                </div>
-                <div class="feature-item">
-                  <span class="feature-icon">🔒</span>
-                  <span>多重安全</span>
-                </div>
-                <div class="feature-item">
-                  <span class="feature-icon">🌐</span>
-                  <span>全球部署</span>
-                </div>
-              </div>
-              <div class="solution-metrics">
-                <div class="metric">
-                  <span class="metric-value">1M+</span>
-                  <span class="metric-label">TPS</span>
-                </div>
-                <div class="metric">
-                  <span class="metric-value">0.1ms</span>
-                  <span class="metric-label">延迟</span>
-                </div>
-              </div>
-            </div>
+        <!-- Web3 Quote Section -->
+        <div class="web3-quote-section">
+          <div class="quote-container">
+            <div class="quote-mark">"</div>
+            <blockquote class="web3-quote">
+              Web3 is the vision of a new, better internet. At its core, Web3
+              uses blockchain technology giving power back to the users in the
+              form of ownership.
+            </blockquote>
+            <div class="quote-mark closing">"</div>
           </div>
 
-          <div class="solution-card">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-header">
-                <div class="solution-icon">
-                  <div class="icon-bg"></div>
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </div>
-                <div class="solution-category">衍生品交易</div>
-              </div>
-              <h3>期货合约平台</h3>
-              <p>
-                支持永续合约、期权等多种衍生品交易，提供灵活的杠杆和风险管理工具。
-              </p>
-              <div class="solution-features">
-                <div class="feature-item">
-                  <span class="feature-icon">📊</span>
-                  <span>多种合约</span>
-                </div>
-                <div class="feature-item">
-                  <span class="feature-icon">⚖️</span>
-                  <span>智能风控</span>
-                </div>
-              </div>
-            </div>
+          <div class="web3-principles">
+            <span class="principle">Decentralized</span>
+            <span class="separator">|</span>
+            <span class="principle">Permissionless</span>
+            <span class="separator">|</span>
+            <span class="principle">Native Payments</span>
+            <span class="separator">|</span>
+            <span class="principle">Trustless</span>
           </div>
 
-          <div class="solution-card">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-header">
-                <div class="solution-icon">
-                  <div class="icon-bg"></div>
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </div>
-                <div class="solution-category">DeFi集成</div>
+          <div class="quote-attribution">– Ethereum Foundation Definition</div>
+        </div>
+
+        <!-- AWS Web3 Architecture Diagram -->
+        <div class="aws-web3-architecture">
+          <div class="architecture-header">
+            <h2>AWS powers BUIDLers across Web3</h2>
+          </div>
+          <div class="architecture-diagram">
+            <!-- Layer 3 - Application -->
+            <div class="layer-row layer-3">
+              <div class="layer-label">
+                <div class="layer-arrow">↑</div>
+                <div class="layer-number">LAYER 3</div>
+                <div class="layer-name">Application</div>
               </div>
-              <h3>去中心化金融</h3>
-              <p>
-                集成AMM、流动性挖矿、借贷等DeFi协议，构建完整的去中心化金融生态。
-              </p>
-              <div class="solution-features">
-                <div class="feature-item">
-                  <span class="feature-icon">🔄</span>
-                  <span>AMM协议</span>
+              <div class="layer-content">
+                <div class="content-grid">
+                  <div class="content-box app-icon-box">
+                    <div class="app-icon">💻</div>
+                  </div>
+                  <div class="content-box app-category defi">DeFi</div>
+                  <div class="content-box app-category nfts">NFTs</div>
+                  <div class="content-box app-category metaverse">Metaverse</div>
+                  <div class="content-box app-category gamefi">GameFi</div>
                 </div>
-                <div class="feature-item">
-                  <span class="feature-icon">💎</span>
-                  <span>流动性挖矿</span>
-                </div>
+              </div>
+              <div class="ecosystem-column">
+                <div class="ecosystem-label">Ecosystem</div>
               </div>
             </div>
-          </div>
 
-          <div class="solution-card">
-            <div class="card-glow"></div>
-            <div class="card-content">
-              <div class="card-header">
-                <div class="solution-icon">
-                  <div class="icon-bg"></div>
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
+            <!-- Layer 2 - Smart Contracts -->
+            <div class="layer-row layer-2">
+              <div class="layer-label">
+                <div class="layer-number">LAYER 2</div>
+                <div class="layer-name">
+                  Smart Contracts<br/>Scalability<br/>Efficiency
                 </div>
-                <div class="solution-category">跨链技术</div>
               </div>
-              <h3>跨链桥接</h3>
-              <p>
-                支持多链资产互操作，实现不同区块链网络间的无缝资产转移和交易。
-              </p>
-              <div class="solution-features">
-                <div class="feature-item">
-                  <span class="feature-icon">🌉</span>
-                  <span>多链支持</span>
+              <div class="layer-content">
+                <div class="content-grid">
+                  <div class="content-box layer-main-box">
+                    <div class="layer-icon">⚙️</div>
+                    <div class="layer-title">Layer 2 Blockchains</div>
+                  </div>
+                  <div class="content-box services-box">
+                    <div class="service-text">
+                      Infrastructure | Dev Tools | Identity |<br/>
+                      Privacy & Security | Analytics | DAO | Wallets...
+                    </div>
+                  </div>
                 </div>
-                <div class="feature-item">
-                  <span class="feature-icon">🔐</span>
-                  <span>安全桥接</span>
+              </div>
+              <div class="ecosystem-column">
+                <div class="ecosystem-spacer"></div>
+              </div>
+            </div>
+
+            <!-- Layer 1 - Consensus -->
+            <div class="layer-row layer-1">
+              <div class="layer-label">
+                <div class="layer-number">LAYER 1</div>
+                <div class="layer-name">Consensus<br/>Compute</div>
+              </div>
+              <div class="layer-content">
+                <div class="content-grid">
+                  <div class="content-box layer-main-box">
+                    <div class="layer-icon">📦</div>
+                    <div class="layer-title">Layer 1 Blockchains</div>
+                  </div>
+                  <div class="content-box compute-box">
+                    <div class="compute-icon">🖥️</div>
+                    <div class="compute-text">
+                      Processor | Memory | Nodes |<br/>
+                      Validators | Mining
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="ecosystem-column">
+                <div class="ecosystem-spacer"></div>
+              </div>
+            </div>
+
+            <!-- Layer 0 - Networking -->
+            <div class="layer-row layer-0">
+              <div class="layer-label">
+                <div class="layer-number">LAYER 0</div>
+                <div class="layer-name">Networking</div>
+              </div>
+              <div class="layer-content full-width">
+                <div class="content-box layer-main-box full-width-box">
+                  <div class="layer-icon">🔗</div>
+                  <div class="layer-title">Interoperability | SDKs</div>
+                </div>
+              </div>
+              <div class="ecosystem-column">
+                <div class="ecosystem-spacer"></div>
               </div>
             </div>
           </div>
@@ -1180,8 +1148,7 @@ useHead({
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(
+  background: radial-gradient(
       circle at 20% 30%,
       rgba(var(--exchange-accent-primary-rgb), 0.06) 0%,
       transparent 50%
@@ -1312,6 +1279,108 @@ useHead({
   font-weight: 400;
 }
 
+/* Web3 Quote Section */
+.web3-quote-section {
+  margin: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.quote-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.03) 100%
+  );
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.quote-mark {
+  font-size: 4rem;
+  color: rgba(var(--exchange-accent-primary-rgb), 0.6);
+  font-family: Georgia, serif;
+  line-height: 1;
+  position: absolute;
+}
+
+.quote-mark:first-child {
+  top: 10px;
+  left: 20px;
+}
+
+.quote-mark.closing {
+  bottom: 10px;
+  right: 20px;
+  transform: rotate(180deg);
+}
+
+.web3-quote {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-style: italic;
+  margin: 20px 0;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.web3-principles {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.principle {
+  color: var(--exchange-accent-primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.separator {
+  color: rgba(var(--exchange-accent-secondary-rgb), 0.6);
+  font-weight: 300;
+}
+
+.quote-attribution {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: 20px;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .web3-quote {
+    font-size: 1.2rem;
+  }
+
+  .web3-principles {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .quote-container {
+    padding: 30px 20px;
+  }
+
+  .quote-mark {
+    font-size: 3rem;
+  }
+}
+
 .solutions-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -1395,7 +1464,7 @@ useHead({
   transform: translateY(-8px);
   border-color: rgba(var(--exchange-accent-primary-rgb), 0.4);
   box-shadow: 0 25px 50px rgba(var(--exchange-accent-primary-rgb), 0.15),
-              0 0 0 1px rgba(var(--exchange-accent-secondary-rgb), 0.1);
+    0 0 0 1px rgba(var(--exchange-accent-secondary-rgb), 0.1);
   background: linear-gradient(
     135deg,
     var(--card-bg-web3) 0%,
@@ -1567,6 +1636,479 @@ useHead({
   letter-spacing: 0.05em;
 }
 
+/* AWS Web3 Architecture */
+.aws-web3-architecture {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 1rem;
+}
+
+.architecture-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.architecture-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--architecture-header-color);
+  margin: 0;
+  text-shadow: var(--architecture-header-shadow);
+  background: var(--architecture-header-bg);
+  border: var(--architecture-header-border);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .aws-web3-architecture {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .architecture-header h2 {
+  font-weight: 700;
+}
+
+.architecture-diagram {
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .architecture-diagram {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.layer-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 100px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  min-height: 100px;
+  transition: all 0.3s ease;
+}
+
+.layer-row:last-child {
+  border-bottom: none;
+}
+
+.layer-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+[data-theme="dark"] .layer-row {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .layer-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.layer-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  text-align: center;
+}
+
+[data-theme="dark"] .layer-label {
+  border-right: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.layer-arrow {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ec4899;
+}
+
+.layer-number {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-bottom: 0.25rem;
+}
+
+.layer-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.layer-content {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-right: 2px solid rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.layer-content.full-width {
+  border-right: none;
+  grid-column: 2 / 4;
+}
+
+[data-theme="dark"] .layer-content {
+  border-right: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Layer 3 specific styles */
+.layer-3 .layer-label {
+  background: rgba(236, 72, 153, 0.08);
+}
+
+.layer-3 .layer-number,
+.layer-3 .layer-name,
+.layer-3 .layer-arrow {
+  color: #be185d;
+}
+
+[data-theme="dark"] .layer-3 .layer-label {
+  background: rgba(236, 72, 153, 0.1);
+}
+
+[data-theme="dark"] .layer-3 .layer-number,
+[data-theme="dark"] .layer-3 .layer-name,
+[data-theme="dark"] .layer-3 .layer-arrow {
+  color: #ec4899;
+}
+
+.content-grid {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.content-box {
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.content-box:hover {
+  background: rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+[data-theme="dark"] .content-box {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .content-box:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.app-icon-box {
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.app-icon {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.app-category {
+  flex: 1;
+  min-width: 80px;
+  color: #be185d;
+  border: 2px dashed rgba(236, 72, 153, 0.4);
+}
+
+.defi { background: linear-gradient(135deg, #059669, #047857); color: white; border: none; }
+.nfts { background: linear-gradient(135deg, #7c3aed, #6d28d9); color: white; border: none; }
+.metaverse { background: linear-gradient(135deg, #d97706, #b45309); color: white; border: none; }
+.gamefi { background: linear-gradient(135deg, #dc2626, #b91c1c); color: white; border: none; }
+
+[data-theme="dark"] .app-category {
+  color: #ec4899;
+  border: 2px dashed rgba(236, 72, 153, 0.3);
+}
+
+[data-theme="dark"] .defi { background: linear-gradient(135deg, #10b981, #059669); }
+[data-theme="dark"] .nfts { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+[data-theme="dark"] .metaverse { background: linear-gradient(135deg, #f59e0b, #d97706); }
+[data-theme="dark"] .gamefi { background: linear-gradient(135deg, #ef4444, #dc2626); }
+
+/* Layer 2 specific styles */
+.layer-2 .layer-label {
+  background: rgba(251, 146, 60, 0.08);
+}
+
+.layer-2 .layer-number,
+.layer-2 .layer-name {
+  color: #ea580c;
+}
+
+[data-theme="dark"] .layer-2 .layer-label {
+  background: rgba(251, 146, 60, 0.1);
+}
+
+[data-theme="dark"] .layer-2 .layer-number,
+[data-theme="dark"] .layer-2 .layer-name {
+  color: #fb923c;
+}
+
+.layer-2 .layer-content {
+  align-items: center;
+}
+
+.layer-main-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ea580c;
+  border: 2px dashed rgba(251, 146, 60, 0.4);
+}
+
+.services-box {
+  flex: 2;
+  text-align: left;
+  color: #ea580c;
+}
+
+[data-theme="dark"] .layer-main-box {
+  color: #fb923c;
+  border: 2px dashed rgba(251, 146, 60, 0.3);
+}
+
+[data-theme="dark"] .services-box {
+  color: #fb923c;
+}
+
+.layer-icon {
+  font-size: 1.5rem;
+}
+
+.layer-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.service-text {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+/* Layer 1 specific styles */
+.layer-1 .layer-label {
+  background: rgba(234, 179, 8, 0.08);
+}
+
+.layer-1 .layer-number,
+.layer-1 .layer-name {
+  color: #ca8a04;
+}
+
+.layer-1 .layer-content {
+  align-items: center;
+}
+
+.layer-1 .layer-main-box {
+  color: #ca8a04;
+  border: 2px dashed rgba(234, 179, 8, 0.4);
+}
+
+.layer-1 .layer-title {
+  color: #ca8a04;
+}
+
+.compute-box {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  color: #ca8a04;
+}
+
+[data-theme="dark"] .layer-1 .layer-label {
+  background: rgba(234, 179, 8, 0.1);
+}
+
+[data-theme="dark"] .layer-1 .layer-number,
+[data-theme="dark"] .layer-1 .layer-name {
+  color: #eab308;
+}
+
+[data-theme="dark"] .layer-1 .layer-main-box {
+  color: #eab308;
+  border: 2px dashed rgba(234, 179, 8, 0.3);
+}
+
+[data-theme="dark"] .layer-1 .layer-title {
+  color: #eab308;
+}
+
+[data-theme="dark"] .compute-box {
+  color: #eab308;
+}
+
+.compute-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.compute-text {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+/* Layer 0 specific styles */
+.layer-0 .layer-label {
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.layer-0 .layer-number,
+.layer-0 .layer-name {
+  color: #16a34a;
+}
+
+.layer-0 .layer-main-box {
+  color: #16a34a;
+  border: 2px dashed rgba(34, 197, 94, 0.4);
+}
+
+.layer-0 .layer-title {
+  color: #16a34a;
+}
+
+[data-theme="dark"] .layer-0 .layer-label {
+  background: rgba(34, 197, 94, 0.1);
+}
+
+[data-theme="dark"] .layer-0 .layer-number,
+[data-theme="dark"] .layer-0 .layer-name {
+  color: #22c55e;
+}
+
+[data-theme="dark"] .layer-0 .layer-main-box {
+  color: #22c55e;
+  border: 2px dashed rgba(34, 197, 94, 0.3);
+}
+
+[data-theme="dark"] .layer-0 .layer-title {
+  color: #22c55e;
+}
+
+.full-width-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+/* Ecosystem Column */
+.ecosystem-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(139, 92, 246, 0.08);
+  border-left: 2px solid rgba(139, 92, 246, 0.25);
+}
+
+.ecosystem-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #7c3aed;
+  text-align: center;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.ecosystem-spacer {
+  background: rgba(139, 92, 246, 0.03);
+}
+
+[data-theme="dark"] .ecosystem-column {
+  background: rgba(139, 92, 246, 0.1);
+  border-left: 2px solid rgba(139, 92, 246, 0.3);
+}
+
+[data-theme="dark"] .ecosystem-label {
+  color: #8b5cf6;
+}
+
+[data-theme="dark"] .ecosystem-spacer {
+  background: rgba(139, 92, 246, 0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .layer-row {
+    grid-template-columns: 150px 1fr 60px;
+  }
+  
+  .layer-label {
+    padding: 0.75rem;
+  }
+  
+  .layer-content {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .layer-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  
+  .layer-label {
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .layer-content {
+    border-right: none;
+  }
+  
+  .layer-content.full-width {
+    grid-column: 1;
+  }
+  
+  .ecosystem-column,
+  .ecosystem-spacer {
+    display: none;
+  }
+  
+  .app-grid {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .app-item {
+    min-width: 60px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 /* Technology Section */
 .technology-section {
   padding: 8rem 0;
@@ -1582,8 +2124,7 @@ useHead({
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(
+  background: radial-gradient(
       circle at 15% 25%,
       rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
       transparent 45%
@@ -1841,8 +2382,7 @@ useHead({
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    radial-gradient(
+  background: radial-gradient(
       circle at 25% 25%,
       rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
       transparent 55%
@@ -1968,7 +2508,7 @@ useHead({
   transform: translateY(-12px);
   border-color: rgba(var(--exchange-accent-primary-rgb), 0.4);
   box-shadow: 0 30px 60px rgba(var(--exchange-accent-primary-rgb), 0.15),
-              0 0 0 1px rgba(var(--exchange-accent-secondary-rgb), 0.1);
+    0 0 0 1px rgba(var(--exchange-accent-secondary-rgb), 0.1);
   background: linear-gradient(
     135deg,
     var(--card-bg-web3) 0%,

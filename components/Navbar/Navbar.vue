@@ -268,10 +268,10 @@ const menuItems = computed(() => [
         description: "高频交易、算法策略、风险管理的量化交易平台",
       },
       {
-        title: "数字钱包解决方案",
-        link: "/industry-solutions/digital-wallet",
-        icon: "solution",
-        description: "安全便捷的多链数字资产管理钱包解决方案",
+                  title: "游戏解决方案",
+                  link: "/industry-solutions/game-solutions",
+                  icon: "solution",
+                  description: "专业的游戏开发技术解决方案和服务",
       },
       {
         title: "直播点播解决方案",
