@@ -260,6 +260,404 @@
       </div>
     </section>
 
+    <!-- AWS Web3 Growth Section -->
+    <section class="aws-growth-section">
+      <div class="container">
+        <div class="growth-header">
+          <h2>AWS drives growth for Web3 companies with infrastructure, Go-to-Market support, and visibility with stringent security and compliance requirements</h2>
+        </div>
+        
+        <div class="growth-grid">
+          <div class="growth-card">
+            <div class="growth-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <div class="icon-accent"></div>
+            </div>
+            <h3>Make decisions faster with world-class <span class="highlight">infrastructure</span></h3>
+            <p>With 200+ Services, AWS has the broadest and deepest solutions for Compute, Storage, Analytics, and AI/ML purpose built to suit the wide variety of Web3 companies' Infrastructure needs. By 2025, all AWS Services will be powered by 100% renewable energy.</p>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                <path d="M16 21V19A2 2 0 0 0 14 17H10A2 2 0 0 0 8 19V21" stroke="currentColor" stroke-width="2"/>
+                <path d="M9 7H15L17 9V15H7V9L9 7Z" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="11" r="2" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <div class="icon-accent"></div>
+            </div>
+            <h3>Build <span class="highlight">GTM</span> and <span class="highlight">partnerships</span> across the Web3 ecosystem</h3>
+            <p>AWS has deep startup expertise for Web3 natives and specialist teams dedicated to relevant industries in the ecosystem, including Fintech, TradFi, GameFi, Sports, and Media & Entertainment, built through years of partnering with organizations and investors globally</p>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 12H6" stroke="currentColor" stroke-width="2"/>
+                <path d="M18 12H22" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 2V6" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 18V22" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <div class="icon-accent"></div>
+            </div>
+            <h3>Go global and gain <span class="highlight">visibility</span> in minutes</h3>
+            <p>With a global infrastructure spanning 87 Availability Zones and 27 geographic regions, AWS enables Web3 companies to build and grow with high availability and reach</p>
+          </div>
+
+          <div class="growth-card">
+            <div class="growth-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <div class="icon-accent"></div>
+            </div>
+            <h3>Strengthen <span class="highlight">security</span> and compliance</h3>
+            <p>AWS is designed to meet the most stringent security requirements and offers 15+ security services, including a comprehensive AWS Security Hub, to help customers build with confidence. AWS has 98 security standards, more than any other cloud provider</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1inch Case Study Section -->
+    <section class="case-study-section">
+      <div class="container">
+        <div class="case-study-header">
+          <h2>1inch reduced cloud expenditure by 30% migrating to AWS Graviton3</h2>
+        </div>
+        
+        <div class="case-study-content">
+          <div class="case-study-left">
+            <div class="company-logo">
+              <div class="logo-container">
+                <div class="logo-circle">
+                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" fill="currentColor"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="company-name">1inch</div>
+                <div class="company-subtitle">NETWORK</div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p>Amazon is a famous, respected, reliable, and fast cloud provider with a number of superior solutions which help companies like ours to get ahead of competitors from technology and performance perspective with excellent time-to-market.</p>
+              <div class="quote-mark closing">"</div>
+              
+              <div class="author">
+                <div class="author-name">Sergej Kunz</div>
+                <div class="author-title">Co-Founder, 1inch Network</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-study-right">
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7" stroke="currentColor" stroke-width="2"/>
+                    <path d="M21 7L12 13L3 7" stroke="currentColor" stroke-width="2"/>
+                    <rect x="3" y="5" width="18" height="2" rx="1" fill="currentColor"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>1inch Network is a decentralized exchange (DEX) aggregator that aims to solve the liquidity problem of blockchain by offering a platform that helps traders find the best rate for token swap transactions across various liquidity sources.</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 1V6" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 18V23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 4.22L7.86 7.86" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16.14 16.14L19.78 19.78" stroke="currentColor" stroke-width="2"/>
+                    <path d="M1 12H6" stroke="currentColor" stroke-width="2"/>
+                    <path d="M18 12H23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 19.78L7.86 16.14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16.14 7.86L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>1inch leverages a wide variety AWS solutions, including the specialized CPU with <span class="highlight">Amazon Graviton</span> to build high-load data processing, the managed Kubernetes solutions with <span class="highlight">Amazon EKS</span> to save time in launching workloads, <span class="highlight">AWS Serverless Computing</span> to save money on recurring maintenance, and <span class="highlight">Amazon S3</span> for storage.</p>
+                </div>
+              </div>
+              
+              <div class="info-card result-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 12L10.5 14.5L16 9" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 6V2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 22V18" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>After migrating to AWS Graviton3, 1inch was able to double their performance and achieved cost reduction by 30% for cloud expenditure and infrastructure maintenance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coinbase Case Study Section -->
+    <section class="case-study-section coinbase-section">
+      <div class="container">
+        <div class="case-study-header">
+          <h2>Coinbase runs Machine Learning on AWS for online ID authentication</h2>
+        </div>
+        
+        <div class="case-study-content">
+          <div class="case-study-left">
+            <div class="company-logo">
+              <div class="logo-container">
+                <div class="logo-text">
+                  <span class="coinbase-logo">coinbase</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p>One of the biggest risk factors that a cryptocurrency exchange must get right is fraud, and machine learning forms the linchpin of our anti-fraud system.</p>
+              <div class="quote-mark closing">"</div>
+              
+              <div class="author">
+                <div class="author-name">Soups Ranjan</div>
+                <div class="author-title">Director of Data Science, Coinbase</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-study-right">
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>Coinbase relies on AWS AI/ML tools to provide a seamless experience for consumers while taking steps to secure the environment in which they operate.</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 1V6" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 18V23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 4.22L7.86 7.86" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16.14 16.14L19.78 19.78" stroke="currentColor" stroke-width="2"/>
+                    <path d="M1 12H6" stroke="currentColor" stroke-width="2"/>
+                    <path d="M18 12H23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 19.78L7.86 16.14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16.14 7.86L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>Using <span class="highlight">Amazon SageMaker</span>, engineers at Coinbase developed machine learning algorithms for image analysis that recognizes mismatches and anomalies in sources of user identification.</p>
+                  <div class="service-tag">Amazon SageMaker</div>
+                </div>
+              </div>
+              
+              <div class="info-card result-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M7 8H17" stroke="currentColor" stroke-width="2"/>
+                    <path d="M7 12H13" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="12" r="1" fill="currentColor"/>
+                    <path d="M3 20H21" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>For example, scammers often use the same photo for multiple IDs. A face-similarity algorithm can quickly detect the forgery.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDX Case Study Section -->
+    <section class="case-study-section addx-section">
+      <div class="container">
+        <div class="case-study-header">
+          <h2>ADDX builds a secure digitized securities platform on AWS</h2>
+        </div>
+        
+        <div class="case-study-content">
+          <div class="case-study-left">
+            <div class="company-logo">
+              <div class="logo-container">
+                <div class="addx-logo">
+                  <span class="addx-text">ADDX</span>
+                  <div class="addx-subtitle">previously iSTOX</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p>We chose AWS because we wanted the cloud service provider that puts us in the best interest to meet MAS' security standards.</p>
+              <div class="quote-mark closing">"</div>
+              
+              <div class="author">
+                <div class="author-name">Daruis Liu</div>
+                <div class="author-title">Co-founder and Chief Operating Officer, ADDX</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-study-right">
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M7 8H17" stroke="currentColor" stroke-width="2"/>
+                    <path d="M7 12H13" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="12" r="1" fill="currentColor"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>As a trading platform for digitized securities, ADDX needs to ensure it provides a safe, secure, and reliable platform for its customers that meets the Monetary Authority of Singapore's (MAS) security regulations</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 2V6" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 2V6" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>ADDX leverages <span class="highlight">Amazon VPC</span>, <span class="highlight">Amazon Config</span>, and <span class="highlight">Amazon GuardDuty</span> to manage security of its application environment. Using <span class="highlight">Amazon RDS</span> also allows it to easily replicate environments quickly and easily.</p>
+                </div>
+              </div>
+              
+              <div class="info-card result-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 12L7 8L11 12L21 2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H13" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>Using <span class="highlight">AWS Managed services</span>, such as <span class="highlight">Amazon RDS</span>, has greatly reduced time spent on managing infrastructure, enabling faster time to market for new innovations and features.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bitkub Case Study Section -->
+    <section class="case-study-section bitkub-section">
+      <div class="container">
+        <div class="case-study-header">
+          <h2>Bitkub scales with containers on AWS</h2>
+        </div>
+        
+        <div class="case-study-content">
+          <div class="case-study-left">
+            <div class="company-logo">
+              <div class="logo-container">
+                <div class="bitkub-logo">
+                  <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                    <path d="M20 20L40 40L20 60L40 80L60 60L80 80L60 40L80 20L60 40L40 20L20 40L40 60L60 40L40 20Z" fill="#00D4AA"/>
+                    <path d="M60 20L80 40L60 60L40 40L60 20Z" fill="#0052FF"/>
+                  </svg>
+                  <span class="bitkub-text">bitkub</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="quote-mark">"</div>
+              <p>We intend to expand our target base internationally next year and AWS would be the ideal cloud service provider to help us realize Bitkub's full potential.</p>
+              <div class="quote-mark closing">"</div>
+              
+              <div class="author">
+                <div class="author-name">K. Topp</div>
+                <div class="author-title">Founder & Group CEO, Bitkub</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="case-study-right">
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                    <path d="M6 8H18" stroke="currentColor" stroke-width="2"/>
+                    <path d="M6 12H14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M6 16H10" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>Bitkub, a Cryptocurrency and Digital Asset Exchange in Thailand, is using over 50 different applications to help the company work in a smarter way. Bitkub wanted to support growing demand and increasing transactions, as well as add new features to its platform.</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 1V3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 21V23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2"/>
+                    <path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2"/>
+                    <path d="M1 12H3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M21 12H23" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2"/>
+                    <path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>Bitkub utilized <span class="highlight">Amazon EKS</span>, <span class="highlight">Amazon RDS</span>, <span class="highlight">Amazon S3</span>, <span class="highlight">Amazon Redshift</span>, and other managed services to support expansion. With AWS, Bitkub can evaluate new services and increase reliability, security, scalability, and provision the right amount of resources.</p>
+                </div>
+              </div>
+              
+              <div class="info-card result-card">
+                <div class="info-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 12L7 8L11 12L21 2" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <p>With AWS, Bitkub can scale to keep up with its growth. AWS also provides Bitkub with the ability to provide 24/7 support to its online business and teams while growing in a compliant way.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Technology Stack -->
     <section class="technology-section">
       <div class="container">
@@ -1636,64 +2034,1148 @@ useHead({
   letter-spacing: 0.05em;
 }
 
+/* AWS Web3 Growth Section */
+.aws-growth-section {
+  padding: 5rem 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.02) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.02) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.aws-growth-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 20% 80%,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    transparent 50%
+  ),
+  radial-gradient(
+    circle at 80% 20%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.05) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.growth-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.growth-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.growth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.growth-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.growth-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.02) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.02) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.growth-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(var(--exchange-accent-primary-rgb), 0.3);
+  box-shadow: 0 20px 40px rgba(var(--exchange-accent-primary-rgb), 0.15);
+}
+
+.growth-card:hover::before {
+  opacity: 1;
+}
+
+.growth-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.1),
+    rgba(var(--exchange-accent-secondary-rgb), 0.1)
+  );
+  border-radius: 50%;
+  border: 2px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
+  transition: all 0.4s ease;
+}
+
+.growth-icon svg {
+  color: var(--exchange-accent-primary);
+  transition: all 0.3s ease;
+}
+
+.growth-card:hover .growth-icon {
+  transform: scale(1.1) rotate(5deg);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.2),
+    rgba(var(--exchange-accent-secondary-rgb), 0.2)
+  );
+  border-color: rgba(var(--exchange-accent-primary-rgb), 0.4);
+  box-shadow: 0 8px 25px rgba(var(--exchange-accent-primary-rgb), 0.3);
+}
+
+.growth-card:hover .growth-icon svg {
+  transform: scale(1.1);
+  color: var(--exchange-accent-secondary);
+}
+
+.icon-accent {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  border-radius: 50%;
+  border: 2px solid var(--card-bg);
+  transition: all 0.3s ease;
+}
+
+.growth-card:hover .icon-accent {
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(var(--exchange-accent-primary-rgb), 0.4);
+}
+
+.growth-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.growth-card .highlight {
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+.growth-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .aws-growth-section {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.05) 100%
+  );
+}
+
+[data-theme="dark"] .growth-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .growth-card:hover {
+  box-shadow: 0 20px 40px rgba(var(--exchange-accent-primary-rgb), 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .growth-header h2 {
+    font-size: 2rem;
+  }
+  
+  .growth-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .growth-card {
+    padding: 2rem;
+  }
+  
+  .growth-icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* 1inch Case Study Section */
+.case-study-section {
+  padding: 5rem 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.03) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.03) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.case-study-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 30% 70%,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.case-study-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.case-study-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin: 0;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.case-study-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.case-study-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.company-logo {
+  text-align: center;
+}
+
+.logo-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-circle {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(var(--exchange-accent-primary-rgb), 0.3);
+  transition: all 0.3s ease;
+}
+
+.logo-circle:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 12px 40px rgba(var(--exchange-accent-primary-rgb), 0.4);
+}
+
+.logo-circle svg {
+  color: white;
+}
+
+.company-name {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.company-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--exchange-accent-primary);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.testimonial {
+  position: relative;
+  background: var(--card-bg);
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.quote-mark {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--exchange-accent-primary);
+  line-height: 1;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.quote-mark.closing {
+  bottom: 1rem;
+  right: 2rem;
+  top: auto;
+  left: auto;
+  transform: rotate(180deg);
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 2rem 0;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+.author {
+  border-top: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.15);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.author-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.author-title {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.case-study-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateX(8px);
+  border-color: rgba(var(--exchange-accent-primary-rgb), 0.3);
+  box-shadow: 0 8px 25px rgba(var(--exchange-accent-primary-rgb), 0.15);
+}
+
+.info-card:hover::before {
+  opacity: 1;
+}
+
+.info-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.1),
+    rgba(var(--exchange-accent-secondary-rgb), 0.1)
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover .info-icon {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.2),
+    rgba(var(--exchange-accent-secondary-rgb), 0.2)
+  );
+  border-color: rgba(var(--exchange-accent-primary-rgb), 0.4);
+  transform: scale(1.1);
+}
+
+.info-icon svg {
+  color: var(--exchange-accent-primary);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover .info-icon svg {
+  color: var(--exchange-accent-secondary);
+  transform: scale(1.1);
+}
+
+.info-content p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.info-content .highlight {
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.result-card {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05),
+    rgba(var(--exchange-accent-secondary-rgb), 0.05)
+  );
+  border: 2px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
+}
+
+.result-card .info-icon {
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  border-color: transparent;
+}
+
+.result-card .info-icon svg {
+  color: white;
+}
+
+.result-card:hover .info-icon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 25px rgba(var(--exchange-accent-primary-rgb), 0.4);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .case-study-section {
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.08) 100%
+  );
+}
+
+[data-theme="dark"] .testimonial,
+[data-theme="dark"] .info-card {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .info-card:hover {
+  box-shadow: 0 8px 25px rgba(var(--exchange-accent-primary-rgb), 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .case-study-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .case-study-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .case-study-section {
+    padding: 3rem 0;
+  }
+  
+  .case-study-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  .company-name {
+    font-size: 2rem;
+  }
+  
+  .logo-circle {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .testimonial,
+  .info-card {
+    padding: 1.5rem;
+  }
+  
+  .quote-mark {
+    font-size: 3rem;
+    top: 0.5rem;
+    left: 1.5rem;
+  }
+  
+  .quote-mark.closing {
+    bottom: 0.5rem;
+    right: 1.5rem;
+  }
+  
+  .info-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .info-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+}
+
+/* Coinbase Section Specific Styles */
+.coinbase-section {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.03) 0%,
+    rgba(16, 185, 129, 0.03) 100%
+  );
+}
+
+.coinbase-section::before {
+  background: radial-gradient(
+    circle at 70% 30%,
+    rgba(59, 130, 246, 0.08) 0%,
+    transparent 50%
+  );
+}
+
+.logo-text {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.coinbase-logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0052ff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  position: relative;
+  display: inline-block;
+}
+
+.coinbase-logo::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #0052ff 0%,
+    #00d4aa 100%
+  );
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.coinbase-section .company-logo:hover .coinbase-logo::after {
+  transform: scaleX(1);
+}
+
+.service-tag {
+  display: inline-block;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.1),
+    rgba(16, 185, 129, 0.1)
+  );
+  color: #0052ff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+.coinbase-section .info-card:hover .service-tag {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.2),
+    rgba(16, 185, 129, 0.2)
+  );
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Coinbase specific color overrides */
+.coinbase-section .info-icon svg {
+  color: #0052ff;
+}
+
+.coinbase-section .info-card:hover .info-icon svg {
+  color: #00d4aa;
+}
+
+.coinbase-section .info-card::before {
+  background: linear-gradient(
+    to bottom,
+    #0052ff,
+    #00d4aa
+  );
+}
+
+.coinbase-section .result-card .info-icon {
+  background: linear-gradient(
+    135deg,
+    #0052ff,
+    #00d4aa
+  );
+}
+
+.coinbase-section .quote-mark {
+  color: #0052ff;
+}
+
+.coinbase-section .highlight {
+  background: linear-gradient(
+    135deg,
+    #0052ff,
+    #00d4aa
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Dark mode adjustments for Coinbase */
+[data-theme="dark"] .coinbase-section {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.08) 0%,
+    rgba(16, 185, 129, 0.08) 100%
+  );
+}
+
+[data-theme="dark"] .coinbase-logo {
+  color: #3b82f6;
+}
+
+[data-theme="dark"] .service-tag {
+  color: #60a5fa;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Responsive adjustments for Coinbase logo */
+@media (max-width: 768px) {
+  .coinbase-logo {
+    font-size: 2.5rem;
+  }
+}
+
+/* ADDX Section Specific Styles */
+.addx-section {
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.03) 0%,
+    rgba(29, 78, 216, 0.03) 100%
+  );
+}
+
+.addx-section::before {
+  background: radial-gradient(
+    circle at 30% 70%,
+    rgba(37, 99, 235, 0.08) 0%,
+    transparent 50%
+  );
+}
+
+.addx-section .logo-text {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.addx-logo {
+  text-align: center;
+}
+
+.addx-text {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #2563eb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.1em;
+  display: block;
+  position: relative;
+}
+
+.addx-text::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #2563eb 0%,
+    #1d4ed8 100%
+  );
+  border-radius: 2px;
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.addx-section .company-logo:hover .addx-text::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.addx-subtitle {
+  color: rgba(37, 99, 235, 0.7);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+/* ADDX specific color overrides */
+.addx-section .info-icon svg {
+  color: #2563eb;
+}
+
+.addx-section .info-card:hover .info-icon svg {
+  color: #1d4ed8;
+}
+
+.addx-section .info-card::before {
+  background: linear-gradient(
+    to bottom,
+    #2563eb,
+    #1d4ed8
+  );
+}
+
+.addx-section .result-card .info-icon {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+  );
+}
+
+.addx-section .quote-mark {
+  color: #2563eb;
+}
+
+.addx-section .highlight {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Dark mode adjustments for ADDX */
+[data-theme="dark"] .addx-section {
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.08) 0%,
+    rgba(29, 78, 216, 0.08) 100%
+  );
+}
+
+[data-theme="dark"] .addx-text {
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .addx-subtitle {
+  color: rgba(96, 165, 250, 0.7);
+}
+
+/* Responsive adjustments for ADDX logo */
+@media (max-width: 768px) {
+  .addx-text {
+    font-size: 2.6rem;
+  }
+  
+  .addx-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+/* Bitkub Section Specific Styles */
+.bitkub-section {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 212, 170, 0.03) 0%,
+    rgba(0, 82, 255, 0.03) 100%
+  );
+}
+
+.bitkub-section::before {
+  background: radial-gradient(
+    circle at 80% 20%,
+    rgba(0, 212, 170, 0.08) 0%,
+    transparent 50%
+  );
+}
+
+.bitkub-section .logo-text {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.bitkub-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bitkub-logo svg {
+  transition: all 0.3s ease;
+}
+
+.bitkub-section .company-logo:hover .bitkub-logo svg {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.bitkub-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #00D4AA;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.bitkub-text::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #00D4AA 0%,
+    #0052FF 100%
+  );
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.bitkub-section .company-logo:hover .bitkub-text::after {
+  transform: scaleX(1);
+}
+
+/* Bitkub specific color overrides */
+.bitkub-section .info-icon svg {
+  color: #00D4AA;
+}
+
+.bitkub-section .info-card:hover .info-icon svg {
+  color: #0052FF;
+}
+
+.bitkub-section .info-card::before {
+  background: linear-gradient(
+    to bottom,
+    #00D4AA,
+    #0052FF
+  );
+}
+
+.bitkub-section .result-card .info-icon {
+  background: linear-gradient(
+    135deg,
+    #00D4AA,
+    #0052FF
+  );
+}
+
+.bitkub-section .quote-mark {
+  color: #00D4AA;
+}
+
+.bitkub-section .highlight {
+  background: linear-gradient(
+    135deg,
+    #00D4AA,
+    #0052FF
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Dark mode adjustments for Bitkub */
+[data-theme="dark"] .bitkub-section {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 212, 170, 0.08) 0%,
+    rgba(0, 82, 255, 0.08) 100%
+  );
+}
+
+[data-theme="dark"] .bitkub-text {
+  color: #34d399;
+}
+
+/* Responsive adjustments for Bitkub logo */
+@media (max-width: 768px) {
+  .bitkub-text {
+    font-size: 2.2rem;
+  }
+  
+  .bitkub-logo {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .bitkub-logo svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 /* AWS Web3 Architecture */
 .aws-web3-architecture {
-  margin-top: 3rem;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.02);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 1rem;
+  padding: 5rem 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.03) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.03) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.aws-web3-architecture::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
 }
 
 .architecture-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .architecture-header h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--architecture-header-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
   margin: 0;
-  text-shadow: var(--architecture-header-shadow);
-  background: var(--architecture-header-bg);
-  border: var(--architecture-header-border);
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  transition: all 0.3s ease;
+  background: linear-gradient(
+    135deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.architecture-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--exchange-accent-primary),
+    var(--exchange-accent-secondary)
+  );
+  border-radius: 2px;
 }
 
 [data-theme="dark"] .aws-web3-architecture {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-[data-theme="dark"] .architecture-header h2 {
-  font-weight: 700;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.08) 100%
+  );
 }
 
 .architecture-diagram {
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  border-radius: 1.5rem;
   overflow: hidden;
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.03);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: var(--card-bg);
+  box-shadow: 0 20px 40px rgba(var(--exchange-accent-primary-rgb), 0.1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1;
+}
+
+.architecture-diagram::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.02) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.02) 100%
+  );
+  pointer-events: none;
 }
 
 [data-theme="dark"] .architecture-diagram {
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .layer-row {
   display: grid;
   grid-template-columns: 200px 1fr 100px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  min-height: 100px;
-  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  min-height: 120px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
 }
 
 .layer-row:last-child {
@@ -1701,15 +3183,24 @@ useHead({
 }
 
 .layer-row:hover {
-  background: rgba(0, 0, 0, 0.02);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.03) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.03) 100%
+  );
+  transform: translateY(-2px);
 }
 
 [data-theme="dark"] .layer-row {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.15);
 }
 
 [data-theme="dark"] .layer-row:hover {
-  background: rgba(255, 255, 255, 0.03);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.08) 100%
+  );
 }
 
 .layer-label {
@@ -1717,15 +3208,45 @@ useHead({
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-right: 2px solid rgba(0, 0, 0, 0.1);
-  background: rgba(0, 0, 0, 0.03);
+  padding: 1.5rem;
+  border-right: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.05) 100%
+  );
   text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.layer-label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.02) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.02) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.layer-row:hover .layer-label::before {
+  opacity: 1;
 }
 
 [data-theme="dark"] .layer-label {
-  border-right: 2px solid rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.08) 100%
+  );
 }
 
 .layer-arrow {
@@ -1750,9 +3271,15 @@ useHead({
 .layer-content {
   display: flex;
   align-items: center;
-  padding: 1rem;
-  border-right: 2px solid rgba(0, 0, 0, 0.08);
-  background: rgba(0, 0, 0, 0.01);
+  padding: 1.5rem;
+  border-right: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.1);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.02) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.02) 100%
+  );
+  position: relative;
+  z-index: 1;
 }
 
 .layer-content.full-width {
@@ -1761,8 +3288,12 @@ useHead({
 }
 
 [data-theme="dark"] .layer-content {
-  border-right: 2px solid rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.02);
+  border-right: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.05) 100%
+  );
 }
 
 /* Layer 3 specific styles */
@@ -1794,28 +3325,59 @@ useHead({
 }
 
 .content-box {
-  padding: 0.75rem 1rem;
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.05) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.05) 100%
+  );
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.15);
+  border-radius: 1rem;
   font-size: 0.9rem;
   font-weight: 500;
   text-align: center;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.content-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.1) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .content-box:hover {
-  background: rgba(0, 0, 0, 0.08);
-  transform: translateY(-1px);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(var(--exchange-accent-primary-rgb), 0.15);
+}
+
+.content-box:hover::before {
+  opacity: 1;
 }
 
 [data-theme="dark"] .content-box {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--exchange-accent-primary-rgb), 0.08) 0%,
+    rgba(var(--exchange-accent-secondary-rgb), 0.08) 100%
+  );
+  border: 1px solid rgba(var(--exchange-accent-primary-rgb), 0.2);
 }
 
 [data-theme="dark"] .content-box:hover {
-  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .app-icon-box {
