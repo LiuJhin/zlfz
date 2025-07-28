@@ -755,7 +755,7 @@
               <div class="testimonial-author">
                 <div class="author-info">
                   <div class="author-name">
-                    {{ $t("successStories.zhaoLina") }}
+                    {{ $t("successStories.section.zhaoLina") }}
                   </div>
                   <div class="author-title">
                     {{ $t("successStories.section.apacMedicalGroup") }}
@@ -791,10 +791,10 @@
               <div class="testimonial-author">
                 <div class="author-info">
                   <div class="author-name">
-                    {{ $t("successStories.liUProfessor") }}
+                    {{ $t("successStories.section.liUProfessor") }}
                   </div>
                   <div class="author-title">
-                    {{ $t("successStories.university") }}
+                    {{ $t("successStories.section.university") }}
                   </div>
                 </div>
               </div>
@@ -807,8 +807,10 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>{{ $t("successStories.readyToCreateYourSuccessCase") }}</h2>
-          <p>{{ $t("successStories.contactUs") }}</p>
+          <h2>
+            {{ $t("successStories.section.readyToCreateYourSuccessCase") }}
+          </h2>
+          <p>{{ $t("successStories.section.contactUs") }}</p>
           <div class="cta-benefits">
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -822,7 +824,9 @@
                   />
                 </svg>
               </div>
-              <span>{{ $t("successStories.ConsultationAssessment") }}</span>
+              <span>{{
+                $t("successStories.section.ConsultationAssessment")
+              }}</span>
             </div>
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -836,7 +840,7 @@
                   />
                 </svg>
               </div>
-              <span>{{ $t("successStories.customizedSolution") }}</span>
+              <span>{{ $t("successStories.section.customizedSolution") }}</span>
             </div>
             <div class="benefit-item">
               <div class="benefit-icon">
@@ -850,18 +854,18 @@
                   />
                 </svg>
               </div>
-              <span>{{ $t("successStories.expertTeamSupport") }}</span>
+              <span>{{ $t("successStories.section.expertTeamSupport") }}</span>
             </div>
           </div>
           <div class="cta-buttons">
             <a href="/contact" class="btn-primary">{{
-              $t("successStories.appointmentConsultation")
+              $t("successStories.section.appointmentConsultation")
             }}</a>
             <a href="/services" class="btn-secondary">{{
-              $t("successStories.exploreServiceScheme")
+              $t("successStories.section.exploreServiceScheme")
             }}</a>
             <a href="/case-studies" class="btn-outline">{{
-              $t("successStories.viewMoreCases")
+              $t("successStories.section.viewMoreCases")
             }}</a>
           </div>
         </div>
