@@ -3,26 +3,41 @@
     <div class="case-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">供应链行业案例</h1>
-          <p class="hero-subtitle">智能供应链，驱动业务增长</p>
+          <h1 class="hero-title">{{ $t("supply-chain.hero.title") }}</h1>
+          <p class="hero-subtitle">{{ $t("supply-chain.hero.subTitle") }}</p>
           <p class="hero-description">
-            我们为制造业、零售业、物流业等供应链相关企业提供数字化转型解决方案，
-            通过智能化技术优化供应链管理，提升运营效率，降低成本，
-            增强供应链的透明度和敏捷性。
+            {{ $t("supply-chain.hero.desc") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">咨询方案</a>
-            <a href="#case-details" class="btn-secondary">查看案例</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("supply-chain.hero.button")
+            }}</a>
+            <a href="#case-details" class="btn-secondary">{{
+              $t("supply-chain.hero.viewMoreCases")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
           <div class="supply-chain-icon">
             <svg width="120" height="120" viewBox="0 0 24 24" fill="none">
-              <path d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z" stroke="currentColor" stroke-width="2"/>
-              <path d="M8 11L10 13L16 7" stroke="currentColor" stroke-width="2"/>
-              <circle cx="6" cy="6" r="2" fill="currentColor" opacity="0.3"/>
-              <circle cx="18" cy="18" r="2" fill="currentColor" opacity="0.3"/>
-              <path d="M6 8L18 16" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <path
+                d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M8 11L10 13L16 7"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <circle cx="6" cy="6" r="2" fill="currentColor" opacity="0.3" />
+              <circle cx="18" cy="18" r="2" fill="currentColor" opacity="0.3" />
+              <path
+                d="M6 8L18 16"
+                stroke="currentColor"
+                stroke-width="1"
+                opacity="0.5"
+              />
             </svg>
           </div>
         </div>
@@ -32,50 +47,86 @@
     <section id="case-details" class="industry-overview">
       <div class="container">
         <div class="section-header">
-          <h2>供应链解决方案</h2>
-          <p>端到端的供应链数字化服务</p>
+          <h2>{{ $t("supply-chain.section.supplyChainSolution") }}</h2>
+          <p>
+            {{ $t("supply-chain.section.endToEndSupplyChainDigitalService") }}
+          </p>
         </div>
-        
+
         <div class="solutions-grid">
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M7 10H17M7 14H13" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M7 10H17M7 14H13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>智能仓储管理</h3>
-            <p>自动化仓储系统，实现库存优化和智能调度</p>
+            <h3>{{ $t("supply-chain.section.smartRepositoryManagement") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.smartRepositoryManagementDesc") }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
-            <h3>物流配送优化</h3>
-            <p>智能路径规划和配送调度，提升配送效率</p>
+            <h3>
+              {{ $t("supply-chain.section.logisticsDistributionOptimization") }}
+            </h3>
+            <p>
+              {{
+                $t("supply-chain.section.logisticsDistributionOptimizationDesc")
+              }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>供应商协同</h3>
-            <p>构建供应商协同平台，实现信息共享和协作</p>
+            <h3>{{ $t("supply-chain.section.supplierCoordination") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.supplierCoordinationDesc") }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
-            <h3>需求预测分析</h3>
-            <p>基于AI的需求预测，优化库存和生产计划</p>
+            <h3>{{ $t("supply-chain.section.demandForecastAnalysis") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.demandForecastAnalysisDesc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -85,52 +136,86 @@
       <div class="container">
         <div class="case-spotlight">
           <div class="case-content">
-            <div class="case-badge">重点案例</div>
-            <h2>全球制造企业供应链数字化</h2>
+            <div class="case-badge">
+              {{ $t("supply-chain.section.keyCases") }}
+            </div>
+            <h2>
+              {{ $t("supply-chain.section.globalManufacturingEnterprise") }}
+            </h2>
             <p class="case-description">
-              为某跨国制造企业构建的端到端供应链管理平台，
-              整合了采购、生产、仓储、物流等各个环节，
-              实现了供应链的全面可视化和智能化管理。
+              {{ $t("supply-chain.section.globalManufacturingEnterpriseDesc") }}
             </p>
-            
+
             <div class="case-highlights">
               <div class="highlight-item">
                 <div class="highlight-number">40%</div>
-                <div class="highlight-label">库存成本降低</div>
+                <div class="highlight-label">
+                  {{ $t("supply-chain.section.inventoryCostReduction") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">60%</div>
-                <div class="highlight-label">交付时间缩短</div>
+                <div class="highlight-label">
+                  {{ $t("supply-chain.section.deliveryTimeReduction") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">95%</div>
-                <div class="highlight-label">订单准确率</div>
+                <div class="highlight-label">
+                  {{ $t("supply-chain.section.orderAccuracy") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">30%</div>
-                <div class="highlight-label">运营效率提升</div>
+                <div class="highlight-label">
+                  {{ $t("supply-chain.section.operationalEfficiency") }}
+                </div>
               </div>
             </div>
-            
+
             <div class="case-technologies">
-              <h4>核心技术</h4>
+              <h4>{{ $t("supply-chain.section.coreTechnologies") }}</h4>
               <div class="tech-tags">
-                <span class="tech-tag">IoT物联网</span>
-                <span class="tech-tag">AI预测分析</span>
-                <span class="tech-tag">区块链溯源</span>
-                <span class="tech-tag">云计算</span>
-                <span class="tech-tag">大数据分析</span>
+                <span class="tech-tag">{{
+                  $t("supply-chain.section.iotInternetOfThings")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("supply-chain.section.AIPredictionAnalysis")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("supply-chain.section.blockchainTracing")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("supply-chain.section.cloudComputing")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("supply-chain.section.bigDataAnalysis")
+                }}</span>
               </div>
             </div>
           </div>
-          
+
           <div class="case-visual">
             <div class="case-image">
               <div class="image-placeholder">
                 <svg width="200" height="150" viewBox="0 0 24 24" fill="none">
-                  <path d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z" stroke="currentColor" stroke-width="2"/>
-                  <path d="M8 11L10 13L16 7" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/>
+                  <path
+                    d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M8 11L10 13L16 7"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    fill="currentColor"
+                    opacity="0.3"
+                  />
                 </svg>
               </div>
             </div>
@@ -142,121 +227,210 @@
     <section class="case-studies">
       <div class="container">
         <div class="section-header">
-          <h2>更多供应链案例</h2>
-          <p>我们在供应链领域的成功实践</p>
+          <h2>{{ $t("supply-chain.section.moreSupplyChainCases") }}</h2>
+          <p>
+            {{ $t("supply-chain.section.ourSuccessfulPracticesInSupplyChain") }}
+          </p>
         </div>
-        
+
         <div class="cases-grid">
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="14" r="2" fill="currentColor"/>
+                  <path
+                    d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle cx="12" cy="14" r="2" fill="currentColor" />
                 </svg>
               </div>
-              <div class="case-category">智能制造</div>
+              <div class="case-category">
+                {{ $t("supply-chain.section.smartManufacturing") }}
+              </div>
             </div>
-            <h3>汽车制造供应链优化</h3>
-            <p>为汽车制造企业构建的智能供应链系统，实现零部件采购、生产计划和质量管控的一体化管理。</p>
+            <h3>{{ $t("supply-chain.section.Cars") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.CarsDesc") }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">50%</span>
-                <span class="metric-label">库存周转提升</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.inventoryTurnoverPromotion")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">99.5%</span>
-                <span class="metric-label">质量合格率</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.qualityRate")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">JIT生产</span>
-              <span class="feature-tag">质量追溯</span>
-              <span class="feature-tag">供应商管理</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.JIT")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.qualityTraceability")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.supplierManagement")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <path
+                    d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                  />
                 </svg>
               </div>
-              <div class="case-category">零售电商</div>
+              <div class="case-category">
+                {{ $t("supply-chain.section.retailE-commerce") }}
+              </div>
             </div>
-            <h3>全渠道零售供应链</h3>
-            <p>为大型零售企业打造的全渠道供应链平台，整合线上线下库存，实现统一配送和客户服务。</p>
+            <h3>
+              {{ $t("supply-chain.section.fullChannelRetailSupplyChain") }}
+            </h3>
+            <p>
+              {{ $t("supply-chain.section.fullChannelRetailSupplyChainDesc") }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">35%</span>
-                <span class="metric-label">配送成本降低</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.deliveryCostReduction")
+                }}</span>
               </div>
               <div class="metric">
-                <span class="metric-value">24小时</span>
-                <span class="metric-label">配送时效</span>
+                <span class="metric-value">{{
+                  $t("supply-chain.section.24HourService")
+                }}</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.deliveryTime")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">全渠道库存</span>
-              <span class="feature-tag">智能配送</span>
-              <span class="feature-tag">客户体验</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.fullChannelInventory")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.smartDistribution")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.customerExperience")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </div>
-              <div class="case-category">冷链物流</div>
+              <div class="case-category">
+                {{ $t("supply-chain.section.coolChainLogistics") }}
+              </div>
             </div>
-            <h3>生鲜冷链管理系统</h3>
-            <p>为生鲜食品企业构建的全程冷链管理系统，确保产品从产地到消费者的全程温控和品质保证。</p>
+            <h3>
+              {{ $t("supply-chain.section.freshFrozenChainManagementSystem") }}
+            </h3>
+            <p>
+              {{
+                $t("supply-chain.section.freshFrozenChainManagementSystemDesc")
+              }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">98%</span>
-                <span class="metric-label">温控达标率</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.temperatureControlRate")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">20%</span>
-                <span class="metric-label">损耗率降低</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.lossRateReduction")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">温度监控</span>
-              <span class="feature-tag">品质追溯</span>
-              <span class="feature-tag">智能预警</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.temperatureMonitoring")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.qualityTraceabilitys")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.smartWarning")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </div>
-              <div class="case-category">跨境贸易</div>
+              <div class="case-category">
+                {{ $t("supply-chain.section.crossBorderTrade") }}
+              </div>
             </div>
-            <h3>跨境电商供应链</h3>
-            <p>为跨境电商企业打造的全球供应链管理平台，整合海外仓储、清关、配送等环节，提升跨境效率。</p>
+            <h3>
+              {{ $t("supply-chain.section.crossBorderE-commerceSupplyChain") }}
+            </h3>
+            <p>
+              {{
+                $t("supply-chain.section.crossBorderE-commerceSupplyChainDesc")
+              }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">30+</span>
-                <span class="metric-label">覆盖国家</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.coverCountries")
+                }}</span>
               </div>
               <div class="metric">
-                <span class="metric-value">7天</span>
-                <span class="metric-label">平均配送</span>
+                <span class="metric-value">{{
+                  $t("supply-chain.section.7DayService")
+                }}</span>
+                <span class="metric-label">{{
+                  $t("supply-chain.section.averageDeliveryTime")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">海外仓储</span>
-              <span class="feature-tag">智能清关</span>
-              <span class="feature-tag">全球配送</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.overseaRepository")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.smartClearance")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("supply-chain.section.globalDistribution")
+              }}</span>
             </div>
           </div>
         </div>
@@ -266,48 +440,76 @@
     <section class="technology-stack">
       <div class="container">
         <div class="section-header">
-          <h2>供应链技术栈</h2>
-          <p>我们在供应链领域使用的核心技术</p>
+          <h2>{{ $t("supply-chain.section.supplyChainTechnologyStack") }}</h2>
+          <p>{{ $t("supply-chain.section.supplyChainCoreTechnologies") }}</p>
         </div>
-        
+
         <div class="tech-categories">
           <div class="tech-category">
-            <h3>物联网技术</h3>
+            <h3>{{ $t("supply-chain.section.iotInternetOfThingse") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">RFID标签</div>
-              <div class="tech-item">传感器网络</div>
-              <div class="tech-item">GPS定位</div>
-              <div class="tech-item">温湿度监控</div>
+              <div class="tech-item">{{ $t("supply-chain.section.RFID") }}</div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.sensorNetwork") }}
+              </div>
+              <div class="tech-item">{{ $t("supply-chain.section.GPS") }}</div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.temperatureMonitoring") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>数据分析</h3>
+            <h3>{{ $t("supply-chain.section.dataAnalysis") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">需求预测</div>
-              <div class="tech-item">库存优化</div>
-              <div class="tech-item">路径规划</div>
-              <div class="tech-item">风险评估</div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.demandForecast") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.inventoryOptimization") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.pathPlanning") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.riskAssessment") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>自动化技术</h3>
+            <h3>{{ $t("supply-chain.section.automationTechnology") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">机器人拣选</div>
-              <div class="tech-item">自动分拣</div>
-              <div class="tech-item">无人配送</div>
-              <div class="tech-item">智能调度</div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.robotPicking") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.automaticSorting") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.autonomousDelivery") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.smartDispatch") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>区块链技术</h3>
+            <h3>{{ $t("supply-chain.section.blockchainTechnology") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">产品溯源</div>
-              <div class="tech-item">供应商认证</div>
-              <div class="tech-item">智能合约</div>
-              <div class="tech-item">信任机制</div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.productTraceability") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.supplierAuthentication") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.smartContract") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("supply-chain.section.trustMechanism") }}
+              </div>
             </div>
           </div>
         </div>
@@ -317,41 +519,73 @@
     <section class="industry-insights">
       <div class="container">
         <div class="section-header">
-          <h2>行业洞察</h2>
-          <p>供应链数字化发展趋势</p>
+          <h2>{{ $t("supply-chain.section.industryInsights") }}</h2>
+          <p>
+            {{ $t("supply-chain.section.supplyChainDigitalizationTrends") }}
+          </p>
         </div>
-        
+
         <div class="insights-grid">
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36" stroke="currentColor" stroke-width="2"/>
-                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>智能化升级</h3>
-            <p>AI、IoT等技术推动供应链智能化升级，实现预测性维护、智能调度和自动化操作。</p>
+            <h3>{{ $t("supply-chain.section.intelligentUpgrade") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.intelligentUpgradeDesc") }}
+            </p>
           </div>
-          
+
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>透明化管理</h3>
-            <p>区块链技术提升供应链透明度，实现端到端的产品溯源和供应商信任体系建设。</p>
+            <h3>{{ $t("supply-chain.section.transparentManagement") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.transparentManagementDesc") }}
+            </p>
           </div>
-          
+
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
-            <h3>敏捷响应</h3>
-            <p>构建敏捷供应链网络，快速响应市场变化，提升企业竞争力和客户满意度。</p>
+            <h3>{{ $t("supply-chain.section.agileResponse") }}</h3>
+            <p>
+              {{ $t("supply-chain.section.agileResponseDesc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -360,9 +594,19 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>优化您的供应链管理</h2>
-          <p>让我们为您的供应链业务提供专业的数字化解决方案</p>
-          <a href="/contact" class="btn-primary">立即咨询</a>
+          <h2>
+            {{ $t("supply-chain.section.optimizeYourSupplyChainManagement") }}
+          </h2>
+          <p>
+            {{
+              $t(
+                "supply-chain.section.letUsProvideProfessionalDigitalSolutions"
+              )
+            }}
+          </p>
+          <a href="/contact" class="btn-primary">{{
+            $t("supply-chain.section.contactUs")
+          }}</a>
         </div>
       </div>
     </section>
@@ -372,19 +616,26 @@
 <script setup>
 // 页面元数据
 definePageMeta({
-  layout: 'default',
-  title: '供应链行业案例 - ZHILING ARK TECHNOLOGY',
-  description: '查看ZHILING ARK TECHNOLOGY在供应链行业的成功案例和创新解决方案'
-})
+  layout: "default",
+  title: "供应链行业案例 - ZHILING ARK TECHNOLOGY",
+  description: "查看ZHILING ARK TECHNOLOGY在供应链行业的成功案例和创新解决方案",
+});
 
 // SEO 头部信息
 useHead({
-  title: '供应链行业案例 - ZHILING ARK TECHNOLOGY',
+  title: "供应链行业案例 - ZHILING ARK TECHNOLOGY",
   meta: [
-    { name: 'description', content: '展示ZHILING ARK TECHNOLOGY在制造业、零售业、物流业等供应链领域的成功案例和技术解决方案' },
-    { name: 'keywords', content: '供应链管理,智能仓储,物流优化,供应商协同,需求预测,IoT物联网' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        "展示ZHILING ARK TECHNOLOGY在制造业、零售业、物流业等供应链领域的成功案例和技术解决方案",
+    },
+    {
+      name: "keywords",
+      content: "供应链管理,智能仓储,物流优化,供应商协同,需求预测,IoT物联网",
+    },
+  ],
+});
 </script>
 
 <style scoped>
@@ -393,7 +644,11 @@ useHead({
 }
 
 .case-hero {
-  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-color) 0%,
+    var(--bg-secondary) 100%
+  );
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
@@ -441,7 +696,8 @@ useHead({
   flex-wrap: wrap;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -491,8 +747,13 @@ useHead({
 }
 
 @keyframes supply-chain-pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .industry-overview {
@@ -533,7 +794,7 @@ useHead({
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -661,7 +922,7 @@ useHead({
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .image-placeholder {
@@ -684,7 +945,7 @@ useHead({
   background: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -797,7 +1058,7 @@ useHead({
   border-radius: 8px;
   color: var(--text-secondary);
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
 
@@ -822,7 +1083,7 @@ useHead({
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -887,32 +1148,32 @@ useHead({
     gap: 40px;
     text-align: center;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .case-spotlight {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .case-highlights {
     grid-template-columns: 1fr;
   }
-  
+
   .solutions-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .cases-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .tech-categories {
     grid-template-columns: 1fr;
   }
-  
+
   .insights-grid {
     grid-template-columns: 1fr;
   }
