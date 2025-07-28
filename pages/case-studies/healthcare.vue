@@ -3,24 +3,31 @@
     <div class="case-hero">
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title">医疗健康案例</h1>
-          <p class="hero-subtitle">智慧医疗，守护健康未来</p>
+          <h1 class="hero-title">{{ $t("healthcare.hero.title") }}</h1>
+          <p class="hero-subtitle">{{ $t("healthcare.hero.subTitle") }}</p>
           <p class="hero-description">
-            我们为医院、诊所、医疗机构和健康科技企业提供先进的数字化解决方案，
-            通过人工智能、大数据、云计算等技术，提升医疗服务质量，
-            优化患者体验，推动医疗行业的数字化转型。
+            {{ $t("healthcare.hero.description") }}
           </p>
           <div class="hero-buttons">
-            <a href="/contact" class="btn-primary">咨询方案</a>
-            <a href="#case-details" class="btn-secondary">查看案例</a>
+            <a href="/contact" class="btn-primary">{{
+              $t("healthcare.hero.button")
+            }}</a>
+            <a href="#case-details" class="btn-secondary">{{
+              $t("healthcare.hero.lookMore")
+            }}</a>
           </div>
         </div>
         <div class="hero-visual">
           <div class="healthcare-icon">
             <svg width="120" height="120" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L13.09 8.26L20 9L14 14L16.18 22L12 18.27L7.82 22L10 14L4 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
-              <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/>
-              <path d="M12 8V16M8 12H16" stroke="white" stroke-width="2"/>
+              <path
+                d="M12 2L13.09 8.26L20 9L14 14L16.18 22L12 18.27L7.82 22L10 14L4 9L10.91 8.26L12 2Z"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+              <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3" />
+              <path d="M12 8V16M8 12H16" stroke="white" stroke-width="2" />
             </svg>
           </div>
         </div>
@@ -30,51 +37,93 @@
     <section id="case-details" class="industry-overview">
       <div class="container">
         <div class="section-header">
-          <h2>医疗健康解决方案</h2>
-          <p>全方位的智慧医疗服务</p>
+          <h2>{{ $t("healthcare.section.medicalHealthSolution") }}</h2>
+          <p>{{ $t("healthcare.section.comprehensiveSmartMedicalService") }}</p>
         </div>
-        
+
         <div class="solutions-grid">
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/>
-                <path d="M7 10H17M7 14H13" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M7 10H17M7 14H13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>电子病历系统</h3>
-            <p>智能化电子病历管理，提升医疗数据的准确性和可访问性</p>
+            <h3>
+              {{ $t("healthcare.section.electronicMedicalRecordSystem") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.electronicMedicalRecordSystemDesc") }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>AI辅助诊断</h3>
-            <p>基于深度学习的医学影像分析和疾病诊断辅助系统</p>
+            <h3>
+              {{ $t("healthcare.section.AIHelp") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.AIHelpDesc") }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
-            <h3>远程医疗平台</h3>
-            <p>构建远程诊疗、在线咨询和健康监测的综合平台</p>
+            <h3>
+              {{ $t("healthcare.section.remoteMedicalPlatform") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.remoteMedicalPlatformDesc") }}
+            </p>
           </div>
-          
+
           <div class="solution-card">
             <div class="solution-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>健康管理系统</h3>
-            <p>个性化健康管理和慢病监测解决方案</p>
+            <h3>
+              {{ $t("healthcare.section.healthManagementSystem") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.healthManagementSystemDesc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -84,52 +133,85 @@
       <div class="container">
         <div class="case-spotlight">
           <div class="case-content">
-            <div class="case-badge">重点案例</div>
-            <h2>三甲医院智慧医疗平台</h2>
+            <div class="case-badge">
+              {{ $t("healthcare.section.keyCases") }}
+            </div>
+            <h2>
+              {{ $t("healthcare.section.threeStarHospital") }}
+            </h2>
             <p class="case-description">
-              为某知名三甲医院构建的全院级智慧医疗平台，
-              整合了电子病历、医学影像、实验室信息、药房管理等多个系统，
-              实现了医疗流程的全面数字化和智能化升级。
+              {{ $t("healthcare.section.threeStarHospitalDesc") }}
             </p>
-            
+
             <div class="case-highlights">
               <div class="highlight-item">
                 <div class="highlight-number">70%</div>
-                <div class="highlight-label">诊疗效率提升</div>
+                <div class="highlight-label">
+                  {{ $t("healthcare.section.treatmentEfficiency") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">90%</div>
-                <div class="highlight-label">患者满意度</div>
+                <div class="highlight-label">
+                  {{ $t("healthcare.section.patientSatisfaction") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">50%</div>
-                <div class="highlight-label">医疗差错降低</div>
+                <div class="highlight-label">
+                  {{ $t("healthcare.section.medicalErrorReduction") }}
+                </div>
               </div>
               <div class="highlight-item">
                 <div class="highlight-number">24/7</div>
-                <div class="highlight-label">系统可用性</div>
+                <div class="highlight-label">
+                  {{ $t("healthcare.section.systemAvailability") }}
+                </div>
               </div>
             </div>
-            
+
             <div class="case-technologies">
-              <h4>核心技术</h4>
+              <h4>
+                {{ $t("healthcare.section.coreTechnologies") }}
+              </h4>
               <div class="tech-tags">
-                <span class="tech-tag">AI诊断</span>
-                <span class="tech-tag">大数据分析</span>
-                <span class="tech-tag">云计算</span>
-                <span class="tech-tag">物联网</span>
-                <span class="tech-tag">区块链</span>
+                <span class="tech-tag">{{
+                  $t("healthcare.section.AIDiagnosis")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("healthcare.section.bigDataAnalysis")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("healthcare.section.cloudComputing")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("healthcare.section.InternetOfThings")
+                }}</span>
+                <span class="tech-tag">{{
+                  $t("healthcare.section.blockchain")
+                }}</span>
               </div>
             </div>
           </div>
-          
+
           <div class="case-visual">
             <div class="case-image">
               <div class="image-placeholder">
                 <svg width="200" height="150" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L13.09 8.26L20 9L14 14L16.18 22L12 18.27L7.82 22L10 14L4 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                  <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/>
-                  <path d="M12 8V16M8 12H16" stroke="white" stroke-width="2"/>
+                  <path
+                    d="M12 2L13.09 8.26L20 9L14 14L16.18 22L12 18.27L7.82 22L10 14L4 9L10.91 8.26L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    fill="currentColor"
+                    opacity="0.3"
+                  />
+                  <path d="M12 8V16M8 12H16" stroke="white" stroke-width="2" />
                 </svg>
               </div>
             </div>
@@ -141,121 +223,210 @@
     <section class="case-studies">
       <div class="container">
         <div class="section-header">
-          <h2>更多医疗健康案例</h2>
-          <p>我们在医疗健康领域的创新实践</p>
+          <h2>
+            {{ $t("healthcare.section.moreMedicalHealthCases") }}
+          </h2>
+          <p>
+            {{ $t("healthcare.section.ourSuccessfulPracticesInMedicalHealth") }}
+          </p>
         </div>
-        
+
         <div class="cases-grid">
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20" stroke="currentColor" stroke-width="2"/>
-                  <circle cx="12" cy="14" r="2" fill="currentColor"/>
+                  <path
+                    d="M4 7V4C4 2.89543 4.89543 2 6 2H18C19.1046 2 20 2.89543 20 4V7M4 7C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7M4 7H20"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle cx="12" cy="14" r="2" fill="currentColor" />
                 </svg>
               </div>
-              <div class="case-category">医学影像</div>
+              <div class="case-category">
+                {{ $t("healthcare.section.medicalImage") }}
+              </div>
             </div>
-            <h3>AI影像诊断系统</h3>
-            <p>基于深度学习的医学影像分析系统，可自动识别肺结节、骨折等病变，辅助医生快速准确诊断。</p>
+            <h3>
+              {{ $t("healthcare.section.medicalDiagnosisSystem") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.medicalDiagnosisSystemDesc") }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">95%</span>
-                <span class="metric-label">诊断准确率</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.diagnosisAccuracy")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">80%</span>
-                <span class="metric-label">诊断时间缩短</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.diagnosisTimeReduction")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">深度学习</span>
-              <span class="feature-tag">图像识别</span>
-              <span class="feature-tag">辅助诊断</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.deepLearning")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.imageRecognition")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.auxiliaryDiagnosis")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <path
+                    d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                  />
                 </svg>
               </div>
-              <div class="case-category">远程医疗</div>
+              <div class="case-category">
+                {{ $t("healthcare.section.remoteMedical") }}
+              </div>
             </div>
-            <h3>互联网医院平台</h3>
-            <p>构建的在线医疗服务平台，支持远程问诊、电子处方、药品配送等全流程在线医疗服务。</p>
+            <h3>
+              {{ $t("healthcare.section.internetHospitalPlatform") }}
+            </h3>
+            <p>
+              {{ $t("healthcare.section.internetHospitalPlatformDesc") }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
-                <span class="metric-value">100万+</span>
-                <span class="metric-label">注册用户</span>
+                <span class="metric-value">{{
+                  $t("healthcare.section.wam")
+                }}</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.registeredUsers")
+                }}</span>
               </div>
               <div class="metric">
-                <span class="metric-value">24小时</span>
-                <span class="metric-label">在线服务</span>
+                <span class="metric-value">{{
+                  $t("healthcare.section.24HourService")
+                }}</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.onlineService")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">在线问诊</span>
-              <span class="feature-tag">电子处方</span>
-              <span class="feature-tag">药品配送</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.onlineConsultation")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.electronPrescription")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.medicalSupply")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </div>
-              <div class="case-category">健康管理</div>
+              <div class="case-category">
+                {{ $t("healthcare.section.healthManagement") }}
+              </div>
             </div>
-            <h3>慢病管理平台</h3>
-            <p>为糖尿病、高血压等慢性病患者提供的智能健康管理平台，实现个性化治疗方案和持续监测。</p>
+            <h3>
+              {{ $t("healthcare.section.chronicDiseaseManagementPlatform") }}
+            </h3>
+            <p>
+              {{
+                $t("healthcare.section.chronicDiseaseManagementPlatformDesc")
+              }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">85%</span>
-                <span class="metric-label">病情控制率</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.conditionControlRate")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">60%</span>
-                <span class="metric-label">住院率降低</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.hospitalizationRateReduction")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">智能监测</span>
-              <span class="feature-tag">个性化方案</span>
-              <span class="feature-tag">数据分析</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.smartMonitoring")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.personalizedSolution")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.dataAnalysis")
+              }}</span>
             </div>
           </div>
-          
+
           <div class="case-card">
             <div class="case-header">
               <div class="case-icon">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                  <path
+                    d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
                 </svg>
               </div>
-              <div class="case-category">药物研发</div>
+              <div class="case-category">
+                {{ $t("healthcare.section.drugResearch") }}
+              </div>
             </div>
-            <h3>AI药物发现平台</h3>
-            <p>利用人工智能技术加速新药研发过程，通过分子建模和虚拟筛选，大幅缩短药物发现周期。</p>
+            <h3>{{ $t("healthcare.section.drugDiscoveryPlatform") }}</h3>
+            <p>
+              {{ $t("healthcare.section.drugDiscoveryPlatformDesc") }}
+            </p>
             <div class="case-metrics">
               <div class="metric">
                 <span class="metric-value">70%</span>
-                <span class="metric-label">研发时间缩短</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.researchTimeReduction")
+                }}</span>
               </div>
               <div class="metric">
                 <span class="metric-value">50%</span>
-                <span class="metric-label">成本降低</span>
+                <span class="metric-label">{{
+                  $t("healthcare.section.costReduction")
+                }}</span>
               </div>
             </div>
             <div class="case-features">
-              <span class="feature-tag">分子建模</span>
-              <span class="feature-tag">虚拟筛选</span>
-              <span class="feature-tag">AI预测</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.molecularModeling")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.virtualScreening")
+              }}</span>
+              <span class="feature-tag">{{
+                $t("healthcare.section.prediction")
+              }}</span>
             </div>
           </div>
         </div>
@@ -265,48 +436,80 @@
     <section class="technology-stack">
       <div class="container">
         <div class="section-header">
-          <h2>医疗健康技术栈</h2>
-          <p>我们在医疗健康领域使用的核心技术</p>
+          <h2>{{ $t("healthcare.section.medicalHealthTechnologyStack") }}</h2>
+          <p>{{ $t("healthcare.section.medicalHealthCoreTechnologies") }}</p>
         </div>
-        
+
         <div class="tech-categories">
           <div class="tech-category">
-            <h3>人工智能</h3>
+            <h3>{{ $t("healthcare.section.artificialIntelligence") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">深度学习</div>
-              <div class="tech-item">计算机视觉</div>
-              <div class="tech-item">自然语言处理</div>
-              <div class="tech-item">机器学习</div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.deepLearning") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.computerVision") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.naturalLanguageProcessing") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.machineLearning") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>数据处理</h3>
+            <h3>{{ $t("healthcare.section.dataProcessing") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">医疗大数据</div>
-              <div class="tech-item">实时分析</div>
-              <div class="tech-item">数据挖掘</div>
-              <div class="tech-item">预测建模</div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.medicalBigData") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.realTimeAnalysis") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.dataMining") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.predictionModeling") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>物联网技术</h3>
+            <h3>{{ $t("healthcare.section.iot") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">可穿戴设备</div>
-              <div class="tech-item">传感器网络</div>
-              <div class="tech-item">远程监测</div>
-              <div class="tech-item">智能设备</div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.wearableDevices") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.sensorNetwork") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.remoteMonitoring") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.smartDevices") }}
+              </div>
             </div>
           </div>
-          
+
           <div class="tech-category">
-            <h3>安全合规</h3>
+            <h3>{{ $t("healthcare.section.Compliance") }}</h3>
             <div class="tech-items">
-              <div class="tech-item">数据加密</div>
-              <div class="tech-item">隐私保护</div>
-              <div class="tech-item">HIPAA合规</div>
-              <div class="tech-item">访问控制</div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.dataEncryption") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.privacyProtection") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.HIPAACompliance") }}
+              </div>
+              <div class="tech-item">
+                {{ $t("healthcare.section.accessControl") }}
+              </div>
             </div>
           </div>
         </div>
@@ -316,41 +519,73 @@
     <section class="industry-insights">
       <div class="container">
         <div class="section-header">
-          <h2>行业洞察</h2>
-          <p>医疗健康数字化发展趋势</p>
+          <h2>{{ $t("healthcare.section.industryInsights") }}</h2>
+          <p>
+            {{ $t("healthcare.section.medicalHealthDigitalizationTrends") }}
+          </p>
         </div>
-        
+
         <div class="insights-grid">
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36" stroke="currentColor" stroke-width="2"/>
-                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 6V4M6 12H4M18 12H20M12 18V20M7.05 7.05L5.64 5.64M16.95 7.05L18.36 5.64M7.05 16.95L5.64 18.36M16.95 16.95L18.36 18.36"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>精准医疗</h3>
-            <p>基因组学和个性化医疗的发展，推动医疗从标准化治疗向精准化、个性化治疗转变。</p>
+            <h3>{{ $t("healthcare.section.PrecisionMedicine") }}</h3>
+            <p>
+              {{ $t("healthcare.section.PrecisionMedicineDesc") }}
+            </p>
           </div>
-          
+
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                <path
+                  d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
               </svg>
             </div>
-            <h3>数字疗法</h3>
-            <p>软件驱动的治疗方案正在成为传统药物治疗的重要补充，为患者提供更便捷的治疗选择。</p>
+            <h3>{{ $t("healthcare.section.digitalTherapy") }}</h3>
+            <p>
+              {{ $t("healthcare.section.digitalTherapyDesc") }}
+            </p>
           </div>
-          
+
           <div class="insight-card">
             <div class="insight-icon">
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                />
               </svg>
             </div>
-            <h3>智慧医院</h3>
-            <p>物联网、AI等技术推动医院向智慧化转型，提升医疗服务效率和患者体验。</p>
+            <h3>{{ $t("healthcare.section.smartHospital") }}</h3>
+            <p>
+              {{ $t("healthcare.section.smartHospitalDesc") }}
+            </p>
           </div>
         </div>
       </div>
@@ -359,9 +594,15 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>推进您的医疗数字化转型</h2>
-          <p>让我们为您的医疗健康业务提供专业的技术解决方案</p>
-          <a href="/contact" class="btn-primary">立即咨询</a>
+          <h2>
+            {{
+              $t("healthcare.section.advancingYourMedicalDigitalTransformation")
+            }}
+          </h2>
+          <p>{{ $t("healthcare.section.letUsProvideProfessiona") }}</p>
+          <a href="/contact" class="btn-primary">{{
+            $t("healthcare.section.contactUs")
+          }}</a>
         </div>
       </div>
     </section>
@@ -371,19 +612,27 @@
 <script setup>
 // 页面元数据
 definePageMeta({
-  layout: 'default',
-  title: '医疗健康案例 - ZHILING ARK TECHNOLOGY',
-  description: '查看ZHILING ARK TECHNOLOGY在医疗健康行业的成功案例和创新解决方案'
-})
+  layout: "default",
+  title: "医疗健康案例 - ZHILING ARK TECHNOLOGY",
+  description:
+    "查看ZHILING ARK TECHNOLOGY在医疗健康行业的成功案例和创新解决方案",
+});
 
 // SEO 头部信息
 useHead({
-  title: '医疗健康案例 - ZHILING ARK TECHNOLOGY',
+  title: "医疗健康案例 - ZHILING ARK TECHNOLOGY",
   meta: [
-    { name: 'description', content: '展示ZHILING ARK TECHNOLOGY在医院、诊所、健康科技等医疗健康领域的成功案例和技术解决方案' },
-    { name: 'keywords', content: '智慧医疗,AI诊断,远程医疗,电子病历,健康管理,医疗大数据' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        "展示ZHILING ARK TECHNOLOGY在医院、诊所、健康科技等医疗健康领域的成功案例和技术解决方案",
+    },
+    {
+      name: "keywords",
+      content: "智慧医疗,AI诊断,远程医疗,电子病历,健康管理,医疗大数据",
+    },
+  ],
+});
 </script>
 
 <style scoped>
@@ -392,7 +641,11 @@ useHead({
 }
 
 .case-hero {
-  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-color) 0%,
+    var(--bg-secondary) 100%
+  );
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
@@ -440,7 +693,8 @@ useHead({
   flex-wrap: wrap;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -490,8 +744,13 @@ useHead({
 }
 
 @keyframes healthcare-pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .industry-overview {
@@ -532,7 +791,7 @@ useHead({
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -660,7 +919,7 @@ useHead({
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .image-placeholder {
@@ -683,7 +942,7 @@ useHead({
   background: var(--card-bg);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -796,7 +1055,7 @@ useHead({
   border-radius: 8px;
   color: var(--text-secondary);
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
 
@@ -821,7 +1080,7 @@ useHead({
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -886,32 +1145,32 @@ useHead({
     gap: 40px;
     text-align: center;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .case-spotlight {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .case-highlights {
     grid-template-columns: 1fr;
   }
-  
+
   .solutions-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .cases-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .tech-categories {
     grid-template-columns: 1fr;
   }
-  
+
   .insights-grid {
     grid-template-columns: 1fr;
   }
